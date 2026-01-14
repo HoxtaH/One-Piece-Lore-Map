@@ -1,0 +1,703 @@
+{
+  "slug": "wano",
+  "name": "Wano Country",
+  "region": "New World",
+  "aliases": [
+    "Land of Wano",
+    "Samurai Country",
+    "Closed Country"
+  ],
+    "coordinates": { "x": 2840, "y": 3115 },
+    "pathControl": { "x": 2807, "y": 2303 },
+  "journeyOrder": 30,
+  "saga": "Wano Country",
+  "description": "Wano Country is an isolationist nation inspired by feudal Japan, known for its samurai warriors, traditional culture, and rich history. The country is naturally protected by waterfalls and has been closed off from the outside world for centuries. It's the homeland of powerful samurai and the Kozuki Clan.",
+  "history": "Wano was once a prosperous nation ruled by the Kozuki Clan, master stonemasons who created the Poneglyphs. Twenty years before the main story, the country was taken over by Kurozumi Orochi with the help of Kaido and the Beast Pirates, leading to the execution of Kozuki Oden. The land was divided into regions, with the Flower Capital remaining prosperous while other regions suffered. The Kozuki retainers were scattered, and Oden's children went into hiding. The country was eventually liberated by the alliance of the Straw Hat Pirates, Heart Pirates, Kid Pirates, and the samurai of Wano in a massive war against Kaido.",
+  "culture": "Wano culture is deeply rooted in honor, loyalty, and the samurai code. The society is hierarchical with shoguns, daimyos, and samurai. Traditional arts like sword-making, blacksmithing, and crafts are highly valued. The country has its own language, customs, and isolationist policies. Festivals, bathhouses, and traditional entertainment are central to daily life. The concept of 'closing one's heart' and enduring hardship is prevalent.",
+  "economy": {
+    "industries": [
+      "Sword crafting",
+      "Weapon manufacturing",
+      "Mining (exploited by Kaido)",
+      "Agriculture",
+      "Textile production",
+      "Traditional crafts"
+    ],
+    "currency": "Berry (though isolated from world economy) (฿)",
+    "tradeGoods": [
+      "Master-crafted swords",
+      "Seastone",
+      "Quality weapons",
+      "Traditional garments",
+      "Sake"
+    ]
+  },
+  "transportation": "Transportation includes walking, horseback riding, small boats in rivers, and palanquins for nobility. The regions are connected by roads and bridges. Climbing waterfalls via carp-swimming technique is used to enter the country.",
+  "food": {
+    "cuisine": [
+      "Soba noodles",
+      "Oshiruko (red bean soup)",
+      "Sake",
+      "Sushi",
+      "Tempura",
+      "Various traditional Japanese-inspired dishes"
+    ],
+    "traditions": [
+      "Food offerings at graves",
+      "Festival food stalls",
+      "Communal dining in poverty areas",
+      "Lavish feasts in the Flower Capital"
+    ],
+    "quirks": [
+      "Oshiruko represents hope and happiness",
+      "Polluted water in Udon",
+      "Food scarcity in Kuri and Hakumai during Orochi's rule"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Kozuki Oden",
+      "role": "Former Daimyo of Kuri / Legendary Samurai",
+      "description": "A legendary samurai who sailed with both Whitebeard and Gol D. Roger. His execution sparked the revolution 20 years later.",
+      "type": "protagonist",
+      "faction": "Kozuki Clan",
+      "tags": [
+        "Legendary Samurai",
+        "Daimyo",
+        "Pirate",
+        "Historical",
+        "Martyr",
+        "Hero"
+      ],
+      "avatar": "/images/characters/wano/kozuki-oden.jpg"
+    },
+    {
+      "name": "Kozuki Momonosuke",
+      "role": "Rightful Shogun / Dragon Fruit User",
+      "description": "Oden's son who was sent forward in time. He becomes the new shogun after Wano's liberation.",
+      "type": "protagonist",
+      "faction": "Kozuki Clan",
+      "tags": [
+        "Shogun",
+        "Dragon",
+        "Heir",
+        "Time Traveler",
+        "Leader"
+      ],
+      "avatar": "/images/characters/wano/kozuki-momonosuke.jpg"
+    },
+    {
+      "name": "Kozuki Hiyori",
+      "role": "Princess / Oiran Komurasaki",
+      "description": "Oden's daughter who stayed in the present as the oiran Komurasaki, secretly supporting the rebellion. Inherited her father's sword Enma.",
+      "type": "protagonist",
+      "faction": "Kozuki Clan",
+      "tags": [
+        "Princess",
+        "Oiran",
+        "Komurasaki",
+        "Survivor",
+        "Musician"
+      ],
+      "avatar": "/images/characters/wano/kozuki-hiyori.jpg"
+    },
+    {
+      "name": "Roronoa Zoro",
+      "role": "Visiting Swordsman / Straw Hat Pirate",
+      "description": "Luffy's first mate who played a crucial role in Wano's liberation and inherited Oden's sword Enma.",
+      "type": "protagonist",
+      "faction": "Straw Hat Pirates",
+      "tags": [
+        "Swordsman",
+        "First Mate",
+        "Conqueror's Haki",
+        "Three Sword Style",
+        "King of Hell"
+      ],
+      "avatar": "/images/characters/wano/roronoa-zoro.jpg"
+    },
+    {
+      "name": "Kaido",
+      "role": "Former Occupier / Yonko / Emperor of the Sea",
+      "description": "The 'Strongest Creature' who occupied Wano for 20 years until defeated by Luffy in an epic battle.",
+      "type": "antagonist",
+      "faction": "Beast Pirates",
+      "tags": [
+        "Yonko",
+        "Dragon",
+        "Emperor",
+        "Strongest Creature",
+        "Tyrant"
+      ],
+      "avatar": "/images/characters/wano/kaido.jpg"
+    },
+    {
+      "name": "King",
+      "role": "Kaido's Right Hand / Lunarian",
+      "description": "The last surviving Lunarian and Kaido's strongest commander. Defeated by Zoro in an epic clash.",
+      "type": "antagonist",
+      "faction": "Beast Pirates",
+      "tags": [
+        "Lunarian",
+        "All-Star",
+        "Ancient Zoan",
+        "Right Hand",
+        "Survivor"
+      ],
+      "avatar": "/images/characters/wano/king.jpg"
+    },
+    {
+      "name": "Queen",
+      "role": "Kaido's Lead Performer / Plague Scientist",
+      "description": "A cyborg All-Star obsessed with science and viruses. Former colleague of Judge and Vegapunk.",
+      "type": "antagonist",
+      "faction": "Beast Pirates",
+      "tags": [
+        "All-Star",
+        "Scientist",
+        "Ancient Zoan",
+        "Cyborg",
+        "Plague"
+      ],
+      "avatar": "/images/characters/wano/queen.jpg"
+    },
+    {
+      "name": "Kurozumi Orochi",
+      "role": "False Shogun",
+      "description": "The treacherous shogun who allied with Kaido to take over Wano through deception.",
+      "type": "antagonist",
+      "faction": "Kurozumi Clan",
+      "tags": [
+        "Tyrant",
+        "Corrupt",
+        "False Ruler",
+        "Coward",
+        "Traitor"
+      ],
+      "avatar": "/images/characters/wano/kurozumi-orochi.jpg"
+    },
+    {
+      "name": "Kin'emon",
+      "role": "Kozuki Retainer / Samurai Leader",
+      "description": "Oden's loyal retainer who led the resistance and allied with the Straw Hats. Wields the Foxfire Style.",
+      "type": "protagonist",
+      "faction": "Kozuki Clan",
+      "tags": [
+        "Samurai",
+        "Retainer",
+        "Foxfire Style",
+        "Time Traveler",
+        "Leader",
+        "Loyal"
+      ],
+      "avatar": "/images/characters/wano/kin-emon.jpg"
+    },
+    {
+      "name": "Denjiro",
+      "role": "Kozuki Retainer / Kyoshiro",
+      "description": "One of Oden's retainers who disguised himself as Kyoshiro, Orochi's bodyguard, to protect Hiyori and await the prophesied day.",
+      "type": "protagonist",
+      "faction": "Kozuki Clan",
+      "tags": [
+        "Samurai",
+        "Retainer",
+        "Master Swordsman",
+        "Double Agent",
+        "Strategist"
+      ],
+      "avatar": "/images/characters/wano/denjiro.jpg"
+    },
+    {
+      "name": "Yamato",
+      "role": "Kaido's Child / Oden Admirer / Guardian Deity",
+      "description": "The oni child of Kaido who idolizes Oden and fought alongside the alliance to free Wano. Ate the Mythical Dog-Dog Fruit Model: Okuchi-no-Makami.",
+      "type": "protagonist",
+      "faction": "Independent",
+      "tags": [
+        "Oni",
+        "Oden Admirer",
+        "Ally",
+        "Guardian Deity",
+        "Rebel",
+        "Mythical Zoan"
+      ],
+      "avatar": "/images/characters/wano/yamato.jpg"
+    },
+    {
+      "name": "Tenguyama Hitetsu",
+      "role": "Swordsmith / Kozuki Sukiyaki",
+      "description": "A master swordsmith who is secretly Oden's father, the former shogun Kozuki Sukiyaki, in disguise.",
+      "type": "protagonist",
+      "faction": "Kozuki Clan",
+      "tags": [
+        "Swordsmith",
+        "Former Shogun",
+        "Hidden Identity",
+        "Master Craftsman",
+        "Grandfather"
+      ],
+      "avatar": "/images/characters/wano/tenguyama-hitetsu.jpg"
+    },
+    {
+      "name": "Shimotsuki Yasuie",
+      "role": "Former Daimyo of Hakumai / Tonoyasu",
+      "description": "The beloved daimyo who sacrificed himself to give the alliance a fighting chance, spreading joy even in death.",
+      "type": "protagonist",
+      "faction": "Kozuki Clan Allies",
+      "tags": [
+        "Daimyo",
+        "Martyr",
+        "Hero",
+        "Sacrifice",
+        "Beloved"
+      ],
+      "avatar": "/images/characters/wano/shimotsuki-yasuie.jpg"
+    },
+    {
+      "name": "Ashura Doji",
+      "role": "Kozuki Retainer / Shutenmaru",
+      "description": "A former retainer who became the bandit Shutenmaru after Oden's death. Sacrificed himself in the raid.",
+      "type": "protagonist",
+      "faction": "Kozuki Clan",
+      "tags": [
+        "Samurai",
+        "Retainer",
+        "Bandit",
+        "Martyr",
+        "Warrior"
+      ],
+      "avatar": "/images/characters/wano/ashura-doji.jpg"
+    },
+    {
+      "name": "Kawamatsu",
+      "role": "Kozuki Retainer / Fish-man Samurai",
+      "description": "A fish-man samurai who protected Hiyori and was imprisoned for years. Expert in Fish-man Karate and swordsmanship.",
+      "type": "protagonist",
+      "faction": "Kozuki Clan",
+      "tags": [
+        "Fish-man",
+        "Samurai",
+        "Retainer",
+        "Guardian",
+        "Loyal"
+      ],
+      "avatar": "/images/characters/wano/kawamatsu.jpg"
+    },
+    {
+      "name": "Inuarashi",
+      "role": "Kozuki Retainer / Mink Duke",
+      "description": "Duke of the Mokomo Dukedom and one of Oden's retainers. Ruler of Zou during the day.",
+      "type": "protagonist",
+      "faction": "Kozuki Clan",
+      "tags": [
+        "Mink",
+        "Duke",
+        "Retainer",
+        "Sulong",
+        "Leader"
+      ],
+      "avatar": "/images/characters/wano/inuarashi.jpg"
+    },
+    {
+      "name": "Nekomamushi",
+      "role": "Kozuki Retainer / Mink Guardian",
+      "description": "Guardian of the Whale Forest and one of Oden's retainers. Ruler of Zou during the night.",
+      "type": "protagonist",
+      "faction": "Kozuki Clan",
+      "tags": [
+        "Mink",
+        "Guardian",
+        "Retainer",
+        "Sulong",
+        "Warrior"
+      ],
+      "avatar": "/images/characters/wano/nekomamushi.jpg"
+    },
+    {
+      "name": "Kiku (Kikunojo)",
+      "role": "Kozuki Retainer / Samurai",
+      "description": "A gentle but deadly samurai retainer who fought valiantly in the raid on Onigashima.",
+      "type": "protagonist",
+      "faction": "Kozuki Clan",
+      "tags": [
+        "Samurai",
+        "Retainer",
+        "Swordsman",
+        "Time Traveler",
+        "Warrior"
+      ],
+      "avatar": "/images/characters/wano/kikunojo.jpg"
+    },
+    {
+      "name": "Raizo",
+      "role": "Kozuki Retainer / Ninja",
+      "description": "A ninja retainer who endured torture without betraying his comrades. Master of scrolls and ninjutsu.",
+      "type": "protagonist",
+      "faction": "Kozuki Clan",
+      "tags": [
+        "Ninja",
+        "Retainer",
+        "Time Traveler",
+        "Loyal",
+        "Ninjutsu Master"
+      ],
+      "avatar": "/images/characters/wano/raizo.jpg"
+    },
+    {
+      "name": "Big Mom (Charlotte Linlin)",
+      "role": "Yonko / Temporary Ally/Enemy",
+      "description": "A Yonko who arrived in Wano seeking Luffy, temporarily allied with Kaido before fighting the alliance.",
+      "type": "antagonist",
+      "faction": "Big Mom Pirates",
+      "tags": [
+        "Yonko",
+        "Emperor",
+        "Soul-Soul Fruit",
+        "Powerful",
+        "Unpredictable"
+      ],
+      "avatar": "/images/characters/wano/big-mom.jpg"
+    },
+    {
+      "name": "Hyogoro",
+      "role": "Yakuza Boss / Haki Master",
+      "description": "The legendary yakuza boss who taught Luffy advanced Armament Haki in Udon prison.",
+      "type": "protagonist",
+      "faction": "Kozuki Clan Allies",
+      "tags": [
+        "Yakuza",
+        "Haki Master",
+        "Mentor",
+        "Legend",
+        "Warrior"
+      ],
+      "avatar": "/images/characters/wano/hyogoro.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Flower Capital",
+      "type": "capital city",
+      "description": "The prosperous capital of Wano where the shogun resides. Features traditional architecture, festivals, and entertainment districts. Remained wealthy during Orochi's rule while other regions suffered.",
+      "notableFeatures": [
+        "Shogun's palace",
+        "Entertainment district",
+        "Bustling markets",
+        "Traditional festivals",
+        "Oiran processions"
+      ],
+      "image": "/images/locations/wano/flower-capital.jpg"
+    },
+    {
+      "name": "Kuri Region",
+      "type": "region",
+      "description": "Oden's former domain, once lawless but transformed by him. Contains Oden Castle (destroyed) and important sites in Wano's liberation.",
+      "notableFeatures": [
+        "Oden Castle ruins",
+        "Port Tokage",
+        "Training grounds",
+        "Rebel hideouts",
+        "Amigasa Village"
+      ],
+      "image": "/images/locations/wano/kuri-region.jpg"
+    },
+    {
+      "name": "Udon Region",
+      "type": "prison region",
+      "description": "A harsh mining region turned into a massive prisoner labor camp by Kaido. Where Luffy was imprisoned and trained his Haki.",
+      "notableFeatures": [
+        "Prisoner mines",
+        "Seastone quarries",
+        "Training arena",
+        "Polluted waters",
+        "Beast Pirate base"
+      ],
+      "image": "/images/locations/wano/udon-region.jpg"
+    },
+    {
+      "name": "Onigashima",
+      "type": "island fortress",
+      "description": "Kaido's skull-shaped fortress island where the Beast Pirates were headquartered. Site of the climactic battle for Wano's freedom.",
+      "notableFeatures": [
+        "Massive skull structure",
+        "Kaido's throne room",
+        "Performance floor",
+        "Armory",
+        "Floating island (via Flame Clouds)"
+      ],
+      "image": "/images/locations/wano/onigashima.jpg"
+    },
+    {
+      "name": "Ringo Region",
+      "type": "snowy region",
+      "description": "A frozen northern region known for graves of legendary samurai. Where Zoro obtained the legendary sword Shusui.",
+      "notableFeatures": [
+        "Northern Cemetery",
+        "Eternal snow",
+        "Samurai graves",
+        "Oihagi Bridge",
+        "Traditional villages"
+      ],
+      "image": "/images/locations/wano/ringo-region.jpg"
+    },
+    {
+      "name": "Hakumai Region",
+      "type": "port region",
+      "description": "The region containing Wano's main port. Former domain of Daimyo Yasuie, featuring traditional architecture and coastal access.",
+      "notableFeatures": [
+        "Main port",
+        "Waterfall entrance",
+        "Yasuie's former residence",
+        "Coastal defenses",
+        "Trading docks"
+      ],
+      "image": "/images/locations/wano/hakumai-region.jpg"
+    },
+    {
+      "name": "Kibi Region",
+      "type": "agricultural region",
+      "description": "An agricultural region that suffered under Orochi's rule, with polluted resources and poverty.",
+      "notableFeatures": [
+        "Farmlands",
+        "Okobore Town (leftover town)",
+        "Polluted rivers",
+        "Rural villages",
+        "Suffering populace"
+      ],
+      "image": "/images/locations/wano/kibi-region.jpg"
+    },
+    {
+      "name": "Oden Castle",
+      "type": "historical site (destroyed)",
+      "description": "Kozuki Oden's castle in Kuri, destroyed when Kaido attacked. Where Momonosuke and the retainers were sent to the future.",
+      "notableFeatures": [
+        "Burned ruins",
+        "Historical significance",
+        "Time travel site",
+        "Memorial location",
+        "Symbol of Oden's legacy"
+      ],
+      "image": "/images/locations/wano/oden-castle.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Enma",
+      "category": "Legendary Sword",
+      "description": "One of the only swords to ever wound Kaido. Originally Oden's sword, inherited by Zoro. Draws out the user's Haki.",
+      "icon": "⚔️",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Ame no Habakiri",
+      "category": "Legendary Sword",
+      "description": "Oden's other legendary sword, inherited by Momonosuke. One of the 21 Great Grade swords.",
+      "icon": "⚔️",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Seastone",
+      "category": "Material",
+      "description": "A rare mineral found only in Wano that nullifies Devil Fruit powers. Used in weapons and restraints.",
+      "icon": "💎",
+      "rarity": "rare"
+    },
+    {
+      "name": "Oden's Journal",
+      "category": "Historical Document",
+      "description": "Oden's personal journal detailing his adventures with Whitebeard and Roger, containing crucial information about Laugh Tale.",
+      "icon": "📖",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Road Poneglyph",
+      "category": "Ancient Text",
+      "description": "One of the four Road Poneglyphs needed to find Laugh Tale, hidden beneath Wano.",
+      "icon": "🗿",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Nidai Kitetsu",
+      "category": "Cursed Sword",
+      "description": "The second of the Kitetsu cursed blade series, currently in Luffy's possession after being held by Hitetsu.",
+      "icon": "⚔️",
+      "rarity": "rare"
+    },
+    {
+      "name": "SMILE Fruits",
+      "category": "Artificial Devil Fruit",
+      "description": "Defective artificial Zoan fruits manufactured for Kaido's army. Only 10% work properly.",
+      "icon": "😊",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Wano's Sake",
+      "category": "Beverage",
+      "description": "Traditional sake brewed in Wano, symbolizing celebration and brotherhood among samurai.",
+      "icon": "🍶",
+      "rarity": "common"
+    },
+    {
+      "name": "Flame Clouds",
+      "category": "Power/Phenomenon",
+      "description": "Mystical clouds created by dragon-type Devil Fruits, used by Kaido to lift and move Onigashima.",
+      "icon": "☁️",
+      "rarity": "rare"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Kozuki Clan",
+      "type": "Royalty / Rebellion",
+      "leader": "Kozuki Momonosuke (current Shogun)",
+      "members": [
+        "Momonosuke",
+        "Hiyori",
+        "Kin'emon",
+        "Denjiro",
+        "Ashura Doji",
+        "Kawamatsu",
+        "Inuarashi",
+        "Nekomamushi",
+        "Kiku",
+        "Raizo",
+        "Tenguyama Hitetsu"
+      ],
+      "description": "The rightful rulers of Wano who were overthrown 20 years ago. Led the resistance and alliance that liberated the country.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Beast Pirates (Defeated)",
+      "type": "Pirate Crew / Occupying Force",
+      "leader": "Kaido (defeated)",
+      "members": [
+        "Kaido",
+        "King",
+        "Queen",
+        "Jack",
+        "Tobi Roppo",
+        "Gifters",
+        "Pleasures",
+        "Waiters"
+      ],
+      "description": "A Yonko crew that occupied Wano for 20 years, exploiting its resources and people. Completely defeated in the Onigashima raid.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Kurozumi Clan (Defeated)",
+      "type": "Usurpers",
+      "leader": "Kurozumi Orochi (deceased)",
+      "members": [
+        "Orochi",
+        "Kurozumi Kanjuro",
+        "Kurozumi Higurashi",
+        "Kurozumi Semimaru"
+      ],
+      "description": "The traitorous clan that conspired with Kaido to usurp the shogunate through deceit and murder.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Ninja-Pirate-Mink-Samurai Alliance",
+      "type": "Military Alliance",
+      "leader": "Collective leadership (Luffy, Law, Kid, Momonosuke)",
+      "members": [
+        "Straw Hat Pirates",
+        "Heart Pirates",
+        "Kid Pirates",
+        "Kozuki retainers",
+        "Mink Tribe",
+        "Wano samurai",
+        "Yakuza"
+      ],
+      "description": "The grand alliance formed to liberate Wano from Kaido and Orochi's tyranny. Over 5,000 warriors strong.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Wano Samurai",
+      "type": "Warriors",
+      "leader": "Various leaders",
+      "members": [
+        "Hyogoro",
+        "Yakuza bosses",
+        "Regional samurai",
+        "Ronin",
+        "Hidden loyalists"
+      ],
+      "description": "The traditional warrior class of Wano who joined the rebellion to restore honor and freedom to their country.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Big Mom Pirates (Temporary Presence)",
+      "type": "Pirate Crew",
+      "leader": "Big Mom",
+      "members": [
+        "Charlotte Linlin",
+        "Perospero",
+        "Smoothie",
+        "Selected crew members"
+      ],
+      "description": "A Yonko crew that arrived in Wano, temporarily allied with Kaido before being defeated by Law and Kid.",
+      "alignment": "enemy"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 909-1057",
+    "animeEpisodes": "Episodes 890-1085",
+    "events": [
+      "Straw Hats arrive in Wano",
+      "Luffy imprisoned in Udon",
+      "Formation of the Ninja-Pirate-Mink-Samurai Alliance",
+      "Fire Festival and raid on Onigashima",
+      "Rooftop battle against Kaido and Big Mom",
+      "Luffy awakens Gear 5",
+      "Kaido's defeat",
+      "Momonosuke becomes Shogun",
+      "Wano's liberation"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#E74C3C",
+    "secondary": "#F4D03F",
+    "accent": "#2C3E50"
+  },
+  "quickFacts": [
+    "Closed off from the world for over 800 years",
+    "Birthplace of the Poneglyphs",
+    "Only source of Seastone in the world",
+    "Where Luffy awakened Gear 5",
+    "Home of legendary swordsmiths",
+    "Ruled by samurai code and honor"
+  ],
+  "videos": [
+    {
+      "youtubeId": "cjjYAbMtWhk",
+      "title": "Luffy Gear 5 Awakening",
+      "type": "lore",
+      "description": "The moment Luffy awakens his true Devil Fruit power and becomes the Sun God Nika.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "Zuu6ClXRabE",
+      "title": "Zoro Conquers King",
+      "type": "fight",
+      "description": "Zoro's epic battle against King the Wildfire, mastering Enma in the process.",
+      "featured": false,
+      "order": 2
+    },
+    {
+      "youtubeId": "DzIyNQWdNQo",
+      "title": "Oden's Legendary Hour",
+      "type": "lore",
+      "description": "The tragic but inspiring tale of Kozuki Oden's final moments.",
+      "featured": false,
+      "order": 3
+    }
+  ],
+  "music": {
+    "url": "/music/wano-theme.mp3",
+    "title": "The Drums of Liberation",
+    "volume": 0.3
+  }
+}

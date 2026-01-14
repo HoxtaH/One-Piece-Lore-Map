@@ -1,0 +1,488 @@
+{
+  "slug": "drum-island",
+  "name": "Drum Island",
+  "banner": "/images/banners/drum-island-banner.jpg",
+  "region": "Paradise (Grand Line)",
+  "aliases": [
+    "Sakura Kingdom",
+    "Drum Kingdom",
+    "Cherry Blossom Kingdom",
+    "Winter Island"
+  ],
+  "coordinates": { "x": 6811, "y": 2940 },
+  "journeyOrder": 11,
+  "saga": "Alabasta",
+  "description": "Drum Island is a perpetual winter island in Paradise, known as the birthplace of Dr. Hiriluk's dream and home to Tony Tony Chopper. Once ruled by the tyrannical King Wapol, the island was liberated by the Straw Hats and transformed into the peaceful Sakura Kingdom under Dr. Kureha and King Dalton. The island's cherry blossoms bloom year-round thanks to Hiriluk's dream becoming reality.",
+  "history": "Drum Kingdom was once renowned as the world's most advanced medical nation, home to the legendary 'Isshi-20' - twenty of the world's finest doctors. This golden age ended when the tyrannical Wapol became king and exiled all doctors except his personal 'Isshi-20' to maintain absolute control. When the pirate Blackbeard attacked, Wapol fled like a coward, abandoning his people. Dr. Hiriluk, a quack doctor with a noble dream, died trying to cure the country's 'frozen heart.' His adopted son, the reindeer Chopper, was mentored by the 139-year-old Dr. Kureha. When Wapol returned to reclaim his throne, Luffy defeated him atop Drum Castle. Dalton became the new king, and Hiriluk's dream of cherry blossoms curing the nation's heart was realized through Dr. Kureha's 'Hiriluk Sakura' - pink snow that falls year-round, transforming Drum Kingdom into the Sakura Kingdom.",
+  "culture": "Drum Island's culture centers on survival in extreme cold and reverence for medical knowledge. The people are hardy, resilient, and deeply scarred by Wapol's tyranny that weaponized healthcare. Before Wapol, doctors were celebrated as saviors; under his rule, medical care became a privilege for the wealthy. After liberation, the culture shifted toward Hiriluk's philosophy: that a country can be saved not by doctors, but by people with strong, caring hearts. The year-round 'sakura snow' symbolizes hope, healing, and renewal. Citizens now celebrate the Pirate Flag Festival honoring the Straw Hats, and Chopper is remembered as a national hero.",
+  "economy": {
+    "industries": [
+      "Medical research and training",
+      "Cold-weather survival gear",
+      "Fur trading",
+      "Mountain mining",
+      "Tourism (post-liberation)"
+    ],
+    "currency": "Berry (฿)",
+    "tradeGoods": [
+      "Medical supplies and medicines",
+      "Rare herbs from snowy peaks",
+      "Winter survival equipment",
+      "Furs and leather goods",
+      "Mountain minerals"
+    ]
+  },
+  "transportation": "Most travel is by foot or sled through deep snow. Climbing equipment is essential for mountain traversal. Lapahns (aggressive snow rabbits) and Hiking Bears roam the wilderness. Dr. Kureha famously travels via sled pulled by reindeer or her own strength. Ships dock at coastal ports but must contend with freezing waters and icebergs. The ropeway system connects lower villages to Drum Castle at the peak of the Drum Rockies.",
+  "food": {
+    "cuisine": [
+      "Hearty stews and soups",
+      "Roasted meats (bear, rabbit)",
+      "Preserved vegetables",
+      "Hot sake and mulled wine",
+      "Pickled foods for long winters",
+      "Dr. Kureha's medicinal plum wine"
+    ],
+    "traditions": [
+      "Communal meals during blizzards",
+      "Celebrating with feasts after successful hunts",
+      "Dr. Kureha's mandatory drinking sessions",
+      "Sharing food with travelers (hospitality is survival)"
+    ],
+    "quirks": [
+      "Chopper loves cotton candy (anything sweet)",
+      "Dr. Kureha drinks heavily but never gets sick",
+      "Wapol could eat literally anything",
+      "Villagers stockpile food for harsh winters"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Tony Tony Chopper",
+      "role": "Doctor / Straw Hat Pirate / Reindeer",
+      "description": "A blue-nosed reindeer who ate the Human-Human Fruit, granting him human intelligence and transformations. Trained by Dr. Kureha and inspired by Dr. Hiriluk's dream. Joined the Straw Hats as their doctor after Luffy defeated Wapol.",
+      "type": "protagonist",
+      "faction": "Straw Hat Pirates",
+      "tags": [
+        "Doctor",
+        "Reindeer",
+        "Devil Fruit",
+        "Adorable",
+        "Rumble Ball",
+        "Hiriluk's Legacy",
+        "Monster Point"
+      ],
+      "avatar": "/images/characters/drum-island/tony-tony-chopper.jpg"
+    },
+    {
+      "name": "Dr. Kureha",
+      "role": "Witch Doctor / Mentor / Castle Guardian",
+      "description": "The 139-year-old 'Witch' and greatest doctor on Drum Island. Mentored Chopper and preserved Hiriluk's will. Known for her eccentric personality, incredible medical skill, and her secret to eternal youth.",
+      "type": "protagonist",
+      "faction": "Sakura Kingdom",
+      "tags": [
+        "Doctor",
+        "Mentor",
+        "Witch",
+        "Legendary",
+        "139 Years Old",
+        "Youthful",
+        "Hiriluk's Friend"
+      ],
+      "avatar": "/images/characters/drum-island/dr-kureha.jpg"
+    },
+    {
+      "name": "Dr. Hiriluk",
+      "role": "Quack Doctor / Dreamer (Deceased)",
+      "description": "A terminally ill quack doctor who believed miracles could cure any disease. Adopted Chopper and taught him that a doctor's duty is to heal hearts, not just bodies. Died heroically trying to cure the country with his exploding 'cure.'",
+      "type": "historical",
+      "faction": "Drum Kingdom",
+      "tags": [
+        "Doctor",
+        "Dreamer",
+        "Father Figure",
+        "Martyr",
+        "Cherry Blossoms",
+        "Legendary",
+        "Quack"
+      ],
+      "avatar": "/images/characters/drum-island/dr-hiriluk.jpg"
+    },
+    {
+      "name": "Wapol",
+      "role": "Former King / Tyrant / Pirate",
+      "description": "The selfish, gluttonous former king who ate the Munch-Munch Fruit. Exiled all doctors and monopolized healthcare. Fled when Blackbeard attacked, then returned to reclaim his throne. Defeated by Luffy and became a pirate.",
+      "type": "antagonist",
+      "faction": "Wapol Pirates",
+      "tags": [
+        "Former King",
+        "Tyrant",
+        "Devil Fruit",
+        "Munch-Munch Fruit",
+        "Coward",
+        "Defeated",
+        "Selfish"
+      ],
+      "avatar": "/images/characters/drum-island/wapol.jpg"
+    },
+    {
+      "name": "Dalton",
+      "role": "Former Captain / New King",
+      "description": "The noble former captain of Wapol's guard who opposed the king's cruelty. Tried to stop Wapol's return and was nearly killed. After Wapol's defeat, became the beloved king of the renamed Sakura Kingdom.",
+      "type": "protagonist",
+      "faction": "Sakura Kingdom",
+      "tags": [
+        "King",
+        "Noble",
+        "Warrior",
+        "Bison",
+        "Zoan Devil Fruit",
+        "Leader",
+        "Just"
+      ],
+      "avatar": "/images/characters/drum-island/dalton.jpg"
+    },
+    {
+      "name": "Chess",
+      "role": "Wapol's Minister / Archer",
+      "description": "Wapol's scheming minister who resembles a chess piece. Uses bow and arrow attacks. Fiercely loyal to Wapol despite his cowardice.",
+      "type": "antagonist",
+      "faction": "Wapol Pirates",
+      "tags": [
+        "Minister",
+        "Archer",
+        "Loyal",
+        "Chess Piece",
+        "Strategist"
+      ],
+      "avatar": "/images/characters/drum-island/chess.jpg"
+    },
+    {
+      "name": "Kuromarimo",
+      "role": "Wapol's Minister / Martial Artist",
+      "description": "Wapol's afro-wearing minister who uses his spherical hair to store weapons. Fights with martial arts and hidden weaponry. Partner to Chess.",
+      "type": "antagonist",
+      "faction": "Wapol Pirates",
+      "tags": [
+        "Minister",
+        "Martial Artist",
+        "Afro",
+        "Weapons Expert",
+        "Loyal"
+      ],
+      "avatar": "/images/characters/drum-island/kuromarimo.jpg"
+    },
+    {
+      "name": "Chessmarimo",
+      "role": "Combined Form / Minister",
+      "description": "The fusion of Chess and Kuromarimo created by Wapol's Munch-Munch powers. Combines their abilities into one warrior. Defeated by Chopper's bravery.",
+      "type": "antagonist",
+      "faction": "Wapol Pirates",
+      "tags": [
+        "Fusion",
+        "Minister",
+        "Combined",
+        "Temporary"
+      ],
+      "avatar": "/images/characters/drum-island/chessmarimo.jpg"
+    },
+    {
+      "name": "Robson",
+      "role": "Village Elder / Guard",
+      "description": "An elderly guard of Bighorn village who helped the Straw Hats. Represents the common people who suffered under Wapol's rule.",
+      "type": "citizen",
+      "faction": "Sakura Kingdom",
+      "tags": [
+        "Elder",
+        "Guard",
+        "Villager",
+        "Helpful"
+      ],
+      "avatar": "/images/characters/drum-island/robson.jpg"
+    },
+    {
+      "name": "Isshi-20",
+      "role": "Royal Doctors (Exiled)",
+      "description": "Twenty of the world's finest doctors who served Drum Kingdom. Wapol exiled all but his personal physicians to monopolize medical care. Their exile ended the medical golden age.",
+      "type": "historical",
+      "faction": "Drum Kingdom (Exiled)",
+      "tags": [
+        "Doctors",
+        "Legendary",
+        "Exiled",
+        "Masters",
+        "Historical"
+      ],
+      "avatar": "/images/characters/drum-island/isshi-20.jpg"
+    },
+    {
+      "name": "Marshall D. Teach (Blackbeard)",
+      "role": "Pirate / Invader (Historical Appearance)",
+      "description": "The pirate who attacked Drum Kingdom before the main story, causing Wapol to flee. This attack was Blackbeard's early appearance in the series.",
+      "type": "antagonist",
+      "faction": "Blackbeard Pirates",
+      "tags": [
+        "Pirate",
+        "Invader",
+        "Yonko (Future)",
+        "D. Clan",
+        "Dark-Dark Fruit",
+        "Legendary"
+      ],
+      "avatar": "/images/characters/drum-island/blackbeard.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Drum Castle",
+      "type": "Castle / Medical Facility",
+      "description": "The massive castle atop the Drum Rockies at 5,000 meters elevation. Once Wapol's palace, now Dr. Kureha's medical facility and home. The site of Luffy's battle with Wapol and where Hiriluk's Pirate Flag flies eternally.",
+      "notableFeatures": [
+        "Dr. Hiriluk's Pirate Flag on the highest point",
+        "Dr. Kureha's medical library and research lab",
+        "Chopper's former home",
+        "The room where Hiriluk died",
+        "Throne room (Wapol's former seat)",
+        "Arsenal and weaponry",
+        "Year-round view of the entire island"
+      ],
+      "image": "/images/locations/drum-island/drum-castle.jpg"
+    },
+    {
+      "name": "Drum Rockies",
+      "type": "Mountain Range",
+      "description": "The treacherous mountain range that dominates the island, covered in perpetual snow and ice. Home to dangerous wildlife including Lapahns and Hiking Bears. The climb is deadly without proper equipment or guidance.",
+      "notableFeatures": [
+        "5,000-meter peaks",
+        "Drum Castle at the summit",
+        "Lapahn (carnivorous rabbit) territory",
+        "Hiking Bear habitats",
+        "Avalanche zones",
+        "Dr. Kureha's sled routes",
+        "Treacherous climbing paths"
+      ],
+      "image": "/images/locations/drum-island/drum-rockies.jpg"
+    },
+    {
+      "name": "Bighorn Village",
+      "type": "Settlement",
+      "description": "The main village at the base of the Drum Rockies where the Straw Hats first arrived. A humble settlement that suffered greatly under Wapol's medical monopoly.",
+      "notableFeatures": [
+        "Where Nami fell sick",
+        "Village elder Robson's home",
+        "Community meeting hall",
+        "Small clinic (post-liberation)",
+        "Gateway to the mountain paths"
+      ],
+      "image": "/images/locations/drum-island/bighorn-village.jpg"
+    },
+    {
+      "name": "Cocoa Weed Village",
+      "type": "Settlement",
+      "description": "Another village on Drum Island that suffered under Wapol's rule. Dalton served here and protected the citizens.",
+      "notableFeatures": [
+        "Dalton's former post",
+        "Villager homes and shops",
+        "Small harbor for supply ships"
+      ],
+      "image": "/images/locations/drum-island/cocoa-weed-village.jpg"
+    },
+    {
+      "name": "Gyasta Village",
+      "type": "Settlement",
+      "description": "A coastal village where ships can dock. The Merry Go was anchored here while the crew climbed the mountain.",
+      "notableFeatures": [
+        "Harbor and docks",
+        "Where Sanji and Luffy began their climb",
+        "Coastal trading post"
+      ],
+      "image": "/images/locations/drum-island/gyasta-village.jpg"
+    },
+    {
+      "name": "Hiriluk's Grave",
+      "type": "Memorial",
+      "description": "The peaceful grave site where Dr. Hiriluk is buried, marked by his Jolly Roger flag. A place of pilgrimage for those who knew him.",
+      "notableFeatures": [
+        "Hiriluk's Jolly Roger tombstone",
+        "Where Chopper said goodbye",
+        "Cherry blossom petals fall here",
+        "Symbol of his lasting legacy"
+      ],
+      "image": "/images/locations/drum-island/hiriluks-grave.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Dr. Hiriluk's Pirate Flag",
+      "category": "Symbol",
+      "description": "The skull-and-crossbones with cherry blossoms that represents Hiriluk's dream. Now flies atop Drum Castle, visible from the entire island. Symbolizes that a country is healthy when people can laugh and smile.",
+      "icon": "🏴‍☠️",
+      "rarity": "Legendary"
+    },
+    {
+      "name": "Rumble Ball",
+      "category": "Medicine",
+      "description": "Chopper's invention that allows him to access additional transformation points beyond normal Zoan limits. Can be dangerous if overused (three within six hours causes Monster Point).",
+      "icon": "💊",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Hiriluk's Cure (Skull Bomb)",
+      "category": "Explosive",
+      "description": "Hiriluk's final creation - a 'cure' made from a skull-shaped fungus that was actually a powerful explosive. He drank it himself in his final heroic act.",
+      "icon": "💀",
+      "rarity": "Unique"
+    },
+    {
+      "name": "Dr. Kureha's Plum Wine",
+      "category": "Medicine/Alcohol",
+      "description": "Dr. Kureha's special medicinal plum wine. Her 'secret to youth' that she charges 498 berries (plus 2 for consultation fee) to reveal: 'I'm beautiful because I'm me!'",
+      "icon": "🍶",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Wapol's Crown",
+      "category": "Treasure",
+      "description": "The golden crown of Drum Kingdom's monarchy. Lost when Luffy defeated Wapol and sent him flying off the island.",
+      "icon": "👑",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Medical Encyclopedia",
+      "category": "Book",
+      "description": "The comprehensive medical texts in Drum Castle's library that represent centuries of medical knowledge. Chopper studied these to become a great doctor.",
+      "icon": "📚",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Cherry Blossom Dust",
+      "category": "Phenomenon",
+      "description": "The pink powder Dr. Kureha fires into the sky creating artificial cherry blossom snow. Hiriluk's dream made real - the miracle that heals hearts.",
+      "icon": "🌸",
+      "rarity": "Legendary"
+    },
+    {
+      "name": "Wapol Metal (Wapomet)",
+      "category": "Material",
+      "description": "A unique shape-memory alloy created by Wapol's Munch-Munch powers. Later becomes valuable, making him a wealthy toy manufacturer.",
+      "icon": "🔩",
+      "rarity": "Rare"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Sakura Kingdom Citizens",
+      "type": "Civilian",
+      "leader": "King Dalton",
+      "members": 5000,
+      "description": "The resilient people of Drum Island who endured Wapol's tyranny and now thrive under Dalton's just rule. They honor the Straw Hats as liberators.",
+      "alignment": "Good"
+    },
+    {
+      "name": "Wapol Pirates",
+      "type": "Pirate Crew / Former Monarchy",
+      "leader": "Wapol (Defeated)",
+      "members": 30,
+      "description": "The remnants of Wapol's forces who returned to reclaim the kingdom. Defeated and scattered by the Straw Hats.",
+      "alignment": "Evil"
+    },
+    {
+      "name": "Drum Kingdom Royal Guard (Former)",
+      "type": "Military",
+      "leader": "Dalton (Defected)",
+      "members": 50,
+      "description": "The former royal guards who served Wapol reluctantly. Many, like Dalton, opposed his cruelty. Now serve the Sakura Kingdom loyally.",
+      "alignment": "Good"
+    },
+    {
+      "name": "Medical Community",
+      "type": "Professional Organization",
+      "leader": "Dr. Kureha",
+      "members": 100,
+      "description": "The doctors who survived Wapol's purge or returned after his defeat. Working to restore Drum Island's reputation as a medical paradise.",
+      "alignment": "Good"
+    },
+    {
+      "name": "Blackbeard Pirates (Invaders)",
+      "type": "Pirate Crew",
+      "leader": "Marshall D. Teach",
+      "members": 5,
+      "description": "The crew that attacked Drum Kingdom, causing Wapol to flee. Their attack inadvertently freed the island from tyranny.",
+      "alignment": "Evil"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 130-154 (Drum Island Arc)",
+    "animeEpisodes": "Episodes 78-91",
+    "events": [
+      "Straw Hats arrive seeking a doctor for sick Nami",
+      "Learn about Wapol's tyranny and the lack of doctors",
+      "Wapol returns to reclaim his throne",
+      "Dalton fights Wapol and is nearly killed",
+      "Luffy and Sanji climb the Drum Rockies carrying Nami",
+      "Meet Dr. Kureha and Chopper at Drum Castle",
+      "Chopper's tragic backstory revealed",
+      "Dr. Hiriluk's death and final words shown",
+      "Wapol attacks Drum Castle",
+      "Luffy protects Hiriluk's flag from Wapol",
+      "Battle: Sanji vs Chess and Kuromarimo",
+      "Battle: Chopper vs Chessmarimo (proves his courage)",
+      "Battle: Luffy vs Wapol (Gomu Gomu no Bazooka victory)",
+      "Wapol defeated and sent flying",
+      "Dr. Kureha fires cherry blossom dust into the sky",
+      "Hiriluk's dream realized - cherry blossoms bloom",
+      "Chopper joins the Straw Hat crew",
+      "Dalton becomes king of the Sakura Kingdom",
+      "Straw Hats depart with new doctor and friend"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#FFC0CB",
+    "secondary": "#4A90E2",
+    "accent": "#E74C3C"
+  },
+  "quickFacts": [
+    "Perpetual winter island with year-round snow",
+    "Birthplace of Tony Tony Chopper",
+    "Home to Dr. Kureha, the 139-year-old witch",
+    "Once the world's greatest medical nation",
+    "Cherry blossoms fall year-round after liberation",
+    "Renamed from Drum Kingdom to Sakura Kingdom",
+    "Site of Dr. Hiriluk's legendary sacrifice",
+    "Wapol exiled all doctors to monopolize healthcare",
+    "Attacked by Blackbeard before the Straw Hats arrived",
+    "Drum Castle sits at 5,000 meters elevation",
+    "Hiriluk's Pirate Flag flies from the highest point"
+  ],
+  "videos": [
+    {
+      "youtubeId": "qqlwhoDH5ac",
+      "title": "Dr. Hiriluk's Death - When Does A Man Die?",
+      "type": "lore",
+      "description": "The legendary scene where Hiriluk sacrifices himself and teaches that a man dies when he is forgotten. One of the most emotional moments in One Piece.",
+      "featured": false,
+      "order": 1
+    },
+    {
+      "youtubeId": "lV2l2JmXJGE",
+      "title": "Luffy vs Wapol - Protecting Hiriluk's Flag",
+      "type": "fight",
+      "description": "Luffy's fierce battle with Wapol to protect Dr. Hiriluk's Pirate Flag, culminating in the epic Gomu Gomu no Bazooka that sends the tyrant flying.",
+      "featured": false,
+      "order": 2
+    },
+    {
+      "youtubeId": "sHop6asiT1c",
+      "title": "Cherry Blossoms Bloom - Hiriluk's Dream Realized",
+      "type": "scenic",
+      "description": "Dr. Kureha fires the cherry blossom dust into the sky, fulfilling Hiriluk's dream and healing the nation's frozen heart. The Sakura Kingdom is born.",
+      "featured": true,
+      "order": 3
+    }
+  ],
+  "music": {
+    "url": "/music/drum-island-theme.mp3",
+    "title": "Tony Tony Chopper's Theme",
+    "volume": 0.3
+  }
+}

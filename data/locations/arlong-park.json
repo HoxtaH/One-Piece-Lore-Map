@@ -1,0 +1,345 @@
+{
+  "slug": "arlong-park",
+  "name": "Arlong Park",
+  "banner": "/images/banners/arlong-park-banner.jpg",
+  "region": "East Blue",
+  "aliases": [
+    "Cocoyasi Village",
+    "Conomi Islands",
+    "Nami's Village"
+  ],
+  "coordinates": { "x": 6911, "y": 1470 },
+  "pathControl": { "x": 7114, "y": 2004 },
+  "journeyOrder": 6,
+  "saga": "East Blue",
+  "description": "Arlong Park was the fortress headquarters of the fish-man pirate Arlong, built on Cocoyasi Village in the Conomi Islands. For eight years, Arlong and his crew terrorized the islands, demanding tribute money and enslaving Nami to create sea charts. The fortress became a symbol of oppression until the Straw Hats destroyed it and liberated the islands.",
+  "history": "Cocoyasi Village was a peaceful island until Arlong arrived from the Grand Line eight years before the main story. He killed Nami's adoptive mother Bellemere when she couldn't pay the tribute, then enslaved young Nami to draw maps. Arlong built his fortress and ruled through fear and violence, corrupting a Marine officer to maintain control. The villagers, including Nami, saved desperately for eight years trying to buy their freedom, only for Arlong to betray the deal. When Luffy arrived and learned of Nami's suffering, he destroyed Arlong Park and freed the islands.",
+  "culture": "Under Arlong's rule, the islands' culture was one of fear and survival. Villagers paid tribute to live, never knowing when violence would strike. Nami's sacrifice to buy the village's freedom became local legend. After liberation, the culture slowly recovered its roots of fishing, agriculture, and tangerine farming. Bellemere's memory and her message about chosen family became central to the community's healing.",
+  "economy": {
+    "industries": [
+      "Tangerine farming (Nami's grove)",
+      "Fishing",
+      "Agriculture",
+      "Tribute collection (formerly)"
+    ],
+    "currency": "Berry (฿)",
+    "tradeGoods": [
+      "Tangerines",
+      "Fresh fish",
+      "Agricultural products",
+      "Handcrafted goods"
+    ]
+  },
+  "transportation": "Small fishing boats connect the Conomi Islands. Travel within islands is by foot. The Going Merry navigated carefully through the waters to reach Arlong Park.",
+  "food": {
+    "cuisine": [
+      "Fresh seafood",
+      "Tangerine dishes",
+      "Simple island fare",
+      "Nojiko's cooking"
+    ],
+    "traditions": [
+      "Visits to Bellemere's grave with tangerines",
+      "Community meals after liberation",
+      "Celebrating Nami's return"
+    ],
+    "quirks": [
+      "Bellemere's favorite tangerines everywhere",
+      "Genzo's pinwheel tradition",
+      "Nojiko's tattoo commemorating Nami"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Nami",
+      "role": "Cartographer / Navigator / Straw Hat Pirate",
+      "description": "The brilliant navigator forced to work for Arlong for eight years. Finally freed when Luffy destroyed Arlong Park and officially joined the crew.",
+      "type": "protagonist",
+      "faction": "Straw Hat Pirates",
+      "tags": [
+        "Navigator",
+        "Cartographer",
+        "Survivor",
+        "Thief",
+        "Weather Master"
+      ],
+      "avatar": "/images/characters/arlong-park/nami.jpg"
+    },
+    {
+      "name": "Arlong",
+      "role": "Fish-man Pirate Captain",
+      "description": "The saw-nosed shark fish-man who preached fish-man superiority while terrorizing humans. Former member of the Sun Pirates.",
+      "type": "antagonist",
+      "faction": "Arlong Pirates",
+      "tags": [
+        "Fish-man",
+        "Racist",
+        "Tyrant",
+        "Saw Shark",
+        "Defeated"
+      ],
+      "avatar": "/images/characters/arlong-park/arlong.jpg"
+    },
+    {
+      "name": "Bellemere",
+      "role": "Nami & Nojiko's Mother (Deceased)",
+      "description": "The former Marine and tangerine farmer who adopted Nami and Nojiko. Killed by Arlong when she couldn't pay tribute for all three of them.",
+      "type": "historical",
+      "faction": "Cocoyasi Village",
+      "tags": [
+        "Mother",
+        "Marine",
+        "Martyr",
+        "Farmer",
+        "Hero",
+        "Loving"
+      ],
+      "avatar": "/images/characters/arlong-park/bellemere.jpg"
+    },
+    {
+      "name": "Nojiko",
+      "role": "Nami's Sister / Farmer",
+      "description": "Nami's adoptive older sister who supported her through everything. Runs the tangerine grove and keeps Bellemere's memory alive.",
+      "type": "citizen",
+      "faction": "Cocoyasi Village",
+      "tags": [
+        "Sister",
+        "Farmer",
+        "Supportive",
+        "Strong"
+      ],
+      "avatar": "/images/characters/arlong-park/nojiko.jpg"
+    },
+    {
+      "name": "Genzo",
+      "role": "Village Sheriff",
+      "description": "The pinwheel-wearing sheriff who helped raise Nami and Nojiko. Tried desperately to stop Nami from her dangerous path.",
+      "type": "citizen",
+      "faction": "Cocoyasi Village",
+      "tags": [
+        "Sheriff",
+        "Father Figure",
+        "Brave",
+        "Pinwheel",
+        "Protective"
+      ],
+      "avatar": "/images/characters/arlong-park/genzo.jpg"
+    },
+    {
+      "name": "Hatchan",
+      "role": "Octopus Fish-man / Swordsman",
+      "description": "The six-armed octopus fish-man, Arlong's most loyal but least intelligent crew member. Later reforms and opens a takoyaki stand.",
+      "type": "antagonist",
+      "faction": "Arlong Pirates",
+      "tags": [
+        "Fish-man",
+        "Octopus",
+        "Six Swords",
+        "Comic Relief",
+        "Reformed Later"
+      ],
+      "avatar": "/images/characters/arlong-park/hatchan.jpg"
+    },
+    {
+      "name": "Kuroobi",
+      "role": "Ray Fish-man / Officer",
+      "description": "Arlong's serious, disciplined officer and Fish-Man Karate master who fought Sanji.",
+      "type": "antagonist",
+      "faction": "Arlong Pirates",
+      "tags": [
+        "Fish-man",
+        "Martial Artist",
+        "Officer",
+        "Karate Master"
+      ],
+      "avatar": "/images/characters/arlong-park/kuroobi.jpg"
+    },
+    {
+      "name": "Chew",
+      "role": "Smelt-Whiting Fish-man / Officer",
+      "description": "Arlong's lip-powered water gun user and third officer who fought Usopp.",
+      "type": "antagonist",
+      "faction": "Arlong Pirates",
+      "tags": [
+        "Fish-man",
+        "Water Gun",
+        "Officer"
+      ],
+      "avatar": "/images/characters/arlong-park/chew.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Arlong Park Fortress",
+      "type": "Pirate Base",
+      "description": "The massive fortress Arlong built to assert fish-man dominance. Destroyed by Luffy.",
+      "notableFeatures": [
+        "Sawshark Tower (Arlong's symbol)",
+        "Nami's cartography room prison",
+        "Pool for fish-men",
+        "Throne room",
+        "Completely destroyed by Luffy"
+      ],
+      "image": "/images/locations/arlong-park/arlong-park-fortress.jpg"
+    },
+    {
+      "name": "Cocoyasi Village",
+      "type": "Settlement",
+      "description": "The peaceful village where Nami grew up, terrorized by Arlong for eight years.",
+      "notableFeatures": [
+        "Bellemere's house (Nami and Nojiko's home)",
+        "Tangerine grove",
+        "Village square",
+        "Genzo's sheriff office"
+      ],
+      "image": "/images/locations/arlong-park/cocoyasi-village.jpg"
+    },
+    {
+      "name": "Bellemere's Grave",
+      "type": "Memorial",
+      "description": "The hilltop grave where Bellemere is buried, overlooking the tangerine grove and ocean.",
+      "notableFeatures": [
+        "Always decorated with tangerines",
+        "Where Nami said goodbye before leaving",
+        "Symbol of family and sacrifice",
+        "Peaceful view of the islands"
+      ],
+      "image": "/images/locations/arlong-park/bellemeres-grave.jpg"
+    },
+    {
+      "name": "Tangerine Grove",
+      "type": "Farm",
+      "description": "The tangerine orchard Bellemere cultivated and Nojiko now maintains. Nami's connection to home.",
+      "notableFeatures": [
+        "Bellemere's legacy",
+        "Nami's childhood memories",
+        "Source of income for Nojiko",
+        "Symbol of family"
+      ],
+      "image": "/images/locations/arlong-park/tangerine-grove.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Bellemere's Tangerines",
+      "category": "Symbol",
+      "description": "The tangerines that represent family, sacrifice, and home. Nami always carries some from the grove.",
+      "icon": "🍊",
+      "rarity": "Legendary"
+    },
+    {
+      "name": "Arlong's Saw-Sword (Kiribachi)",
+      "category": "Weapon",
+      "description": "Arlong's massive saw-toothed sword that matches his saw-shark nose.",
+      "icon": "🦈",
+      "rarity": "Rare"
+    },
+    {
+      "name": "100,000,000 Berry Deal",
+      "category": "Document",
+      "description": "Arlong's false promise to sell the village's freedom for 100 million berries.",
+      "icon": "📜",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Nami's Maps",
+      "category": "Treasure",
+      "description": "The countless charts Nami was forced to draw for Arlong, showcasing her genius.",
+      "icon": "🗺️",
+      "rarity": "Rare"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Cocoyasi Village Citizens",
+      "type": "Civilian",
+      "leader": "Genzo",
+      "members": 300,
+      "description": "The resilient islanders who endured Arlong's tyranny and supported Nami's sacrifice.",
+      "alignment": "Good"
+    },
+    {
+      "name": "Arlong Pirates",
+      "type": "Fish-man Pirates",
+      "leader": "Arlong (Defeated)",
+      "members": 30,
+      "description": "Fish-man supremacists from the Grand Line who terrorized East Blue.",
+      "alignment": "Evil"
+    },
+    {
+      "name": "Corrupt Marines",
+      "type": "Military (Corrupt)",
+      "leader": "Captain Nezumi (Arrested)",
+      "members": 20,
+      "description": "Marines bribed by Arlong to ignore his crimes and maintain his rule.",
+      "alignment": "Evil"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 69-95 (Arlong Park Arc)",
+    "animeEpisodes": "Episodes 31-44",
+    "events": [
+      "Nami steals the Going Merry",
+      "Straw Hats pursue Nami to Cocoyasi Village",
+      "Nami's backstory revealed",
+      "Bellemere's sacrifice shown",
+      "Arlong betrays the 100 million berry deal",
+      "Nami asks Luffy for help",
+      "Luffy destroys Nami's map room",
+      "Zoro vs Hatchan",
+      "Sanji vs Kuroobi",
+      "Usopp vs Chew",
+      "Luffy vs Arlong",
+      "Arlong Park destroyed",
+      "Nami officially joins as navigator",
+      "First bounties issued",
+      "Village celebrates freedom"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#1ABC9C",
+    "secondary": "#16A085",
+    "accent": "#E74C3C"
+  },
+  "quickFacts": [
+    "Where Nami officially joined the Straw Hats",
+    "Nami's home village Cocoyasi",
+    "Terrorized by Arlong for eight years",
+    "Site of Bellemere's sacrifice",
+    "Where Luffy got his first bounty (30,000,000)",
+    "Home of the famous tangerine grove",
+    "Symbol of chosen family over blood"
+  ],
+  "videos": [
+    {
+      "youtubeId": "Oa4gZfF_LYE",
+      "title": "Nami Asks Luffy for Help",
+      "type": "lore",
+      "description": "The heartbreaking moment when Nami finally asks Luffy for help, cementing their bond.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "FNR0TW4EPwM",
+      "title": "Luffy Destroys Arlong Park",
+      "type": "fight",
+      "description": "Luffy's rage-fueled destruction of Arlong Park and declaration of Nami's freedom.",
+      "featured": false,
+      "order": 2
+    },
+    {
+      "youtubeId": "wmW5lTrXHtE",
+      "title": "Bellemere's Sacrifice",
+      "type": "lore",
+      "description": "The tragic but beautiful story of Bellemere choosing to die rather than deny her children.",
+      "featured": false,
+      "order": 3
+    }
+  ],
+  "music": {
+    "url": "/music/arlong-park-theme.mp3",
+    "title": "Nami's Theme",
+    "volume": 0.3
+  }
+}

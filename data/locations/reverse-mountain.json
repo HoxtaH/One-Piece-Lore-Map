@@ -1,0 +1,324 @@
+{
+  "slug": "reverse-mountain",
+  "name": "Reverse Mountain",
+  "banner": "/images/banners/reverse-mountain-banner.jpg",
+  "region": "Grand Line Entrance",
+  "aliases": [
+    "Upside-Down Mountain",
+    "Twin Capes",
+    "Gateway to the Grand Line",
+    "Red Line Entry Point"
+  ],
+  "coordinates": [
+    { "x": 5460, "y": 2530 },
+    { "x": 5058, "y": 3030 },
+    { "x": 5980, "y": 3030 }
+  ],
+  "journeyOrder": 8,
+  "saga": "East Blue",
+  "description": "Reverse Mountain is a unique geographic phenomenon where ocean currents from the Four Blues flow upward over the Red Line's peak before cascading down into the Grand Line. It's the only safe entrance to the Grand Line from the Four Blues. At its base lies Twin Capes, home to the island whale Laboon who has been waiting for his crew for 50 years, and the lighthouse keeper Crocus, former doctor of the Roger Pirates.",
+  "history": "Reverse Mountain has served as the Grand Line's primary entrance for centuries. The mountain's unique water currents create five channels - four flowing up (one from each Blue) and one flowing down into the Grand Line. Many pirate crews have perished attempting to navigate its treacherous waters. Fifty years before the current timeline, a young island whale named Laboon arrived with the Rumbar Pirates, who left him at Twin Capes promising to return. Crocus, a skilled doctor, was found here by Gol D. Roger and joined his crew as ship's doctor before returning to care for Laboon. When the Straw Hats arrived, Luffy made a promise to Laboon that they would return to see him again, giving the whale renewed hope. This location marks the beginning of every pirate's Grand Line journey.",
+  "culture": "Reverse Mountain has minimal permanent culture due to its transitory nature as an entrance point. The area is defined by the relationship between Crocus and Laboon - a quiet existence of waiting, hope, and promise-keeping. Crocus maintains the lighthouse and lives a simple life while treating Laboon's self-inflicted injuries from ramming the Red Line. The culture is one of patience, loneliness, and the weight of promises made decades ago. Pirates passing through treat it as a rite of passage - surviving Reverse Mountain means you're worthy of the Grand Line.",
+  "economy": {
+    "industries": [
+      "Lighthouse maintenance",
+      "Navigation assistance (limited)",
+      "Whale watching (unintentional)"
+    ],
+    "currency": "None (isolated location)",
+    "tradeGoods": [
+      "None - no commerce"
+    ]
+  },
+  "transportation": "Navigation relies entirely on ship sailing. The powerful currents pull vessels up the mountain's waterway at incredible speeds. Ships must precisely enter the channel or be destroyed against the rocks. Once at the summit, ships ride the descending current into the Grand Line. Crocus occasionally uses small boats to approach ships or Laboon. The lighthouse serves as the only navigation aid.",
+  "food": {
+    "cuisine": [
+      "Simple lighthouse fare",
+      "Preserved foods",
+      "Fish from the surrounding waters",
+      "Supplies from occasional passing ships"
+    ],
+    "traditions": [
+      "Crocus' solitary meals",
+      "Occasional shared meals with passing crews",
+      "Feeding Laboon (though whales feed themselves)"
+    ],
+    "quirks": [
+      "Crocus reads the newspaper while relaxing in beach chairs inside Laboon",
+      "Limited variety due to isolation",
+      "Food storage inside the lighthouse"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Laboon",
+      "role": "Island Whale / Waiting Friend",
+      "description": "A massive island whale who has been waiting 50 years for the Rumbar Pirates to return. He repeatedly rams the Red Line in grief. Luffy painted the Jolly Roger on his head as a promise to return, giving him hope again.",
+      "faction": "Independent",
+      "type": "protagonist",
+      "tags": [
+        "Island Whale",
+        "Loyal",
+        "Waiting",
+        "Brook's Friend",
+        "Promise Keeper",
+        "Gentle Giant"
+      ],
+      "avatar": "/images/characters/reverse-mountain/laboon.jpg"
+    },
+    {
+      "name": "Crocus",
+      "role": "Lighthouse Keeper / Former Roger Pirates Doctor",
+      "description": "The elderly lighthouse keeper who tends to Laboon's injuries. He was the ship's doctor for the Pirate King Gol D. Roger. A skilled physician who lives a quiet life waiting alongside Laboon.",
+      "faction": "Former Roger Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Doctor",
+        "Lighthouse Keeper",
+        "Roger Pirates",
+        "Wise",
+        "Caring",
+        "Legendary"
+      ],
+      "avatar": "/images/characters/reverse-mountain/crocus.jpg"
+    },
+    {
+      "name": "Yorki",
+      "role": "Former Rumbar Pirates Captain (Deceased)",
+      "description": "The original captain of the Rumbar Pirates who left Laboon at Reverse Mountain, promising to return. He died of illness before they could reunite, leaving the crew to Brook.",
+      "faction": "Rumbar Pirates (Historical)",
+      "type": "protagonist",
+      "tags": [
+        "Captain",
+        "Deceased",
+        "Promise Maker",
+        "Rumbar Pirates",
+        "Historical"
+      ],
+      "avatar": "/images/characters/reverse-mountain/yorki.jpg"
+    },
+    {
+      "name": "Brook (Connected)",
+      "role": "Rumbar Pirates Musician / Future Straw Hat",
+      "description": "The sole survivor of the Rumbar Pirates who made a promise to Laboon 50 years ago. Though not present at Reverse Mountain during the Straw Hats' first visit, his connection to Laboon is central to the location's significance.",
+      "faction": "Rumbar Pirates / Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Musician",
+        "Skeleton",
+        "Promise Keeper",
+        "Rumbar Pirates",
+        "Soul King",
+        "Laboon's Friend"
+      ],
+      "avatar": "/images/characters/reverse-mountain/brook.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Twin Capes",
+      "type": "coastal area",
+      "description": "The area at the base of Reverse Mountain where the descending current from the mountain meets the Grand Line. Home to Crocus' lighthouse and Laboon's dwelling place. The 'twin capes' refer to the geographical formation.",
+      "notableFeatures": [
+        "Crocus' lighthouse",
+        "Laboon's territory",
+        "Meeting point of currents",
+        "Entry point to Grand Line",
+        "Calm waters (relatively)"
+      ],
+      "image": "/images/locations/reverse-mountain/twin-capes.jpg"
+    },
+    {
+      "name": "Crocus' Lighthouse",
+      "type": "structure",
+      "description": "A modest lighthouse maintained by Crocus that guides ships entering the Grand Line. Contains his living quarters, medical supplies, and a simple life's possessions.",
+      "notableFeatures": [
+        "Lighthouse beacon",
+        "Crocus' home",
+        "Medical equipment",
+        "Simple furnishings",
+        "Newspaper collection"
+      ],
+      "image": "/images/locations/reverse-mountain/lighthouse.jpg"
+    },
+    {
+      "name": "Inside Laboon",
+      "type": "unusual location",
+      "description": "The interior of Laboon's body, accessible through passages. Contains a small island, water channels, and acidic stomach fluids. Crocus has set up furniture and reads newspapers inside to monitor Laboon's health.",
+      "notableFeatures": [
+        "Internal island",
+        "Acidic stomach sea",
+        "Crocus' monitoring station",
+        "Beach chair and umbrella",
+        "Unique ecosystem"
+      ],
+      "image": "/images/locations/reverse-mountain/inside-laboon.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Laboon's Scars",
+      "category": "Physical Feature",
+      "description": "Decades of self-inflicted wounds from ramming the Red Line, representing Laboon's undying loyalty and grief.",
+      "icon": "💔",
+      "rarity": "unique"
+    },
+    {
+      "name": "Straw Hat Jolly Roger Paint",
+      "category": "Symbol",
+      "description": "The Jolly Roger that Luffy painted on Laboon's head, symbolizing their promise to return and making Laboon's head off-limits for ramming (to preserve the painting).",
+      "icon": "🏴‍☠️",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Crocus' Medical Kit",
+      "category": "Equipment",
+      "description": "Comprehensive medical supplies maintained by the former Roger Pirates doctor, used primarily to treat Laboon's wounds.",
+      "icon": "⚕️",
+      "rarity": "rare"
+    },
+    {
+      "name": "Lighthouse Beacon",
+      "category": "Navigation",
+      "description": "The lighthouse beam that guides ships entering the Grand Line from Reverse Mountain, maintained for decades by Crocus.",
+      "icon": "💡",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Log Pose (First)",
+      "category": "Navigation",
+      "description": "Pirates entering the Grand Line must acquire a Log Pose at Reverse Mountain, as normal compasses don't work in the Grand Line due to magnetic interference.",
+      "icon": "🧭",
+      "rarity": "common"
+    },
+    {
+      "name": "Rumbar Pirates' Promise",
+      "category": "Intangible",
+      "description": "The 50-year-old promise made by Yorki and the Rumbar Pirates to return to Laboon, still unfulfilled but never forgotten.",
+      "icon": "🎵",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Roger's Straw Hat (Historical)",
+      "category": "Historical Item",
+      "description": "Though not physically present, Crocus witnessed the straw hat's history from Gol D. Roger to Shanks to Luffy, connecting past and present.",
+      "icon": "👒",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Newspaper Archive",
+      "category": "Information",
+      "description": "Crocus' collection of newspapers read inside Laboon, keeping him informed of the world's events while in isolation.",
+      "icon": "📰",
+      "rarity": "common"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Lighthouse Keepers",
+      "type": "Civilian",
+      "leader": "Crocus",
+      "members": [
+        "Crocus"
+      ],
+      "description": "A faction of one - the solitary lighthouse keeper who maintains the beacon and cares for Laboon. Connected to legendary history through the Roger Pirates.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Rumbar Pirates (Historical)",
+      "type": "Pirate Crew (Defunct)",
+      "leader": "Yorki (deceased), then Brook",
+      "members": [
+        "Yorki (deceased)",
+        "Brook (only survivor)",
+        "52 other crew members (all deceased)"
+      ],
+      "description": "The legendary pirate crew that befriended Laboon 50 years ago. All perished in the Florian Triangle except Brook, who was revived by his Devil Fruit. Their promise to Laboon defines Reverse Mountain's emotional significance.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Roger Pirates (Historical Connection)",
+      "type": "Legendary Pirate Crew",
+      "leader": "Gol D. Roger (deceased)",
+      "members": [
+        "Crocus (former member)"
+      ],
+      "description": "The crew that conquered the Grand Line and reached Laugh Tale. Crocus served as their ship's doctor before returning to Reverse Mountain.",
+      "alignment": "neutral"
+    },
+    {
+      "name": "Passing Pirates",
+      "type": "Transitory",
+      "leader": "Various captains",
+      "members": [
+        "All crews entering the Grand Line"
+      ],
+      "description": "Countless pirate crews that pass through Reverse Mountain seeking adventure, glory, or death in the Grand Line. Most never return.",
+      "alignment": "neutral"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 101-105 (Reverse Mountain Arc / Laboon Arc)",
+    "animeEpisodes": "Episodes 62-63",
+    "events": [
+      "Straw Hats ascend Reverse Mountain from East Blue",
+      "Near-collision with the Going Merry's rudder breaking",
+      "Descent into the Grand Line",
+      "First encounter with Laboon",
+      "Discovery of Laboon's story and 50-year wait",
+      "Meeting Crocus and learning about the Rumbar Pirates",
+      "Luffy fights Laboon to earn his respect",
+      "Luffy paints Straw Hat Jolly Roger on Laboon's head",
+      "Promise made to return and settle their 'fight'",
+      "Crocus hints at the Roger Pirates connection",
+      "Acquisition of Log Pose",
+      "Departure to Whiskey Peak"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#4A90E2",
+    "secondary": "#7ED321",
+    "accent": "#BD10E0"
+  },
+  "quickFacts": [
+    "Only safe entrance to the Grand Line from the Four Blues",
+    "Water flows UPWARD over the Red Line due to unique currents",
+    "Home to Laboon, an island whale waiting 50 years",
+    "Crocus, former Roger Pirates doctor, is the lighthouse keeper",
+    "Where Luffy made his promise to Laboon",
+    "Connected to Brook's backstory and the Rumbar Pirates",
+    "Site of the Straw Hats' first Log Pose"
+  ],
+  "videos": [
+    {
+      "youtubeId": "_szxvUe6OF4",
+      "title": "Luffy Meets Laboon",
+      "type": "lore",
+      "description": "The emotional meeting between Luffy and the island whale Laboon, leading to their promise.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "B_nQL4EITzk",
+      "title": "Laboon's Story - Rumbar Pirates Promise",
+      "type": "lore",
+      "description": "Crocus tells the tragic story of Laboon's 50-year wait for the Rumbar Pirates.",
+      "featured": false,
+      "order": 2
+    },
+    {
+      "youtubeId": "Wmv4uijX8yw",
+      "title": "Reverse Mountain - Entering the Grand Line",
+      "type": "iconic",
+      "description": "The Straw Hats' thrilling journey up and down Reverse Mountain into the Grand Line.",
+      "featured": false,
+      "order": 3
+    }
+  ],
+  "music": {
+    "url": "/music/reverse-mountain-theme.mp3",
+    "title": "We Are!",
+    "volume": 0.3
+  }
+}

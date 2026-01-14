@@ -1,0 +1,414 @@
+{
+  "slug": "sabaody-archipelago",
+  "name": "Sabaody Archipelago",
+  "region": "Paradise",
+  "aliases": [
+    "Soap Bubble Islands",
+    "Shabondy Archipelago"
+  ],
+    "coordinates": { "x": 10291, "y": 2990 },
+  "journeyOrder": 20,
+  "saga": "Summit War",
+  "description": "Sabaody Archipelago is a unique island made up of massive Yarukiman Mangrove trees, whose roots have grown so large they form an archipelago. The resin secreted by the trees creates the iconic soap bubbles that float throughout the area. It's the final stop before the New World and a major hub for pirates, marines, and the slave trade.",
+  "history": "Sabaody has long served as a crucial waypoint for pirates seeking to enter the New World via Fish-Man Island. It's notorious for the presence of World Nobles (Celestial Dragons) and their exploitation of the area. The island saw a major incident when Luffy punched a Celestial Dragon, triggering the arrival of Admiral Kizaru and the Pacifista. Later, it became the reunion point for the Straw Hat Pirates after their two-year separation.",
+  "culture": "The culture is divided by the numbered groves (1-79), each with distinct purposes. Lawlessness and danger coexist with entertainment and commerce. Respect for World Nobles is absolute under Marine law, though pirates and revolutionaries resist this. The soap bubbles are integrated into daily life, used for transportation, coating ships, and entertainment.",
+  "economy": {
+    "industries": [
+      "Ship coating",
+      "Entertainment",
+      "Human trafficking (illegal)",
+      "Tourism",
+      "Shipbuilding",
+      "Gambling"
+    ],
+    "currency": "Berry (฿)",
+    "tradeGoods": [
+      "Coated ships",
+      "Bubble transportation",
+      "Rare goods from all seas",
+      "Information"
+    ]
+  },
+  "transportation": "Citizens and visitors ride on large soap bubbles that act as vehicles, floating through the groves. Bubble gondolas, bubble bikes, and walking on foot between groves are common. Ships must be coated here to survive the journey to Fish-Man Island 10,000 meters below.",
+  "food": {
+    "cuisine": [
+      "Takoyaki",
+      "Seafood from all Blues",
+      "International cuisine from diverse visitors",
+      "Bubble-infused drinks"
+    ],
+    "traditions": [
+      "Street food markets in Grove 30-39",
+      "Tavern gatherings for pirates",
+      "Nobles dining in exclusive zones"
+    ],
+    "quirks": [
+      "Food stalls shaped like bubbles",
+      "Drinks served in bubble containers",
+      "Explosive cuisine from Grove 46"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Silvers Rayleigh",
+      "role": "Ship Coater / Former First Mate of Roger Pirates",
+      "description": "The legendary 'Dark King' who lives in Sabaody as a ship coater and gambler. He trained Luffy in Haki during the time skip.",
+      "avatar": "/images/characters/sabaody-archipelago/silvers-rayleigh.jpg",
+      "type": "protagonist",
+      "faction": "Roger Pirates (Former)",
+      "tags": ["Haki Master", "Dark King", "Mentor", "Pirate King's Crew", "Legendary"]
+    },
+    {
+      "name": "Shakuyaku (Shakky)",
+      "role": "Bar Owner / Information Broker",
+      "description": "A former pirate who runs Shakky's Rip-off Bar and provides crucial information. She's Rayleigh's partner.",
+      "avatar": "/images/characters/sabaody-archipelago/shakuyaku-shakky.jpg",
+      "type": "citizen",
+      "faction": "Independent",
+      "tags": ["Information Broker", "Former Pirate", "Bar Owner", "Ally"]
+    },
+    {
+      "name": "Duval",
+      "role": "Leader of the Rosy Life Riders",
+      "description": "Initially antagonistic due to his resemblance to Sanji's wanted poster, he becomes an ally after facial reconstruction.",
+      "avatar": "/images/characters/sabaody-archipelago/duval.jpg",
+      "type": "protagonist",
+      "faction": "Rosy Life Riders",
+      "tags": ["Gang Leader", "Ally", "Reformed", "Comic Relief"]
+    },
+    {
+      "name": "Hatchan",
+      "role": "Takoyaki Chef / Former Arlong Pirate",
+      "description": "A friendly fish-man octopus who runs a takoyaki stand and befriends the Straw Hats.",
+      "avatar": "/images/characters/sabaody-archipelago/hatchan.jpg",
+      "type": "protagonist",
+      "faction": "Independent",
+      "tags": ["Fish-man", "Chef", "Reformed", "Ally", "Former Villain"]
+    },
+    {
+      "name": "Camie",
+      "role": "Mermaid / Friend",
+      "description": "A cheerful kissing gourami mermaid who befriended the Straw Hats. Was kidnapped and nearly sold at the Human Auctioning House before being rescued.",
+      "faction": "Civilians",
+      "type": "citizen",
+      "tags": ["Mermaid", "Friend", "Victim", "Cheerful"]
+    },
+    {
+      "name": "Pappag",
+      "role": "Starfish Designer / Friend",
+      "description": "A talking starfish and famous fashion designer who is Camie's master and friend. Helped the Straw Hats navigate Sabaody.",
+      "faction": "Civilians",
+      "type": "citizen",
+      "tags": ["Starfish", "Fashion Designer", "Comic Relief", "Friend"]
+    },
+    {
+      "name": "Saint Charlos",
+      "role": "World Noble / Celestial Dragon",
+      "description": "A despicable World Noble known for his cruelty, slave collecting, and complete disregard for human life. His actions toward Camie led to Luffy punching him, triggering a major incident.",
+      "avatar": "/images/characters/sabaody-archipelago/saint-charlos.jpg",
+      "type": "antagonist",
+      "faction": "World Nobles",
+      "tags": ["Celestial Dragon", "Corrupt", "Tyrant", "World Noble", "Infamous"]
+    },
+    {
+      "name": "Saint Rosward",
+      "role": "World Noble / Celestial Dragon",
+      "description": "Father of Saint Charlos and Saint Shalria. An arrogant World Noble who treats people as beneath him and enjoys shooting commoners for sport.",
+      "faction": "World Nobles",
+      "type": "antagonist",
+      "tags": ["Celestial Dragon", "World Noble", "Slave Owner"]
+    },
+    {
+      "name": "Saint Shalria",
+      "role": "World Noble / Celestial Dragon",
+      "description": "Sister of Saint Charlos and daughter of Saint Rosward. Shares her family's cruelty and entitlement, treating people as property.",
+      "faction": "World Nobles",
+      "type": "antagonist",
+      "tags": ["Celestial Dragon", "World Noble", "Slave Owner"]
+    },
+    {
+      "name": "Admiral Kizaru (Borsalino)",
+      "role": "Marine Admiral",
+      "description": "A Marine Admiral with the Pika Pika no Mi (Glint-Glint Fruit), allowing him to transform into light and move at light speed. Sent to Sabaody to deal with the Straw Hats after Luffy punched a World Noble.",
+      "avatar": "/images/characters/sabaody-archipelago/admiral-kizaru.jpg",
+      "type": "antagonist",
+      "faction": "Marines",
+      "tags": ["Admiral", "Devil Fruit User", "Pika Pika no Mi", "Light Speed", "Powerful"]
+    },
+    {
+      "name": "Sentomaru",
+      "role": "Marine Officer / Bodyguard",
+      "description": "Kizaru's bodyguard and commander of the Pacifista units. Known for his incredible defensive Haki and loyalty to Dr. Vegapunk.",
+      "faction": "Marines",
+      "type": "antagonist",
+      "tags": ["Marine", "Pacifista Commander", "Haki User", "Vegapunk's Bodyguard"]
+    },
+    {
+      "name": "Bartholomew Kuma",
+      "role": "Warlord / Pacifista Prototype / Revolutionary",
+      "description": "Former Warlord and Revolutionary Army officer who became the prototype for the Pacifista project. Secretly saved the Straw Hats by using his Paw-Paw Fruit to scatter them across the world, allowing them to grow stronger.",
+      "faction": "Revolutionary Army (secretly)",
+      "type": "neutral",
+      "tags": ["Warlord", "Pacifista", "Revolutionary", "Devil Fruit User", "Tragic Hero"]
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Shakky's Rip-off Bar (Grove 13)",
+      "type": "establishment",
+      "description": "A bar owned by Shakuyaku in the lawless zone. Despite its name, it serves as a safe haven and information hub for pirates. Rayleigh frequently gambles here.",
+      "notableFeatures": [
+        "Information broker services",
+        "Safe haven for pirates",
+        "Rayleigh's hangout",
+        "Expensive drinks (hence 'rip-off')"
+      ]
+    },
+    {
+      "name": "Human Auctioning House (Grove 1)",
+      "type": "illegal establishment",
+      "description": "A notorious slave auction house operated by Disco under Doflamingo's protection. Sold humans, fish-men, mermaids, and other races to the highest bidder, often World Nobles. Destroyed after Luffy punched Saint Charlos.",
+      "notableFeatures": [
+        "Slave auctions",
+        "Underground connections",
+        "World Noble clientele",
+        "Now destroyed"
+      ]
+    },
+    {
+      "name": "Sabaody Park (Groves 30-39)",
+      "type": "amusement park",
+      "description": "A massive amusement park featuring bubble-based attractions including a Ferris wheel, roller coasters, and carnival games. A popular tourist destination.",
+      "notableFeatures": [
+        "Bubble Ferris Wheel",
+        "Roller coasters",
+        "Carnival games",
+        "Family entertainment"
+      ]
+    },
+    {
+      "name": "Coating Workshop (Groves 50-59)",
+      "type": "shipyard",
+      "description": "The shipyard district where coating engineers apply resin to ships for underwater travel. Rayleigh works here as one of the finest coating craftsmen.",
+      "notableFeatures": [
+        "Ship coating services",
+        "3-day coating process",
+        "Expert craftsmen",
+        "Rayleigh's workshop"
+      ]
+    },
+    {
+      "name": "Lawless Zone (Groves 1-29)",
+      "type": "district",
+      "description": "The dangerous groves where pirates, bounty hunters, and criminals operate freely. Marines rarely patrol here, making it a haven for outlaws.",
+      "notableFeatures": [
+        "Pirate gatherings",
+        "Bounty hunter headquarters",
+        "Illegal activities",
+        "Shakky's bar location"
+      ]
+    },
+    {
+      "name": "Marine Headquarters Proximity (Groves 60-69)",
+      "type": "government district",
+      "description": "The government-controlled groves near Marine Headquarters (pre-timeskip). Houses Marine facilities and government offices.",
+      "notableFeatures": [
+        "Marine presence",
+        "Government offices",
+        "High security",
+        "World Noble passage"
+      ]
+    },
+    {
+      "name": "Grove 1 Plaza",
+      "type": "landmark",
+      "description": "The central plaza in Grove 1 where the Human Auctioning House was located. Site of Luffy punching Saint Charlos and the subsequent Marine confrontation.",
+      "notableFeatures": [
+        "Former auction house site",
+        "Historic incident location",
+        "Public square",
+        "Memorial significance"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "name": "Bubble Bike",
+      "category": "Transportation",
+      "description": "A bicycle-like vehicle that floats on resin bubbles. Primary method of personal transport on the archipelago.",
+      "icon": "🚲",
+      "rarity": "common"
+    },
+    {
+      "name": "Bubble Car",
+      "category": "Transportation",
+      "description": "Larger bubble-based vehicles for transporting multiple people or cargo across the groves.",
+      "icon": "🚗",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Ship Coating",
+      "category": "Service",
+      "description": "Special resin coating applied to ships to allow underwater travel to Fish-Man Island. Takes 3 days to complete and requires expert craftsmen.",
+      "icon": "🚢",
+      "rarity": "rare"
+    },
+    {
+      "name": "Explosive Collar",
+      "category": "Weapon/Restraint",
+      "description": "Explosive devices placed on slaves that detonate if they try to escape or disobey. Used by World Nobles and slavers.",
+      "icon": "💣",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Log Pose (to Fish-Man Island)",
+      "category": "Navigation",
+      "description": "A Log Pose that points underwater to Fish-Man Island, the gateway to the New World.",
+      "icon": "🧭",
+      "rarity": "rare"
+    },
+    {
+      "name": "Vivre Card",
+      "category": "Navigation",
+      "description": "Life paper that points to a specific person. Rayleigh gave one to Luffy pointing to himself.",
+      "icon": "🗺️",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Yarukiman Mangrove Resin",
+      "category": "Material",
+      "description": "The special resin from the mangrove trees that creates bubbles. Essential for all bubble-based technology on the island.",
+      "icon": "🫧",
+      "rarity": "common"
+    },
+    {
+      "name": "Flying Fish Bike",
+      "category": "Transportation",
+      "description": "Mechanical flying fish used by Duval's Rosy Life Riders for fast travel between groves and over water.",
+      "icon": "🐟",
+      "rarity": "rare"
+    }
+  ],
+  "factions": [
+    {
+      "name": "World Nobles (Celestial Dragons)",
+      "type": "Aristocracy",
+      "leader": "Various World Nobles",
+      "members": [
+        "Saint Charlos",
+        "Saint Rosward",
+        "Saint Shalria"
+      ],
+      "description": "The descendants of the 20 kings who created the World Government. They enjoy absolute authority, own slaves, and anyone who harms them faces Admiral-level retaliation.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Marines (Sabaody Division)",
+      "type": "Military",
+      "leader": "Admiral Kizaru",
+      "members": [
+        "Kizaru",
+        "Sentomaru",
+        "Pacifista Units"
+      ],
+      "description": "The Marine forces stationed at Sabaody to protect World Nobles and maintain order. Includes Admiral-level forces due to the island's importance.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Rosy Life Riders",
+      "type": "Protection Service",
+      "leader": "Duval",
+      "members": [
+        "Duval",
+        "Flying Fish Riders"
+      ],
+      "description": "Originally a criminal gang, they reformed after their leader Duval befriended the Straw Hats. Now run legitimate protection and transport services.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Human Trafficking Ring",
+      "type": "Criminal Organization",
+      "leader": "Disco (under Doflamingo)",
+      "members": [
+        "Disco",
+        "Peterman",
+        "Various slavers"
+      ],
+      "description": "The illegal slave trade operation that kidnapped and sold people at auction. Backed by Donquixote Doflamingo until the Straw Hats destroyed it.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Coating Engineers",
+      "type": "Craftsmen Guild",
+      "leader": "Silvers Rayleigh (most skilled)",
+      "members": [
+        "Rayleigh",
+        "Various coating masters"
+      ],
+      "description": "The skilled craftsmen who coat ships for underwater travel. Essential for any crew hoping to reach Fish-Man Island and the New World.",
+      "alignment": "neutral"
+    },
+    {
+      "name": "Sabaody Civilians",
+      "type": "Population",
+      "leader": "None",
+      "members": [
+        "Shakky",
+        "Hatchan",
+        "Camie",
+        "Pappag"
+      ],
+      "description": "The diverse population of Sabaody including humans, fish-men, and mer-folk who run businesses, live, and work on the archipelago.",
+      "alignment": "neutral"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 490-513, 598-603",
+    "animeEpisodes": "Episodes 385-405, 517-522",
+    "events": [
+      "First arrival and meeting the Eleven Supernovas",
+      "Camie's kidnapping and auction house infiltration",
+      "Luffy punches a Celestial Dragon",
+      "Kizaru and Pacifista attack",
+      "Bartholomew Kuma separates the crew",
+      "Two-year reunion after time skip"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#98D8C8",
+    "secondary": "#F7DC6F",
+    "accent": "#FFB6C1"
+  },
+  "quickFacts": [
+    "Made entirely of massive mangrove tree roots",
+    "Famous for floating soap bubbles everywhere",
+    "Last stop before entering the New World",
+    "Where Luffy punched a World Noble",
+    "Home to the legendary Silvers Rayleigh",
+    "Divided into 79 numbered groves with different purposes"
+  ],
+  "videos": [
+    {
+      "youtubeId": "IX2EfnTc_Eg",
+      "title": "Luffy Punches Celestial Dragon",
+      "type": "lore",
+      "description": "The moment that shook the world - Luffy's defiant punch against a World Noble.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "xDeQP5Y7Tus",
+      "title": "Kizaru Meets the worst generation",
+      "type": "fight",
+      "description": "The worst generation meets the light-speed admiral.",
+      "featured": false,
+      "order": 2
+    }
+  ],
+  "music": {
+    "url": "/music/sabaody-archipelago-theme.mp3",
+    "title": "Sabaody Archipelago - Soap Bubble Islands",
+    "volume": 0.3
+  }
+}

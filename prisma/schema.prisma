@@ -1,0 +1,145 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Location {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  name        String
+  region      String
+  aliases     String[]
+  coordinates Json     // {x: number, y: number} for map positioning
+  description String   @db.Text
+  
+  // Lore Details
+  history     String   @db.Text
+  culture     String   @db.Text
+  
+  // Economy
+  economy     Json     // {industries: string[], currency: string, tradeGoods: string[]}
+  
+  // Transportation
+  transportation String @db.Text
+  
+  // Food & Culture
+  food        Json     // {cuisine: string[], traditions: string[], quirks: string[]}
+  
+  // Notable People
+  notablePeople Json   // Array of {name, role, description, faction?, type?, tags?, avatar?}
+  
+  // Sub-locations (regions, groves, districts)
+  subLocations Json?   // Array of {name, type, description, notableFeatures?, coordinates?}
+  
+  // Items & Artifacts
+  items       Json?    // Array of {name, category, description, icon?, rarity?}
+  
+  // Factions & Organizations
+  factions    Json?    // Array of {name, type, leader?, members, description, alignment?}
+  
+  // Story Arcs
+  storyArcs   Json     // {mangaChapters: string, animeEpisodes: string, events: string[]}
+  
+  // Media
+  videos      Video[]
+  
+  // Visuals
+  images      String[] // Array of image URLs
+  colorScheme Json     // {primary: string, secondary: string, accent: string}
+  
+  // Quick Facts for hover popup
+  quickFacts  String[]
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Video {
+  id          String   @id @default(cuid())
+  locationId  String
+  location    Location @relation(fields: [locationId], references: [id], onDelete: Cascade)
+  
+  youtubeId   String
+  title       String
+  type        String   // "fight", "comedy", "lore", "scenic"
+  description String?  @db.Text
+  featured    Boolean  @default(false)
+  order       Int      @default(0)
+  
+  createdAt   DateTime @default(now())
+  
+  @@index([locationId])
+}
+
+// Community Contributions
+model Contribution {
+  id              String   @id @default(cuid())
+  
+  // Contribution type
+  type            String   // 'new_location' | 'edit_location' | 'lore_correction'
+  status          String   @default("pending") // 'pending' | 'approved' | 'rejected'
+  
+  // Contributor info
+  contributorName  String
+  contributorEmail String
+  emailVerified    Boolean  @default(false)
+  discordHandle    String?
+  
+  // Location data
+  locationSlug     String?  // For edits to existing locations
+  locationName     String
+  region           String?
+  description      String   @db.Text
+  history          String?  @db.Text
+  culture          String?  @db.Text
+  economy          Json?    // {industries: string[], currency: string, tradeGoods: string[]}
+  transportation   String?  @db.Text
+  food             Json?    // {cuisine: string[], traditions: string[], quirks: string[]}
+  quickFacts       String[]
+  
+  // Notable people
+  notablePeople    Json?    // Array of {name, role, description}
+  
+  // Videos
+  videos           Json?    // Array of {youtubeId, title, type, description}
+  
+  // Coordinates suggestion
+  coordinates      Json?    // {x: number, y: number}
+  
+  // Color scheme suggestion
+  colorScheme      Json?    // {primary: string, secondary: string, accent: string}
+  
+  // Admin fields
+  reviewerNotes    String?  @db.Text
+  reviewedBy       String?
+  reviewedAt       DateTime?
+  
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+  
+  @@index([status])
+  @@index([emailVerified])
+}
+
+// Email verification tokens
+model EmailVerification {
+  id               String   @id @default(cuid())
+  email            String
+  token            String   @unique
+  contributionData Json     // Stores the full contribution until verified
+  expiresAt        DateTime
+  used             Boolean  @default(false)
+  
+  createdAt        DateTime @default(now())
+  
+  @@index([token])
+  @@index([email])
+}
+

@@ -1,0 +1,641 @@
+{
+  "slug": "thriller-bark",
+  "name": "Thriller Bark",
+  "region": "Paradise (Grand Line) - Florian Triangle",
+  "aliases": [
+    "Ghost Island",
+    "The Floating Mansion",
+    "Moria's Territory",
+    "Island of Zombies"
+  ],
+  "coordinates": { "x": 9873, "y": 2980 },
+  "journeyOrder": 19,
+  "saga": "Thriller Bark",
+  "description": "Thriller Bark is the world's largest pirate ship, a massive island-sized vessel shaped like a haunted mansion floating in the eternally foggy Florian Triangle. Built by Gekko Moria, one of the Seven Warlords of the Sea, it serves as both his base and a massive zombie factory. Using his Shadow-Shadow Fruit powers, Moria steals people's shadows and implants them into corpses, creating an army of undead servants. The ship is perpetually shrouded in darkness and mist, creating the perfect horror atmosphere. Inside are graveyards, gothic mansions, laboratories, freezers full of corpses, and countless zombies ranging from weak foot soldiers to powerful generals. It was here that the Straw Hats met Brook, the skeleton musician who'd been waiting 50 years to reunite with Laboon, and where Zoro demonstrated the ultimate loyalty with his 'Nothing Happened' moment.",
+  "history": "Thriller Bark was constructed by the Gecko Pirates as a mobile fortress after Moria's devastating defeat in Wano Country against Kaido. Having lost his entire crew, Moria became obsessed with creating an immortal zombie army that would never die or betray him. He recruited the twisted genius Dr. Hogback, the ghost princess Perona, and the invisible creep Absalom to help run his operation. For years, they terrorized the Florian Triangle, stealing shadows from passing pirates and using their corpses to build Moria's zombie legion. The strongest zombie was Oars, a legendary giant whose body Moria found preserved in ice. When the Straw Hats entered the Florian Triangle, they encountered Brook first - a skeleton whose shadow had been stolen by Moria. The crew invaded Thriller Bark to retrieve their stolen shadows, leading to battles across the island-ship. The climax came when Moria inserted 1,000 shadows into his body and later into Oars's corpse with Luffy's shadow, creating an unstoppable monster. Luffy absorbed 100 shadows to become Nightmare Luffy, defeating Oars and Moria. Afterward, when Bartholomew Kuma arrived to eliminate the weakened crew, Zoro offered his life in exchange for Luffy's, taking all of Luffy's pain and damage while claiming 'Nothing Happened.' Brook finally joined as the crew's musician.",
+  "culture": "Thriller Bark embodies a twisted horror-comedy aesthetic. Zombies retain their implanted shadow's personality, creating bizarre combinations of corpse bodies and living personalities. The island operates as Moria's gothic kingdom with strict hierarchy: the Mysterious Four (Moria, Absalom, Perona, Hogback) rule over zombie generals who command zombie soldiers. Zombie animals roam freely. The culture celebrates Halloween-esque darkness, with Victorian gothic architecture, horror movie tropes, and gallows humor. Despite the macabre setting, many zombies are comedic rather than frightening. The island's eternal night and fog create perpetual twilight. Salt is the ultimate weapon, as it purifies zombies by returning stolen shadows to their owners.",
+  "economy": {
+    "industries": [
+      "Shadow theft and zombie creation",
+      "Corpse collection and reanimation",
+      "Pirate ship raiding in Florian Triangle",
+      "Mad science experiments",
+      "Treasure hoarding from victims"
+    ],
+    "currency": "Berry (฿)",
+    "tradeGoods": [
+      "Stolen shadows",
+      "Corpses for zombies",
+      "Treasure from destroyed ships",
+      "Rare body parts for experiments"
+    ]
+  },
+  "transportation": "Thriller Bark IS the transportation - a massive ship the size of an island. It sails through the Florian Triangle perpetually shrouded in fog. Internal transportation includes staircases through the mansion, bridges over chasms, underground passages to the freezer, and zombie-operated gates. The Mini Merry II (a smaller boat built by Franky from Merry's wood) was used by the Straw Hats to reach the island.",
+  "food": {
+    "cuisine": [
+      "Zombie feast dishes (comedic horror food)",
+      "Dr. Hogback's experiments (inedible)",
+      "Perona's ghost tea parties",
+      "Brook's tea and music sessions",
+      "Sanji's cooking for the crew",
+      "Moldy corpse freezer contents (zombies don't need food)"
+    ],
+    "traditions": [
+      "Zombie dinner parties",
+      "Moria's shadow-stealing ceremonies",
+      "Victory feasts after capturing ships",
+      "Brook's 'Skull Joke' routines"
+    ],
+    "quirks": [
+      "Brook drinks milk to heal bones ('though I'm already dead')",
+      "Zombies eat out of habit, not hunger",
+      "Sanji's special salt-seasoned dishes (anti-zombie)",
+      "Perona's cute ghost-themed snacks"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Brook",
+      "role": "Musician / Shadow Victim",
+      "description": "A living skeleton and the sole survivor of the Rumbar Pirates. His Revive-Revive Fruit let him return to life, but he became a skeleton. After 50 years alone, he joined the Straw Hats to fulfill his promise to Laboon. His shadow was stolen by Moria and implanted in the samurai zombie Ryuma.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Skeleton",
+        "Musician",
+        "Swordsman",
+        "Revive-Revive Fruit",
+        "Soul King",
+        "Afro Power",
+        "Gentleman"
+      ],
+      "avatar": "/images/characters/thriller-bark/brook.jpg"
+    },
+    {
+      "name": "Gekko Moria",
+      "role": "Warlord of the Sea / Shadow Master",
+      "description": "A former fearsome pirate who became obsessed with creating an immortal zombie army after losing his crew to Kaido. His Shadow-Shadow Fruit lets him steal and manipulate shadows. Lazy and overconfident, relying on others to fight for him.",
+      "faction": "Thriller Bark Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Warlord",
+        "Shadow-Shadow Fruit",
+        "Zombie Master",
+        "Former Rival of Kaido",
+        "Lazy",
+        "Scissors User"
+      ],
+      "avatar": "/images/characters/thriller-bark/moria.jpg"
+    },
+    {
+      "name": "Perona",
+      "role": "Ghost Princess / Mysterious Four",
+      "description": "A gothic Lolita girl with the Hollow-Hollow Fruit, allowing her to create ghosts that cause extreme depression. Obsessed with cute things. Later becomes Mihawk's reluctant roommate and helps during timeskip.",
+      "faction": "Thriller Bark Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Hollow-Hollow Fruit",
+        "Ghost Princess",
+        "Negative Hollows",
+        "Gothic Lolita",
+        "Cute Obsession",
+        "Tsundere"
+      ],
+      "avatar": "/images/characters/thriller-bark/perona.jpg"
+    },
+    {
+      "name": "Absalom",
+      "role": "Cemetery / Mysterious Four",
+      "description": "A invisible man with the Clear-Clear Fruit and grotesque animal body modifications by Hogback. Perverted and obsessed with Nami. Commands zombie soldiers and the zombie generals.",
+      "faction": "Thriller Bark Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Clear-Clear Fruit",
+        "Invisible",
+        "Modified Body",
+        "Pervert",
+        "Zombie General Commander",
+        "Bazooka User"
+      ],
+      "avatar": "/images/characters/thriller-bark/absalom.jpg"
+    },
+    {
+      "name": "Dr. Hogback",
+      "role": "Mad Surgeon / Mysterious Four",
+      "description": "A world-famous surgeon who faked his death to work with Moria. Creates zombies by modifying corpses and attaching shadows. Obsessed with resurrecting his deceased love, actress Victoria Cindry.",
+      "faction": "Thriller Bark Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Mad Scientist",
+        "Surgeon",
+        "Zombie Creator",
+        "Grave Robber",
+        "Former Celebrity Doctor",
+        "Evil Genius"
+      ],
+      "avatar": "/images/characters/thriller-bark/hogback.jpg"
+    },
+    {
+      "name": "Ryuma",
+      "role": "Zombie Samurai / Legendary Swordsman",
+      "description": "A legendary samurai from Wano whose corpse was animated with Brook's shadow. Possesses incredible sword skills and wields the legendary blade Shusui. Defeated by Zoro, who inherited Shusui.",
+      "faction": "Thriller Bark Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Zombie",
+        "Legendary Samurai",
+        "Wano Warrior",
+        "Shusui Wielder",
+        "Brook's Shadow",
+        "Dragon Slayer"
+      ],
+      "avatar": "/images/characters/thriller-bark/ryuma.jpg"
+    },
+    {
+      "name": "Oars",
+      "role": "Special Zombie / Ancient Giant",
+      "description": "The legendary 'Continent Puller' - a massive ancient giant whose preserved corpse was reanimated with Luffy's shadow. His combination of giant strength and Luffy's fighting style made him nearly unstoppable until the crew worked together.",
+      "faction": "Thriller Bark Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Ancient Giant",
+        "Zombie",
+        "Luffy's Shadow",
+        "Continent Puller",
+        "Massive",
+        "Legendary Demon"
+      ],
+      "avatar": "/images/characters/thriller-bark/oars.jpg"
+    },
+    {
+      "name": "Victoria Cindry",
+      "role": "Zombie Servant / Former Actress",
+      "description": "A famous actress who died in an accident and was resurrected as Hogback's zombie servant. Despite her shadow's personality, she sometimes shows traces of her original self's will, particularly her hatred of plates.",
+      "faction": "Thriller Bark Pirates",
+      "type": "neutral",
+      "tags": [
+        "Zombie",
+        "Former Actress",
+        "Hogback's Obsession",
+        "Tragic",
+        "Plate Hater",
+        "Servant"
+      ],
+      "avatar": "/images/characters/thriller-bark/cindry.jpg"
+    },
+    {
+      "name": "Monkey D. Luffy (Nightmare Form)",
+      "role": "Shadow-Enhanced Captain",
+      "description": "Luffy after absorbing 100 shadows, becoming a massive, blue-skinned powerhouse with incredible strength and speed. This temporary form let him defeat Oars and Moria.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Captain",
+        "Nightmare Luffy",
+        "100 Shadows",
+        "Blue Giant",
+        "Overwhelming Power",
+        "Temporary Form"
+      ],
+      "avatar": "/images/characters/thriller-bark/nightmare-luffy.jpg"
+    },
+    {
+      "name": "Roronoa Zoro",
+      "role": "First Mate / Ultimate Sacrifice",
+      "description": "Defeated the legendary Ryuma and claimed Shusui. Later took all of Luffy's pain from Kuma in the iconic 'Nothing Happened' moment, showing absolute loyalty and inhuman endurance.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Swordsman",
+        "Nothing Happened",
+        "Shusui",
+        "Ultimate Loyalty",
+        "Ryuma's Defeater",
+        "Pain Absorber"
+      ],
+      "avatar": "/images/characters/thriller-bark/zoro.jpg"
+    },
+    {
+      "name": "Bartholomew Kuma",
+      "role": "Warlord / Mysterious Savior",
+      "description": "A Warlord sent to eliminate the Straw Hats after their victory. His Paw-Paw Fruit can repel anything, including pain and fatigue. Agreed to spare the crew if someone took Luffy's damage. Zoro volunteered.",
+      "faction": "World Government",
+      "type": "neutral",
+      "tags": [
+        "Warlord",
+        "Paw-Paw Fruit",
+        "Cyborg",
+        "Bible Carrier",
+        "Revolutionary",
+        "Mysterious"
+      ],
+      "avatar": "/images/characters/thriller-bark/kuma.jpg"
+    },
+    {
+      "name": "Sanji",
+      "role": "Straw Hat Cook",
+      "description": "Used his knowledge that salt purifies zombies to great effect. Rescued Nami from Absalom's wedding attempt. Became invisible himself temporarily after Absalom's defeat.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Cook",
+        "Black Leg",
+        "Salt Warrior",
+        "Nami's Protector",
+        "Absalom's Opponent"
+      ],
+      "avatar": "/images/characters/thriller-bark/sanji.jpg"
+    },
+    {
+      "name": "Nami",
+      "role": "Straw Hat Navigator",
+      "description": "Nearly forced into marriage with Absalom before being rescued. Used Perona's negative hollows concept to defeat enemies with weather attacks.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Navigator",
+        "Weather Witch",
+        "Almost Bride",
+        "Absalom's Target",
+        "Thunder Tempo"
+      ],
+      "avatar": "/images/characters/thriller-bark/nami.jpg"
+    },
+    {
+      "name": "Usopp",
+      "role": "Straw Hat Sniper",
+      "description": "Discovered that his natural negativity made him immune to Perona's ghosts. Defeated Perona through psychological warfare and his already rock-bottom self-esteem.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Sniper",
+        "Negative Master",
+        "Perona's Defeater",
+        "Already Negative",
+        "Immune to Depression"
+      ],
+      "avatar": "/images/characters/thriller-bark/usopp.jpg"
+    },
+    {
+      "name": "Lola",
+      "role": "Zombie Warthog / Proposal Zombie",
+      "description": "A zombie with a wild boar body who constantly proposes marriage. She helped the Straw Hats and gave Nami her mother's Vivre Card - later revealed to be Big Mom's daughter.",
+      "faction": "Thriller Bark Pirates (Defector)",
+      "type": "protagonist",
+      "tags": [
+        "Zombie",
+        "Warthog",
+        "Marriage Proposal",
+        "Ally",
+        "Big Mom's Daughter",
+        "Helpful"
+      ],
+      "avatar": "/images/characters/thriller-bark/lola.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Mansion Entrance",
+      "type": "gothic architecture",
+      "description": "The massive haunted mansion entrance with towering gates, gargoyles, and zombie guards. The first area the Straw Hats encountered upon boarding.",
+      "notableFeatures": [
+        "Gothic gates",
+        "Zombie sentries",
+        "Cerberus zombie dog",
+        "Fog-shrouded stairs",
+        "Horror movie atmosphere"
+      ],
+      "image": "/images/locations/thriller-bark/mansion-entrance.jpg"
+    },
+    {
+      "name": "Moria's Chamber",
+      "type": "throne room",
+      "description": "Moria's massive throne room where he stores stolen shadows and commands his zombie army. The site of the final battle against Shadow Moria.",
+      "notableFeatures": [
+        "Shadow storage",
+        "Massive throne",
+        "Final battle location",
+        "Dark atmosphere",
+        "Moria's base of operations"
+      ],
+      "image": "/images/locations/thriller-bark/morias-chamber.jpg"
+    },
+    {
+      "name": "Hogback's Laboratory",
+      "type": "medical facility",
+      "description": "Dr. Hogback's twisted operating theater where he stitches together corpses and creates zombies. Full of medical equipment and body parts.",
+      "notableFeatures": [
+        "Operating tables",
+        "Zombie creation site",
+        "Body modification tools",
+        "Cindry's room",
+        "Mad science equipment"
+      ],
+      "image": "/images/locations/thriller-bark/laboratory.jpg"
+    },
+    {
+      "name": "Perona's Wonder Garden",
+      "type": "ghost garden",
+      "description": "Perona's cute, gothic room filled with stuffed animals, zombies, and her negative hollow ghosts. Where Usopp defeated her.",
+      "notableFeatures": [
+        "Cute gothic decor",
+        "Negative hollow spawn point",
+        "Stuffed animals",
+        "Zombie servants",
+        "Usopp vs Perona battle"
+      ],
+      "image": "/images/locations/thriller-bark/wonder-garden.jpg"
+    },
+    {
+      "name": "Graveyard",
+      "type": "cemetery",
+      "description": "The massive graveyard where zombie soldiers emerge and where many battles occurred. Filled with tombstones, mausoleums, and fog.",
+      "notableFeatures": [
+        "Zombie spawning grounds",
+        "Countless graves",
+        "Gothic tombstones",
+        "Battle arena",
+        "Perpetual fog"
+      ],
+      "image": "/images/locations/thriller-bark/graveyard.jpg"
+    },
+    {
+      "name": "Freezer",
+      "type": "corpse storage",
+      "description": "The giant freezer where corpses are stored before reanimation, including Oars's massive body. Intensely cold and full of preserved bodies.",
+      "notableFeatures": [
+        "Corpse storage",
+        "Oars's chamber",
+        "Sub-zero temperature",
+        "Body preservation",
+        "Ice and frost everywhere"
+      ],
+      "image": "/images/locations/thriller-bark/freezer.jpg"
+    },
+    {
+      "name": "Oars Battle Zone",
+      "type": "battlefield",
+      "description": "The area where the entire Straw Hat crew fought the giant zombie Oars, requiring teamwork to defeat the massive threat.",
+      "notableFeatures": [
+        "Giant scale battle",
+        "Crew teamwork location",
+        "Massive destruction",
+        "Luffy's shadow in Oars",
+        "Combined attacks area"
+      ],
+      "image": "/images/locations/thriller-bark/oars-zone.jpg"
+    },
+    {
+      "name": "Nothing Happened Spot",
+      "type": "historic location",
+      "description": "The isolated area where Zoro took all of Luffy's pain from Kuma and was found standing in a pool of blood, claiming 'Nothing happened.' One of the most iconic moments in One Piece.",
+      "notableFeatures": [
+        "Zoro's sacrifice site",
+        "Kuma's Paw bubble",
+        "Blood pool",
+        "Ultimate loyalty moment",
+        "Sacred to fans"
+      ],
+      "image": "/images/locations/thriller-bark/nothing-happened.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Shadows",
+      "category": "Stolen Essence",
+      "description": "People's shadows stolen by Moria. Without a shadow, the victim will be vaporized by sunlight. Implanted in corpses to create zombies with the shadow owner's personality and skills.",
+      "icon": "👤",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Salt",
+      "category": "Zombie Purifier",
+      "description": "The ultimate anti-zombie weapon. Putting salt in a zombie's mouth returns the stolen shadow to its owner and purifies the corpse.",
+      "icon": "🧂",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Shusui",
+      "category": "Legendary Sword",
+      "description": "One of the 21 Great Grade Swords, wielded by the legendary samurai Ryuma. After defeating Ryuma's zombie, Zoro inherited this black blade.",
+      "icon": "⚔️",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Tone Dial",
+      "category": "Recording Device",
+      "description": "Brook's dial containing the final performance of the Rumbar Pirates singing 'Binks' Sake' - a treasure to bring to Laboon.",
+      "icon": "🎵",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Mini Merry II",
+      "category": "Ship",
+      "description": "A smaller boat Franky built using wood from the Going Merry. The crew's emotional connection to their former ship.",
+      "icon": "⛵",
+      "rarity": "rare"
+    },
+    {
+      "name": "Negative Hollows",
+      "category": "Ghost Attack",
+      "description": "Perona's ghosts that pass through people and make them extremely depressed and negative. Doesn't work on people who are already negative.",
+      "icon": "👻",
+      "rarity": "rare"
+    },
+    {
+      "name": "Luffy's Pain Bubble",
+      "category": "Damage Manifestation",
+      "description": "A massive paw-shaped bubble containing all of Luffy's accumulated pain and fatigue from the arc. Zoro absorbed it entirely.",
+      "icon": "💥",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Thriller Bark Ship",
+      "category": "Island Ship",
+      "description": "The massive island-sized ship itself, the world's largest pirate vessel, designed as a floating haunted mansion.",
+      "icon": "🏰",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Zombie Generals",
+      "category": "Elite Zombies",
+      "description": "Special zombies created from famous warriors' corpses with powerful shadows. Include samurai, captains, and legendary fighters.",
+      "icon": "⚔️",
+      "rarity": "rare"
+    },
+    {
+      "name": "Victoria Cindry's Plate",
+      "category": "Trigger Item",
+      "description": "Plates that trigger Cindry's original personality to resist orders, showing her true self still exists beneath the zombie.",
+      "icon": "🍽️",
+      "rarity": "uncommon"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Straw Hat Pirates",
+      "type": "Pirate Crew",
+      "leader": "Monkey D. Luffy",
+      "members": [
+        "Luffy (Nightmare Form)",
+        "Zoro (Shusui inheritor)",
+        "Nami",
+        "Usopp",
+        "Sanji",
+        "Chopper",
+        "Robin",
+        "Franky",
+        "Brook (joins here)"
+      ],
+      "description": "The crew that invaded Thriller Bark to recover their stolen shadows and recruit Brook as their musician.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Thriller Bark Pirates (Mysterious Four)",
+      "type": "Warlord Crew",
+      "leader": "Gekko Moria",
+      "members": [
+        "Gekko Moria",
+        "Perona",
+        "Absalom",
+        "Dr. Hogback"
+      ],
+      "description": "The ruling elite of Thriller Bark who orchestrate the shadow theft operation and zombie army creation.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Zombie Generals",
+      "type": "Elite Zombies",
+      "leader": "Ryuma (strongest)",
+      "members": [
+        "Ryuma (Brook's shadow)",
+        "Captain John (special zombie)",
+        "Victoria Cindry",
+        "Lola the Warthog",
+        "Other general zombies"
+      ],
+      "description": "The most powerful zombies created from legendary warriors' corpses and skilled pirates' shadows.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Zombie Army",
+      "type": "Undead Legion",
+      "leader": "Absalom",
+      "members": [
+        "Hundreds of zombie soldiers",
+        "Zombie animals",
+        "Zombie servants",
+        "Spider-Monkey Tararan"
+      ],
+      "description": "The massive army of animated corpses that serve Moria, ranging from weak soldiers to modified creatures.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "World Government (Intervention)",
+      "type": "Government Force",
+      "leader": "Bartholomew Kuma",
+      "members": [
+        "Bartholomew Kuma (Warlord)"
+      ],
+      "description": "Kuma was sent to eliminate the weakened Straw Hats but showed mercy after Zoro's sacrifice.",
+      "alignment": "neutral"
+    },
+    {
+      "name": "Victim Pirates (Shadow Stolen)",
+      "type": "Allies",
+      "leader": "Rolling Pirates Captain Lola",
+      "members": [
+        "Lola (real one, not zombie)",
+        "Various shadow theft victims",
+        "Pirates hiding from sunlight"
+      ],
+      "description": "Pirates whose shadows were stolen, hiding on Thriller Bark and unable to see sunlight without dying.",
+      "alignment": "ally"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 442-489 (Thriller Bark Arc)",
+    "animeEpisodes": "Episodes 337-381",
+    "events": [
+      "Straw Hats enter the Florian Triangle",
+      "Meet Brook the skeleton musician",
+      "Brook's tragic backstory and 50-year wait",
+      "Shadows stolen by Moria - crew can't enter sunlight",
+      "Invasion of Thriller Bark begins",
+      "Nami almost forced to marry Absalom",
+      "Sanji vs Absalom (invisible battle)",
+      "Usopp defeats Perona (already too negative)",
+      "Zoro vs Ryuma (legendary duel)",
+      "Zoro claims Shusui",
+      "Chopper vs Hogback",
+      "Robin vs Cindry and zombies",
+      "Franky vs zombie generals",
+      "Oars awakens with Luffy's shadow",
+      "Entire crew vs Giant Oars",
+      "Luffy absorbs 100 shadows - Nightmare Luffy",
+      "Nightmare Luffy defeats Oars",
+      "Luffy vs Moria (shadow battle)",
+      "Moria absorbs 1,000 shadows",
+      "Moria defeated, shadows returned",
+      "Everyone collapses from exhaustion",
+      "Bartholomew Kuma arrives to eliminate crew",
+      "Zoro offers his life for Luffy's",
+      "Zoro takes all of Luffy's pain",
+      "'Nothing happened' - Zoro's ultimate sacrifice",
+      "Sanji finds Zoro standing in blood pool",
+      "Brook joins as crew's musician",
+      "First Pirate Docking attempt (failed)",
+      "Revelation about Lola being Big Mom's daughter",
+      "Crew receives Lola's mother's Vivre Card"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#4B0082",
+    "secondary": "#8B008B",
+    "accent": "#FF4500"
+  },
+  "quickFacts": [
+    "World's largest pirate ship",
+    "Brook joins as crew's musician",
+    "Zoro's 'Nothing Happened' moment",
+    "Nightmare Luffy with 100 shadows",
+    "Moria is one of the Seven Warlords",
+    "Salt purifies zombies by returning shadows",
+    "Zoro inherits legendary sword Shusui",
+    "Perona's ghosts cause extreme depression",
+    "Oars is an ancient giant zombie",
+    "Florian Triangle is perpetually foggy"
+  ],
+  "videos": [
+    {
+      "youtubeId": "sAtZoIFW2Uw",
+      "title": "Nothing Happened - Zoro's Sacrifice",
+      "type": "lore",
+      "description": "The legendary moment where Zoro takes all of Luffy's pain from Kuma and claims 'Nothing happened.'",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "_pukSNxJGi4",
+      "title": "Zoro vs Ryuma",
+      "type": "fight",
+      "description": "Zoro's duel against the legendary zombie samurai Ryuma to claim the sword Shusui.",
+      "featured": false,
+      "order": 2
+    },
+    {
+      "youtubeId": "VPUaT9ByViU",
+      "title": "Nightmare Luffy",
+      "type": "fight",
+      "description": "Luffy absorbs 100 shadows and becomes a massive blue giant with overwhelming power.",
+      "featured": false,
+      "order": 3
+    }
+  ],
+  "music": {
+    "url": "/music/thriller-bark-theme.mp3",
+    "title": "Bink no sake (instrumental)",
+    "volume": 0.3
+  }
+}

@@ -1,0 +1,709 @@
+{
+  "slug": "mary-geoise",
+  "name": "Mary Geoise",
+  "region": "Red Line Summit - Holy Land",
+  "aliases": [
+    "The Holy Land",
+    "Mariejois",
+    "The Red Line Summit",
+    "Land of the Gods",
+    "Celestial Dragon Capital"
+  ],
+  "coordinates": { "x": 180, "y": 3050 },
+  "description": "Mary Geoise is the capital of the World Government, located at the summit of the Red Line directly above Fish-Man Island. It serves as the residence of the World Nobles (Celestial Dragons) and the seat of absolute power in the One Piece world. The city is a symbol of divine authority and untouchable privilege, where the descendants of the twenty founding kingdoms live in opulent luxury while the rest of the world suffers. It houses Pangaea Castle, where the Five Elders conduct the world's governance and where the mysterious Im sits on the Empty Throne. Every four years, the Reverie (World Summit) is held here, bringing together the leaders of all World Government-affiliated nations. The city represents the pinnacle of inequality, built on the backs of slavery, exploitation, and the erasure of history. Its very existence atop the Red Line divides the world's oceans and symbolizes the separation between the 'gods' and common people.",
+  "history": "Mary Geoise was established 800 years ago after the Void Century when twenty royal families formed the World Government and defeated the Ancient Kingdom. These families became the World Nobles (Celestial Dragons), moving to Mary Geoise and ruling from above the world. The Nefertari Family of Alabasta famously refused to ascend, remaining with their people. The Empty Throne was created as a symbol that no single king rules the world, though the existence of Im secretly sitting on it reveals this to be a lie. For centuries, Mary Geoise has been the untouchable center of power, protected by Marine Admirals and CP0. The city became a focal point during Fisher Tiger's historic raid 15 years before the main story, when he climbed the Red Line with his bare hands and freed thousands of slaves, setting fire to the city. During the recent Reverie, major events shook Mary Geoise: the Revolutionary Army commanders infiltrated to rescue Bartholomew Kuma, Sabo witnessed Im and the Five Elders' true nature, the murder of Cobra occurred, and Im destroyed Lulusia Kingdom from Mary Geoise using an ancient weapon. These events revealed the dark truth behind the World Government's authority and sparked global upheaval.",
+  "culture": "The culture of Mary Geoise is defined by absolute supremacy and divine privilege. The Celestial Dragons believe themselves to be gods descended from the creators of the world, viewing all others as beneath them. They wear bubble helmets to avoid breathing the same air as commoners and ride on the backs of slaves. Human slavery is legal and normalized here, with slaves bearing the 'Hoof of the Soaring Dragon' brand. The city operates under different laws than the rest of the world - Celestial Dragons can kill, enslave, or abuse anyone without consequence, and any who strike a World Noble face execution by Marine Admiral. Culture includes lavish parties, human auctions, and displays of excessive wealth. The architecture is pristine and grand, reflecting ancient Roman and Greek aesthetics mixed with futuristic elements. The Reverie is the only time outsiders are permitted, bringing world leaders to discuss global issues - though the Five Elders make all real decisions. Despite the appearance of democracy, Mary Geoise is a totalitarian regime where Im's will is absolute. The culture prioritizes the erasure of history, the suppression of D. clan knowledge, and the maintenance of the status quo at any cost.",
+  "economy": {
+    "industries": [
+      "World Government administration",
+      "Heavenly Tribute collection (taxation of member nations)",
+      "Human slavery and trafficking",
+      "Political control and diplomacy",
+      "Information suppression and propaganda",
+      "Military coordination (Marines, CP0)"
+    ],
+    "currency": "Berry (฿) - collected as tribute from all member nations",
+    "tradeGoods": [
+      "Political influence and protection",
+      "World Government membership",
+      "Marine military support",
+      "Slaves (legal in Mary Geoise)",
+      "Confiscated treasures and artifacts"
+    ]
+  },
+  "transportation": "Access to Mary Geoise is highly restricted. The primary route is via the Bond Bridge elevator system that connects the base of the Red Line to the summit. Visitors must have permission and undergo strict security. Celestial Dragons travel via slave-carried palanquins or riding on the backs of enslaved humans. The Travelators (moving walkways) connect different districts of the city. For departures, there are designated ports and the Bond Bridge descent. The Five Elders and Im likely have access to secret passages and teleportation methods. Fisher Tiger famously climbed the Red Line with his bare hands, an 'impossible' feat that shocked the world. The city's position atop the Red Line makes it nearly impregnable, with only the front gate accessible - any other approach requires scaling a 10,000-meter cliff.",
+  "food": {
+    "cuisine": [
+      "Lavish feasts of exotic delicacies",
+      "Rare meats and seafood from around the world",
+      "Gourmet dishes prepared by world-class chefs (often slaves)",
+      "Expensive wines and delicacies",
+      "Tribute foods from member nations",
+      "Excess and waste normalized"
+    ],
+    "traditions": [
+      "Banquets during Reverie",
+      "Celestial Dragons eating while slaves starve",
+      "Food fights and waste as entertainment",
+      "Tribute offerings from nations",
+      "Competitive displays of wealth through food"
+    ],
+    "quirks": [
+      "Slaves prepare all food",
+      "Food is treated carelessly despite its value",
+      "Celestial Dragons demand rare and exotic items",
+      "Wasting food is common and expected",
+      "Some dishes cost more than a commoner's lifetime earnings"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Im",
+      "role": "Secret Sovereign of the World / The One Who Sits on the Empty Throne",
+      "description": "The mysterious supreme leader of the world who secretly rules from the Empty Throne that is supposed to remain vacant. Possesses the power to erase entire islands and has lived for centuries. Only the Five Elders know of Im's existence. Holds a particular interest in those bearing the Will of D.",
+      "faction": "World Government",
+      "type": "antagonist",
+      "tags": [
+        "Secret Ruler",
+        "Ancient",
+        "Mysterious",
+        "Immortal",
+        "Empty Throne",
+        "Ancient Weapon User",
+        "D. Clan Enemy",
+        "Supreme Power"
+      ],
+      "avatar": "/images/characters/mary-geoise/imu.jpg"
+    },
+    {
+      "name": "Saint Jaygarcia Saturn",
+      "role": "Five Elders - Warrior God of Science and Defense",
+      "description": "One of the Five Elders who personally traveled to Egghead. Possesses a monstrous yokai transformation and near-immortality. Commands the World Government's scientific and defensive operations.",
+      "faction": "Five Elders",
+      "type": "antagonist",
+      "tags": [
+        "Five Elders",
+        "Warrior God",
+        "Immortal",
+        "Demon Form",
+        "Ancient",
+        "Science Authority",
+        "Ruthless"
+      ],
+      "avatar": "/images/characters/mary-geoise/jaygarcia-saturn.jpg"
+    },
+    {
+      "name": "Saint Marcus Mars",
+      "role": "Five Elders - Warrior God of Environment",
+      "description": "One of the Five Elders with authority over environmental matters. Possesses a bird-like yokai transformation with immense power.",
+      "faction": "Five Elders",
+      "type": "antagonist",
+      "tags": [
+        "Five Elders",
+        "Warrior God",
+        "Immortal",
+        "Demon Form",
+        "Ancient",
+        "Environmental Authority"
+      ],
+      "avatar": "/images/characters/mary-geoise/marcus-mars.jpg"
+    },
+    {
+      "name": "Saint Topman Warcury",
+      "role": "Five Elders - Warrior God of Justice",
+      "description": "One of the Five Elders overseeing justice and law. Transforms into a massive boar-like yokai with devastating power.",
+      "faction": "Five Elders",
+      "type": "antagonist",
+      "tags": [
+        "Five Elders",
+        "Warrior God",
+        "Immortal",
+        "Demon Form",
+        "Ancient",
+        "Justice Authority",
+        "Boar Yokai"
+      ],
+      "avatar": "/images/characters/mary-geoise/topman-warcury.jpg"
+    },
+    {
+      "name": "Saint Ethanbaron V. Nusjuro",
+      "role": "Five Elders - Warrior God of Finance",
+      "description": "One of the Five Elders controlling financial matters. A master swordsman who transforms into a skeletal horse yokai.",
+      "faction": "Five Elders",
+      "type": "antagonist",
+      "tags": [
+        "Five Elders",
+        "Warrior God",
+        "Immortal",
+        "Swordsman",
+        "Demon Form",
+        "Ancient",
+        "Finance Authority"
+      ],
+      "avatar": "/images/characters/mary-geoise/ethanbaron-nusjuro.jpg"
+    },
+    {
+      "name": "Saint Shepherd Ju Peter",
+      "role": "Five Elders - Warrior God of Agriculture",
+      "description": "One of the Five Elders overseeing agriculture and land. Transforms into a giant sandworm-like yokai.",
+      "faction": "Five Elders",
+      "type": "antagonist",
+      "tags": [
+        "Five Elders",
+        "Warrior God",
+        "Immortal",
+        "Demon Form",
+        "Ancient",
+        "Agriculture Authority",
+        "Sandworm Yokai"
+      ],
+      "avatar": "/images/characters/mary-geoise/shepherd-ju-peter.jpg"
+    },
+    {
+      "name": "Saint Donquixote Mjosgard",
+      "role": "Reformed Celestial Dragon",
+      "description": "The only known Celestial Dragon to abandon his supremacist beliefs after being saved by Queen Otohime. Executed for defending Shirahoshi and opposing his fellow World Nobles during the Reverie.",
+      "faction": "Celestial Dragons (Former)",
+      "type": "protagonist",
+      "tags": [
+        "Celestial Dragon",
+        "Reformed",
+        "Martyr",
+        "Otohime's Influence",
+        "Executed",
+        "Hero",
+        "Donquixote Family"
+      ],
+      "avatar": "/images/characters/mary-geoise/mjosgard.jpg"
+    },
+    {
+      "name": "Saint Charlos",
+      "role": "Celestial Dragon",
+      "description": "An arrogant and cruel World Noble who attempted to enslave Shirahoshi during the Reverie. Represents the worst of Celestial Dragon culture. Son of Saint Rosward.",
+      "faction": "Celestial Dragons",
+      "type": "antagonist",
+      "tags": [
+        "Celestial Dragon",
+        "Cruel",
+        "Arrogant",
+        "Slaver",
+        "Tyrant",
+        "Punched by Luffy"
+      ],
+      "avatar": "/images/characters/mary-geoise/charlos.jpg"
+    },
+    {
+      "name": "Saint Rosward",
+      "role": "Celestial Dragon",
+      "description": "Father of Charlos and Shalria. A typical World Noble who treats others as property and objects. Epitomizes Celestial Dragon entitlement.",
+      "faction": "Celestial Dragons",
+      "type": "antagonist",
+      "tags": [
+        "Celestial Dragon",
+        "Arrogant",
+        "Slaver",
+        "Entitled",
+        "Tyrant"
+      ],
+      "avatar": "/images/characters/mary-geoise/rosward.jpg"
+    },
+    {
+      "name": "Sabo",
+      "role": "Revolutionary Army Chief of Staff / Flame Emperor",
+      "description": "Luffy and Ace's sworn brother who infiltrated Mary Geoise during the Reverie. Witnessed Im's existence and Cobra's murder. Became known as the 'Flame Emperor' and was falsely accused of assassinating King Cobra.",
+      "faction": "Revolutionary Army",
+      "type": "protagonist",
+      "tags": [
+        "Revolutionary",
+        "Chief of Staff",
+        "Flame Emperor",
+        "Mera Mera Fruit",
+        "Luffy's Brother",
+        "Infiltrator",
+        "Witness to Truth"
+      ],
+      "avatar": "/images/characters/mary-geoise/sabo.jpg"
+    },
+    {
+      "name": "Nefertari Cobra",
+      "role": "King of Alabasta / Martyr",
+      "description": "The king who questioned the Five Elders about the Void Century and the Nefertari Family's connection to the Poneglyphs. Murdered by Im for possessing forbidden knowledge, but passed crucial information to Sabo before dying.",
+      "faction": "Alabasta Kingdom",
+      "type": "protagonist",
+      "tags": [
+        "King",
+        "Martyr",
+        "Truth Seeker",
+        "Nefertari D. Family",
+        "Murdered by Im",
+        "Reverie Victim",
+        "Vivi's Father"
+      ],
+      "avatar": "/images/characters/mary-geoise/cobra.jpg"
+    },
+    {
+      "name": "Nefertari Vivi",
+      "role": "Princess of Alabasta / Missing",
+      "description": "Princess of Alabasta and honorary Straw Hat member who attended the Reverie. Went missing after her father's assassination, with Wapol claiming to have witnessed something significant involving her.",
+      "faction": "Alabasta Kingdom",
+      "type": "protagonist",
+      "tags": [
+        "Princess",
+        "Missing",
+        "Straw Hat Ally",
+        "Nefertari D. Family",
+        "Reverie Attendee",
+        "Cobra's Daughter"
+      ],
+      "avatar": "/images/characters/mary-geoise/vivi.jpg"
+    },
+    {
+      "name": "Bartholomew Kuma",
+      "role": "Former Warlord / Slave / Rescued",
+      "description": "The former Revolutionary turned into a mindless slave for the Celestial Dragons after his deal with the World Government. Was rented out to Celestial Dragons as a plaything before being rescued during the Reverie.",
+      "faction": "Revolutionary Army",
+      "type": "protagonist",
+      "tags": [
+        "Former Warlord",
+        "Slave",
+        "Rescued",
+        "Revolutionary",
+        "Tragic",
+        "Pacifista Prototype",
+        "Bonney's Father"
+      ],
+      "avatar": "/images/characters/mary-geoise/kuma.jpg"
+    },
+    {
+      "name": "Monkey D. Garp",
+      "role": "Marine Hero / Vice Admiral",
+      "description": "The legendary Marine who refused promotion to Admiral to avoid serving the Celestial Dragons directly. Represents the conflict between justice and the corrupt system of Mary Geoise.",
+      "faction": "Marines",
+      "type": "protagonist",
+      "tags": [
+        "Marine Hero",
+        "Vice Admiral",
+        "Legendary",
+        "Refuses to Serve Dragons",
+        "Luffy's Grandfather",
+        "God Valley Incident"
+      ],
+      "avatar": "/images/characters/mary-geoise/garp.jpg"
+    },
+    {
+      "name": "Shirahoshi",
+      "role": "Princess of Ryugu Kingdom / Ancient Weapon Poseidon",
+      "description": "The mermaid princess who is the Ancient Weapon Poseidon. Attended the Reverie where she was nearly enslaved by Charlos before being saved by Mjosgard.",
+      "faction": "Ryugu Kingdom",
+      "type": "protagonist",
+      "tags": [
+        "Ancient Weapon",
+        "Poseidon",
+        "Mermaid Princess",
+        "Reverie Attendee",
+        "Nearly Enslaved",
+        "Saved by Mjosgard"
+      ],
+      "avatar": "/images/characters/mary-geoise/shirahoshi.jpg"
+    },
+    {
+      "name": "Fisher Tiger",
+      "role": "Former Slave / Revolutionary Hero / Sun Pirates Founder",
+      "description": "The fish-man who achieved the impossible by climbing the Red Line with his bare hands and freeing thousands of slaves 15 years ago. His raid on Mary Geoise sparked the fish-man liberation movement.",
+      "faction": "Sun Pirates (Deceased)",
+      "type": "protagonist",
+      "tags": [
+        "Revolutionary Hero",
+        "Former Slave",
+        "Freed Thousands",
+        "Climbed Red Line",
+        "Sun Pirates Founder",
+        "Martyr",
+        "Legend"
+      ],
+      "avatar": "/images/characters/mary-geoise/fisher-tiger.jpg"
+    },
+    {
+      "name": "Dracule Mihawk",
+      "role": "Former Warlord / World's Strongest Swordsman",
+      "description": "Attended Warlord meetings at Mary Geoise before the system's abolishment. One of the few who could walk freely in the Holy Land due to his Warlord status.",
+      "faction": "Cross Guild",
+      "type": "neutral",
+      "tags": [
+        "Former Warlord",
+        "Strongest Swordsman",
+        "Reverie Attendee",
+        "Zoro's Goal",
+        "Cross Guild"
+      ],
+      "avatar": "/images/characters/mary-geoise/mihawk.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Pangaea Castle",
+      "type": "castle / government headquarters",
+      "description": "The massive central castle of Mary Geoise where the Five Elders govern and where Im secretly resides. Contains the Empty Throne, the Room of Authority, and countless chambers filled with world treasures and forbidden knowledge.",
+      "notableFeatures": [
+        "Empty Throne (Im's secret seat)",
+        "Room of Authority (Five Elders' chamber)",
+        "Frozen Straw Hat vault",
+        "National Treasure chamber",
+        "Reverie conference hall",
+        "Ancient weapons information"
+      ],
+      "image": "/images/locations/mary-geoise/pangaea-castle.jpg"
+    },
+    {
+      "name": "The Empty Throne",
+      "type": "throne room",
+      "description": "The symbolic throne that represents equality among nations, meant to remain forever vacant. In truth, Im sits upon it in secret, making a mockery of the World Government's founding principle.",
+      "notableFeatures": [
+        "Twenty swords surrounding the throne",
+        "Symbol of false equality",
+        "Im's secret seat",
+        "Founding kings' weapons",
+        "Center of world power",
+        "Forbidden truth"
+      ],
+      "image": "/images/locations/mary-geoise/empty-throne.jpg"
+    },
+    {
+      "name": "Celestial Dragon Estate District",
+      "type": "residential district",
+      "description": "The opulent living quarters of the World Nobles, filled with mansions and estates built on slave labor. Each family has elaborate compounds where they indulge in excess while slaves suffer.",
+      "notableFeatures": [
+        "Lavish mansions",
+        "Slave quarters",
+        "Human auction houses",
+        "Private gardens",
+        "Torture chambers",
+        "Treasure vaults"
+      ],
+      "image": "/images/locations/mary-geoise/celestial-estate.jpg"
+    },
+    {
+      "name": "Reverie Assembly Hall",
+      "type": "conference hall",
+      "description": "The grand hall where world leaders gather every four years for the Reverie. Features seating for 50 kingdoms, though real decisions are made by the Five Elders in private.",
+      "notableFeatures": [
+        "50 kingdom seating",
+        "Central speaking platform",
+        "Historical significance",
+        "Political theater stage",
+        "Diplomatic gathering point",
+        "Facade of democracy"
+      ],
+      "image": "/images/locations/mary-geoise/reverie-hall.jpg"
+    },
+    {
+      "name": "Slave Housing and Pens",
+      "type": "prison / slave quarters",
+      "description": "The brutal holding areas where slaves are kept, branded with the Hoof of the Soaring Dragon, and broken into submission. Fisher Tiger set fire to these areas during his legendary raid.",
+      "notableFeatures": [
+        "Slave pens",
+        "Branding chambers",
+        "Hoof of Soaring Dragon marks",
+        "Fisher Tiger's raid site",
+        "Inhumane conditions",
+        "Symbol of World Noble cruelty"
+      ],
+      "image": "/images/locations/mary-geoise/slave-pens.jpg"
+    },
+    {
+      "name": "National Treasure Vault",
+      "type": "secret chamber",
+      "description": "A hidden vault within Pangaea Castle containing Im's greatest secret - a giant frozen straw hat that suggests connections to the Void Century and potentially Joy Boy.",
+      "notableFeatures": [
+        "Giant frozen straw hat",
+        "Ancient mystery",
+        "Im's secret",
+        "Void Century connection",
+        "Heavily guarded",
+        "Forbidden knowledge"
+      ],
+      "image": "/images/locations/mary-geoise/national-treasure.jpg"
+    },
+    {
+      "name": "Social Square",
+      "type": "public area",
+      "description": "The central plaza of Mary Geoise where Celestial Dragons parade and display their wealth. Location of public executions and where Charlos attempted to enslave Shirahoshi.",
+      "notableFeatures": [
+        "Travelator walkways",
+        "Public displays of wealth",
+        "Slave parades",
+        "Charlos incident site",
+        "Mjosgard's heroism location",
+        "Symbol of inequality"
+      ],
+      "image": "/images/locations/mary-geoise/social-square.jpg"
+    },
+    {
+      "name": "Marijoa Entrance Gate",
+      "type": "gate / checkpoint",
+      "description": "The heavily fortified main entrance to Mary Geoise, accessible only via the Bond Bridge elevator system. The sole 'legitimate' entry point to the Holy Land.",
+      "notableFeatures": [
+        "Bond Bridge terminal",
+        "Security checkpoints",
+        "Marine guard posts",
+        "Invitation verification",
+        "Only accessible entrance",
+        "10,000 meter elevation"
+      ],
+      "image": "/images/locations/mary-geoise/entrance-gate.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Empty Throne",
+      "category": "Symbol / Throne",
+      "description": "The throne that symbolizes that no single king rules the world. Twenty swords of the founding kingdoms surround it. Im secretly sits upon it, revealing the World Government's founding lie.",
+      "icon": "👑",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Giant Frozen Straw Hat",
+      "category": "Ancient Artifact",
+      "description": "A massive straw hat kept frozen in the National Treasure vault. Im's greatest secret, possibly connected to Joy Boy or the Void Century.",
+      "icon": "🎩",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Hoof of the Soaring Dragon",
+      "category": "Brand / Mark of Slavery",
+      "description": "The cruel brand burned into slaves owned by Celestial Dragons. Represents the ultimate symbol of their ownership over human lives. Victims include Boa Hancock and Fisher Tiger.",
+      "icon": "🔥",
+      "rarity": "common"
+    },
+    {
+      "name": "World Noble Bubble Helmet",
+      "category": "Equipment",
+      "description": "The distinctive bubble helmets worn by Celestial Dragons to avoid breathing the same air as commoners. Symbol of their perceived divine status.",
+      "icon": "🫧",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Ancient Weapon Control",
+      "category": "Weapon System",
+      "description": "Im demonstrated the ability to target and destroy islands from Mary Geoise, likely using Uranus or Mother Flame technology to power ancient weapons.",
+      "icon": "💥",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Reverie Invitation",
+      "category": "Document",
+      "description": "Official invitations sent to the 50 member kingdoms permitting them to attend the World Summit. One of the few legitimate ways to enter Mary Geoise.",
+      "icon": "📜",
+      "rarity": "rare"
+    },
+    {
+      "name": "Wanted Posters (Original)",
+      "category": "Documents",
+      "description": "The original wanted posters and bounties issued from Mary Geoise. Im was shown cutting up posters of Luffy, Blackbeard, Shirahoshi, and Vivi.",
+      "icon": "📋",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Void Century Records (Hidden)",
+      "category": "Forbidden Knowledge",
+      "description": "The true history kept hidden by the World Government. Only accessible to Im and potentially the Five Elders. What Cobra died trying to learn.",
+      "icon": "📖",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Heavenly Tribute",
+      "category": "Currency / Taxation",
+      "description": "The massive tribute collected from all member nations to fund Mary Geoise's opulence. Poor nations starve paying this 'protection' tax.",
+      "icon": "💰",
+      "rarity": "common"
+    },
+    {
+      "name": "Twenty Founding Swords",
+      "category": "Weapons / Symbols",
+      "description": "The swords of the twenty founding kingdoms placed around the Empty Throne. Nineteen are present - the Nefertari sword is missing, symbolizing Alabasta's refusal to ascend.",
+      "icon": "⚔️",
+      "rarity": "legendary"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Celestial Dragons (World Nobles)",
+      "type": "Ruling Class",
+      "leader": "Im (secretly)",
+      "members": [
+        "Im",
+        "Donquixote Family",
+        "Rosward Family",
+        "Charlos",
+        "Shalria",
+        "Mjosgard (former)",
+        "Countless other World Noble families"
+      ],
+      "description": "The descendants of the twenty founding kingdoms who rule from Mary Geoise. They view themselves as gods and treat all others as beneath them. Possess absolute authority and impunity.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Five Elders (Gorosei)",
+      "type": "World Government Leadership",
+      "leader": "Im (their master)",
+      "members": [
+        "Saint Jaygarcia Saturn",
+        "Saint Marcus Mars",
+        "Saint Topman Warcury",
+        "Saint Ethanbaron V. Nusjuro",
+        "Saint Shepherd Ju Peter"
+      ],
+      "description": "The five highest-ranking Celestial Dragons who publicly govern the world. Possess immortality and monstrous yokai transformations. Serve Im in secret.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Revolutionary Army (Infiltrators)",
+      "type": "Rebellion",
+      "leader": "Monkey D. Dragon",
+      "members": [
+        "Sabo",
+        "Morley",
+        "Lindbergh",
+        "Karasu",
+        "Bartholomew Kuma (rescued)"
+      ],
+      "description": "Revolutionary commanders who infiltrated Mary Geoise during the Reverie to rescue Kuma and declare war on the Celestial Dragons.",
+      "alignment": "ally"
+    },
+    {
+      "name": "CP0 (Cipher Pol Aigis Zero)",
+      "type": "World Government Secret Police",
+      "leader": "Directly serve Celestial Dragons",
+      "members": [
+        "Rob Lucci",
+        "Kaku",
+        "Stussy (former)",
+        "Various masked agents"
+      ],
+      "description": "The elite intelligence agency that serves the Celestial Dragons directly. The 'strongest' CP unit tasked with protecting World Nobles and eliminating threats.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Reverie Kingdoms",
+      "type": "Member Nations",
+      "leader": "Various Kings and Queens",
+      "members": [
+        "Alabasta (Nefertari Family)",
+        "Ryugu Kingdom (Neptune, Shirahoshi)",
+        "Dressrosa (Riku Family)",
+        "Drum/Sakura Kingdom",
+        "50 kingdoms total"
+      ],
+      "description": "The allied nations that pay Heavenly Tribute and attend the Reverie. Most are unaware of the corruption at Mary Geoise's core.",
+      "alignment": "neutral"
+    },
+    {
+      "name": "Holy Knights",
+      "type": "Celestial Dragon Military",
+      "leader": "Saint Figarland Garling",
+      "members": [
+        "Figarland Garling",
+        "Unknown elite warriors"
+      ],
+      "description": "The mysterious elite force that serves the Celestial Dragons. Little is known about them except they are considered the 'greatest force' of the World Nobles.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Slaves (Victims)",
+      "type": "Oppressed People",
+      "leader": "None (liberation sought)",
+      "members": [
+        "Thousands of branded slaves",
+        "Bartholomew Kuma (former)",
+        "Boa Hancock (former)",
+        "Fisher Tiger (former)",
+        "Countless unnamed victims"
+      ],
+      "description": "The human chattel of Mary Geoise, branded and broken. Some like Fisher Tiger fought back and escaped, inspiring resistance movements.",
+      "alignment": "ally"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 1-ongoing (multiple appearances)",
+    "animeEpisodes": "Episodes 1-ongoing (multiple appearances)",
+    "events": [
+      "800 years ago: Twenty kingdoms form World Government, establish Mary Geoise",
+      "Nefertari Family refuses to ascend, returns to Alabasta",
+      "Im takes Empty Throne in secret",
+      "Centuries of Celestial Dragon rule and slavery",
+      "15 years ago: Fisher Tiger climbs Red Line, frees slaves, burns city",
+      "Recent Reverie begins - 50 kingdoms gather",
+      "Luffy's allies attend: Vivi, Shirahoshi, Rebecca, others",
+      "Charlos attempts to enslave Shirahoshi",
+      "Mjosgard saves Shirahoshi, opposes fellow World Nobles",
+      "Revolutionary Army commanders infiltrate Mary Geoise",
+      "Sabo and revolutionaries rescue Bartholomew Kuma",
+      "King Cobra questions Five Elders about Poneglyphs and D. Clan",
+      "Cobra meets Im in Empty Throne room",
+      "Im murders Cobra for forbidden knowledge",
+      "Sabo witnesses murder and Im's existence",
+      "Im destroys Lulusia Kingdom with ancient weapon",
+      "Cobra passes information about Nefertari D. lineage before death",
+      "Vivi goes missing after Reverie",
+      "Sabo escapes, becomes 'Flame Emperor'",
+      "Sabo falsely accused of assassinating Cobra",
+      "Mjosgard executed for opposing Celestial Dragons",
+      "World learns of Reverie chaos",
+      "Shanks meets Five Elders to discuss 'a certain pirate'",
+      "Warlord system abolished during Reverie",
+      "Im's freezer containing giant straw hat revealed",
+      "Im cuts up wanted posters of Luffy, Blackbeard, Shirahoshi, Vivi"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#FFD700",
+    "secondary": "#FFFFFF",
+    "accent": "#B8860B"
+  },
+  "quickFacts": [
+    "Capital of the World Government for 800 years",
+    "Home of the Celestial Dragons (World Nobles)",
+    "Site of the Empty Throne (secretly occupied by Im)",
+    "Located atop the Red Line, 10,000 meters above sea level",
+    "Human slavery is legal and normalized",
+    "Fisher Tiger climbed the Red Line and freed thousands of slaves",
+    "King Cobra was murdered here by Im",
+    "Sabo witnessed Im's existence during the Reverie",
+    "Contains a giant frozen straw hat in secret vault",
+    "Reverie held every 4 years with 50 kingdoms",
+    "Striking a Celestial Dragon summons a Marine Admiral",
+    "Birthplace of the world's greatest inequality"
+  ],
+  "videos": [
+    {
+      "youtubeId": "xjSVPLfrVm4",
+      "title": "Im Destroys Lulusia Kingdom",
+      "type": "lore",
+      "description": "The moment Im uses an ancient weapon to completely erase Lulusia Kingdom from existence, demonstrating the terrifying power held in Mary Geoise.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "EngOhstrWLM",
+      "title": "Cobra's Death and the Truth of Im",
+      "type": "lore",
+      "description": "King Cobra's tragic death after learning forbidden knowledge, and Sabo's witness of Im sitting on the Empty Throne.",
+      "featured": true,
+      "order": 2
+    },
+    {
+      "youtubeId": "I_mOas3fKP0",
+      "title": "Fisher Tiger's Legendary Raid",
+      "type": "lore",
+      "description": "The flashback to Fisher Tiger's impossible climb up the Red Line and his heroic liberation of Mary Geoise's slaves.",
+      "featured": false,
+      "order": 3
+    }
+  ],
+  "music": {
+    "url": "/music/mary-geoise-theme.mp3",
+    "title": "Mary Geoise - The Holy Land",
+    "volume": 0.3
+  }
+}

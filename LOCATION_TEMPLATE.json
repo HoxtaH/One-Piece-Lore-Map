@@ -1,0 +1,104 @@
+{
+  "_comment": "Copy this template to create a new location. Remove this comment field.",
+  "slug": "location-slug-lowercase",
+  "name": "Location Full Name",
+  "region": "Paradise / New World / Grand Line / etc.",
+  "aliases": ["Alternate Name 1", "Alternate Name 2"],
+  "coordinates": {
+    "_comment": "x: 0 (left) to 100 (right), y: 0 (top) to 100 (bottom)",
+    "x": 50,
+    "y": 50
+  },
+  "description": "A 2-3 sentence overview of the location that appears at the top of the exploration page.",
+  "history": "A detailed paragraph about the location's history, major events that occurred there, how it came to be, and its significance in the One Piece world. This should be comprehensive and engaging.",
+  "culture": "Description of the local culture, customs, traditions, societal structure, and way of life. What makes this location unique culturally?",
+  "economy": {
+    "industries": [
+      "Major Industry 1",
+      "Major Industry 2",
+      "Major Industry 3"
+    ],
+    "currency": "Currency name or 'Belly' or description",
+    "tradeGoods": [
+      "Export/Trade item 1",
+      "Export/Trade item 2",
+      "Export/Trade item 3"
+    ]
+  },
+  "transportation": "How do citizens move around within the location? How do people reach this location from other places? Include unique transportation methods.",
+  "food": {
+    "cuisine": [
+      "Traditional Dish 1",
+      "Traditional Dish 2",
+      "Local Specialty 3"
+    ],
+    "traditions": [
+      "Food-related tradition 1",
+      "Dining custom 2"
+    ],
+    "quirks": [
+      "Unique food quirk or interesting fact 1",
+      "Cultural food behavior 2"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Character Full Name",
+      "role": "Title / Role / Occupation",
+      "description": "Who they are, what they're known for, and their significance to this location.",
+      "imageUrl": "optional-image-url"
+    },
+    {
+      "name": "Another Character",
+      "role": "Their Role",
+      "description": "Their description and connection to the location."
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters X-Y",
+    "animeEpisodes": "Episodes X-Y",
+    "events": [
+      "Major story event 1",
+      "Important occurrence 2",
+      "Significant moment 3"
+    ]
+  },
+  "images": [
+    "_comment: Add image URLs here when available"
+  ],
+  "colorScheme": {
+    "_comment": "Choose colors that represent the location's theme",
+    "primary": "#3498DB",
+    "secondary": "#F39C12",
+    "accent": "#E74C3C"
+  },
+  "quickFacts": [
+    "Interesting fact that appears in hover popup",
+    "Another cool fact about the location",
+    "Unique characteristic",
+    "Historical tidbit",
+    "Cultural highlight"
+  ],
+  "videos": [
+    {
+      "youtubeId": "YOUTUBE_VIDEO_ID",
+      "title": "Descriptive Video Title",
+      "type": "fight",
+      "_types": "fight | comedy | lore | scenic",
+      "description": "What happens in this video and why it's important",
+      "featured": true,
+      "_featured_note": "Only one video should be featured=true (shown in hero)",
+      "order": 1
+    },
+    {
+      "youtubeId": "ANOTHER_VIDEO_ID",
+      "title": "Another Important Moment",
+      "type": "lore",
+      "description": "Description of this video",
+      "featured": false,
+      "order": 2
+    }
+  ]
+}
+
+

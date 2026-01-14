@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🌊 Community Discussions
+    url: https://github.com/HoxtaH/One-Piece-Lore-Map/discussions
+    about: Join discussions about lore, features, and the One Piece world
+  - name: 🏴‍☠️ Contribute via Web Form
+    url: /contribute
+    about: Use our easy web form to submit new locations (no coding required!)

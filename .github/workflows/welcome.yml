@@ -1,0 +1,55 @@
+name: Welcome First-Time Contributors
+
+on:
+  pull_request_target:
+    types: [opened]
+  issues:
+    types: [opened]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            👋 Welcome aboard, nakama! 🏴‍☠️
+            
+            Thank you for opening your first issue on the One Piece Lore Map! We appreciate you taking the time to help make this project better.
+            
+            **Here's what happens next:**
+            1. A maintainer will review your issue
+            2. We may ask for additional details or clarification
+            3. Once confirmed, we'll work on addressing it
+            
+            In the meantime, feel free to:
+            - Check out our [Contributing Guide](CONTRIBUTING.md)
+            - Explore the [Community Guide](CONTRIBUTING-COMMUNITY.md) for non-technical contributions
+            - Join the discussion on other open issues
+            
+            May your journey through the Grand Line be epic! ⚓
+            
+          pr-message: |
+            🎉 Ahoy, first-time contributor! 🏴‍☠️
+            
+            Thank you for submitting your first Pull Request to the One Piece Lore Map! This is awesome!
+            
+            **Review Process:**
+            1. Our CI will automatically check your code for linting, types, and build issues
+            2. A maintainer will review your changes
+            3. We may request some changes or ask questions
+            4. Once approved, we'll merge your contribution!
+            
+            **Quick Checklist:**
+            - [ ] Code follows our style guidelines
+            - [ ] Changes have been tested locally
+            - [ ] Documentation updated (if needed)
+            
+            Thank you for helping build the ultimate One Piece lore resource! You're now part of the crew! ⚓
+            
+            *See the [Contributors page](CONTRIBUTORS.md) - you'll be added once this is merged!*

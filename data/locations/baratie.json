@@ -1,0 +1,314 @@
+{
+  "slug": "baratie",
+  "name": "Baratie",
+  "region": "East Blue",
+  "aliases": [
+    "Sea Restaurant Baratie",
+    "Floating Restaurant",
+    "Red Fin"
+  ],
+  "coordinates": { "x": 7938, "y": 2050 },
+  "journeyOrder": 5,
+  "saga": "East Blue",
+  "description": "Baratie is a famous floating restaurant shaped like a fish, run by ex-pirate 'Red Leg' Zeff. Known throughout the East Blue for its exquisite cuisine and strict policy of feeding anyone who is hungry, even if they can't pay. It's where Sanji worked as sous chef before joining the Straw Hat Pirates, and where Zoro faced the world's greatest swordsman.",
+  "history": "Zeff established Baratie after retiring from piracy, dedicating it to his dream of an All Blue where all seas' fish could be found. He recruited talented cooks, including young Sanji whom he saved from starvation. The restaurant operated peacefully until Don Krieg's armada, destroyed by Mihawk, sought refuge there. The ensuing battle nearly destroyed Baratie, but the Straw Hats' intervention saved it. After the battle, Sanji left to pursue his dream, with Zeff's blessing.",
+  "culture": "Baratie's culture is centered around food and combat. All chefs are skilled fighters who can defend the restaurant while cooking exquisite meals. The establishment operates on Zeff's iron rule: never waste food, and feed anyone who's hungry. Pirates and Marines dine side-by-side under an enforced peace. The staff maintains military discipline in the kitchen while providing warm hospitality to guests.",
+  "economy": {
+    "industries": [
+      "Fine dining",
+      "Maritime hospitality",
+      "Bounty hunting (side income)",
+      "Fighting entertainment"
+    ],
+    "currency": "Berry (฿)",
+    "tradeGoods": [
+      "Gourmet meals",
+      "Rare ingredients",
+      "Cooking services",
+      "Premium beverages"
+    ]
+  },
+  "transportation": "Baratie is a ship-restaurant that can sail but usually remains anchored in prime fishing waters. Customers arrive by boat, and staff use the ship's own boats for supply runs.",
+  "food": {
+    "cuisine": [
+      "French-inspired haute cuisine",
+      "Fresh seafood specialties",
+      "Multi-course meals",
+      "Rare fish dishes"
+    ],
+    "traditions": [
+      "Never waste food (Zeff's iron rule)",
+      "Feed the hungry regardless of payment",
+      "Kitchen as battlefield",
+      "Presentation is everything"
+    ],
+    "quirks": [
+      "Sanji's special dishes",
+      "Zeff's legendary cuisine",
+      "Fighting chefs",
+      "The 'Fin' combat deck"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Sanji",
+      "role": "Sous Chef / Straw Hat Pirate",
+      "description": "The smooth-talking cook with a chivalrous code and powerful kicks. Dreams of finding the All Blue, a sea where all fish species coexist.",
+      "type": "protagonist",
+      "faction": "Straw Hat Pirates",
+      "tags": [
+        "Cook",
+        "Black Leg",
+        "Chivalrous",
+        "All Blue Seeker",
+        "Martial Artist"
+      ],
+      "avatar": "/images/characters/baratie/sanji.jpg"
+    },
+    {
+      "name": "Zeff",
+      "role": "Head Chef / Owner / Mentor",
+      "description": "Former pirate known as 'Red Leg' Zeff who saved Sanji and became his mentor. Lost his leg to save Sanji from starvation.",
+      "type": "neutral",
+      "faction": "Baratie Staff",
+      "tags": [
+        "Chef",
+        "Former Pirate",
+        "Mentor",
+        "Red Leg",
+        "Legendary"
+      ],
+      "avatar": "/images/characters/baratie/zeff.jpg"
+    },
+    {
+      "name": "Don Krieg",
+      "role": "Pirate Admiral",
+      "description": "The heavily armored 'Pirate Fleet Admiral' of East Blue who attacked Baratie after his fleet was destroyed by Mihawk.",
+      "type": "antagonist",
+      "faction": "Krieg Pirates",
+      "tags": [
+        "Admiral",
+        "Armored",
+        "Weapons Master",
+        "Defeated",
+        "Tyrant"
+      ],
+      "avatar": "/images/characters/baratie/don-krieg.jpg"
+    },
+    {
+      "name": "Gin",
+      "role": "Don Krieg's Combat Commander",
+      "description": "Krieg's first mate who Sanji fed when starving. He showed honor by helping Sanji escape despite his loyalty to Krieg.",
+      "type": "neutral",
+      "faction": "Krieg Pirates",
+      "tags": [
+        "Honorable",
+        "Conflicted",
+        "Warrior",
+        "Grateful",
+        "Man-Demon"
+      ],
+      "avatar": "/images/characters/baratie/gin.jpg"
+    },
+    {
+      "name": "Dracule Mihawk",
+      "role": "World's Greatest Swordsman / Warlord",
+      "description": "The legendary swordsman who destroyed Krieg's fleet and fought Zoro. Came to Baratie pursuing Krieg for sport.",
+      "type": "neutral",
+      "faction": "Seven Warlords",
+      "tags": [
+        "Greatest Swordsman",
+        "Warlord",
+        "Legendary",
+        "Hawk Eyes",
+        "Yoru"
+      ],
+      "avatar": "/images/characters/baratie/dracule-mihawk.jpg"
+    },
+    {
+      "name": "Patty",
+      "role": "Cook / Fighter",
+      "description": "One of Baratie's cooks known for his strict adherence to payment rules, contrasting with Sanji's generosity.",
+      "type": "citizen",
+      "faction": "Baratie Staff",
+      "tags": [
+        "Chef",
+        "Fighter",
+        "Strict",
+        "Loud"
+      ],
+      "avatar": "/images/characters/baratie/patty.jpg"
+    },
+    {
+      "name": "Carne",
+      "role": "Cook / Fighter",
+      "description": "Another of Baratie's fighting cooks, loyal to Zeff and protective of the restaurant.",
+      "type": "citizen",
+      "faction": "Baratie Staff",
+      "tags": [
+        "Chef",
+        "Fighter",
+        "Loyal"
+      ],
+      "avatar": "/images/characters/baratie/carne.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Main Dining Hall",
+      "type": "Restaurant",
+      "description": "The luxurious dining area where customers enjoy Baratie's famous cuisine.",
+      "notableFeatures": [
+        "Elegant tables and chandeliers",
+        "View of the ocean",
+        "Where pirates and Marines dine together",
+        "Site of many dramatic moments"
+      ]
+    },
+    {
+      "name": "Kitchen",
+      "type": "Workspace",
+      "description": "The heart of Baratie where Zeff, Sanji, and other cooks create culinary masterpieces.",
+      "notableFeatures": [
+        "Professional-grade equipment",
+        "Zeff's command center",
+        "Sanji's workplace",
+        "Strict 'no wasting food' zone"
+      ]
+    },
+    {
+      "name": "The Fin (Combat Deck)",
+      "type": "Arena",
+      "description": "The fish-shaped upper deck that opens like a fin, used for combat and as a last resort dining area.",
+      "notableFeatures": [
+        "Retractable combat platform",
+        "Site of Luffy vs Krieg",
+        "Emergency deck",
+        "Strategic high ground"
+      ]
+    },
+    {
+      "name": "Guest Docks",
+      "type": "Port",
+      "description": "Small docking area where customer boats anchor while they dine.",
+      "notableFeatures": [
+        "Boat parking",
+        "Entry point to restaurant",
+        "Where the Going Merry docked"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "name": "Yoru",
+      "category": "Weapon",
+      "description": "Mihawk's legendary black blade, one of the twelve Supreme Grade swords.",
+      "icon": "⚔️",
+      "rarity": "Legendary"
+    },
+    {
+      "name": "Wootz Steel Armor",
+      "category": "Armor",
+      "description": "Don Krieg's near-invincible full-body armor with built-in weapons.",
+      "icon": "🛡️",
+      "rarity": "Rare"
+    },
+    {
+      "name": "MH5 Poison Gas",
+      "category": "Weapon",
+      "description": "Krieg's deadly poison gas bomb that nearly killed everyone at Baratie.",
+      "icon": "☠️",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Baratie Itself",
+      "category": "Ship-Restaurant",
+      "description": "The massive floating restaurant shaped like a fish, Zeff's dream made real.",
+      "icon": "🐟",
+      "rarity": "Legendary"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Baratie Staff",
+      "type": "Cooks/Fighters",
+      "leader": "Zeff",
+      "members": 10,
+      "description": "Fighting cooks who defend the restaurant while maintaining culinary excellence.",
+      "alignment": "Good"
+    },
+    {
+      "name": "Krieg Pirates",
+      "type": "Pirate Armada",
+      "leader": "Don Krieg (Defeated)",
+      "members": 100,
+      "description": "The largest pirate fleet in East Blue, decimated by Mihawk and defeated at Baratie.",
+      "alignment": "Evil"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 42-68 (Baratie Arc)",
+    "animeEpisodes": "Episodes 19-30",
+    "events": [
+      "Straw Hats arrive at Baratie",
+      "Sanji serves starving Gin",
+      "Zoro challenges Mihawk to a duel",
+      "Zoro vs Mihawk - Zoro's first defeat",
+      "Krieg arrives demanding food and the ship",
+      "Luffy and crew defend Baratie",
+      "Gin vs Sanji",
+      "Luffy vs Don Krieg",
+      "Krieg uses poison gas",
+      "Luffy defeats Krieg with Gomu Gomu no Bazooka",
+      "Sanji's backstory revealed",
+      "Zeff gives Sanji permission to leave",
+      "Sanji joins the Straw Hat Pirates",
+      "Nami steals the Going Merry"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#3498DB",
+    "secondary": "#F1C40F",
+    "accent": "#E74C3C"
+  },
+  "quickFacts": [
+    "Famous floating restaurant of East Blue",
+    "Where Sanji joined the Straw Hat Pirates",
+    "Site of Zoro vs Mihawk",
+    "Run by ex-pirate Red Leg Zeff",
+    "Never wastes food, feeds anyone hungry",
+    "Home of the fighting chefs"
+  ],
+  "videos": [
+    {
+      "youtubeId": "BgKRqGBlttk",
+      "title": "Zoro vs Mihawk - The Greatest Swordsman",
+      "type": "fight",
+      "description": "Zoro's iconic first defeat against the world's greatest swordsman, and his vow to never lose again.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "_EMQcGwBMRA",
+      "title": "Sanji Joins the Crew",
+      "type": "lore",
+      "description": "The emotional moment when Sanji leaves Baratie to pursue his dream of finding the All Blue.",
+      "featured": false,
+      "order": 2
+    },
+    {
+      "youtubeId": "CsgrrNPCfS8",
+      "title": "Luffy vs Don Krieg",
+      "type": "fight",
+      "description": "Luffy battles the armored pirate admiral on Baratie's fin deck.",
+      "featured": false,
+      "order": 3
+    }
+  ],
+  "music": {
+    "url": "/music/baratie-theme.mp3",
+    "title": "Sanji's Theme",
+    "volume": 0.3
+  }
+}

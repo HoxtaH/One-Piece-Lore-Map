@@ -1,0 +1,650 @@
+{
+  "slug": "egghead",
+  "name": "Egghead Island",
+  "region": "New World",
+  "aliases": [
+    "Island of the Future",
+    "Egghead"
+  ],
+  "coordinates": { "x": 3235, "y": 3260 },
+  "pathControl": { "x": 2800, "y": 2710 },
+  "journeyOrder": 31,
+  "saga": "Final Saga",
+  "description": "Egghead is a futuristic island that serves as the research laboratory of Dr. Vegapunk, the world's greatest scientist. The island is split into two layers: the ultra-modern Labophase floating above and the scrap island Fabriophase below. It represents the peak of scientific advancement in the One Piece world, 500 years ahead of current technology.",
+  "history": "Egghead was established as Dr. Vegapunk's primary research facility, funded by the World Government. The island became the site of revolutionary scientific breakthroughs including the Pacifista project, artificial Devil Fruits, and research into the Void Century. The island became a major focal point when the Straw Hats arrived, leading to the revelation of world-shaking truths about the ancient history, Devil Fruits, and the World Government. Vegapunk's assassination by the World Government and his pre-recorded global broadcast exposing ancient truths made Egghead a pivotal location in the series.",
+  "culture": "The culture is entirely scientific and futuristic, prioritizing research and innovation above all else. The island's inhabitants are primarily scientists, assistants, and Vegapunk's satellite bodies (Punks). There's a stark contrast between the pristine advanced technology above and the discarded inventions below. Everything is focused on pushing the boundaries of science.",
+  "economy": {
+    "industries": [
+      "Advanced scientific research",
+      "Military technology development",
+      "Artificial Devil Fruit creation",
+      "Robotics and cyborg development",
+      "Energy research"
+    ],
+    "currency": "Funded by World Government, minimal traditional economy",
+    "tradeGoods": [
+      "Scientific knowledge (restricted)",
+      "Prototype technology",
+      "Seraphim units",
+      "Energy systems"
+    ]
+  },
+  "transportation": "Transportation includes anti-gravity boots, hover platforms, pneumatic tubes, giant robotic animals, and teleportation pads. The Labophase is accessed via special cloud-generating technology. Light beams serve as rapid transit systems between facilities.",
+  "food": {
+    "cuisine": [
+      "Scientifically optimized nutrition meals",
+      "Synthesized food products",
+      "Traditional food brought from outside",
+      "Instant meals"
+    ],
+    "traditions": [
+      "Meals are efficient and nutritionally calculated",
+      "Food preparation often automated",
+      "Scientists eating while working"
+    ],
+    "quirks": [
+      "Food can be materialized via technology",
+      "Giant robot sea beasts as transport and protection",
+      "Sanji cooking 'real food' becomes special"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Dr. Vegapunk (Stella)",
+      "role": "World's Greatest Scientist",
+      "description": "The brilliant scientist whose work has shaped the modern world. Split himself into six satellite bodies representing different aspects of his personality. Assassinated by the World Government but left a global broadcast revealing ancient truths.",
+      "type": "protagonist",
+      "faction": "Independent",
+      "tags": [
+        "Scientist",
+        "Genius",
+        "Revolutionary",
+        "Martyr",
+        "World's Smartest",
+        "Truth Seeker"
+      ],
+      "avatar": "/images/characters/egghead/dr-vegapunk.jpg"
+    },
+    {
+      "name": "Shaka (Punk-01)",
+      "role": "Vegapunk Satellite - Good",
+      "description": "The 'good' satellite of Vegapunk, calm and logical, representing his benevolent side. Assassinated by York.",
+      "type": "protagonist",
+      "faction": "Vegapunk Satellites",
+      "tags": [
+        "Scientist",
+        "Good",
+        "Satellite",
+        "Logical",
+        "Benevolent",
+        "Martyr"
+      ],
+      "avatar": "/images/characters/egghead/shaka-punk-01.jpg"
+    },
+    {
+      "name": "Lilith (Punk-02)",
+      "role": "Vegapunk Satellite - Evil",
+      "description": "The 'evil' satellite of Vegapunk focused on offensive applications and resource acquisition. Survivor who joined the Straw Hats.",
+      "type": "protagonist",
+      "faction": "Vegapunk Satellites",
+      "tags": [
+        "Scientist",
+        "Evil",
+        "Satellite",
+        "Greedy",
+        "Pragmatic",
+        "Survivor"
+      ],
+      "avatar": "/images/characters/egghead/lilith-punk-02.jpg"
+    },
+    {
+      "name": "Edison (Punk-04)",
+      "role": "Vegapunk Satellite - Think",
+      "description": "The 'thinking' satellite representing Vegapunk's intellect and problem-solving abilities. Has a lightbulb-shaped head.",
+      "type": "protagonist",
+      "faction": "Vegapunk Satellites",
+      "tags": [
+        "Scientist",
+        "Think",
+        "Satellite",
+        "Inventor",
+        "Logical"
+      ],
+      "avatar": "/images/characters/egghead/edison-punk-04.jpg"
+    },
+    {
+      "name": "Pythagoras (Punk-03)",
+      "role": "Vegapunk Satellite - Wisdom",
+      "description": "The 'wisdom' satellite representing Vegapunk's accumulated knowledge. Has a robotic appearance.",
+      "type": "protagonist",
+      "faction": "Vegapunk Satellites",
+      "tags": [
+        "Scientist",
+        "Wisdom",
+        "Satellite",
+        "Knowledge",
+        "Analytical"
+      ],
+      "avatar": "/images/characters/egghead/pythagoras-punk-03.jpg"
+    },
+    {
+      "name": "Atlas (Punk-05)",
+      "role": "Vegapunk Satellite - Wrath",
+      "description": "The aggressive, combat-focused satellite with a short temper. Represents Vegapunk's violent tendencies.",
+      "type": "protagonist",
+      "faction": "Vegapunk Satellites",
+      "tags": [
+        "Scientist",
+        "Wrath",
+        "Satellite",
+        "Fighter",
+        "Aggressive",
+        "Protective"
+      ],
+      "avatar": "/images/characters/egghead/atlas-punk-05.jpg"
+    },
+    {
+      "name": "York (Punk-06)",
+      "role": "Vegapunk Satellite - Greed / Traitor",
+      "description": "The 'greed' satellite who handles bodily desires like eating and sleeping for all Vegapunks. Betrayed everyone to become a Celestial Dragon.",
+      "type": "antagonist",
+      "faction": "World Government",
+      "tags": [
+        "Traitor",
+        "Greed",
+        "Satellite",
+        "Selfish",
+        "Villain"
+      ],
+      "avatar": "/images/characters/egghead/york-punk-06.jpg"
+    },
+    {
+      "name": "Jewelry Bonney",
+      "role": "Supernova / Kuma's Daughter",
+      "description": "A member of the Worst Generation who came to Egghead seeking answers about her father, Bartholomew Kuma. Can manipulate ages with her Devil Fruit.",
+      "type": "protagonist",
+      "faction": "Bonney Pirates",
+      "tags": [
+        "Supernova",
+        "Daughter",
+        "Devil Fruit User",
+        "Worst Generation",
+        "Age Manipulator"
+      ],
+      "avatar": "/images/characters/egghead/jewelry-bonney.jpg"
+    },
+    {
+      "name": "Bartholomew Kuma",
+      "role": "Former Warlord / Revolutionary / Pacifista Prototype",
+      "description": "The tragic figure who became a mindless weapon for the World Government after sacrificing his humanity to save Bonney. His consciousness was erased but his body protects those he loves.",
+      "type": "protagonist",
+      "faction": "Revolutionary Army",
+      "tags": [
+        "Former Warlord",
+        "Tragic",
+        "Father",
+        "Revolutionary",
+        "Cyborg",
+        "Tyrant",
+        "Selfless"
+      ],
+      "avatar": "/images/characters/egghead/bartholomew-kuma.jpg"
+    },
+    {
+      "name": "Sentomaru",
+      "role": "Vegapunk's Bodyguard / Former Marine",
+      "description": "The loyal protector of Vegapunk who commands the Pacifista units. Defected from the Marines to protect Vegapunk.",
+      "type": "protagonist",
+      "faction": "Vegapunk's Forces",
+      "tags": [
+        "Bodyguard",
+        "Pacifista Commander",
+        "Loyal",
+        "Protector",
+        "Haki User",
+        "Defector"
+      ],
+      "avatar": "/images/characters/egghead/sentomaru.jpg"
+    },
+    {
+      "name": "Admiral Kizaru (Borsalino)",
+      "role": "Marine Admiral",
+      "description": "Sent to Egghead to eliminate Vegapunk on the World Government's orders. Conflicted due to his past friendship with Vegapunk and Sentomaru.",
+      "type": "antagonist",
+      "faction": "Marines",
+      "tags": [
+        "Admiral",
+        "Light Speed",
+        "Devil Fruit User",
+        "Pika Pika no Mi",
+        "Conflicted",
+        "Duty-Bound"
+      ],
+      "avatar": "/images/characters/egghead/admiral-kizaru.jpg"
+    },
+    {
+      "name": "Saint Jaygarcia Saturn",
+      "role": "Five Elders / Warrior God",
+      "description": "One of the highest authorities in the World Government who personally came to Egghead. Revealed to have monstrous demonic powers and near-immortality.",
+      "type": "antagonist",
+      "faction": "Five Elders",
+      "tags": [
+        "World Government",
+        "Elder",
+        "Powerful",
+        "Ancient",
+        "Demon",
+        "Tyrant",
+        "Immortal"
+      ],
+      "avatar": "/images/characters/egghead/saint-jaygarcia-saturn.jpg"
+    },
+    {
+      "name": "Rob Lucci",
+      "role": "CP0 Agent",
+      "description": "The leopard-man assassin sent to Egghead as part of CP0 to eliminate Vegapunk. Former enemy of the Straw Hats from Enies Lobby.",
+      "type": "antagonist",
+      "faction": "CP0",
+      "tags": [
+        "CP0",
+        "Assassin",
+        "Leopard Zoan",
+        "Ruthless",
+        "Haki User"
+      ],
+      "avatar": "/images/characters/egghead/rob-lucci.jpg"
+    },
+    {
+      "name": "Kaku",
+      "role": "CP0 Agent",
+      "description": "The giraffe-man and Lucci's partner in CP0. Returned to face the Straw Hats again on Egghead.",
+      "type": "antagonist",
+      "faction": "CP0",
+      "tags": [
+        "CP0",
+        "Assassin",
+        "Giraffe Zoan",
+        "Swordsman",
+        "Awakened Zoan"
+      ],
+      "avatar": "/images/characters/egghead/kaku.jpg"
+    },
+    {
+      "name": "Stussy",
+      "role": "CP0 Agent / Double Agent / MADS Clone",
+      "description": "A clone of Miss Buckingham Stussy created by MADS. Betrayed CP0 to protect Vegapunk, revealing her true loyalties.",
+      "type": "protagonist",
+      "faction": "MADS (secretly)",
+      "tags": [
+        "Clone",
+        "Double Agent",
+        "Vampire",
+        "MADS",
+        "Ally"
+      ],
+      "avatar": "/images/characters/egghead/stussy.jpg"
+    },
+    {
+      "name": "S-Hawk",
+      "role": "Seraphim (Mihawk Clone)",
+      "description": "A Seraphim based on Dracule Mihawk, combining Lunarian powers with the greatest swordsman's abilities.",
+      "type": "antagonist",
+      "faction": "World Government",
+      "tags": [
+        "Seraphim",
+        "Lunarian",
+        "Swordsman",
+        "Cyborg",
+        "Clone"
+      ],
+      "avatar": "/images/characters/egghead/s-hawk.jpg"
+    },
+    {
+      "name": "S-Shark",
+      "role": "Seraphim (Jinbe Clone)",
+      "description": "A Seraphim based on Jinbe with Lunarian enhancements and the Swim-Swim Fruit.",
+      "type": "antagonist",
+      "faction": "World Government",
+      "tags": [
+        "Seraphim",
+        "Lunarian",
+        "Fish-man",
+        "Cyborg",
+        "Clone"
+      ],
+      "avatar": "/images/characters/egghead/s-shark.jpg"
+    },
+    {
+      "name": "S-Bear",
+      "role": "Seraphim (Kuma Clone)",
+      "description": "A Seraphim based on Bartholomew Kuma with the Paw-Paw Fruit powers.",
+      "type": "antagonist",
+      "faction": "World Government",
+      "tags": [
+        "Seraphim",
+        "Lunarian",
+        "Cyborg",
+        "Clone",
+        "Paw-Paw Powers"
+      ],
+      "avatar": "/images/characters/egghead/s-bear.jpg"
+    },
+    {
+      "name": "S-Snake",
+      "role": "Seraphim (Hancock Clone)",
+      "description": "A Seraphim based on Boa Hancock with the Love-Love Fruit petrification powers.",
+      "type": "antagonist",
+      "faction": "World Government",
+      "tags": [
+        "Seraphim",
+        "Lunarian",
+        "Cyborg",
+        "Clone",
+        "Love-Love Powers"
+      ],
+      "avatar": "/images/characters/egghead/s-snake.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Labophase",
+      "type": "floating research facility",
+      "description": "The upper layer of Egghead floating on artificial island clouds. Contains Vegapunk's main laboratories, living quarters, and advanced research facilities. Represents the pinnacle of futuristic technology.",
+      "notableFeatures": [
+        "Vegapunk's laboratory",
+        "Satellite living quarters",
+        "Giant robotic animals",
+        "Advanced defense systems",
+        "Frontier Dome barrier"
+      ],
+      "image": "/images/locations/egghead/labophase.jpg"
+    },
+    {
+      "name": "Fabriophase",
+      "type": "scrap island",
+      "description": "The lower layer containing discarded inventions and failed experiments. A junkyard of futuristic technology that still surpasses most of the world's current tech.",
+      "notableFeatures": [
+        "Scrap piles of advanced tech",
+        "Failed invention graveyard",
+        "Auto-recycling systems",
+        "Hidden entrances to Labophase",
+        "Vegaforce units storage"
+      ],
+      "image": "/images/locations/egghead/fabriophase.jpg"
+    },
+    {
+      "name": "Vegapunk's Main Laboratory",
+      "type": "research facility",
+      "description": "The central research hub where Vegapunk conducts his most important experiments. Contains data on Devil Fruits, ancient technology, and the Void Century.",
+      "notableFeatures": [
+        "Devil Fruit research",
+        "Ancient Kingdom data",
+        "Mother Flame project",
+        "Holographic systems",
+        "Global broadcast equipment"
+      ],
+      "image": "/images/locations/egghead/main-laboratory.jpg"
+    },
+    {
+      "name": "Pacifista Production Facility",
+      "type": "factory",
+      "description": "Where Pacifistas and Seraphim are manufactured and maintained. Houses the most advanced cyborg technology in the world.",
+      "notableFeatures": [
+        "Seraphim creation chambers",
+        "Pacifista assembly lines",
+        "Lunarian research",
+        "Cloning facilities",
+        "Combat testing areas"
+      ],
+      "image": "/images/locations/egghead/pacifista-facility.jpg"
+    },
+    {
+      "name": "Frontier Dome Control",
+      "type": "defense system",
+      "description": "The control center for Egghead's defensive barrier that protects the island from external threats.",
+      "notableFeatures": [
+        "Barrier generation",
+        "Island-wide defense",
+        "Power distribution",
+        "Security monitoring",
+        "Emergency protocols"
+      ],
+      "image": "/images/locations/egghead/frontier-dome-control.jpg"
+    },
+    {
+      "name": "Research Library",
+      "type": "archive",
+      "description": "Vegapunk's vast library containing research on ancient civilizations, Devil Fruits, and forbidden knowledge.",
+      "notableFeatures": [
+        "Void Century records",
+        "Devil Fruit encyclopedia",
+        "Ancient weapon research",
+        "Forbidden texts",
+        "Holographic archives"
+      ],
+      "image": "/images/locations/egghead/research-library.jpg"
+    },
+    {
+      "name": "Vegaforce Hangar",
+      "type": "vehicle bay",
+      "description": "Storage area for Vegaforce-01 and other advanced transport vehicles created by Vegapunk.",
+      "notableFeatures": [
+        "Giant mech suits",
+        "Flying vehicles",
+        "Sea beast robots",
+        "Launch platforms",
+        "Maintenance bays"
+      ],
+      "image": "/images/locations/egghead/vegaforce-hangar.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Mother Flame",
+      "category": "Energy Source",
+      "description": "An advanced energy source created by Vegapunk that was stolen by the World Government and used to power ancient weapons. Connected to the rising sea levels.",
+      "icon": "🔥",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Seraphim",
+      "category": "Weapon/Cyborg",
+      "description": "The ultimate Pacifista units combining Warlord DNA, Lunarian abilities, and Devil Fruit powers. The strongest form of humanity according to Vegapunk.",
+      "icon": "👼",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Authority Chips",
+      "category": "Control Device",
+      "description": "Hierarchical control chips that command Seraphim and Pacifistas. Higher authority overrides lower commands.",
+      "icon": "💎",
+      "rarity": "rare"
+    },
+    {
+      "name": "Light-Pressure Gloves",
+      "category": "Technology",
+      "description": "Gloves that harness light pressure to create powerful beams and defensive barriers.",
+      "icon": "🧤",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Vegaforce-01",
+      "category": "Vehicle/Mech",
+      "description": "A giant mechanical suit piloted by Lilith capable of combat and transportation.",
+      "icon": "🤖",
+      "rarity": "rare"
+    },
+    {
+      "name": "Den Den Mushi (Advanced)",
+      "category": "Communication",
+      "description": "Highly advanced communication snails with enhanced range, video capabilities, and encryption.",
+      "icon": "📞",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Artificial Devil Fruit",
+      "category": "Devil Fruit (Artificial)",
+      "description": "Lab-created Devil Fruits based on Kaido's DNA. Includes Momonosuke's dragon fruit.",
+      "icon": "🍎",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Bubble Gun",
+      "category": "Weapon",
+      "description": "A gun that shoots specialized bubbles for various effects - transport, protection, and capture.",
+      "icon": "🔫",
+      "rarity": "common"
+    },
+    {
+      "name": "Punk Records",
+      "category": "Technology/Database",
+      "description": "An enormous brain-shaped structure containing all of Vegapunk's research and memories, shared among all satellites.",
+      "icon": "🧠",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Anti-Gravity Boots",
+      "category": "Technology",
+      "description": "Footwear that allows users to walk on walls, ceilings, and float temporarily.",
+      "icon": "👢",
+      "rarity": "uncommon"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Vegapunk's Research Team",
+      "type": "Scientists",
+      "leader": "Dr. Vegapunk (Stella)",
+      "members": [
+        "Vegapunk (Stella)",
+        "Shaka (Punk-01)",
+        "Lilith (Punk-02)",
+        "Pythagoras (Punk-03)",
+        "Edison (Punk-04)",
+        "Atlas (Punk-05)",
+        "Sentomaru"
+      ],
+      "description": "The scientific collective led by the world's greatest genius, working to uncover ancient truths and advance humanity's knowledge.",
+      "alignment": "ally"
+    },
+    {
+      "name": "World Government Forces",
+      "type": "Military",
+      "leader": "Saint Jaygarcia Saturn",
+      "members": [
+        "Saturn",
+        "Admiral Kizaru",
+        "Rob Lucci",
+        "Kaku",
+        "CP0 agents",
+        "Marine forces",
+        "York (traitor)"
+      ],
+      "description": "The World Government's forces sent to eliminate Vegapunk and suppress his knowledge of the Void Century.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Seraphim Units",
+      "type": "Weapons",
+      "leader": "Authority Chip hierarchy",
+      "members": [
+        "S-Hawk",
+        "S-Shark",
+        "S-Bear",
+        "S-Snake",
+        "S-Crocodile",
+        "S-Gecko",
+        "S-Flamingo"
+      ],
+      "description": "The ultimate Pacifista series combining Lunarian DNA with former Warlord abilities. Can be controlled by authority chips.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Straw Hat Pirates (Visitors)",
+      "type": "Pirate Crew",
+      "leader": "Monkey D. Luffy",
+      "members": [
+        "All Straw Hat crew members"
+      ],
+      "description": "The crew that arrived at Egghead and became embroiled in the conflict between Vegapunk and the World Government.",
+      "alignment": "ally"
+    },
+    {
+      "name": "MADS (Former)",
+      "type": "Illegal Research Group",
+      "leader": "None (disbanded)",
+      "members": [
+        "Vegapunk",
+        "Caesar Clown",
+        "Vinsmoke Judge",
+        "Queen",
+        "Stussy (clone)"
+      ],
+      "description": "The former illegal research team that pioneered dangerous scientific discoveries before being shut down by the World Government.",
+      "alignment": "neutral"
+    },
+    {
+      "name": "Revolutionary Army (Connected)",
+      "type": "Rebellion",
+      "leader": "Monkey D. Dragon",
+      "members": [
+        "Bartholomew Kuma",
+        "Vegapunk (ally)"
+      ],
+      "description": "The Revolutionary Army has deep connections to Egghead through Kuma and their alliance with Vegapunk's ideals.",
+      "alignment": "ally"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 1058-ongoing",
+    "animeEpisodes": "Episodes 1086-ongoing",
+    "events": [
+      "Straw Hats arrive on Egghead",
+      "Meeting with Vegapunk and his satellites",
+      "Bonney's search for her father",
+      "World Government's siege of Egghead",
+      "Vegapunk's assassination",
+      "Global broadcast revealing ancient history",
+      "Battle against Seraphim and Admirals",
+      "Truth about Devil Fruits revealed",
+      "Ancient Robot activation"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#00BCD4",
+    "secondary": "#FFFFFF",
+    "accent": "#FF5722"
+  },
+  "quickFacts": [
+    "Technology 500 years ahead of the rest of the world",
+    "Home of Dr. Vegapunk, the world's smartest person",
+    "Where major truths about the Void Century were revealed",
+    "Contains the Sea Beast Weapons and Pacifista",
+    "Site of Vegapunk's global broadcast",
+    "Where Luffy fought a Marine Admiral and Five Elders"
+  ],
+  "videos": [
+    {
+      "youtubeId": "nowY_icRZsQ",
+      "title": "Luffy vs Kizaru - Gear 5 Battle",
+      "type": "fight",
+      "description": "Luffy in Gear 5 takes on the light-speed Admiral on Egghead.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "6sjli4Bs1js",
+      "title": "Ancient Robot Awakens",
+      "type": "lore",
+      "description": "The 200-year-old iron giant reactivates in response to the drums of liberation.",
+      "featured": false,
+      "order": 2
+    }
+  ],
+  "music": {
+    "url": "/music/egghead-theme.mp3",
+    "title": "Egghead - Island of the Future",
+    "volume": 0.3
+  }
+}

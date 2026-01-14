@@ -1,0 +1,762 @@
+{
+  "slug": "whole-cake-island",
+  "name": "Whole Cake Island (Totto Land)",
+  "region": "New World - Big Mom's Territory",
+  "aliases": [
+    "Totto Land",
+    "Land of All Nations",
+    "Big Mom's Kingdom",
+    "Charlotte Family Territory",
+    "Sweet Kingdom"
+  ],
+  "coordinates": { "x": 2095, "y": 3072 },
+  "journeyOrder": 29,
+  "saga": "Whole Cake Island",
+  "description": "Whole Cake Island is the central island of Totto Land, the vast archipelago ruled by Charlotte Linlin (Big Mom), one of the Four Emperors. The entire territory is a surreal wonderland where everything is made of food - buildings of candy, rivers of juice, forests of cream. Big Mom's Soul-Soul Fruit (Soru Soru no Mi) brings inanimate objects to life as Homies, creating a kingdom filled with singing houses, talking trees, and sentient food. At its heart stands the massive Whole Cake Chateau, Big Mom's castle and the site of the ill-fated wedding between Sanji and Charlotte Pudding. The island became the battleground for one of the most chaotic arcs in One Piece history - the Sanji Retrieval Mission. What began as a plan to quietly retrieve Sanji turned into a desperate escape from one of the world's most powerful pirates after Luffy disrupted the wedding, destroyed Mother Carmel's photo, and declared war on Big Mom herself. The arc revealed Sanji's tragic past with the Vinsmoke Family, showcased the legendary 12-hour battle between Luffy and Katakuri, and cemented the Straw Hats' reputation as a true Yonko-level threat.",
+  "history": "Whole Cake Island and the greater Totto Land archipelago were established by Charlotte Linlin after she became a pirate and formed the Big Mom Pirates. Her dream, born from her traumatic childhood on Elbaf and Mother Carmel's teachings, was to create a nation where all races could live together in harmony at the same table - a utopia without discrimination. However, this dream became twisted by her violent nature and insatiable hunger. She collects rare races like trophies, forcing marriages to expand her family's bloodlines and power. Totto Land consists of 35 islands, each governed by one of her ministers (her children), with themes ranging from nuts to liquor to cheese. The kingdom operates on a system where inhabitants give up a portion of their lifespan (one month every six months) in exchange for Big Mom's protection and the ability to live in relative peace. Those who refuse or try to leave are killed. The Charlotte Family has 85 children total - 46 sons and 39 daughters - many in positions of power. When Sanji was revealed to be the third son of the Vinsmoke Family (rulers of the Germa 66 mercenary kingdom), Big Mom arranged a political marriage to Charlotte Pudding, planning to use the wedding to massacre the Vinsmokes and steal their advanced technology. The plan fell apart when Luffy crashed the wedding, Sanji learned of Pudding's betrayal, and Jimbei officially left the Big Mom Pirates to join the Straw Hats. The resulting chaos - including Big Mom's rampage after her Mother Carmel photo was destroyed - led to the Straw Hats' desperate escape and cemented their status as a crew capable of challenging emperors.",
+  "culture": "Totto Land operates as a twisted fairy tale kingdom where the aesthetic is sweet but the reality is dark. Everything is food-themed, from the architecture to the landscape, creating a surreal environment that initially seems whimsical but reveals itself as unsettling. Big Mom's homies are everywhere - singing, dancing, watching, reporting. Privacy is nonexistent. The culture revolves entirely around Big Mom's whims and hunger. Tea parties are mandatory social events where attendance refusal means death. The Charlotte siblings, despite their vast numbers, operate in a strict hierarchy based on combat strength and Big Mom's favoritism. The Sweet Commanders (Katakuri, Smoothie, Cracker) are the most powerful children and command immense respect. Family bonds are complicated - some siblings are genuinely close (Katakuri protects his siblings, Pudding struggles with her identity), while others are coldly pragmatic. Marriage is a political tool, with Big Mom forcing her children into arranged marriages to forge alliances and expand bloodlines. The kingdom celebrates Big Mom's birthday with elaborate festivities, and her cravings (wedding cakes, croquembouche) dictate the rhythm of daily life. Despite the 'all races together' ideology, the kingdom is fundamentally built on fear, tribute, and Big Mom's overwhelming power. Inhabitants pay with their lifespan and live under constant surveillance by homies. Dissent is met with death.",
+  "economy": {
+    "industries": [
+      "Candy and sweets production (entire economy)",
+      "Chocolate manufacturing (Cacao Island)",
+      "Political marriages and alliances",
+      "Lifespan collection (taxation system)",
+      "Rare race 'collection' and preservation",
+      "Underground weapons trade (through alliances)",
+      "Mercenary services (Germa 66 alliance)"
+    ],
+    "currency": "Berry (฿) + Lifespan payments",
+    "tradeGoods": [
+      "Candy and confections",
+      "Political favors and protection",
+      "Access to rare races",
+      "Germa 66 technology (intended through marriage)",
+      "Big Mom's influence as Yonko"
+    ]
+  },
+  "transportation": "Totto Land's 35 islands are connected by Big Mom's network of surveillance and control. Traveling between islands typically requires ships, but the Seducing Woods and other dangerous territories make unauthorized travel deadly. Big Mom rides Zeus (thundercloud homie) and Prometheus (sun homie) to fly, while Napoleon (bicorne hat homie) serves as her sword. The Mirror World, accessed through mirrors by Brûlée's Mirror-Mirror Fruit powers, allows instant travel between any mirror in Totto Land - a strategic advantage the Big Mom Pirates use extensively. The Straw Hats famously exploited this same mirror network during their escape. Visitors arrive at designated ports and are monitored constantly by homies. Big Mom can track anyone through the eyes and ears of her countless living objects.",
+  "food": {
+    "cuisine": [
+      "Every kind of sweet imaginable - candy, chocolate, cakes, pastries",
+      "Wedding cakes (elaborate, multi-tiered masterpieces)",
+      "Croquembouche (Big Mom's craving food)",
+      "Cream and frosting-based dishes",
+      "Living food homies (disturbing to eat)",
+      "Streusen's high-level cooking",
+      "Sanji's legendary wedding cake that saved everyone"
+    ],
+    "traditions": [
+      "Mandatory tea parties where attendance is life-or-death",
+      "Birthday celebrations for Big Mom (elaborate festivals)",
+      "Wedding feasts (political events disguised as celebrations)",
+      "Big Mom's eating frenzies when cravings hit",
+      "Sharing meals with all races at the same table (the dream)"
+    ],
+    "quirks": [
+      "Literally everything is made of food",
+      "Big Mom's hunger rampages destroy everything",
+      "Sanji cooking the legendary wedding cake to stop Big Mom",
+      "Pudding's memory-altered ingredients",
+      "Streusen can turn anything into food with his powers",
+      "Big Mom's food cravings can last for days and destroy countries"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Charlotte Linlin (Big Mom)",
+      "role": "Yonko / Captain of Big Mom Pirates / Queen of Totto Land",
+      "description": "One of the Four Emperors and one of the strongest people in the world. User of the Soul-Soul Fruit (Soru Soru no Mi), able to manipulate souls and bring objects to life as homies. Dreams of a world where all races sit at the same table, but enforces this dream through fear and violence. Suffers from eating disorders and goes on destructive rampages when her food cravings aren't satisfied. Mother to 85 children whom she uses as political tools.",
+      "faction": "Big Mom Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Yonko",
+        "Soul-Soul Fruit",
+        "Former Rocks Pirate",
+        "85 Children",
+        "Homie Creator",
+        "Food Rampages",
+        "Mother Carmel Trauma",
+        "Elbaf Exile",
+        "Eating Disorder"
+      ],
+      "avatar": "/images/characters/whole-cake-island/big-mom.jpg"
+    },
+    {
+      "name": "Charlotte Katakuri",
+      "role": "Sweet Commander / Second Son / Main Antagonist",
+      "description": "The strongest of Big Mom's children and second son of the Charlotte Family. User of the Mochi-Mochi Fruit with Advanced Observation Haki that lets him see slightly into the future. Legendary 12-hour battle against Luffy became one of the greatest fights in the series. Maintains perfect image but hides his massive mouth and mochi-eating habit. Deeply protective of his family.",
+      "faction": "Big Mom Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Sweet Commander",
+        "Mochi-Mochi Fruit",
+        "Future Sight Haki",
+        "Billion Berry Bounty",
+        "Perfect Brother Image",
+        "Hidden Mouth",
+        "Merienda Time",
+        "Respects Luffy"
+      ],
+      "avatar": "/images/characters/whole-cake-island/katakuri.jpg"
+    },
+    {
+      "name": "Charlotte Pudding",
+      "role": "35th Daughter / Sanji's Fiancée / Three-Eye Tribe",
+      "description": "The 35th daughter of Big Mom and a member of the Three-Eye Tribe (hidden under her hair). User of the Memory-Memory Fruit (Memo Memo no Mi). Initially appears sweet and falls for Sanji, but revealed to be part of assassination plot. Her genuine feelings for Sanji eventually overcome her mission. Her third eye, once a source of shame, represents her hidden true self.",
+      "faction": "Big Mom Pirates",
+      "type": "neutral",
+      "tags": [
+        "Three-Eye Tribe",
+        "Memory-Memory Fruit",
+        "Sanji's Fiancée",
+        "Assassination Plot",
+        "Falls for Sanji",
+        "Hidden Third Eye",
+        "Conflicted Loyalty",
+        "Master Chocolatier"
+      ],
+      "avatar": "/images/characters/whole-cake-island/pudding.jpg"
+    },
+    {
+      "name": "Charlotte Perospero",
+      "role": "Minister of Candy / Eldest Son",
+      "description": "The eldest son of the Charlotte Family and Minister of Candy Island. User of the Candy-Candy Fruit (Pero Pero no Mi), able to create and manipulate candy. Loyal to Big Mom and fiercely protective of family hierarchy. Long tongue and distinctive 'Perorin~' laugh. Lost an arm to Pedro's suicide explosion.",
+      "faction": "Big Mom Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Eldest Son",
+        "Candy-Candy Fruit",
+        "Minister of Candy",
+        "Lost Arm to Pedro",
+        "Perorin Laugh",
+        "Family Hierarchy",
+        "High Bounty"
+      ],
+      "avatar": "/images/characters/whole-cake-island/perospero.jpg"
+    },
+    {
+      "name": "Charlotte Smoothie",
+      "role": "Sweet Commander / Minister of Juice / 14th Daughter",
+      "description": "One of the three Sweet Commanders and the 14th daughter. User of the Wring-Wring Fruit (Shibo Shibo no Mi), able to wring liquid out of anything including people. Incredibly tall (over 15 feet). Despite her high position, was largely ineffective during the Straw Hats' escape.",
+      "faction": "Big Mom Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Sweet Commander",
+        "Wring-Wring Fruit",
+        "Minister of Juice",
+        "Longleg Tribe Hybrid",
+        "Giant Size",
+        "High Bounty"
+      ],
+      "avatar": "/images/characters/whole-cake-island/smoothie.jpg"
+    },
+    {
+      "name": "Charlotte Cracker",
+      "role": "Sweet Commander / Minister of Biscuit / 10th Son",
+      "description": "One of the three Sweet Commanders and 10th son. User of the Biscuit-Biscuit Fruit (Bisu Bisu no Mi), creating infinite biscuit armor soldiers. His true body is small and weak-looking, always hiding inside armor. Defeated by Luffy with Nami's help after an 11-hour battle.",
+      "faction": "Big Mom Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Sweet Commander",
+        "Biscuit-Biscuit Fruit",
+        "Minister of Biscuit",
+        "Biscuit Armor",
+        "True Form Hidden",
+        "Defeated by Luffy",
+        "High Bounty"
+      ],
+      "avatar": "/images/characters/whole-cake-island/cracker.jpg"
+    },
+    {
+      "name": "Charlotte Oven",
+      "role": "Minister of Browned Food / 4th Son",
+      "description": "The 4th son and Minister of Browned Food Island. User of the Heat-Heat Fruit (Netsu Netsu no Mi), able to heat his body to extreme temperatures. Fiercely loyal to Big Mom and aggressive in pursuit of the Straw Hats during their escape. Triplet brother to Katakuri and Daifuku.",
+      "faction": "Big Mom Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Minister of Browned Food",
+        "Heat-Heat Fruit",
+        "Katakuri's Triplet",
+        "Extreme Heat",
+        "Aggressive Fighter"
+      ],
+      "avatar": "/images/characters/whole-cake-island/oven.jpg"
+    },
+    {
+      "name": "Charlotte Daifuku",
+      "role": "Minister of Beans / 3rd Son",
+      "description": "The 3rd son and Minister of Beans Island. User of the Hoya-Hoya Fruit (Lamp-Lamp Fruit), able to summon a genie from his body by rubbing his belt. The genie is massive and wields a halberd. Triplet brother to Katakuri and Oven.",
+      "faction": "Big Mom Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Minister of Beans",
+        "Hoya-Hoya Fruit",
+        "Genie Summoner",
+        "Katakuri's Triplet",
+        "Lamp Genie"
+      ],
+      "avatar": "/images/characters/whole-cake-island/daifuku.jpg"
+    },
+    {
+      "name": "Charlotte Brûlée",
+      "role": "8th Daughter / Mirror World Master",
+      "description": "The 8th daughter and user of the Mirror-Mirror Fruit (Mira Mira no Mi), creating the Mirror World dimension accessible through any mirror. Her powers are crucial to Big Mom's surveillance network. Was scarred protecting young Katakuri. The Straw Hats captured her and used her powers to infiltrate and eventually escape Totto Land.",
+      "faction": "Big Mom Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Mirror-Mirror Fruit",
+        "Mirror World Creator",
+        "Surveillance Network",
+        "Scarred for Katakuri",
+        "Captured by Straw Hats",
+        "Strategic Power"
+      ],
+      "avatar": "/images/characters/whole-cake-island/brulee.jpg"
+    },
+    {
+      "name": "Vinsmoke Judge",
+      "role": "Germa 66 King / Sanji's Father",
+      "description": "The king of the Germa Kingdom and leader of Germa 66, a mercenary army of scientifically enhanced soldiers. Former research partner of Vegapunk. Genetically modified his children to be emotionless super-soldiers, but Sanji 'failed' to develop powers. Abused Sanji for being 'normal.' Made the political marriage deal with Big Mom, unaware it was a trap to steal his technology.",
+      "faction": "Germa 66 / Vinsmoke Family",
+      "type": "neutral",
+      "tags": [
+        "Germa 66 King",
+        "Genetic Scientist",
+        "Sanji's Father",
+        "Vegapunk's Former Partner",
+        "Modified Children",
+        "Political Marriage Victim",
+        "Raid Suit Technology"
+      ],
+      "avatar": "/images/characters/whole-cake-island/judge.jpg"
+    },
+    {
+      "name": "Vinsmoke Reiju",
+      "role": "Germa 66 Commander / Poison Pink / Sanji's Sister",
+      "description": "The only daughter of the Vinsmoke Family and eldest child. Known as 'Poison Pink' for her poison-based powers. Unlike her brothers, retains emotions and kindness. Helped Sanji escape as a child and saved Luffy from poison during the arc. Genuinely cares for Sanji despite family dynamics.",
+      "faction": "Germa 66 / Vinsmoke Family",
+      "type": "protagonist",
+      "tags": [
+        "Poison Pink",
+        "Genetic Enhancement",
+        "Retained Emotions",
+        "Sanji's Sister",
+        "Poison Immunity",
+        "Helped Sanji Escape",
+        "Kind Heart",
+        "Raid Suit"
+      ],
+      "avatar": "/images/characters/whole-cake-island/reiju.jpg"
+    },
+    {
+      "name": "Vinsmoke Ichiji",
+      "role": "Germa 66 Commander / Sparking Red / Sanji's Brother",
+      "description": "The eldest son of the Vinsmoke Family known as 'Sparking Red.' Genetically modified to be emotionless with light-based powers. Cruel and dismissive toward Sanji. One of the enhanced siblings who bullied Sanji as children.",
+      "faction": "Germa 66 / Vinsmoke Family",
+      "type": "antagonist",
+      "tags": [
+        "Sparking Red",
+        "Genetic Enhancement",
+        "No Emotions",
+        "Light Powers",
+        "Sanji's Brother",
+        "Childhood Bully",
+        "Raid Suit"
+      ],
+      "avatar": "/images/characters/whole-cake-island/ichiji.jpg"
+    },
+    {
+      "name": "Vinsmoke Niji",
+      "role": "Germa 66 Commander / Dengeki Blue / Sanji's Brother",
+      "description": "The second son of the Vinsmoke Family known as 'Dengeki Blue.' Genetically modified to be emotionless with electricity-based powers. Particularly cruel and violent toward Sanji and those Sanji cares about.",
+      "faction": "Germa 66 / Vinsmoke Family",
+      "type": "antagonist",
+      "tags": [
+        "Dengeki Blue",
+        "Genetic Enhancement",
+        "No Emotions",
+        "Electric Powers",
+        "Sanji's Brother",
+        "Most Cruel to Sanji",
+        "Raid Suit"
+      ],
+      "avatar": "/images/characters/whole-cake-island/niji.jpg"
+    },
+    {
+      "name": "Vinsmoke Yonji",
+      "role": "Germa 66 Commander / Winch Green / Sanji's Brother",
+      "description": "The fourth son of the Vinsmoke Family known as 'Winch Green.' Genetically modified to be emotionless with enhanced strength. Less actively cruel than his brothers but still dismissive of Sanji. Has a mechanical winch incorporated into his body.",
+      "faction": "Germa 66 / Vinsmoke Family",
+      "type": "antagonist",
+      "tags": [
+        "Winch Green",
+        "Genetic Enhancement",
+        "No Emotions",
+        "Super Strength",
+        "Sanji's Brother",
+        "Mechanical Winch",
+        "Raid Suit"
+      ],
+      "avatar": "/images/characters/whole-cake-island/yonji.jpg"
+    },
+    {
+      "name": "Vinsmoke Sanji",
+      "role": "Straw Hat Cook / Black Leg / Third Son",
+      "description": "The third son of the Vinsmoke Family who 'failed' to develop genetic enhancements, retaining his emotions and humanity. Abused by his family and locked away before escaping with Reiju's help. Became the Straw Hats' cook after leaving Baratie. Returns to face his traumatic past during the wedding arc. His love for his crew and refusal to sacrifice them leads to the wedding chaos.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Straw Hat Cook",
+        "Black Leg",
+        "Vinsmoke Failure",
+        "Retained Emotions",
+        "Traumatic Past",
+        "Wedding Groom",
+        "Loves Pudding",
+        "Raid Suit (eventually)",
+        "All Blue Dream"
+      ],
+      "avatar": "/images/characters/whole-cake-island/sanji.jpg"
+    },
+    {
+      "name": "Streusen",
+      "role": "Big Mom Pirates Head Chef / Big Mom's Oldest Ally",
+      "description": "A legendary chef and user of the Cook-Cook Fruit (Kuku Kuku no Mi), able to turn anything into food. Found young Linlin after the Mother Carmel incident and became her first crew member, shaping her into a pirate. Essentially raised her and enabled her dream of creating Totto Land.",
+      "faction": "Big Mom Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Cook-Cook Fruit",
+        "Head Chef",
+        "Big Mom's First Crew Member",
+        "Enabled Her Piracy",
+        "Legendary Chef",
+        "Turn Anything to Food"
+      ],
+      "avatar": "/images/characters/whole-cake-island/streusen.jpg"
+    },
+    {
+      "name": "Capone Bege",
+      "role": "Fire Tank Pirates Captain / Big Father / Assassination Plot Leader",
+      "description": "Captain of the Fire Tank Pirates and user of the Castle-Castle Fruit (Shiro Shiro no Mi). Married to Charlotte Chiffon (Big Mom's daughter) and secretly plotted to assassinate Big Mom during the wedding. Formed temporary alliance with Straw Hats. Transforms into 'Big Father' fortress form.",
+      "faction": "Fire Tank Pirates",
+      "type": "neutral",
+      "tags": [
+        "Castle-Castle Fruit",
+        "Worst Generation",
+        "Big Father Form",
+        "Assassination Plot",
+        "Married to Chiffon",
+        "Temporary Straw Hat Ally",
+        "Escaped Together"
+      ],
+      "avatar": "/images/characters/whole-cake-island/bege.jpg"
+    },
+    {
+      "name": "Charlotte Mont-d'Or",
+      "role": "Minister of Cheese / 19th Son / Library Master",
+      "description": "The 19th son and Minister of Cheese Island. User of the Book-Book Fruit (Buku Buku no Mi), able to manipulate books and trap people inside them. Controls the Prisoner Library where people are imprisoned in books. Strategic thinker who coordinated pursuit of the Straw Hats.",
+      "faction": "Big Mom Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Minister of Cheese",
+        "Book-Book Fruit",
+        "Prisoner Library",
+        "Strategic Coordinator",
+        "Book Manipulation",
+        "Pursuit Leader"
+      ],
+      "avatar": "/images/characters/whole-cake-island/mont-dor.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Whole Cake Chateau",
+      "type": "castle",
+      "description": "The massive castle at the center of Whole Cake Island where Big Mom resides. Built like an enormous wedding cake with multiple tiers. Site of Sanji and Pudding's wedding ceremony, the assassination attempt, and the moment Luffy destroyed Mother Carmel's photo, triggering Big Mom's rampage.",
+      "notableFeatures": [
+        "Big Mom's throne room",
+        "Wedding ceremony hall",
+        "Mother Carmel's photo room",
+        "Treasure repository with Road Poneglyph",
+        "Multiple tiers like wedding cake",
+        "Prisoner library (books)",
+        "Katakuri's merienda shrine"
+      ],
+      "image": "/images/locations/whole-cake-island/chateau.jpg"
+    },
+    {
+      "name": "Sweet City",
+      "type": "city",
+      "description": "The main city of Whole Cake Island where many of Big Mom's homies and subjects live. Everything is made of candy and sweets. Singing and dancing homies fill the streets, creating a surreal fairy tale atmosphere that masks the underlying terror.",
+      "notableFeatures": [
+        "Candy buildings and chocolate streets",
+        "Singing homies everywhere",
+        "Sweet-themed architecture",
+        "Constant surveillance",
+        "Tribute collection points",
+        "Fairy tale aesthetic"
+      ],
+      "image": "/images/locations/whole-cake-island/sweet-city.jpg"
+    },
+    {
+      "name": "Seducing Woods",
+      "type": "enchanted forest",
+      "description": "A dangerous forest filled with Big Mom's homies that attack intruders. Trees, animals, and even the path itself are alive and hostile. The forest plays with visitors' perceptions, making escape nearly impossible. Luffy's group got trapped here before being saved by Pudding (initially).",
+      "notableFeatures": [
+        "Aggressive tree homies",
+        "Talking animals",
+        "Disorienting paths",
+        "Constant surveillance",
+        "Living forest attacking intruders",
+        "Sanji's group captured here"
+      ],
+      "image": "/images/locations/whole-cake-island/seducing-woods.jpg"
+    },
+    {
+      "name": "Mirror World",
+      "type": "alternate dimension",
+      "description": "The pocket dimension created by Brûlée's Mirror-Mirror Fruit, accessible through any mirror in Totto Land. Contains infinite reflections and passages between mirrors. The Straw Hats used this world to infiltrate and escape, and it's where Luffy's legendary battle with Katakuri took place.",
+      "notableFeatures": [
+        "Brûlée's dimension",
+        "Connects all mirrors in Totto Land",
+        "Luffy vs Katakuri battle site",
+        "Infinite reflections",
+        "Strategic infiltration route",
+        "Escape pathway"
+      ],
+      "image": "/images/locations/whole-cake-island/mirror-world.jpg"
+    },
+    {
+      "name": "Prisoner Library",
+      "type": "prison",
+      "description": "A library controlled by Mont-d'Or where prisoners are trapped inside books using his Book-Book Fruit powers. Each book contains a different prisoner, frozen in the pages. The Vinsmoke Family was nearly imprisoned here during the wedding massacre attempt.",
+      "notableFeatures": [
+        "Mont-d'Or's domain",
+        "People trapped in books",
+        "Book-Book Fruit powers",
+        "Intended for Vinsmokes",
+        "Vast collection of prisoners",
+        "Inside Whole Cake Chateau"
+      ],
+      "image": "/images/locations/whole-cake-island/prisoner-library.jpg"
+    },
+    {
+      "name": "Cacao Island Harbor",
+      "type": "port",
+      "description": "The harbor on Cacao Island (chocolate-themed) where the Straw Hats planned their final escape. The site of the massive battle where Luffy emerged from the Mirror World after defeating Katakuri, and where Sanji baked the legendary wedding cake to stop Big Mom's rampage.",
+      "notableFeatures": [
+        "Chocolate-themed island",
+        "Mirror World exit point",
+        "Luffy emerges after Katakuri fight",
+        "Wedding cake creation site",
+        "Final battle before escape",
+        "Multiple Charlotte siblings present"
+      ],
+      "image": "/images/locations/whole-cake-island/cacao-harbor.jpg"
+    },
+    {
+      "name": "Pudding's Café",
+      "type": "establishment",
+      "description": "A chocolate café run by Pudding where she works as a chocolatier. Appears innocent and sweet on the surface, much like Pudding's initial persona. The place where her conflicting feelings for Sanji began to genuinely develop despite her assassination mission.",
+      "notableFeatures": [
+        "Pudding's workplace",
+        "Chocolate café",
+        "Sweet exterior hiding secrets",
+        "Sanji visits",
+        "Pudding's genuine feelings emerge",
+        "Memory-Memory Fruit used here"
+      ],
+      "image": "/images/locations/whole-cake-island/pudding-cafe.jpg"
+    },
+    {
+      "name": "Coast of Whole Cake Island",
+      "type": "coastline",
+      "description": "The coastline where the Thousand Sunny was initially docked and where the final desperate escape occurred after the wedding chaos. Big Mom's fleet pursued the Straw Hats relentlessly. Pedro sacrificed himself here, detonating explosives to damage Perospero and allow the crew to escape.",
+      "notableFeatures": [
+        "Thousand Sunny docking point",
+        "Pedro's sacrifice location",
+        "Perospero lost arm here",
+        "Big Mom fleet pursuit",
+        "Escape route",
+        "Ocean battle site"
+      ],
+      "image": "/images/locations/whole-cake-island/coast.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Wedding Cake",
+      "category": "Food / Plot Device",
+      "description": "The legendary wedding cake Sanji baked with Pudding and Chiffon to stop Big Mom's food rampage. So delicious it knocked Big Mom unconscious with joy, saving the escaping Straw Hats. Considered one of Sanji's greatest culinary achievements.",
+      "icon": "🎂",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Road Poneglyph",
+      "category": "Ancient Artifact",
+      "description": "One of four Road Poneglyphs necessary to reach Laugh Tale, kept in Big Mom's treasure repository. Brook successfully obtained a rubbing during the infiltration, a crucial achievement for the Straw Hats' journey.",
+      "icon": "🗿",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Mother Carmel's Photo",
+      "category": "Treasure / Trauma Trigger",
+      "description": "The only photo of Mother Carmel, the woman who took in young Linlin on Elbaf before mysteriously disappearing. Big Mom treasures this above all else. When Luffy destroyed it, Big Mom's psyche shattered, unleashing her most powerful scream ever recorded.",
+      "icon": "🖼️",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Raid Suit (Stealth Black)",
+      "category": "Technology",
+      "description": "Germa 66's advanced transformation suit given to Sanji by his family. Grants invisibility and enhanced abilities. Sanji initially refused to use it out of pride, but eventually utilized it in Wano, awakening his dormant genetic modifications.",
+      "icon": "🦾",
+      "rarity": "rare"
+    },
+    {
+      "name": "Vivre Card to Whole Cake Island",
+      "category": "Navigation",
+      "description": "The Vivre Card that led the Sanji Retrieval Team to Big Mom's territory. Also used by Big Mom's fleet to pursue the Straw Hats relentlessly during their escape.",
+      "icon": "📄",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Zeus (Thundercloud Homie)",
+      "category": "Homie / Living Weapon",
+      "description": "Big Mom's thundercloud homie created from her soul. Nami captured Zeus by feeding him thunderclouds, gaining a massive power boost. Zeus becomes conflicted between Big Mom and Nami's delicious weather.",
+      "icon": "⛈️",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Tamatebako (Treasure Box)",
+      "category": "Ancient Artifact / Explosive",
+      "description": "The treasure box from Fish-Man Island that the Straw Hats gave to Big Mom as tribute. Unknown to her, it contained ancient explosives that detonated when opened, destroying the Whole Cake Chateau during her rampage and saving the Vinsmokes.",
+      "icon": "💣",
+      "rarity": "rare"
+    },
+    {
+      "name": "Copy of Sanji's Wanted Poster (Only Alive)",
+      "category": "Plot Device",
+      "description": "Sanji's bounty poster that specified 'Only Alive' rather than 'Dead or Alive,' revealing his value to powerful forces. This was the first hint of his Vinsmoke heritage and Big Mom's interest in the political marriage.",
+      "icon": "📋",
+      "rarity": "uncommon"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Big Mom Pirates",
+      "type": "Yonko Crew",
+      "leader": "Charlotte Linlin (Big Mom)",
+      "members": [
+        "Charlotte Linlin",
+        "Katakuri",
+        "Smoothie",
+        "Cracker",
+        "Perospero",
+        "Oven",
+        "Daifuku",
+        "Brûlée",
+        "Mont-d'Or",
+        "All 85 Charlotte siblings",
+        "Countless homies"
+      ],
+      "description": "One of the Four Emperors' crews controlling Totto Land. Built around Big Mom's massive family of 85 children, each with unique abilities. Enforces 'all races living together' through fear and tribute.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Germa 66 (Vinsmoke Family)",
+      "type": "Mercenary Kingdom / Royal Family",
+      "leader": "Vinsmoke Judge",
+      "members": [
+        "Judge",
+        "Reiju",
+        "Ichiji",
+        "Niji",
+        "Yonji",
+        "Sanji (estranged)",
+        "Clone soldiers"
+      ],
+      "description": "A mercenary kingdom of scientifically enhanced soldiers led by the Vinsmoke Family. Victims of Big Mom's assassination plot during the wedding. Sanji's estranged family who abused him for being 'normal.'",
+      "alignment": "neutral"
+    },
+    {
+      "name": "Fire Tank Pirates",
+      "type": "Worst Generation Crew",
+      "leader": "Capone Bege",
+      "members": [
+        "Capone Bege",
+        "Charlotte Chiffon (wife)",
+        "Vito",
+        "Gotti",
+        "Fire Tank crew"
+      ],
+      "description": "Bege's crew that infiltrated Big Mom's organization through his marriage to Chiffon. Plotted to assassinate Big Mom during the wedding using Caesar's poison gas. Formed temporary alliance with Straw Hats.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Straw Hat Pirates (Sanji Retrieval Team)",
+      "type": "Pirate Crew",
+      "leader": "Monkey D. Luffy",
+      "members": [
+        "Luffy",
+        "Nami",
+        "Sanji",
+        "Chopper",
+        "Brook",
+        "Carrot (stowaway)",
+        "Pedro (guide)"
+      ],
+      "description": "The team that infiltrated Totto Land to retrieve Sanji. Successfully obtained Road Poneglyph rubbing, disrupted the wedding, declared war on Big Mom, and escaped despite overwhelming odds.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Sun Pirates (Remnants)",
+      "type": "Fish-Man Pirate Crew",
+      "leader": "Aladine (after Jinbe)",
+      "members": [
+        "Aladine",
+        "Praline (Big Mom's daughter)",
+        "Sun Pirates crew"
+      ],
+      "description": "The remnants of the Sun Pirates after Jinbe officially left to join the Straw Hats. Helped the Straw Hats escape by holding off Big Mom's fleet, allowing Jinbe to fulfill his dream.",
+      "alignment": "ally"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 825-902 (Whole Cake Island Arc)",
+    "animeEpisodes": "Episodes 783-877",
+    "events": [
+      "Sanji Retrieval Team arrives at Totto Land",
+      "Sanji's group captured in Seducing Woods",
+      "Pudding appears to rescue them (deception)",
+      "Luffy's group meets Pudding at her café",
+      "Sanji meets with Pudding, begins to trust her",
+      "Revelation: Sanji is Vinsmoke family third son",
+      "Big Mom and Judge's political marriage alliance revealed",
+      "Sanji meets his abusive family again",
+      "Flashbacks: Sanji's traumatic childhood with Vinsmokes",
+      "Judge's abuse, locking Sanji in dungeon with iron mask",
+      "Reiju helped Sanji escape as a child",
+      "Sanji leaves note telling Luffy to leave without him",
+      "Luffy refuses, sits and waits for Sanji in the rain",
+      "Sanji returns, kicks Luffy to 'protect' him",
+      "Luffy: 'Without you, I can't become Pirate King!'",
+      "Sanji breaks down, admits he wants to return",
+      "Luffy: 'I'll wait here. I won't eat anything but what you make.'",
+      "Brook infiltrates Whole Cake Chateau alone",
+      "Brook vs Big Mom - gets Road Poneglyph rubbing",
+      "Brook's bones broken but mission successful",
+      "Pudding's true nature revealed - three eyes, cruel personality",
+      "Pudding planned to shoot Sanji during wedding kiss",
+      "Sanji overhears and is devastated",
+      "Sanji still bakes cake for Pudding despite betrayal",
+      "Pudding begins genuinely falling for Sanji's kindness",
+      "Capone Bege's assassination plot revealed",
+      "Bege and Straw Hats form temporary alliance",
+      "Plan: Use wedding to kill Big Mom with Caesar's poison",
+      "Wedding ceremony begins at Whole Cake Chateau",
+      "Vinsmoke family attends, unaware of assassination plot",
+      "Sanji and Pudding at altar",
+      "Pudding hesitates - genuinely loves Sanji now",
+      "Big Mom's forces prepare to massacre Vinsmokes",
+      "Luffy bursts from cake, reveals himself",
+      "Luffy shows Sanji the truth about Pudding's plan",
+      "Wedding descends into chaos",
+      "Luffy destroys Mother Carmel's photo",
+      "Big Mom's psyche shatters - unleashes devastating scream",
+      "Everyone except Katakuri knocked unconscious",
+      "Assassination attempt with KX Launcher poison gas",
+      "Big Mom's scream shatters the poison rockets",
+      "Assassination fails, Big Mom begins rampage",
+      "Tamatebako treasure box falls and explodes",
+      "Whole Cake Chateau begins collapsing",
+      "Vinsmokes saved from Book Prison by explosion",
+      "Straw Hats and Bege make desperate escape",
+      "Judge shocked his children were meant to be sacrificed",
+      "Germa 66 turns on Big Mom Pirates",
+      "Straw Hats reach Thousand Sunny",
+      "Big Mom begins food rampage - craving wedding cake",
+      "Pedro sacrifices himself, detonates explosives vs Perospero",
+      "Perospero loses an arm, Pedro presumed dead",
+      "Carrot devastated by Pedro's sacrifice",
+      "Brook and Chopper defend Sunny from Big Mom fleet",
+      "Katakuri pursues Luffy into Mirror World",
+      "Legendary 12-hour battle: Luffy vs Katakuri begins",
+      "Katakuri's future sight dominates initially",
+      "Luffy sees Katakuri's merienda (mochi eating ritual)",
+      "Katakuri's perfect image shattered - huge mouth revealed",
+      "Battle becomes mutual respect and growth",
+      "Luffy develops future sight during the fight",
+      "Both warriors push beyond their limits",
+      "Katakuri falls first but falls on his back (respect for Luffy)",
+      "Katakuri: 'You're looking far ahead... to become Pirate King?'",
+      "Luffy emerges from Mirror World victorious",
+      "Big Mom's rampage intensifies, destroys islands",
+      "Chiffon and Sanji bake legendary wedding cake plan",
+      "Pudding helps despite conflicting emotions",
+      "Pudding removes Sanji's memory of her crying/confession",
+      "Wedding cake completed - Sanji's masterpiece",
+      "Cake delivered to Big Mom on Cacao Island",
+      "Big Mom eats cake, knocked out by deliciousness",
+      "Straw Hats make final escape from Totto Land",
+      "Sun Pirates hold off Big Mom's fleet for Jinbe",
+      "Germa 66 covers Straw Hats' escape",
+      "Judge acknowledges Sanji's strength (grudgingly)",
+      "Sanji's bounty increases, Vinsmoke name revealed",
+      "Straw Hats successfully escape Big Mom's territory",
+      "News spreads: Straw Hats challenged a Yonko and survived",
+      "Luffy declared 'Fifth Emperor' by Big News Morgans",
+      "Big Mom swears revenge, sets course for Wano"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#FF69B4",
+    "secondary": "#FFB6C1",
+    "accent": "#FF1493"
+  },
+  "quickFacts": [
+    "Center of Totto Land - Big Mom's 35-island archipelago",
+    "Everything made of food - candy buildings, chocolate rivers",
+    "Big Mom's Soul-Soul Fruit creates living homies everywhere",
+    "Home to all 85 of Big Mom's children (Charlotte Family)",
+    "Inhabitants pay lifespan tribute (1 month every 6 months)",
+    "Site of failed Sanji-Pudding wedding and assassination plot",
+    "Luffy vs Katakuri legendary 12-hour battle in Mirror World",
+    "Brook obtained Road Poneglyph rubbing",
+    "Sanji's tragic Vinsmoke past revealed",
+    "Pedro sacrificed himself for the crew's escape",
+    "Wedding cake stopped Big Mom's rampage",
+    "Luffy declared 'Fifth Emperor' after escaping"
+  ],
+  "videos": [
+    {
+      "youtubeId": "wz1H3jxl_tA",
+      "title": "Luffy vs Katakuri - Epic 12-Hour Battle",
+      "type": "battle",
+      "description": "The legendary battle between Luffy and Katakuri in the Mirror World where both warriors pushed beyond their limits and Luffy developed future sight.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "Tog911OMsBs",
+      "title": "Without You I Can't Become Pirate King",
+      "type": "emotional",
+      "description": "Luffy's declaration to Sanji in the rain, refusing to eat anything but Sanji's cooking, breaking through Sanji's walls.",
+      "featured": true,
+      "order": 2
+    },
+    {
+      "youtubeId": "7rE8TdjlCZ8",
+      "title": "Wedding Chaos - Luffy Destroys Mother Carmel's Photo",
+      "type": "battle",
+      "description": "The moment the wedding descended into chaos as Luffy destroyed Big Mom's most precious treasure, shattering her psyche.",
+      "featured": false,
+      "order": 3
+    }
+  ],
+  "music": {
+    "url": "/music/whole-cake-island-theme.mp3",
+    "title": "Bloody Party",
+    "volume": 0.3
+  }
+}

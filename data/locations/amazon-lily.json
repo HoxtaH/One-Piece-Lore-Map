@@ -1,0 +1,541 @@
+{
+  "slug": "amazon-lily",
+  "name": "Amazon Lily",
+  "region": "Paradise (Grand Line) - Calm Belt",
+  "aliases": [
+    "Island of Women",
+    "Kuja Island",
+    "Women's Island",
+    "Pirate Empress's Domain"
+  ],
+  "coordinates": { "x": 9795, "y": 3430 },
+  "journeyOrder": 21,
+  "saga": "Summit War",
+  "description": "Amazon Lily is an island empire located in the Calm Belt, inhabited exclusively by the all-female Kuja Tribe - a warrior race descended from fierce fighters. The island is protected by massive Sea Kings that inhabit the Calm Belt, making it nearly impossible to reach without special navigation. The Kuja warriors are master archers who coat their arrows in Haki, and their culture revolves around strength, combat prowess, and devotion to their empress. The current empress is Boa Hancock, the 'Pirate Empress' and one of the Seven Warlords of the Sea, known as the most beautiful woman in the world. The island features lush jungles, a magnificent palace, and a culture that has never seen men - until Luffy crash-landed here after being sent flying by Bartholomew Kuma. The island's isolation has created unique customs where the women are both fierce warriors and completely naive about the outside world.",
+  "history": "Amazon Lily has existed for generations as a matriarchal warrior society where strength determines rank and the strongest woman becomes empress. The island's location in the Calm Belt kept it isolated from the world, allowing the Kuja culture to develop independently. Twelve years before Luffy's arrival, the previous empress's three successors - Hancock, Sandersonia, and Marigold - were kidnapped by slavers and sold to the Celestial Dragons. During their captivity, they were branded with the 'Hoof of the Soaring Dragon' slave mark and suffered unspeakable abuse. Hancock ate the Love-Love Fruit during this time. The three were eventually freed when Fisher Tiger attacked Mariejois, and they returned to Amazon Lily, hiding their past. Hancock became empress at age 18 and earned her Warlord position, creating the lie that her back marking came from killing a Gorgon to hide her slavery. When Luffy crash-landed on the island after Kuma sent him flying from Sabaody, he became the first man to set foot there in generations. Despite initially trying to execute him, Hancock fell deeply in love with Luffy after he covered her slave mark to protect her secret, showing her kindness without desire for her beauty. She would go on to help him infiltrate Impel Down to rescue Ace. After the war and Ace's death, Law's submarine brought the dying Luffy back to Amazon Lily. Hancock nursed him with devotion as he suffered through a complete mental breakdown, destroying parts of the jungle in grief. Jinbe helped save Luffy's sanity by reminding him of what he still had—his crew. Rayleigh arrived and offered to train Luffy, leading to the famous 3D2Y message. Luffy returned to Marineford with Rayleigh and Jinbe to ring the Ox Bell 16 times and throw a bouquet, sending a coded message to his scattered crew that they should meet in 3 Days and 2 Years (not 3 days). Amazon Lily served as Luffy's staging ground before departing to train on nearby Rusukaina Island for two years, with Hancock regularly bringing him food and protecting his location from discovery.",
+  "culture": "Kuja culture is built entirely around strength and combat. Women train from childhood in Haki-infused archery and hand-to-hand combat. The strongest becomes empress and lives in the palace, while others prove themselves through arena battles and warrior rankings. The island has never had contact with men, leading to hilarious misunderstandings - the women think men give birth, pregnancy comes from kissing, and all outsiders are enemies. They worship snakes as sacred animals, using them as weapons, companions, and even transportation (the Kuja Pirates' ship is pulled by swimming serpents). Physical beauty and strength are equally valued. The culture is warm and sisterly among themselves but fierce to outsiders. Marriage doesn't exist in their vocabulary. Despite their warrior nature, they're innocent about romance and the outside world. Elder Nyon (Gloriosa) serves as the wise elder who knows the terrible truth about 'Love Sickness' - every empress who falls in love eventually dies from it, which has happened to previous rulers. Hancock breaking this pattern (by admitting her love) makes her unique.",
+  "economy": {
+    "industries": [
+      "Pirate raiding and plunder",
+      "Warrior training and combat",
+      "Snake breeding and taming",
+      "Tropical agriculture and hunting",
+      "Treasure hoarding from conquests"
+    ],
+    "currency": "Berry (฿) - taken from raided ships",
+    "tradeGoods": [
+      "Plundered treasure",
+      "Exotic jungle resources",
+      "Kuja weaponry and arrows",
+      "Snake venom and hides"
+    ]
+  },
+  "transportation": "The island itself is isolated in the Calm Belt and protected by Sea Kings. The Kuja Pirates use a unique ship with a serpent figurehead pulled through the water by two massive swimming snakes (Salome's relatives), allowing them to cross the Calm Belt safely. On the island, warriors ride on the backs of giant snakes or traverse the jungle on foot. The palace is accessed by climbing the mountain or using snake-pulled elevators.",
+  "food": {
+    "cuisine": [
+      "Jungle game and wild meats",
+      "Tropical fruits and vegetables",
+      "Mushroom dishes (Luffy loves them)",
+      "Fish from surrounding waters",
+      "Festival celebration foods",
+      "Empress's royal banquets"
+    ],
+    "traditions": [
+      "Victory feasts after raids",
+      "Arena battle celebrations",
+      "Empress coronation banquets",
+      "Welcome home ceremonies for Kuja Pirates",
+      "Shared communal meals"
+    ],
+    "quirks": [
+      "Luffy stuffing his face with mushrooms",
+      "Women confused by Luffy eating meat off bones",
+      "Hancock refusing to eat if Luffy isn't there",
+      "Elaborate presentations for the empress",
+      "Food as strength fuel for warriors"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Boa Hancock",
+      "role": "Pirate Empress / Warlord of the Sea",
+      "description": "The most beautiful woman in the world and current empress of Amazon Lily. User of the Love-Love Fruit, which can petrify those attracted to her. Cold and arrogant to everyone except Luffy, whom she loves obsessively. Hides the secret that she was a slave of the Celestial Dragons.",
+      "faction": "Kuja Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Warlord",
+        "Empress",
+        "Love-Love Fruit",
+        "Petrification",
+        "Former Slave",
+        "Luffy's Biggest Fan",
+        "Most Beautiful",
+        "Conqueror's Haki"
+      ],
+      "avatar": "/images/characters/amazon-lily/boa-hancock.jpg"
+    },
+    {
+      "name": "Boa Sandersonia",
+      "role": "Gorgon Sister / Kuja Warrior",
+      "description": "Hancock's younger sister who ate the Snake-Snake Fruit, Model: Anaconda. Can transform into a massive anaconda or hybrid form. Loyal to Hancock and shares the slave mark secret.",
+      "faction": "Kuja Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Gorgon Sister",
+        "Snake-Snake Fruit",
+        "Anaconda",
+        "Former Slave",
+        "Observation Haki",
+        "Fierce Warrior"
+      ],
+      "avatar": "/images/characters/amazon-lily/sandersonia.jpg"
+    },
+    {
+      "name": "Boa Marigold",
+      "role": "Gorgon Sister / Kuja Warrior",
+      "description": "Hancock's other younger sister who ate the Snake-Snake Fruit, Model: King Cobra. Can breathe fire and transform into a giant cobra. Protects Hancock's secrets fiercely.",
+      "faction": "Kuja Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Gorgon Sister",
+        "Snake-Snake Fruit",
+        "King Cobra",
+        "Former Slave",
+        "Fire Breath",
+        "Tank Fighter"
+      ],
+      "avatar": "/images/characters/amazon-lily/marigold.jpg"
+    },
+    {
+      "name": "Gloriosa (Elder Nyon)",
+      "role": "Former Empress / Island Elder",
+      "description": "The tiny, elderly former empress who left the island to cure her 'Love Sickness.' She's the wise advisor who understands what Hancock is going through and helps despite Hancock's hatred. Carries a snake staff.",
+      "faction": "Kuja Tribe",
+      "type": "protagonist",
+      "tags": [
+        "Former Empress",
+        "Elder",
+        "Wise Woman",
+        "Love Sickness Survivor",
+        "Advisor",
+        "Tiny"
+      ],
+      "avatar": "/images/characters/amazon-lily/gloriosa.jpg"
+    },
+    {
+      "name": "Marguerite",
+      "role": "Kuja Warrior",
+      "description": "A kind-hearted Kuja warrior who first found Luffy and befriended him despite cultural taboos. She defended him and was nearly executed but saved by Luffy. Becomes one of his supporters on the island.",
+      "faction": "Kuja Tribe",
+      "type": "protagonist",
+      "tags": [
+        "Kuja Warrior",
+        "Archer",
+        "Kind-Hearted",
+        "Luffy's Friend",
+        "Haki User",
+        "Curious"
+      ],
+      "avatar": "/images/characters/amazon-lily/marguerite.jpg"
+    },
+    {
+      "name": "Sweet Pea",
+      "role": "Kuja Warrior",
+      "description": "One of Marguerite's friends and a Kuja warrior. More cautious than Marguerite but still curious about Luffy. Skilled archer with Haki-coated arrows.",
+      "faction": "Kuja Tribe",
+      "type": "protagonist",
+      "tags": [
+        "Kuja Warrior",
+        "Archer",
+        "Marguerite's Friend",
+        "Haki User",
+        "Cautious"
+      ],
+      "avatar": "/images/characters/amazon-lily/sweet-pea.jpg"
+    },
+    {
+      "name": "Aphelandra",
+      "role": "Kuja Warrior",
+      "description": "A massive, tall Kuja warrior with incredible physical strength. One of Marguerite's friends. Gentle despite her size.",
+      "faction": "Kuja Tribe",
+      "type": "protagonist",
+      "tags": [
+        "Kuja Warrior",
+        "Giant Woman",
+        "Strong",
+        "Marguerite's Friend",
+        "Gentle Giant"
+      ],
+      "avatar": "/images/characters/amazon-lily/aphelandra.jpg"
+    },
+    {
+      "name": "Ran",
+      "role": "Kuja Warrior / Ship Defender",
+      "description": "A fierce Kuja warrior who guards the Kuja Pirates' ship. Suspicious of outsiders and traditional in her views.",
+      "faction": "Kuja Tribe",
+      "type": "neutral",
+      "tags": [
+        "Kuja Warrior",
+        "Guard",
+        "Traditional",
+        "Fierce"
+      ],
+      "avatar": "/images/characters/amazon-lily/ran.jpg"
+    },
+    {
+      "name": "Monkey D. Luffy",
+      "role": "Intruder / Hancock's Love",
+      "description": "The first man to set foot on Amazon Lily in generations. Sent here by Kuma after Sabaody. His kindness and protection of Hancock's secret made her fall madly in love with him, though he remains oblivious.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Captain",
+        "First Man",
+        "Hancock's Love",
+        "Secret Keeper",
+        "Innocent",
+        "Mushroom Lover"
+      ],
+      "avatar": "/images/characters/amazon-lily/luffy.jpg"
+    },
+    {
+      "name": "Salome",
+      "role": "Hancock's Snake Companion",
+      "description": "Hancock's giant snake companion who serves as her throne, weapon, and mount. Completely loyal to Hancock and shares her disdain for everyone except Luffy.",
+      "faction": "Kuja Pirates",
+      "type": "neutral",
+      "tags": [
+        "Snake",
+        "Companion",
+        "Throne",
+        "Weapon",
+        "Loyal"
+      ],
+      "avatar": "/images/characters/amazon-lily/salome.jpg"
+    },
+    {
+      "name": "Bacura",
+      "role": "Execution Beast",
+      "description": "A massive black panther kept in the arena to execute prisoners. Luffy one-punched him, shocking the entire island.",
+      "faction": "Amazon Lily",
+      "type": "neutral",
+      "tags": [
+        "Panther",
+        "Execution Beast",
+        "One-Punched",
+        "Arena Monster"
+      ],
+      "avatar": "/images/characters/amazon-lily/bacura.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Kuja Palace",
+      "type": "royal residence",
+      "description": "The magnificent palace atop the mountain where Empress Hancock lives. Decorated with snake motifs, luxurious furnishings, and serves as the seat of power. Contains Hancock's private chambers where she reveals her slave mark to Luffy.",
+      "notableFeatures": [
+        "Throne room with Salome",
+        "Hancock's private chambers",
+        "Luxurious decorations",
+        "Snake motifs everywhere",
+        "Mountain peak location",
+        "Secret revealing site"
+      ],
+      "image": "/images/locations/amazon-lily/palace.jpg"
+    },
+    {
+      "name": "Kuja Arena",
+      "type": "battle arena",
+      "description": "The large arena where warriors prove themselves in combat and where executions occur. Site of Luffy vs the Gorgon Sisters battle where he protected Hancock's secret.",
+      "notableFeatures": [
+        "Battle grounds",
+        "Spectator stands",
+        "Bacura's cage",
+        "Execution site",
+        "Luffy's arena battle",
+        "Secret protection moment"
+      ],
+      "image": "/images/locations/amazon-lily/arena.jpg"
+    },
+    {
+      "name": "Kuja Village",
+      "type": "settlement",
+      "description": "The main village where the Kuja women live in harmony. Traditional architecture blended with jungle surroundings. Where Luffy first encountered the confused but curious warriors.",
+      "notableFeatures": [
+        "Traditional houses",
+        "Communal areas",
+        "Training grounds",
+        "Market areas",
+        "Luffy's crash site",
+        "Women's daily life"
+      ],
+      "image": "/images/locations/amazon-lily/village.jpg"
+    },
+    {
+      "name": "Gorgon Shrine",
+      "type": "sacred site",
+      "description": "The forbidden shrine where supposedly the Gorgon monster was slain. Used as the cover story for why Hancock and her sisters can never show their backs (hiding slave marks).",
+      "notableFeatures": [
+        "Forbidden area",
+        "Cover story location",
+        "Snake decorations",
+        "Sacred to Kuja",
+        "Myth perpetuation site"
+      ],
+      "image": "/images/locations/amazon-lily/gorgon-shrine.jpg"
+    },
+    {
+      "name": "Jungle Paths",
+      "type": "wilderness",
+      "description": "The lush tropical jungle covering most of the island. Home to wild animals, training grounds for warriors, and where Marguerite's group found Luffy.",
+      "notableFeatures": [
+        "Dense vegetation",
+        "Wild animals",
+        "Training areas",
+        "Natural resources",
+        "Discovery site",
+        "Hunting grounds"
+      ],
+      "image": "/images/locations/amazon-lily/jungle.jpg"
+    },
+    {
+      "name": "Kuja Pirates' Harbor",
+      "type": "dock",
+      "description": "The harbor where the Kuja Pirates' ship docks when returning from raids. The ship is unique with its serpent design and swimming snake propulsion.",
+      "notableFeatures": [
+        "Pirate ship dock",
+        "Snake-pulled vessel",
+        "Raid returns",
+        "Calm Belt access",
+        "Treasure storage"
+      ],
+      "image": "/images/locations/amazon-lily/harbor.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Love-Love Fruit (Mero Mero no Mi)",
+      "category": "Devil Fruit",
+      "description": "Hancock's Devil Fruit that allows her to petrify anyone attracted to her or anything she touches. Also makes her beauty even more overwhelming.",
+      "icon": "💗",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Haki-Infused Arrows",
+      "category": "Weapon",
+      "description": "The signature weapons of Kuja warriors. Arrows coated in Armament Haki that can pierce anything. All warriors learn this technique.",
+      "icon": "🏹",
+      "rarity": "rare"
+    },
+    {
+      "name": "Snake Weapon",
+      "category": "Living Weapon",
+      "description": "Hancock's snake Salome can transform into a bow or other weapons. Other Kuja warriors also use trained snakes as weapons.",
+      "icon": "🐍",
+      "rarity": "rare"
+    },
+    {
+      "name": "Slave Mark (Hoof of Soaring Dragon)",
+      "category": "Tragic Brand",
+      "description": "The mark burned onto Hancock and her sisters' backs by the Celestial Dragons. The source of Hancock's trauma and her greatest secret.",
+      "icon": "🔥",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Perfume Femur",
+      "category": "Technique",
+      "description": "Hancock's powerful kick technique that petrifies whatever it hits. One of her most devastating attacks.",
+      "icon": "🦵",
+      "rarity": "rare"
+    },
+    {
+      "name": "Love Love Mellow",
+      "category": "Technique",
+      "description": "Hancock's heart-shaped beam that petrifies anyone attracted to her beauty. Her signature attack.",
+      "icon": "💘",
+      "rarity": "rare"
+    },
+    {
+      "name": "Mushroom Cuisine",
+      "category": "Food",
+      "description": "The mushroom dishes that Luffy absolutely loved, eating them with abandon and shocking the Kuja women.",
+      "icon": "🍄",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Kuja Pirates' Wanted Posters",
+      "category": "Documents",
+      "description": "Hancock's wanted poster showing her 80,000,000 berry bounty (frozen due to Warlord status). Proof of her pirate activities.",
+      "icon": "📋",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Gloriosa's Snake Staff",
+      "category": "Elder's Symbol",
+      "description": "The staff carried by Elder Nyon, topped with a snake head. Symbol of her former empress status and current wisdom.",
+      "icon": "🐍",
+      "rarity": "uncommon"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Kuja Pirates",
+      "type": "Pirate Crew / Island Rulers",
+      "leader": "Boa Hancock",
+      "members": [
+        "Boa Hancock (Empress)",
+        "Boa Sandersonia",
+        "Boa Marigold",
+        "Elite Kuja warriors",
+        "Raiding party members"
+      ],
+      "description": "The ruling faction led by Empress Hancock. They raid ships and accumulate treasure while maintaining Hancock's Warlord status.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Kuja Tribe (Island Residents)",
+      "type": "Warrior Society",
+      "leader": "Empress Boa Hancock",
+      "members": [
+        "Marguerite",
+        "Sweet Pea",
+        "Aphelandra",
+        "Ran",
+        "All island women",
+        "Snake companions"
+      ],
+      "description": "The all-female warrior society that has lived isolated from men for generations. Loyal to their empress but curious about the world.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Former Empresses / Elders",
+      "type": "Advisory Council",
+      "leader": "Gloriosa (Elder Nyon)",
+      "members": [
+        "Gloriosa",
+        "Other former empresses (mentioned)"
+      ],
+      "description": "The wise elders who survived their reigns and now advise the current empress, though Hancock often ignores them.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Celestial Dragons (Antagonistic Past)",
+      "type": "World Nobles",
+      "leader": "Unknown Celestial Dragon",
+      "members": [
+        "Various unnamed World Nobles",
+        "Slavers who captured Hancock"
+      ],
+      "description": "The World Nobles who enslaved and traumatized Hancock and her sisters. The source of her deepest pain and hatred.",
+      "alignment": "enemy"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 514-524 (Amazon Lily Arc), 581-589 (Post-War Return)",
+    "animeEpisodes": "Episodes 408-417 (Amazon Lily), 490-516 (Post-War)",
+    "events": [
+      "Luffy sent flying by Kuma from Sabaody",
+      "Luffy crash-lands on Amazon Lily",
+      "First man on the island in generations",
+      "Marguerite, Sweet Pea, and Aphelandra find Luffy",
+      "Women confused by male anatomy",
+      "Luffy stretches - they think it's disease",
+      "Marguerite gives Luffy her clothes",
+      "Luffy eats mushrooms with joy",
+      "Discovery that Luffy is male",
+      "Marguerite and friends sentenced to execution",
+      "Luffy infiltrates arena to save them",
+      "Luffy vs Boa Sandersonia and Marigold",
+      "Hancock's back about to be exposed",
+      "Luffy stretches to cover her slave mark",
+      "Hancock petrifies audience to hide secret",
+      "Luffy sees the Hoof of Soaring Dragon mark",
+      "Hancock reveals her tragic past as slave",
+      "Luffy punches Celestial Dragon in memory (vow)",
+      "Hancock falls deeply in love with Luffy",
+      "Gloriosa warns about Love Sickness",
+      "Hancock admits her love (breaks curse)",
+      "Luffy learns about Ace's execution",
+      "Hancock agrees to help Luffy reach Impel Down",
+      "Elder Nyon approves despite concerns",
+      "Hancock smuggles Luffy to Impel Down",
+      "Marguerite pardoned and becomes Luffy supporter",
+      "POST-WAR: Law's submarine brings dying Luffy back",
+      "POST-WAR: Jinbe carries unconscious Luffy",
+      "POST-WAR: Luffy wakes up and learns Ace is dead",
+      "POST-WAR: Luffy's complete mental breakdown",
+      "POST-WAR: Luffy destroys jungle in grief and rage",
+      "POST-WAR: Luffy injures himself repeatedly",
+      "POST-WAR: Hancock nurses Luffy with tears",
+      "POST-WAR: Jinbe stops Luffy's self-destruction",
+      "POST-WAR: Jinbe asks 'What do you still have?'",
+      "POST-WAR: Luffy realizes he still has his crew",
+      "POST-WAR: Luffy's resolve returns",
+      "POST-WAR: Rayleigh arrives on island",
+      "POST-WAR: Rayleigh offers to train Luffy",
+      "POST-WAR: Plan for 3D2Y message formed",
+      "POST-WAR: Luffy returns to Marineford with Rayleigh and Jinbe",
+      "POST-WAR: Luffy rings Ox Bell 16 times (3D2Y message)",
+      "POST-WAR: Throws bouquet at Marineford plaza",
+      "POST-WAR: Message sent to scattered crew",
+      "POST-WAR: Luffy returns to Amazon Lily briefly",
+      "POST-WAR: Departs for Rusukaina Island for 2-year training",
+      "POST-WAR: Hancock protects his training location",
+      "POST-WAR: Brings Luffy food during training period"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#FF1493",
+    "secondary": "#8B008B",
+    "accent": "#FFD700"
+  },
+  "quickFacts": [
+    "All-female warrior island in Calm Belt",
+    "Boa Hancock is the Pirate Empress",
+    "First man on island in generations (Luffy)",
+    "All warriors can use Haki",
+    "Hancock has Love-Love Fruit powers",
+    "Island protected by Sea Kings",
+    "Hancock and sisters are former slaves",
+    "Hancock falls in love with Luffy",
+    "Love Sickness kills empresses who fall in love",
+    "Snakes are sacred and used as weapons",
+    "Luffy recovered here after Ace's death",
+    "Jinbe saved Luffy's sanity on this island",
+    "Rayleigh trained Luffy nearby on Rusukaina",
+    "3D2Y message planned here",
+    "Hancock brought Luffy food during 2-year training"
+  ],
+  "videos": [
+    {
+      "youtubeId": "Oc-UuTZqDgs",
+      "title": "Hancock Falls in Love with Luffy",
+      "type": "lore",
+      "description": "The moment when Hancock realizes she's fallen completely in love with Luffy after he protected her secret.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "wNySwThr36o",
+      "title": "Luffy Arrives at Amazon Lily",
+      "type": "lore",
+      "description": "Luffy crash-lands on Amazon Lily after being sent flying by Bartholomew Kuma from Sabaody.",
+      "featured": false,
+      "order": 2
+    },
+    {
+      "youtubeId": "QsGkRdYA-a0",
+      "title": "Luffy vs Boa Sisters",
+      "type": "fight",
+      "description": "Luffy fights Sandersonia and Marigold in the arena while protecting Hancock's secret.",
+      "featured": false,
+      "order": 3
+    }
+  ],
+  "music": {
+    "url": "/music/amazon-lily-theme.mp3",
+    "title": "Boa Hancock's Theme",
+    "volume": 0.3
+  }
+}

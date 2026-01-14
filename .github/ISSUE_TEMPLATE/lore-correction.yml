@@ -1,0 +1,90 @@
+name: 📜 Lore Correction
+description: Report inaccurate information about an existing location
+title: "[Correction] "
+labels: ["contribution", "lore-correction", "community"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 📜 Report a Lore Inaccuracy
+        
+        Found something incorrect on the map? Help us fix it! We strive for accuracy and appreciate corrections.
+
+  - type: input
+    id: location-name
+    attributes:
+      label: Location Name
+      description: Which location has the incorrect information?
+      placeholder: e.g., Wano Country, Skypeia, Water 7
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category of Error
+      description: What type of information is incorrect?
+      options:
+        - Description/Overview
+        - History
+        - Culture
+        - Notable Characters
+        - Economy/Trade
+        - Food/Cuisine
+        - Transportation
+        - Story Arc Info (chapters/episodes)
+        - Quick Facts
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-info
+    attributes:
+      label: Current (Incorrect) Information
+      description: What does the map currently say?
+      placeholder: |
+        Quote or describe the incorrect information currently shown on the map.
+    validations:
+      required: true
+
+  - type: textarea
+    id: correct-info
+    attributes:
+      label: Correct Information
+      description: What should it say instead?
+      placeholder: |
+        Provide the accurate information that should replace the error.
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Source/Reference
+      description: How do you know this is correct?
+      placeholder: |
+        e.g., "Chapter 1044, page 12" or "Episode 1015, around 15:30"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How significant is this error?
+      options:
+        - Minor (typo, small detail)
+        - Moderate (incorrect but not plot-critical)
+        - Major (significantly wrong information)
+        - Critical (completely incorrect or misleading)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have verified this correction against the official manga/anime
+          required: true

@@ -1,0 +1,523 @@
+{
+  "slug": "jaya",
+  "name": "Jaya",
+  "region": "Paradise (Grand Line)",
+  "aliases": [
+    "Skull's Right Eye",
+    "Mock Town Island",
+    "Spring Island"
+  ],
+  "coordinates": { "x": 7831, "y": 3130 },
+  "journeyOrder": 13,
+  "saga": "Sky Island",
+  "description": "Jaya is a spring island in Paradise shaped like a skull's profile, though it's only half of its original form - the other half was knocked into the sky 400 years ago and became part of Skypeia. The island is home to Mock Town, a lawless pirate haven where the new era of pirates who don't believe in dreams congregate. It's also where Montblanc Cricket, descendant of the 'liar' Noland, searches for evidence of the lost city of gold. The island sits near the Knock Up Stream, a massive geyser that can launch ships into the sky.",
+  "history": "Four hundred years ago, Jaya was a much larger island inhabited by the Shandians and visited by explorer Montblanc Noland, who wrote about the city of gold. However, half the island was suddenly knocked into the sky by the Knock Up Stream, taking the golden city with it. Noland was executed as a liar when he couldn't relocate the city upon his return, and his story became a famous fairy tale about dishonesty. His descendant, Montblanc Cricket, came to Jaya to prove his ancestor wasn't a liar by searching the seafloor for remnants of the lost city. When the Straw Hats arrived, they encountered two opposing philosophies: Bellamy and his crew who mocked dreams and the idea of Sky Island, and Blackbeard who, despite being enemies with Luffy, shared his belief that dreams never die. After being humiliated in Mock Town for believing in Sky Island, Luffy defeated Bellamy in one punch to reclaim Cricket's gold. The Saruyama Alliance helped the Straw Hats catch the Knock Up Stream to reach Skypeia, proving the cynics wrong.",
+  "culture": "Jaya, specifically Mock Town, represents the worst of the pirate world - a place where cynicism, greed, and mockery of dreams flourish. Pirates gather to drink, fight, and boast about their exploits while dismissing anything fantastical as childish fantasy. This new generation of pirates seeks treasure and power but has lost the romantic spirit of adventure. In stark contrast, the Saruyama Alliance (Cricket, Masira, and Shoujou) embodies the old pirate spirit - pursuing seemingly impossible dreams with dedication and helping others reach theirs. The island has no real government, operating under 'might makes right' rules.",
+  "economy": {
+    "industries": [
+      "Pirate haven (taverns, gambling)",
+      "Salvage operations (Cricket's crew)",
+      "Black market trading",
+      "Ship repairs and supplies",
+      "Illegal goods trade"
+    ],
+    "currency": "Berry (฿)",
+    "tradeGoods": [
+      "Salvaged treasure",
+      "Stolen goods",
+      "Ship supplies",
+      "Alcohol",
+      "Information",
+      "South Birds (rare)"
+    ]
+  },
+  "transportation": "Ships dock at Mock Town's port. The island is small enough to traverse on foot. The Saruyama Alliance uses diving equipment and modified ships for salvage operations. South Birds are native to the island and can guide ships. The Knock Up Stream is the dangerous route to Sky Island.",
+  "food": {
+    "cuisine": [
+      "Tavern food (basic pirate fare)",
+      "Ale and rum",
+      "Grilled meats",
+      "Cherry pie (Blackbeard's favorite)",
+      "Tropical fruits",
+      "Seafood from diving"
+    ],
+    "traditions": [
+      "Drinking contests in taverns",
+      "Food fights and brawls",
+      "Boasting over meals",
+      "Sharing salvage crew meals (Cricket's alliance)"
+    ],
+    "quirks": [
+      "Blackbeard and Luffy's opposite opinions on cherry pie and drinks",
+      "Mock Town's terrible food and drink quality",
+      "Cricket's crew sharing simple but hearty meals",
+      "Luffy not fighting back during tavern humiliation"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Marshall D. Teach (Blackbeard)",
+      "role": "Blackbeard Pirates Captain",
+      "description": "A rising pirate who shares Luffy's philosophy that 'a man's dream never dies' despite being on an opposing path. Would later become a Warlord and then an Emperor. His speech about dreams in the tavern parallels Luffy's beliefs.",
+      "faction": "Blackbeard Pirates",
+      "type": "antagonist",
+      "tags": [
+        "D Clan",
+        "Future Warlord",
+        "Future Emperor",
+        "Dreamer",
+        "Mysterious",
+        "Parallel to Luffy",
+        "Darkness Power (Future)"
+      ],
+      "avatar": "/images/characters/jaya/blackbeard.jpg"
+    },
+    {
+      "name": "Montblanc Cricket",
+      "role": "Saruyama Alliance Leader / Salvager",
+      "description": "Descendant of Montblanc Noland who dedicates his life to proving his ancestor wasn't a liar about the city of gold. Helped the Straw Hats reach Sky Island despite his own inability to go.",
+      "faction": "Saruyama Alliance",
+      "type": "protagonist",
+      "tags": [
+        "Descendant of Noland",
+        "Salvager",
+        "Dreamer",
+        "Diving Expert",
+        "Decompression Sickness",
+        "Honorable"
+      ],
+      "avatar": "/images/characters/jaya/cricket.jpg"
+    },
+    {
+      "name": "Bellamy the Hyena",
+      "role": "Bellamy Pirates Captain",
+      "description": "A pirate who gained a 55 million berry bounty and the Spring-Spring Fruit power. Mocks dreams and Sky Island. Defeated by Luffy in one punch after stealing Cricket's gold. Later inspired by Luffy's resolve.",
+      "faction": "Bellamy Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Spring-Spring Fruit",
+        "Doflamingo Subordinate",
+        "Cynic",
+        "Bully",
+        "One Punch Defeat",
+        "Reformed (Later)"
+      ],
+      "avatar": "/images/characters/jaya/bellamy.jpg"
+    },
+    {
+      "name": "Doc Q (Death God)",
+      "role": "Blackbeard Pirates Doctor",
+      "description": "The sickly doctor of the Blackbeard Pirates who rides a equally sickly horse named Stronger. Offers poisoned apples as a twisted game of chance.",
+      "faction": "Blackbeard Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Doctor",
+        "Sickly",
+        "Death Motif",
+        "Twisted Humor",
+        "Stronger (Horse)"
+      ],
+      "avatar": "/images/characters/jaya/doc-q.jpg"
+    },
+    {
+      "name": "Jesus Burgess",
+      "role": "Blackbeard Pirates Helmsman",
+      "description": "The superhuman strong helmsman of the Blackbeard Pirates. A wrestling champion with incredible physical power. Loud and boisterous.",
+      "faction": "Blackbeard Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Helmsman",
+        "Wrestler",
+        "Superhuman Strength",
+        "Champion Fighter",
+        "Boisterous"
+      ],
+      "avatar": "/images/characters/jaya/burgess.jpg"
+    },
+    {
+      "name": "Van Augur",
+      "role": "Blackbeard Pirates Sniper",
+      "description": "The sniper of the Blackbeard Pirates with supernatural marksmanship. Believes in fate and destiny. Calm and philosophical.",
+      "faction": "Blackbeard Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Sniper",
+        "Supernatural Aim",
+        "Fatalist",
+        "Philosopher",
+        "Senriku Rifle"
+      ],
+      "avatar": "/images/characters/jaya/van-augur.jpg"
+    },
+    {
+      "name": "Laffitte",
+      "role": "Blackbeard Pirates Navigator",
+      "description": "The mysterious navigator and chief of staff. A former policeman from West Blue who was exiled for excessive violence. Has wings and can infiltrate even Mary Geoise.",
+      "faction": "Blackbeard Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Navigator",
+        "Former Policeman",
+        "Wings",
+        "Tap Dancer",
+        "Infiltrator",
+        "Mysterious"
+      ],
+      "avatar": "/images/characters/jaya/laffitte.jpg"
+    },
+    {
+      "name": "Sarquiss",
+      "role": "Bellamy Pirates Executive Officer",
+      "description": "Bellamy's right-hand man and enforcer. Uses a large kukri blade. Shares Bellamy's cynicism about dreams.",
+      "faction": "Bellamy Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Executive Officer",
+        "Swordsman",
+        "Kukri Fighter",
+        "Cynic",
+        "Bully"
+      ],
+      "avatar": "/images/characters/jaya/sarquiss.jpg"
+    },
+    {
+      "name": "Masira",
+      "role": "Masira Pirates Captain / Saruyama Alliance",
+      "description": "The 'Salvage King' who leads a crew of salvagers. Brother of Shoujou. Works with Cricket to search for evidence of the city of gold. Ape-like appearance and personality.",
+      "faction": "Saruyama Alliance",
+      "type": "protagonist",
+      "tags": [
+        "Salvager",
+        "Ape-like",
+        "Diver",
+        "Dreamer",
+        "Comic Relief",
+        "Strong Swimmer"
+      ],
+      "avatar": "/images/characters/jaya/masira.jpg"
+    },
+    {
+      "name": "Shoujou",
+      "role": "Shoujou Pirates Captain / Saruyama Alliance",
+      "description": "The sonar expert who uses sound waves to locate underwater objects. Brother of Masira. Works with Cricket's salvage operations. Orangutan-like appearance.",
+      "faction": "Saruyama Alliance",
+      "type": "protagonist",
+      "tags": [
+        "Salvager",
+        "Sonar Expert",
+        "Orangutan-like",
+        "Diver",
+        "Dreamer",
+        "Sound User"
+      ],
+      "avatar": "/images/characters/jaya/shoujou.jpg"
+    },
+    {
+      "name": "Monkey D. Luffy",
+      "role": "Straw Hat Pirates Captain",
+      "description": "Showed incredible restraint by not fighting back when Bellamy's crew attacked him in the tavern, understanding that some fights aren't worth it. Later defeated Bellamy in one punch to reclaim Cricket's gold.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Captain",
+        "Dreamer",
+        "Restraint",
+        "One Punch Victory",
+        "Parallel to Blackbeard",
+        "Sky Island Believer"
+      ],
+      "avatar": "/images/characters/jaya/luffy.jpg"
+    },
+    {
+      "name": "Roronoa Zoro",
+      "role": "Straw Hat Pirates Swordsman",
+      "description": "Showed equal restraint in the tavern alongside Luffy, understanding that fighting back against mockery would prove nothing. Their shared maturity impressed even their enemies.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Swordsman",
+        "Restraint",
+        "Mature",
+        "Understanding",
+        "Parallel Growth"
+      ],
+      "avatar": "/images/characters/jaya/zoro.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Mock Town",
+      "type": "pirate haven",
+      "description": "A lawless town where pirates gather to drink, gamble, and fight. No government authority exists here. Home to taverns where dreams are mocked and the weak are preyed upon.",
+      "notableFeatures": [
+        "Multiple rowdy taverns",
+        "Gambling dens",
+        "Black market",
+        "Pirate gathering place",
+        "No law enforcement",
+        "Bellamy's territory"
+      ],
+      "image": "/images/locations/jaya/mock-town.jpg"
+    },
+    {
+      "name": "Montblanc Cricket's House",
+      "type": "dwelling",
+      "description": "A house on the coast that serves as headquarters for Cricket's salvage operations. Contains diving equipment, maps of the seafloor, and evidence of Noland's story.",
+      "notableFeatures": [
+        "Diving equipment storage",
+        "Salvage base",
+        "Seafloor maps",
+        "Noland research",
+        "Saruyama Alliance meeting place",
+        "Decompression chamber"
+      ],
+      "image": "/images/locations/jaya/crickets-house.jpg"
+    },
+    {
+      "name": "South Bird Forest",
+      "type": "forest",
+      "description": "Dense forest where the elusive South Bird lives. The Straw Hats spent considerable effort capturing one to guide them to the Knock Up Stream.",
+      "notableFeatures": [
+        "South Bird habitat",
+        "Dense jungle",
+        "Dangerous wildlife",
+        "Natural resources",
+        "Hunting grounds"
+      ],
+      "image": "/images/locations/jaya/forest.jpg"
+    },
+    {
+      "name": "Mock Town Taverns",
+      "type": "buildings",
+      "description": "The rowdy taverns where the infamous scene of Luffy and Zoro refusing to fight back against Bellamy's crew took place. Where Blackbeard gave his 'man's dream never dies' speech.",
+      "notableFeatures": [
+        "Constant brawls",
+        "Cherry pie and drinks",
+        "Blackbeard's speech location",
+        "Luffy's humiliation site",
+        "Pirate gathering place",
+        "Terrible food and drinks"
+      ],
+      "image": "/images/locations/jaya/tavern.jpg"
+    },
+    {
+      "name": "Jaya Coast",
+      "type": "coastline",
+      "description": "The coastline where salvage operations take place and ships prepare for the journey to the Knock Up Stream. Cricket's base is located here.",
+      "notableFeatures": [
+        "Salvage diving site",
+        "Ship modifications",
+        "Knock Up Stream departure point",
+        "Underwater ruins",
+        "Saruyama Alliance operations"
+      ],
+      "image": "/images/locations/jaya/coast.jpg"
+    },
+    {
+      "name": "Knock Up Stream Zone",
+      "type": "natural phenomenon",
+      "description": "The area where the massive Knock Up Stream geyser erupts five times a month, launching anything caught in it miles into the sky. The only way to reach Sky Island.",
+      "notableFeatures": [
+        "Massive geyser",
+        "Erupts five times monthly",
+        "Gateway to Sky Island",
+        "Extremely dangerous",
+        "Unpredictable currents",
+        "Ship launching point"
+      ],
+      "image": "/images/locations/jaya/knock-up-stream.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Noland's Logbook",
+      "category": "Historical Document",
+      "description": "The book written by Montblanc Noland about his adventures, including his visit to Jaya and the city of gold. Considered a fairy tale about a liar.",
+      "icon": "📖",
+      "rarity": "rare"
+    },
+    {
+      "name": "South Bird",
+      "category": "Animal",
+      "description": "A rare bird native to Jaya that always points south. Essential for navigating to the Knock Up Stream. Extremely difficult to catch.",
+      "icon": "🐦",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Eternal Pose to Sky Island",
+      "category": "Navigation",
+      "description": "An Eternal Pose that doesn't work because Sky Island isn't on the sea. Demonstrates the impossibility that makes believers in Sky Island seem foolish.",
+      "icon": "🧭",
+      "rarity": "unique"
+    },
+    {
+      "name": "Cricket's Gold",
+      "category": "Treasure",
+      "description": "Gold salvaged from the seafloor as evidence of the city that fell from the sky. Stolen by Bellamy, then reclaimed by Luffy.",
+      "icon": "💰",
+      "rarity": "rare"
+    },
+    {
+      "name": "Diving Equipment",
+      "category": "Salvage Gear",
+      "description": "Specialized equipment used by the Saruyama Alliance for deep-sea salvage operations. Modified to handle the unique conditions around Jaya.",
+      "icon": "🤿",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Spring-Spring Fruit Powers",
+      "category": "Devil Fruit Ability",
+      "description": "Bellamy's ability to turn his legs into springs for high-speed bouncing attacks. Ineffective against Luffy's determination.",
+      "icon": "🦘",
+      "rarity": "rare"
+    },
+    {
+      "name": "Senriku Rifle",
+      "category": "Weapon",
+      "description": "Van Augur's incredibly long-range rifle capable of hitting targets beyond normal visual range.",
+      "icon": "🔫",
+      "rarity": "rare"
+    },
+    {
+      "name": "Doc Q's Apples",
+      "category": "Weapon (Poisoned)",
+      "description": "Apples offered by Doc Q, some of which are poisoned. A twisted game of chance that represents his philosophy.",
+      "icon": "🍎",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Waver Modification Plans",
+      "category": "Ship Modification",
+      "description": "Cricket's modifications to the Going Merry to help it survive the Knock Up Stream, including wing-like attachments.",
+      "icon": "⚙️",
+      "rarity": "uncommon"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Blackbeard Pirates",
+      "type": "Pirate Crew",
+      "leader": "Marshall D. Teach (Blackbeard)",
+      "members": [
+        "Blackbeard",
+        "Jesus Burgess",
+        "Van Augur",
+        "Doc Q",
+        "Laffitte",
+        "Stronger (horse)"
+      ],
+      "description": "A rising pirate crew hunting for Luffy's bounty but sharing his philosophy about dreams. Would later become one of the most dangerous crews in the world.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Saruyama Alliance",
+      "type": "Salvage Crew",
+      "leader": "Montblanc Cricket",
+      "members": [
+        "Montblanc Cricket",
+        "Masira",
+        "Shoujou",
+        "Masira Pirates",
+        "Shoujou Pirates"
+      ],
+      "description": "Alliance of three crews dedicated to salvaging the seafloor for proof of the lost city of gold. True dreamers who helped the Straw Hats reach Sky Island.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Bellamy Pirates",
+      "type": "Pirate Crew",
+      "leader": "Bellamy the Hyena",
+      "members": [
+        "Bellamy",
+        "Sarquiss",
+        "Various crew members"
+      ],
+      "description": "Pirates who represent the cynical new era that mocks dreams and romance. Subordinates of Doflamingo who were abandoned after their defeat.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Straw Hat Pirates (Visitors)",
+      "type": "Pirate Crew",
+      "leader": "Monkey D. Luffy",
+      "members": [
+        "Luffy",
+        "Zoro",
+        "Nami",
+        "Usopp",
+        "Sanji",
+        "Chopper",
+        "Robin (newly joined)"
+      ],
+      "description": "The crew seeking to reach Sky Island, showing maturity and restraint when mocked, then power when defending their allies' dreams.",
+      "alignment": "ally"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 218-236 (Jaya Arc)",
+    "animeEpisodes": "Episodes 144-152",
+    "events": [
+      "Straw Hats arrive at Jaya",
+      "Robin's first adventure with the crew",
+      "Encounter with Blackbeard Pirates (no recognition)",
+      "Tavern scene - Luffy and Zoro don't fight back",
+      "Blackbeard's 'man's dream never dies' speech",
+      "Meeting Montblanc Cricket",
+      "Learning about the Knock Up Stream and Sky Island",
+      "South Bird hunt",
+      "Bellamy steals Cricket's gold",
+      "Luffy defeats Bellamy in one punch",
+      "Cricket reveals Noland's full story",
+      "Saruyama Alliance modifies Going Merry",
+      "Preparation for Knock Up Stream",
+      "Bellamy abandoned by Doflamingo",
+      "Launch to Sky Island"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#8B4513",
+    "secondary": "#CD853F",
+    "accent": "#FF8C00"
+  },
+  "quickFacts": [
+    "Only half of the original island - other half is in the sky",
+    "Home to the lawless Mock Town",
+    "Where Luffy first encounters Blackbeard (unknowingly)",
+    "Famous 'man's dream never dies' speech location",
+    "Bellamy defeated in one punch by Luffy",
+    "Gateway to Sky Island via Knock Up Stream",
+    "Montblanc Cricket searches for proof of his ancestor's truth",
+    "Represents clash between dreamers and cynics"
+  ],
+  "videos": [
+    {
+      "youtubeId": "MRc4NGRZ01Q",
+      "title": "Blackbeard - The Dreams of pirates will Never End",
+      "type": "lore",
+      "description": "The iconic speech where Blackbeard unknowingly parallels Luffy's philosophy about dreams and adventure.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "Q2NolNYvLDQ",
+      "title": "Luffy vs Bellamy - One Punch",
+      "type": "fight",
+      "description": "Luffy defeats Bellamy in a single punch, showing the power of those who believe in dreams.",
+      "featured": true,
+      "order": 2
+    },
+    {
+      "youtubeId": "Wvw3Kfc0dHA",
+      "title": "Luffy and Zoro's Restraint",
+      "type": "lore",
+      "description": "The moment of maturity where Luffy and Zoro refuse to fight back against mockery in the tavern.",
+      "featured": false,
+      "order": 3
+    }
+  ],
+  "music": {
+    "url": "/music/jaya-theme.mp3",
+    "title": "Don't Be Too Stiff!",
+    "volume": 0.3
+  }
+}

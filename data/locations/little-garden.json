@@ -1,0 +1,476 @@
+{
+  "slug": "little-garden",
+  "name": "Little Garden",
+  "banner": "/images/banners/little-garden-banner.jpg",
+  "region": "Paradise (Grand Line)",
+  "aliases": [
+    "Ancient Island",
+    "Prehistoric Island",
+    "Island of Giants"
+  ],
+  "coordinates": { "x": 6450, "y": 2900 },
+  "journeyOrder": 10,
+  "saga": "Alabasta",
+  "description": "Little Garden is a prehistoric island in Paradise that has remained unchanged for millions of years. The island is a primeval jungle filled with massive dinosaurs, saber-toothed tigers, and other ancient creatures. Its most notable residents are two giant warriors from Elbaf - Dorry and Brogy - who have been locked in an honorable duel for 100 years. The island's jungle is so dense and dangerous that it resembles a 'little garden' only from a giant's perspective. Volcanic activity is common, with eruptions serving as the signal for the giants' duels.",
+  "history": "Little Garden has existed in its prehistoric state for eons, isolated from the world's progression. One hundred years before the Straw Hats' arrival, two captains of the Giant Warrior Pirates from Elbaf - Dorry the Blue Ogre and Brogy the Red Ogre - landed on the island. An argument over who caught the larger sea king led to a duel to determine the answer, as per Elbaf warrior tradition. Unable to return home without determining a winner (as their Log Poses needed a year to set), they have fought daily for a century, their duel becoming legendary. When the Straw Hats arrived, they befriended both giants and learned about Elbaf's warrior culture. However, Baroque Works agents Mr. 3 and Miss Goldenweek were also present with orders to eliminate the giants and capture Vivi. Mr. 3 used his Wax-Wax Fruit powers to create elaborate traps, nearly killing the giants and the Straw Hats. Luffy, Usopp, and Karoo defeated Mr. 3, and the giants, reinvigorated by the Straw Hats' bravery, destroyed a massive Island Eater goldfish that threatened the crew's escape. The Straw Hats departed with renewed respect for Elbaf's warrior code and a promise to visit the giant's homeland someday.",
+  "culture": "Little Garden's culture is entirely defined by the two giant warriors who inhabit it. They follow Elbaf's strict warrior code of honor, where disputes are settled through combat decided by the gods. Every volcanic eruption signals a duel between Dorry and Brogy - they drop whatever they're doing, fight ferociously, and when the battle ends inconclusively, they return to their camps and share drinks. Despite being mortal enemies in combat, they maintain mutual respect and even friendship outside the duels. They hunt dinosaurs for food, maintain their weapons (despite them being broken and rusted), and live simple, honorable lives. The concept of 'dying with honor' is paramount - they would rather die standing than live with shame. This warrior philosophy deeply influences Usopp, who adopts some of their code.",
+  "economy": {
+    "industries": [
+      "None (isolated survival)",
+      "Dinosaur hunting (subsistence)",
+      "Occasional pirate salvage"
+    ],
+    "currency": "None",
+    "tradeGoods": [
+      "None - barter only"
+    ]
+  },
+  "transportation": "Movement is entirely on foot through dense jungle terrain. The giants' massive size allows them to traverse the island easily, stepping over obstacles that would block normal humans. Ships dock at the coast but are vulnerable to sea kings and the Island Eater goldfish. The jungle's density makes navigation extremely difficult for humans.",
+  "food": {
+    "cuisine": [
+      "Roasted dinosaur meat",
+      "Saber-toothed tiger",
+      "Giant jungle creatures",
+      "Ale (brought by the giants, now 100 years old)",
+      "Tropical fruits from the jungle"
+    ],
+    "traditions": [
+      "Feasts after duels (when both survive)",
+      "Sharing meat with guests as a sign of hospitality",
+      "Toasting with century-old ale",
+      "Hunting the biggest prey to prove strength"
+    ],
+    "quirks": [
+      "Meat portions sized for giants (massive for humans)",
+      "100-year-old alcohol still drinkable",
+      "Sanji cooking dinosaur meat",
+      "Eating contests between giants"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Dorry the Blue Ogre",
+      "role": "Giant Warrior / Former Giant Warrior Pirates Co-Captain",
+      "description": "A legendary giant warrior from Elbaf who has been dueling Brogy for 100 years over a matter of honor. Wields a massive sword and shield. Known for his hearty laugh and unwavering adherence to Elbaf's warrior code.",
+      "faction": "Elbaf Warriors",
+      "type": "protagonist",
+      "tags": [
+        "Giant",
+        "Warrior",
+        "Elbaf",
+        "Co-Captain",
+        "Honorable",
+        "Blue Ogre",
+        "Legendary"
+      ],
+      "avatar": "/images/characters/little-garden/dorry.jpg"
+    },
+    {
+      "name": "Brogy the Red Ogre",
+      "role": "Giant Warrior / Former Giant Warrior Pirates Co-Captain",
+      "description": "A legendary giant warrior from Elbaf who has been dueling Dorry for 100 years. Wields a massive battle axe. Known for his distinctive laugh and fierce fighting spirit.",
+      "faction": "Elbaf Warriors",
+      "type": "protagonist",
+      "tags": [
+        "Giant",
+        "Warrior",
+        "Elbaf",
+        "Co-Captain",
+        "Honorable",
+        "Red Ogre",
+        "Legendary"
+      ],
+      "avatar": "/images/characters/little-garden/brogy.jpg"
+    },
+    {
+      "name": "Mr. 3 (Galdino)",
+      "role": "Baroque Works Officer Agent",
+      "description": "An officer agent with the Wax-Wax Fruit power that allows him to create and manipulate candle wax. A cunning tactician who uses elaborate traps rather than direct combat. Sent to eliminate the giants and capture Vivi.",
+      "faction": "Baroque Works",
+      "type": "antagonist",
+      "tags": [
+        "Baroque Works Officer",
+        "Devil Fruit User",
+        "Paramecia Type",
+        "Wax Powers",
+        "Tactician",
+        "Cowardly"
+      ],
+      "avatar": "/images/characters/little-garden/mr-3.jpg"
+    },
+    {
+      "name": "Miss Goldenweek (Marianne)",
+      "role": "Baroque Works Officer Agent",
+      "description": "Mr. 3's partner who uses Colors Trap - paint-based hypnosis that affects opponents' emotions and actions. Calm, emotionless, and often seen eating rice crackers.",
+      "faction": "Baroque Works",
+      "type": "antagonist",
+      "tags": [
+        "Baroque Works Officer",
+        "Colors Trap",
+        "Hypnosis",
+        "Artist",
+        "Emotionless",
+        "Child"
+      ],
+      "avatar": "/images/characters/little-garden/miss-goldenweek.jpg"
+    },
+    {
+      "name": "Mr. 5",
+      "role": "Baroque Works Officer Agent",
+      "description": "Officer agent with the Bomb-Bomb Fruit, continuing pursuit from Whiskey Peak. Works with Miss Valentine.",
+      "faction": "Baroque Works",
+      "type": "antagonist",
+      "tags": [
+        "Baroque Works Officer",
+        "Devil Fruit User",
+        "Explosive Powers",
+        "Assassin"
+      ],
+      "avatar": "/images/characters/little-garden/mr-5.jpg"
+    },
+    {
+      "name": "Miss Valentine",
+      "role": "Baroque Works Officer Agent",
+      "description": "Officer agent with the Kilo-Kilo Fruit, continuing pursuit from Whiskey Peak. Partner of Mr. 5.",
+      "faction": "Baroque Works",
+      "type": "antagonist",
+      "tags": [
+        "Baroque Works Officer",
+        "Devil Fruit User",
+        "Weight Manipulation",
+        "Assassin"
+      ],
+      "avatar": "/images/characters/little-garden/miss-valentine.jpg"
+    },
+    {
+      "name": "Usopp",
+      "role": "Straw Hat Sniper",
+      "description": "The Straw Hat who bonds most deeply with the giants, learning about true bravery and the warrior's code. Their philosophy of dying with honor profoundly impacts his character development.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Sniper",
+        "Brave Warrior",
+        "Student of Giants",
+        "Coward to Hero",
+        "Sogeking (Future)"
+      ],
+      "avatar": "/images/characters/little-garden/usopp.jpg"
+    },
+    {
+      "name": "Nami",
+      "role": "Straw Hat Navigator",
+      "description": "Contracted a mysterious illness on Little Garden (later revealed to be Kestia from a prehistoric bug bite), setting up the journey to Drum Island.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Navigator",
+        "Sick",
+        "Victim",
+        "Need Help"
+      ],
+      "avatar": "/images/characters/little-garden/nami.jpg"
+    },
+    {
+      "name": "Island Eater",
+      "role": "Massive Goldfish",
+      "description": "A colossal goldfish the size of an island that eats ships and islands whole. Its massive feces form islands. Destroyed by Dorry and Brogy's combined attack 'Hakoku'.",
+      "faction": "Wildlife",
+      "type": "neutral",
+      "tags": [
+        "Sea King",
+        "Giant Creature",
+        "Island-Sized",
+        "Threat",
+        "Legendary Beast"
+      ],
+      "avatar": "/images/characters/little-garden/island-eater.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Dorry's Camp",
+      "type": "dwelling",
+      "description": "The Blue Ogre's campsite featuring a massive cave dwelling, his broken sword and shield, cooking area for dinosaur meat, and barrels of century-old ale. Where Luffy, Vivi, and Karoo stayed.",
+      "notableFeatures": [
+        "Giant's cave dwelling",
+        "Weapon storage",
+        "Cooking pit",
+        "Ale barrels",
+        "Hospitality area"
+      ],
+      "image": "/images/locations/little-garden/dorrys-camp.jpg"
+    },
+    {
+      "name": "Brogy's Camp",
+      "type": "dwelling",
+      "description": "The Red Ogre's campsite with similar setup to Dorry's - cave, weapons, and supplies. Where Nami, Usopp, and Zoro ended up.",
+      "notableFeatures": [
+        "Giant's cave dwelling",
+        "Battle axe storage",
+        "Cooking area",
+        "Ale supply",
+        "Shelter"
+      ],
+      "image": "/images/locations/little-garden/brogys-camp.jpg"
+    },
+    {
+      "name": "Dueling Ground",
+      "type": "battlefield",
+      "description": "The central clearing where Dorry and Brogy conduct their century-long duel. Scarred by 100 years of combat, littered with bones and ancient weapon fragments.",
+      "notableFeatures": [
+        "Century of battle scars",
+        "Volcanic signal nearby",
+        "Weapon debris",
+        "Sacred combat zone",
+        "Giant footprints"
+      ],
+      "image": "/images/locations/little-garden/dueling-ground.jpg"
+    },
+    {
+      "name": "Mr. 3's Wax House",
+      "type": "temporary structure",
+      "description": "An elaborate house made entirely of wax created by Mr. 3 as his base of operations. Contains trap mechanisms and served as Miss Goldenweek's painting studio.",
+      "notableFeatures": [
+        "Candle wax construction",
+        "Hidden traps",
+        "Colors Trap paintings",
+        "Baroque Works base",
+        "Temporary structure"
+      ],
+      "image": "/images/locations/little-garden/wax-house.jpg"
+    },
+    {
+      "name": "Prehistoric Jungle",
+      "type": "wilderness",
+      "description": "Dense primeval jungle filled with dinosaurs, saber-toothed tigers, and other extinct creatures. Extremely dangerous for normal-sized humans to traverse.",
+      "notableFeatures": [
+        "Dinosaurs (T-Rex, Brontosaurus, etc.)",
+        "Saber-toothed tigers",
+        "Dense vegetation",
+        "Volcanic regions",
+        "Ancient flora"
+      ],
+      "image": "/images/locations/little-garden/jungle.jpg"
+    },
+    {
+      "name": "Volcano",
+      "type": "natural landmark",
+      "description": "An active volcano that erupts regularly, serving as the signal for Dorry and Brogy's duels. Its eruptions mark the passage of time on the island.",
+      "notableFeatures": [
+        "Regular eruptions",
+        "Duel signal",
+        "Natural clock",
+        "Lava flows",
+        "Island landmark"
+      ],
+      "image": "/images/locations/little-garden/volcano.jpg"
+    },
+    {
+      "name": "Coastal Area",
+      "type": "shore",
+      "description": "The beach where ships dock. Dangerous due to sea kings and the Island Eater goldfish that patrols the waters.",
+      "notableFeatures": [
+        "Ship docking point",
+        "Going Merry location",
+        "Sea king territory",
+        "Island Eater patrol zone",
+        "Escape route"
+      ],
+      "image": "/images/locations/little-garden/coastal-area.jpg"
+    },
+    {
+      "name": "Giant Candle Service Set",
+      "type": "trap location",
+      "description": "Mr. 3's elaborate wax trap designed to look like a giant birthday cake. Where he attempted to turn the Straw Hats and giants into wax statues.",
+      "notableFeatures": [
+        "Massive wax structure",
+        "Birthday cake design",
+        "Execution platform",
+        "Mr. 3's masterpiece",
+        "Battle site"
+      ],
+      "image": "/images/locations/little-garden/candle-service-set.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Dorry's Sword and Shield",
+      "category": "Weapon (Giant-sized)",
+      "description": "Massive rusted and broken sword and shield used by Dorry for 100 years. Despite their condition, they're wielded with legendary skill.",
+      "icon": "⚔️",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Brogy's Battle Axe",
+      "category": "Weapon (Giant-sized)",
+      "description": "A colossal battle axe wielded by Brogy, weathered by a century of combat but still deadly.",
+      "icon": "🪓",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Hakoku",
+      "category": "Technique",
+      "description": "The legendary combined attack technique of Elbaf warriors. When Dorry and Brogy strike together, they create a massive shockwave capable of destroying the Island Eater.",
+      "icon": "💥",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Eternal Pose to Alabasta",
+      "category": "Navigation",
+      "description": "Mr. 3 possessed an Eternal Pose pointing to Alabasta, which the Straw Hats needed since Little Garden's Log Pose takes a year to set.",
+      "icon": "🧭",
+      "rarity": "rare"
+    },
+    {
+      "name": "Wax-Wax Fruit Powers",
+      "category": "Devil Fruit Ability",
+      "description": "Mr. 3's ability to create and manipulate candle wax - can be shaped into any form and becomes harder than steel when it sets.",
+      "icon": "🕯️",
+      "rarity": "rare"
+    },
+    {
+      "name": "Colors Trap Paint",
+      "category": "Weapon",
+      "description": "Miss Goldenweek's special paints that hypnotize targets when painted on them, altering emotions and behavior (Laugh, Betrayal, Relaxation, etc.).",
+      "icon": "🎨",
+      "rarity": "rare"
+    },
+    {
+      "name": "Century-Old Ale",
+      "category": "Beverage",
+      "description": "Barrels of ale that Dorry and Brogy brought 100 years ago, somehow still drinkable and shared with worthy guests.",
+      "icon": "🍺",
+      "rarity": "unique"
+    },
+    {
+      "name": "Dinosaur Meat",
+      "category": "Food",
+      "description": "Massive portions of roasted dinosaur and other prehistoric creatures, hunted by the giants.",
+      "icon": "🍖",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Exploding Ale Barrel",
+      "category": "Trap",
+      "description": "A barrel rigged with explosives by Mr. 3 to sabotage Brogy's drink and dishonor the duel.",
+      "icon": "💣",
+      "rarity": "uncommon"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Elbaf Giant Warriors",
+      "type": "Warriors",
+      "leader": "Dorry and Brogy (co-leaders)",
+      "members": [
+        "Dorry the Blue Ogre",
+        "Brogy the Red Ogre"
+      ],
+      "description": "Legendary giant warriors from Elbaf following the ancient warrior code. Their 100-year duel is the stuff of legend, and their honor is unshakeable.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Baroque Works (Little Garden Unit)",
+      "type": "Criminal Organization",
+      "leader": "Mr. 3",
+      "members": [
+        "Mr. 3 (Galdino)",
+        "Miss Goldenweek (Marianne)",
+        "Mr. 5",
+        "Miss Valentine"
+      ],
+      "description": "Baroque Works agents sent to eliminate the giants and capture Vivi. Mr. 3 leads this operation with elaborate wax-based traps.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Straw Hat Pirates (Visitors)",
+      "type": "Pirate Crew",
+      "leader": "Monkey D. Luffy",
+      "members": [
+        "Luffy",
+        "Zoro",
+        "Nami",
+        "Usopp",
+        "Sanji",
+        "Vivi",
+        "Karoo"
+      ],
+      "description": "The crew that befriended the giants, learned about Elbaf's warrior culture, and defeated the Baroque Works agents.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Prehistoric Wildlife",
+      "type": "Fauna",
+      "leader": "None",
+      "members": [
+        "Dinosaurs (various species)",
+        "Saber-toothed tigers",
+        "Island Eater goldfish",
+        "Sea kings",
+        "Prehistoric insects"
+      ],
+      "description": "The ancient creatures that inhabit Little Garden, unchanged for millions of years.",
+      "alignment": "neutral"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 115-129 (Little Garden Arc)",
+    "animeEpisodes": "Episodes 70-77",
+    "events": [
+      "Straw Hats arrive at prehistoric island",
+      "Crew splits up and meets Dorry and Brogy separately",
+      "Luffy and Vivi witness a duel",
+      "Learning about Elbaf's warrior culture",
+      "Mr. 3 and Miss Goldenweek set traps",
+      "Brogy's ale barrel rigged with explosives",
+      "Dorry falsely accused of cheating",
+      "Mr. 3 captures Nami, Zoro, and Vivi",
+      "Giant Candle Service Set trap activated",
+      "Usopp's brave stand against Mr. 3",
+      "Luffy defeats Mr. 3",
+      "Karoo's heroic distraction",
+      "Giants destroy the Island Eater with Hakoku",
+      "Nami falls seriously ill",
+      "Departure with Mr. 3's Eternal Pose to Alabasta"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#228B22",
+    "secondary": "#8B4513",
+    "accent": "#FF6347"
+  },
+  "quickFacts": [
+    "Prehistoric island unchanged for millions of years",
+    "Home to 100-year duel between giant warriors",
+    "Log Pose takes 1 year to set (making it a trap)",
+    "Dinosaurs and saber-toothed tigers roam freely",
+    "Where Usopp learned true bravery from the giants",
+    "Island Eater goldfish destroyed by Hakoku technique",
+    "Nami contracted illness leading to Drum Island"
+  ],
+  "videos": [
+    {
+      "youtubeId": "wUBfJNTT_Ww",
+      "title": "Usopp's Brave Stand",
+      "type": "lore",
+      "description": "Usopp faces Mr. 3 despite overwhelming fear, embodying the warrior spirit he learned from the giants.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "1Q9AFDL4aqg",
+      "title": "Giants' 100-Year Duel",
+      "type": "lore",
+      "description": "The story of Dorry and Brogy's legendary century-long battle of honor.",
+      "featured": false,
+      "order": 2
+    }
+  ],
+  "music": {
+    "url": "/music/little-garden-theme.mp3",
+    "title": "DUEL!",
+    "volume": 0.3
+  }
+}

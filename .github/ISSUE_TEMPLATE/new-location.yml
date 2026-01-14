@@ -1,0 +1,142 @@
+name: 🏝️ New Location Suggestion
+description: Suggest a new island or location to add to the One Piece Lore Map
+title: "[Location] "
+labels: ["contribution", "new-location", "community"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🏴‍☠️ Thank you for contributing to the One Piece Lore Map!
+        
+        Fill out this form to suggest a new location. Our team will review your submission and add it to the map if approved.
+        
+        **Tip:** The more detail you provide, the easier it is for us to add your location!
+
+  - type: input
+    id: location-name
+    attributes:
+      label: Location Name
+      description: The official name of the island or location
+      placeholder: e.g., Elbaf, God Valley, Laugh Tale
+    validations:
+      required: true
+
+  - type: dropdown
+    id: region
+    attributes:
+      label: Region
+      description: Which sea or area is this location in?
+      options:
+        - East Blue
+        - West Blue
+        - North Blue
+        - South Blue
+        - Paradise (First Half of Grand Line)
+        - New World (Second Half of Grand Line)
+        - Red Line
+        - Calm Belt
+        - Sky Island
+        - Unknown / Undisclosed
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Brief Description
+      description: A 2-3 sentence overview of this location
+      placeholder: |
+        Describe what makes this location special. What is it known for in the One Piece world?
+    validations:
+      required: true
+
+  - type: textarea
+    id: history
+    attributes:
+      label: History
+      description: Tell us about this location's history and major events
+      placeholder: |
+        What significant events happened here? How does this place fit into the One Piece storyline?
+    validations:
+      required: false
+
+  - type: textarea
+    id: culture
+    attributes:
+      label: Culture & Society
+      description: Describe the local culture, customs, and way of life
+      placeholder: |
+        What are the people like? Any unique traditions or customs?
+    validations:
+      required: false
+
+  - type: textarea
+    id: notable-people
+    attributes:
+      label: Notable Characters
+      description: List important characters associated with this location
+      placeholder: |
+        - Character Name - Role/Title - Brief description
+        - Another Character - Role - Description
+    validations:
+      required: false
+
+  - type: textarea
+    id: quick-facts
+    attributes:
+      label: Quick Facts
+      description: Fun facts that would appear when hovering over this location
+      placeholder: |
+        - Interesting fact 1
+        - Cool detail 2
+        - Unique characteristic 3
+    validations:
+      required: false
+
+  - type: input
+    id: manga-chapters
+    attributes:
+      label: Manga Chapters
+      description: Which chapters feature this location?
+      placeholder: e.g., Chapters 234-259
+    validations:
+      required: false
+
+  - type: input
+    id: anime-episodes
+    attributes:
+      label: Anime Episodes
+      description: Which episodes feature this location?
+      placeholder: e.g., Episodes 153-195
+    validations:
+      required: false
+
+  - type: textarea
+    id: videos
+    attributes:
+      label: YouTube Videos
+      description: Suggest YouTube videos for key moments at this location
+      placeholder: |
+        1. Video Title - YouTube URL - Category (fight/comedy/lore/scenic)
+        2. Another Video - URL - Category
+    validations:
+      required: false
+
+  - type: input
+    id: contributor-name
+    attributes:
+      label: Your Name (for credits)
+      description: How should we credit you?
+      placeholder: Your name or username
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmation
+      options:
+        - label: I confirm this information is accurate to the One Piece manga/anime
+          required: true
+        - label: I understand this suggestion will be reviewed before being added
+          required: true

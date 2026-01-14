@@ -1,0 +1,612 @@
+{
+  "slug": "water-7",
+  "name": "Water 7",
+  "region": "Paradise (Grand Line)",
+  "aliases": [
+    "City of Water",
+    "Water Capital",
+    "Shipbuilding Island",
+    "City on the Sea"
+  ],
+  "coordinates": { "x": 9545, "y": 3080 },
+  "pathControl": { "x": 9408, "y": 3311 },
+  "journeyOrder": 16,
+  "saga": "Water 7",
+  "description": "Water 7 is a metropolis built on water, where canals replace streets and boats replace cars. Known as the world's premier shipbuilding city, it's home to the legendary Galley-La Company and some of the greatest shipwrights alive. The city is built on multiple levels connected by waterways, with the wealthy living higher up and the poor closer to sea level. Every year, the city is threatened by Aqua Laguna, a massive tidal wave that forces evacuations. Water 7 is where the Straw Hats faced their greatest internal crisis - learning the Going Merry could not be repaired, Usopp leaving the crew, Robin's mysterious disappearance, and the devastating revelation that their friends at Galley-La were actually CP9 assassins. It's a city of beauty hiding dark secrets, where the World Government's shadow looms large.",
+  "history": "Water 7's golden age was during Tom's era, when the legendary fish-man shipwright created both Gold Roger's Oro Jackson and the Sea Train that saved the city's economy. However, Tom was framed by Spandam (then CP5) using stolen blueprints to build Battle Frankys that attacked the city. Tom was executed at Enies Lobby, but not before passing the Pluton blueprints to his apprentice Iceburg, who secretly gave them to Franky. Years later, CP9 infiltrated Water 7 for five years, with agents posing as shipwrights at Galley-La to get close to Iceburg and discover the blueprints' location. When the Straw Hats arrived, their ship was deemed unrepairable, causing Usopp to challenge Luffy and leave the crew. Robin disappeared after being blackmailed by CP9 - they threatened to invoke a Buster Call on the Straw Hats if she didn't cooperate. CP9's assassination attempt on Iceburg failed, their identities were exposed, and they captured Robin and Franky. The Straw Hats and Franky Family united to pursue them, leading to the assault on Enies Lobby. After the battle, Franky used the money stolen from the Straw Hats to build the Thousand Sunny from Adam Wood, and joined the crew as their shipwright.",
+  "culture": "Water 7's culture revolves around shipbuilding mastery and respect for the craft. The city values skill, with Galley-La Company employing only the best. Citizens use Bulls (swimming creatures) or small boats to navigate the canals. The Aqua Laguna shapes the city's calendar and architecture - everyone knows when to evacuate to higher ground. There's a divide between the legitimate Galley-La workers and the Franky Family dismantlers who salvage ships. Despite this, both groups share pride in their city's shipbuilding legacy. Tom's motto 'Do it with a DON!' still resonates throughout the shipwright community.",
+  "economy": {
+    "industries": [
+      "Shipbuilding (primary - world's best)",
+      "Ship repair and maintenance",
+      "Ship dismantling and salvage (Franky Family)",
+      "Adam Wood trading (extremely rare)",
+      "Canal tourism",
+      "Maritime supplies and equipment"
+    ],
+    "currency": "Berry (฿)",
+    "tradeGoods": [
+      "Custom-built ships",
+      "Rare shipbuilding materials",
+      "Adam Wood (rarest)",
+      "Ship repair services",
+      "Salvaged parts",
+      "Maritime tools"
+    ]
+  },
+  "transportation": "Bulls (swimming creatures similar to horses) pull water taxis through canals. Small boats and gondolas are everywhere. The Sea Train connects to other islands. Yagara Bulls are the most common - peaceful creatures that navigate the waterways. Rope-ways and water elevators move between city levels. The Shift Station regulates Bull traffic.",
+  "food": {
+    "cuisine": [
+      "Water Water Meat (specialty)",
+      "Fresh seafood from canals",
+      "Canal-side restaurants",
+      "Galley-La Company mess hall",
+      "Street food on bridges",
+      "Sanji's cooking for the crew"
+    ],
+    "traditions": [
+      "Shipwright crew meals",
+      "Celebration feasts after ship completions",
+      "Franky's cola obsession",
+      "Post-Aqua Laguna recovery meals"
+    ],
+    "quirks": [
+      "Franky powered by cola",
+      "Sanji's cooking during the crisis",
+      "Luffy's stress-eating",
+      "Water Water Meat as local specialty"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Iceburg",
+      "role": "Mayor of Water 7 / Galley-La President",
+      "description": "Tom's apprentice and one of the world's greatest shipwrights. Secretly held the Pluton blueprints before giving them to Franky. Target of CP9's assassination. A sophisticated leader who cares deeply for his city.",
+      "faction": "Galley-La Company",
+      "type": "protagonist",
+      "tags": [
+        "Mayor",
+        "Master Shipwright",
+        "Tom's Apprentice",
+        "Pluton Guardian",
+        "Assassination Target",
+        "Leader",
+        "Sophisticated"
+      ],
+      "avatar": "/images/characters/water-7/iceburg.jpg"
+    },
+    {
+      "name": "Franky (Cutty Flam)",
+      "role": "Cyborg Shipwright / Franky Family Boss",
+      "description": "Tom's other apprentice who rebuilt himself as a cyborg after being hit by the Sea Train. Holds the Pluton blueprints and burns them to show faith in Robin. Cola-powered with a flamboyant personality. Becomes the Straw Hats' shipwright.",
+      "faction": "Franky Family",
+      "type": "protagonist",
+      "tags": [
+        "Cyborg",
+        "Shipwright",
+        "Tom's Apprentice",
+        "Pluton Blueprint Holder",
+        "Cola-Powered",
+        "Flamboyant",
+        "Future Straw Hat"
+      ],
+      "avatar": "/images/characters/water-7/franky.jpg"
+    },
+    {
+      "name": "Rob Lucci",
+      "role": "CP9 Agent (Undercover as Galley-La Shipwright)",
+      "description": "The strongest CP9 member with the Cat-Cat Fruit Model: Leopard. Posed as a quiet shipwright for 5 years to get close to Iceburg. Ruthless assassin who believes in 'Dark Justice' - killing anyone in the way of the mission.",
+      "faction": "CP9",
+      "type": "antagonist",
+      "tags": [
+        "CP9 Strongest",
+        "Zoan Devil Fruit",
+        "Leopard",
+        "Undercover 5 Years",
+        "Assassin",
+        "Hattori (Pigeon)",
+        "Dark Justice"
+      ],
+      "avatar": "/images/characters/water-7/rob-lucci.jpg"
+    },
+    {
+      "name": "Kaku",
+      "role": "CP9 Agent (Undercover as Galley-La Foreman)",
+      "description": "A CP9 agent with a square nose who posed as Galley-La's Dock 1 foreman. Ate the Ox-Ox Fruit Model: Giraffe during the arc. Actually became friends with the shipwrights, showing some conflict about his mission.",
+      "faction": "CP9",
+      "type": "antagonist",
+      "tags": [
+        "CP9",
+        "Undercover 5 Years",
+        "Square Nose",
+        "Giraffe Zoan (New)",
+        "Swordsman",
+        "Conflicted"
+      ],
+      "avatar": "/images/characters/water-7/kaku.jpg"
+    },
+    {
+      "name": "Kalifa",
+      "role": "CP9 Agent (Undercover as Iceburg's Secretary)",
+      "description": "A CP9 agent with the Bubble-Bubble Fruit who posed as Iceburg's secretary. Her position gave CP9 close access to their target. Uses 'Sexual Harassment!' as a catchphrase.",
+      "faction": "CP9",
+      "type": "antagonist",
+      "tags": [
+        "CP9",
+        "Secretary",
+        "Bubble-Bubble Fruit",
+        "Seduction Tactics",
+        "Sexual Harassment Catchphrase",
+        "Undercover"
+      ],
+      "avatar": "/images/characters/water-7/kalifa.jpg"
+    },
+    {
+      "name": "Blueno",
+      "role": "CP9 Agent (Undercover as Bar Owner)",
+      "description": "A CP9 agent with the Door-Door Fruit, allowing him to create doors anywhere, including in the air. Ran a bar as his cover. His Devil Fruit makes him the perfect infiltrator and escape artist.",
+      "faction": "CP9",
+      "type": "antagonist",
+      "tags": [
+        "CP9",
+        "Door-Door Fruit",
+        "Bar Owner Cover",
+        "Infiltrator",
+        "Horns",
+        "Stoic"
+      ],
+      "avatar": "/images/characters/water-7/blueno.jpg"
+    },
+    {
+      "name": "Paulie",
+      "role": "Galley-La Foreman",
+      "description": "A rope-using shipwright and Dock 1 foreman. Gambling addict and woman-hater (finds revealing clothes offensive). Loyal to Iceburg and fought against CP9 when their identities were revealed.",
+      "faction": "Galley-La Company",
+      "type": "protagonist",
+      "tags": [
+        "Foreman",
+        "Rope User",
+        "Shipwright",
+        "Gambling Addict",
+        "Prudish",
+        "Loyal Fighter"
+      ],
+      "avatar": "/images/characters/water-7/paulie.jpg"
+    },
+    {
+      "name": "Kokoro",
+      "role": "Stationmaster / Tom's Former Secretary",
+      "description": "A mermaid disguised as a human who was Tom's secretary. Now runs Shift Station and helps the Straw Hats understand the city and Tom's history. Heavy drinker.",
+      "faction": "Tom's Workers",
+      "type": "protagonist",
+      "tags": [
+        "Mermaid",
+        "Stationmaster",
+        "Tom's Secretary",
+        "Drunk",
+        "Helper",
+        "Elder"
+      ],
+      "avatar": "/images/characters/water-7/kokoro.jpg"
+    },
+    {
+      "name": "Chimney",
+      "role": "Kokoro's Granddaughter",
+      "description": "An energetic young girl who is 1/4 mermaid. Always with her pet Gonbe. Provides crucial information and helps guide the rescue efforts.",
+      "faction": "Tom's Workers",
+      "type": "protagonist",
+      "tags": [
+        "Child",
+        "1/4 Mermaid",
+        "Scout",
+        "Helper",
+        "Energetic"
+      ],
+      "avatar": "/images/characters/water-7/chimney.jpg"
+    },
+    {
+      "name": "Zambai",
+      "role": "Franky Family Leader",
+      "description": "One of Franky's top subordinates who leads operations when Franky is absent. Square-headed with a strong sense of loyalty to his boss.",
+      "faction": "Franky Family",
+      "type": "protagonist",
+      "tags": [
+        "Franky Family",
+        "Square Head",
+        "Leader",
+        "Loyal",
+        "Fighter"
+      ],
+      "avatar": "/images/characters/water-7/zambai.jpg"
+    },
+    {
+      "name": "Monkey D. Luffy",
+      "role": "Straw Hat Pirates Captain",
+      "description": "Faced his toughest leadership challenge - fighting his own crewmate Usopp over the Merry's fate, then losing Robin. His determination to save Robin no matter what defined his resolve as captain.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Captain",
+        "Leadership Crisis",
+        "vs Usopp",
+        "Robin's Savior",
+        "Determined"
+      ],
+      "avatar": "/images/characters/water-7/luffy.jpg"
+    },
+    {
+      "name": "Usopp",
+      "role": "Former Straw Hat Sniper",
+      "description": "Challenged Luffy's decision to abandon the Merry and leave the crew after losing the duel. His attachment to the ship represented his own insecurities about being useful.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Sniper",
+        "Left Crew",
+        "vs Luffy",
+        "Merry's Defender",
+        "Insecure",
+        "Growth Arc"
+      ],
+      "avatar": "/images/characters/water-7/usopp.jpg"
+    },
+    {
+      "name": "Nico Robin",
+      "role": "Straw Hat Archaeologist",
+      "description": "Sacrificed herself to save the crew from a Buster Call, believing she brings only misfortune. Her departure and the reason behind it became the emotional core of the arc.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Archaeologist",
+        "Self-Sacrifice",
+        "CP9 Target",
+        "Buster Call Threat",
+        "Disappeared",
+        "Wants to Die"
+      ],
+      "avatar": "/images/characters/water-7/robin.jpg"
+    },
+    {
+      "name": "Spandam",
+      "role": "CP9 Leader",
+      "description": "The incompetent, sadistic leader of CP9 who framed Tom years ago. Obsessed with finding Pluton to gain power and recognition. Weak fighter but dangerous due to his authority and Buster Call authorization.",
+      "faction": "CP9",
+      "type": "antagonist",
+      "tags": [
+        "CP9 Leader",
+        "Weak",
+        "Sadistic",
+        "Coward",
+        "Buster Call Authority",
+        "Tom's Framer",
+        "Power-Hungry"
+      ],
+      "avatar": "/images/characters/water-7/spandam.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Galley-La Company Headquarters",
+      "type": "company building",
+      "description": "The massive headquarters of the world's premier shipbuilding company. Multiple docks with different specialties. Iceburg's office is at the top. The site of CP9's assassination attempt.",
+      "notableFeatures": [
+        "Main office tower",
+        "Multiple dock facilities",
+        "Iceburg's penthouse office",
+        "Shipwright quarters",
+        "Assassination attempt site",
+        "Company pride and excellence"
+      ],
+      "image": "/images/locations/water-7/galley-la.jpg"
+    },
+    {
+      "name": "Dock 1",
+      "type": "shipyard",
+      "description": "The main shipbuilding dock where the Going Merry was examined. Where the devastating news that she couldn't be repaired was delivered. Managed by foremen including Paulie and Kaku.",
+      "notableFeatures": [
+        "Ship examination area",
+        "Merry's death sentence location",
+        "Master shipwrights workspace",
+        "Keel inspection pit",
+        "Emotional devastation site"
+      ],
+      "image": "/images/locations/water-7/dock-1.jpg"
+    },
+    {
+      "name": "Water 7 Canals",
+      "type": "waterways",
+      "description": "The intricate canal system that serves as the city's streets. Multiple levels with bridges and water elevators. Bulls pull boats through the flowing waterways. Beautiful but dangerous during Aqua Laguna.",
+      "notableFeatures": [
+        "Multi-level canal system",
+        "Bull-drawn taxis",
+        "Bridge networks",
+        "Water elevators",
+        "Residential areas",
+        "Aqua Laguna flood routes"
+      ],
+      "image": "/images/locations/water-7/canals.jpg"
+    },
+    {
+      "name": "Franky House",
+      "type": "headquarters",
+      "description": "The Franky Family's base of operations where they dismantle ships and store salvaged parts. Located in the backstreets. Where Usopp was beaten and the money stolen, triggering the crew's crisis.",
+      "notableFeatures": [
+        "Ship dismantling area",
+        "Franky Family gathering place",
+        "Storage for parts",
+        "Usopp beating site",
+        "Money theft location",
+        "Franky's workshop"
+      ],
+      "image": "/images/locations/water-7/franky-house.jpg"
+    },
+    {
+      "name": "Blueno's Bar",
+      "type": "tavern",
+      "description": "A seemingly ordinary bar run by Blueno as his cover. Actually a CP9 meeting place where they could discuss their mission in secret using Blueno's Door-Door Fruit to create hidden rooms.",
+      "notableFeatures": [
+        "CP9 secret meeting place",
+        "Blueno's cover location",
+        "Hidden door rooms",
+        "Intelligence gathering",
+        "Surveillance point"
+      ],
+      "image": "/images/locations/water-7/bluenos-bar.jpg"
+    },
+    {
+      "name": "Shift Station",
+      "type": "transportation hub",
+      "description": "The Sea Train station where Kokoro works as stationmaster. The departure point for the Puffing Tom and later Rocket Man. Central hub for information about Tom's legacy.",
+      "notableFeatures": [
+        "Sea Train platform",
+        "Kokoro's office",
+        "Rocket Man storage",
+        "Tom's history",
+        "Departure point for Enies Lobby"
+      ],
+      "image": "/images/locations/water-7/shift-station.jpg"
+    },
+    {
+      "name": "Iceburg's Mansion",
+      "type": "residence",
+      "description": "The mayor's elegant mansion where the CP9 assassination attempt occurred. Multiple floors with Iceburg's private quarters at the top. The scene of betrayal as trusted allies revealed themselves as assassins.",
+      "notableFeatures": [
+        "Mayor's residence",
+        "Assassination attempt site",
+        "CP9 reveal location",
+        "Elegant architecture",
+        "Kalifa's secretary office",
+        "Betrayal ground zero"
+      ],
+      "image": "/images/locations/water-7/iceburgs-mansion.jpg"
+    },
+    {
+      "name": "Scrap Island",
+      "type": "junkyard island",
+      "description": "An island of discarded ships and parts where Franky stores his projects. Where the Luffy vs Usopp duel took place - a devastating fight between captain and crewmate.",
+      "notableFeatures": [
+        "Ship graveyard",
+        "Luffy vs Usopp location",
+        "Crew split site",
+        "Emotional battleground",
+        "Franky's projects",
+        "Going Merry memorial"
+      ],
+      "image": "/images/locations/water-7/scrap-island.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Pluton Blueprints",
+      "category": "Ancient Weapon Plans",
+      "description": "The complete blueprints for the ancient weapon Pluton, passed down through generations of Tom's apprentices. Franky burns them to show faith in Robin, trusting she won't revive the weapon.",
+      "icon": "📜",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Adam Wood",
+      "category": "Legendary Material",
+      "description": "The strongest and rarest wood in the world, used to build Gold Roger's ship and later the Thousand Sunny. Extremely expensive and difficult to obtain.",
+      "icon": "🌳",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Going Merry's Keel",
+      "category": "Ship Part (Broken)",
+      "description": "The damaged keel that made the Merry unrepairable. The breaking point that triggered Usopp's departure and the crew's greatest crisis.",
+      "icon": "⚓",
+      "rarity": "unique"
+    },
+    {
+      "name": "Golden Den Den Mushi",
+      "category": "Communication Device",
+      "description": "Spandam's special transponder snail that can authorize a Buster Call - a fleet of Marine battleships that annihilates entire islands. The threat that made Robin surrender.",
+      "icon": "📞",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Buster Call Authorization",
+      "category": "Weapon of Mass Destruction",
+      "description": "The authority to summon ten battleships and five Vice Admirals to obliterate a target. CP9 used this threat to force Robin's cooperation.",
+      "icon": "💥",
+      "rarity": "legendary"
+    },
+    {
+      "name": "CP9 Keys",
+      "category": "Important Items",
+      "description": "Keys held by CP9 members. One unlocks Robin's seastone handcuffs, but nobody knows which one.",
+      "icon": "🔑",
+      "rarity": "rare"
+    },
+    {
+      "name": "200 Million Berries",
+      "category": "Money",
+      "description": "The money stolen from Usopp by the Franky Family, intended for ship repairs. Later used by Franky to buy Adam Wood for the Thousand Sunny.",
+      "icon": "💰",
+      "rarity": "rare"
+    },
+    {
+      "name": "Aqua Laguna",
+      "category": "Natural Disaster",
+      "description": "The massive annual tidal wave that threatens Water 7. The largest in years occurred during this arc, flooding the lower levels and creating chaos.",
+      "icon": "🌊",
+      "rarity": "uncommon"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Galley-La Company",
+      "type": "Shipbuilding Company",
+      "leader": "Iceburg",
+      "members": [
+        "Iceburg",
+        "Paulie",
+        "Tilestone",
+        "Peepley Lulu",
+        "Rob Lucci (traitor)",
+        "Kaku (traitor)",
+        "Kalifa (traitor)",
+        "Hundreds of shipwrights"
+      ],
+      "description": "The world's premier shipbuilding company, infiltrated by CP9 for five years. The betrayal devastated the legitimate workers.",
+      "alignment": "ally"
+    },
+    {
+      "name": "CP9",
+      "type": "Government Assassins",
+      "leader": "Spandam",
+      "members": [
+        "Spandam",
+        "Rob Lucci",
+        "Kaku",
+        "Kalifa",
+        "Blueno",
+        "Jabra",
+        "Kumadori",
+        "Fukurou"
+      ],
+      "description": "Elite World Government assassins who infiltrated Water 7 for five years to obtain the Pluton blueprints. Their identities' reveal shocked the city.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Franky Family",
+      "type": "Ship Dismantlers",
+      "leader": "Franky",
+      "members": [
+        "Franky",
+        "Zambai",
+        "Mozu and Kiwi (sisters)",
+        "Dozens of dismantlers"
+      ],
+      "description": "Ship dismantlers who operate in Water 7's backstreets. Initially antagonistic to the Straw Hats but become allies when the truth about CP9 emerges.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Straw Hat Pirates (In Crisis)",
+      "type": "Pirate Crew",
+      "leader": "Monkey D. Luffy",
+      "members": [
+        "Luffy",
+        "Zoro",
+        "Nami",
+        "Sanji",
+        "Chopper",
+        "Usopp (leaves)",
+        "Robin (captured)"
+      ],
+      "description": "The crew at their lowest point - ship destroyed, Robin captured, Usopp gone, and facing the World Government's elite assassins.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Tom's Workers (Legacy)",
+      "type": "Historical Group",
+      "leader": "Tom (deceased)",
+      "members": [
+        "Tom (executed)",
+        "Kokoro",
+        "Iceburg",
+        "Franky",
+        "Chimney"
+      ],
+      "description": "The legendary shipwright team that built the Oro Jackson and Sea Train. Their legacy and the Pluton blueprints drive the entire arc.",
+      "alignment": "ally"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 322-374 (Water 7 Arc)",
+    "animeEpisodes": "Episodes 229-263",
+    "events": [
+      "Straw Hats arrive seeking ship repairs",
+      "Franky Family steals 200 million berries from Usopp",
+      "Usopp beaten badly by Franky Family",
+      "Going Merry examined at Dock 1",
+      "Keel damage discovered - Merry cannot be repaired",
+      "Luffy decides to get a new ship",
+      "Usopp refuses to abandon Merry",
+      "Luffy vs Usopp duel at Scrap Island",
+      "Usopp leaves the crew",
+      "Robin disappears mysteriously",
+      "Iceburg shot - Straw Hats blamed",
+      "CP9 assassination attempt on Iceburg",
+      "Lucci, Kaku, Kalifa, Blueno revealed as CP9",
+      "Betrayal devastates Water 7",
+      "Robin captured by CP9",
+      "Truth revealed - Robin sacrificed herself for crew",
+      "Buster Call threat explained",
+      "Franky captured by CP9",
+      "Franky burns Pluton blueprints",
+      "Aqua Laguna hits city",
+      "Straw Hats and Franky Family unite",
+      "Departure for Enies Lobby on Rocket Man"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#4682B4",
+    "secondary": "#87CEEB",
+    "accent": "#FFD700"
+  },
+  "quickFacts": [
+    "World's premier shipbuilding city",
+    "Built entirely on water with canal streets",
+    "Tom built Gold Roger's ship here",
+    "CP9 infiltrated for 5 years as Galley-La workers",
+    "Where Going Merry received death sentence",
+    "Luffy vs Usopp duel - crew split",
+    "Robin sacrificed herself to protect crew from Buster Call",
+    "Franky burned Pluton blueprints",
+    "Aqua Laguna largest in years",
+    "Where Thousand Sunny was later built"
+  ],
+  "videos": [
+    {
+      "youtubeId": "vMuiAajBkJ0",
+      "title": "Luffy vs Usopp - The Duel",
+      "type": "fight",
+      "description": "The emotionally devastating fight between captain and crewmate over the Going Merry's fate.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "7TVJDG3OsAQ",
+      "title": "Kaku jumps over water 7 buildings",
+      "type": "lore",
+      "description": "Kaku demonstrates his incredible agility by leaping over the buildings of Water 7.",
+      "featured": true,
+      "order": 2
+    },
+    {
+      "youtubeId": "ISOVCsP7VQQ",
+      "title": "Franky Burns Pluton Blueprints",
+      "type": "lore",
+      "description": "Franky destroys the ancient weapon blueprints, showing faith in Robin.",
+      "featured": false,
+      "order": 3
+    }
+  ],
+  "music": {
+    "url": "/music/water-7-theme.mp3",
+    "title": "Franky's Theme",
+    "volume": 0.3
+  }
+}

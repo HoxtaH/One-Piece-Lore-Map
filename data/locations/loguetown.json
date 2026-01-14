@@ -1,0 +1,319 @@
+{
+  "slug": "loguetown",
+  "name": "Loguetown",
+  "banner": "/images/banners/loguetown-banner.jpg",
+  "region": "East Blue",
+  "aliases": [
+    "Town of the Beginning and End",
+    "Gateway to the Grand Line",
+    "Roger's Town"
+  ],
+  "coordinates": { "x": 6268, "y": 2400 },
+  "journeyOrder": 7,
+  "saga": "East Blue",
+  "description": "Loguetown is a large port town in East Blue, famous as both the birthplace and execution site of the Pirate King, Gol D. Roger. Known as the 'Town of the Beginning and End,' it's the last stop for pirates before entering the Grand Line. The execution platform where Roger died still stands in the town square, drawing both pirates seeking inspiration and Marines seeking to stop them.",
+  "history": "Loguetown gained eternal fame when Gol D. Roger, born there, returned to be publicly executed after surrendering to the Marines. His final words sparked the Great Age of Pirates. Since then, the town has been a crucial Marine outpost, heavily guarded to prevent pirates from using it as a staging ground. Captain Smoker was stationed there specifically to stop pirates before they reached the Grand Line. When Luffy visited to see where Roger died, Buggy and Alvida attempted public execution, but Luffy was saved by a mysterious figure (Dragon) and escaped to the Grand Line.",
+  "culture": "Loguetown's culture is defined by its connection to Roger. Pirates treat it as a pilgrimage site, while Marines see it as their last chance to stop criminals. The town is split between those who profit from pirate traffic and those who fear it. Weapon shops, supply stores, and Marine checkpoints dominate the streets. Civilians live uneasily, knowing their town marks the dividing line between the known and the unknown.",
+  "economy": {
+    "industries": [
+      "Weapon trading",
+      "Ship supplies",
+      "Maritime commerce",
+      "Military presence",
+      "Tourism (dark tourism)"
+    ],
+    "currency": "Berry (฿)",
+    "tradeGoods": [
+      "Weapons and swords",
+      "Navigation equipment",
+      "Ship provisions",
+      "Grand Line maps",
+      "Military supplies"
+    ]
+  },
+  "transportation": "Major port with heavy ship traffic. Marines patrol constantly. The town has well-maintained streets for commercial carts and military patrols. The execution platform is visible from most of the town.",
+  "food": {
+    "cuisine": [
+      "Port town fare",
+      "Street food stalls",
+      "Tavern meals",
+      "International cuisine from travelers"
+    ],
+    "traditions": [
+      "Bar gatherings for pirates and merchants",
+      "Quick meals before Grand Line departure",
+      "Marine mess halls"
+    ],
+    "quirks": [
+      "Restaurants catering to 'last meals' before Grand Line",
+      "Smoker's favorite cigars",
+      "Street vendors near execution platform"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Smoker",
+      "role": "Marine Captain / Logia User",
+      "description": "The gruff, cigar-smoking Marine with the Smoke-Smoke Fruit. Stationed in Loguetown to stop pirates before the Grand Line. Pursues Luffy into the Grand Line.",
+      "type": "antagonist",
+      "faction": "Marines",
+      "tags": [
+        "Logia",
+        "Marine",
+        "Smoke User",
+        "Justice",
+        "Persistent",
+        "Rival"
+      ],
+      "avatar": "/images/characters/loguetown/smoker.jpg"
+    },
+    {
+      "name": "Tashigi",
+      "role": "Marine Master Chief Petty Officer / Swordswoman",
+      "description": "Smoker's sword-collecting subordinate who bears an uncanny resemblance to Zoro's deceased friend Kuina.",
+      "type": "antagonist",
+      "faction": "Marines",
+      "tags": [
+        "Swordswoman",
+        "Marine",
+        "Sword Collector",
+        "Zoro's Rival",
+        "Idealistic"
+      ],
+      "avatar": "/images/characters/loguetown/tashigi.jpg"
+    },
+    {
+      "name": "Monkey D. Dragon",
+      "role": "Revolutionary Leader / Luffy's Father",
+      "description": "The mysterious leader of the Revolutionary Army who saved Luffy from execution. Revealed as his father.",
+      "type": "neutral",
+      "faction": "Revolutionary Army",
+      "tags": [
+        "Revolutionary",
+        "Father",
+        "D. Clan",
+        "Most Wanted",
+        "Mysterious",
+        "Weather Control"
+      ],
+      "avatar": "/images/characters/loguetown/monkey-d-dragon.jpg"
+    },
+    {
+      "name": "Buggy the Clown",
+      "role": "Pirate Captain (Returning)",
+      "description": "Returns to Loguetown seeking revenge on Luffy. Attempts to execute him on the same platform where Roger died.",
+      "type": "antagonist",
+      "faction": "Buggy Pirates",
+      "tags": [
+        "Devil Fruit User",
+        "Revenge",
+        "Clown",
+        "Recurring"
+      ],
+      "avatar": "/images/characters/loguetown/buggy-the-clown.jpg"
+    },
+    {
+      "name": "Alvida",
+      "role": "Pirate Captain (Returning)",
+      "description": "Returns as Buggy's ally after eating the Smooth-Smooth Fruit, completely transformed in appearance.",
+      "type": "antagonist",
+      "faction": "Buggy-Alvida Alliance",
+      "tags": [
+        "Devil Fruit User",
+        "Transformed",
+        "Smooth-Smooth Fruit"
+      ],
+      "avatar": "/images/characters/loguetown/alvida.jpg"
+    },
+    {
+      "name": "Ipponmatsu",
+      "role": "Weapons Shop Owner",
+      "description": "The kind weapon shop owner who gave Zoro the cursed Sandai Kitetsu and the heirloom Yubashiri for free.",
+      "type": "citizen",
+      "faction": "Loguetown Citizens",
+      "tags": [
+        "Merchant",
+        "Generous",
+        "Sword Expert",
+        "Brave"
+      ],
+      "avatar": "/images/characters/loguetown/ipponmatsu.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Execution Platform",
+      "type": "Historical Monument",
+      "description": "The infamous platform where Gol D. Roger was executed, sparking the Great Age of Pirates. Where Buggy tried to execute Luffy.",
+      "notableFeatures": [
+        "Roger's execution site",
+        "Town square landmark",
+        "Where Luffy nearly died",
+        "Where Roger's final words were spoken",
+        "Symbol of freedom vs justice"
+      ],
+      "image": "/images/locations/loguetown/execution-platform.jpg"
+    },
+    {
+      "name": "Weapons Shop",
+      "type": "Store",
+      "description": "Ipponmatsu's shop where Zoro acquired Sandai Kitetsu (cursed) and Yubashiri.",
+      "notableFeatures": [
+        "Wide selection of swords",
+        "Cursed blade Sandai Kitetsu",
+        "Ipponmatsu's generosity",
+        "Where Zoro gained two legendary swords"
+      ],
+      "image": "/images/locations/loguetown/weapons-shop.jpg"
+    },
+    {
+      "name": "Marine Base",
+      "type": "Military Facility",
+      "description": "Smoker's headquarters, heavily fortified to prevent pirates from reaching the Grand Line.",
+      "notableFeatures": [
+        "Smoker's office",
+        "Marine barracks",
+        "Weapon armory",
+        "Intelligence center"
+      ],
+      "image": "/images/locations/loguetown/marine-base.jpg"
+    },
+    {
+      "name": "Port District",
+      "type": "Harbor",
+      "description": "The busy docks where ships depart for the Grand Line, heavily monitored by Marines.",
+      "notableFeatures": [
+        "Ship repair facilities",
+        "Supply warehouses",
+        "Marine patrol boats",
+        "Going Merry's departure point"
+      ],
+      "image": "/images/locations/loguetown/port-district.jpg"
+    },
+    {
+      "name": "Town Square",
+      "type": "Public Area",
+      "description": "The central plaza dominated by the execution platform, where the final battle occurred.",
+      "notableFeatures": [
+        "Surrounding shops and taverns",
+        "View of execution platform",
+        "Site of Buggy's attack",
+        "Where Dragon appeared"
+      ],
+      "image": "/images/locations/loguetown/town-square.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Sandai Kitetsu",
+      "category": "Cursed Sword",
+      "description": "One of the Kitetsu cursed blades. Zoro won against its curse and claimed it.",
+      "icon": "⚔️",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Yubashiri",
+      "category": "Sword",
+      "description": "A skillful grade sword given to Zoro by Ipponmatsu. Later destroyed at Enies Lobby.",
+      "icon": "⚔️",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Execution Platform",
+      "category": "Monument",
+      "description": "The platform itself is an artifact of history, representing the beginning of the pirate age.",
+      "icon": "⚖️",
+      "rarity": "Legendary"
+    },
+    {
+      "name": "Smoker's Jitte",
+      "category": "Weapon",
+      "description": "Smoker's jutte weapon tipped with Seastone, effective against Devil Fruit users.",
+      "icon": "🔱",
+      "rarity": "Rare"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Loguetown Marines",
+      "type": "Military",
+      "leader": "Captain Smoker",
+      "members": 200,
+      "description": "Marines specifically stationed to prevent pirates from reaching the Grand Line.",
+      "alignment": "Good"
+    },
+    {
+      "name": "Loguetown Citizens",
+      "type": "Civilian",
+      "leader": "Various merchants",
+      "members": 5000,
+      "description": "Townsfolk living in the shadow of Roger's legacy, profiting from and fearing pirates.",
+      "alignment": "Neutral"
+    },
+    {
+      "name": "Buggy-Alvida Alliance",
+      "type": "Pirate Coalition",
+      "leader": "Buggy & Alvida",
+      "members": 50,
+      "description": "Temporary alliance formed to take revenge on Luffy.",
+      "alignment": "Evil"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 96-100 (Loguetown Arc)",
+    "animeEpisodes": "Episodes 45, 48-53",
+    "events": [
+      "Straw Hats arrive for final preparations",
+      "Zoro visits weapon shop and acquires new swords",
+      "Luffy visits Roger's execution platform",
+      "Tashigi confronts Zoro",
+      "Buggy and Alvida ambush Luffy",
+      "Buggy attempts to execute Luffy on the platform",
+      "Lightning saves Luffy (Dragon's doing)",
+      "Smoker confronts Luffy",
+      "Dragon saves Luffy from Smoker",
+      "Dragon revealed as Luffy's father (to audience)",
+      "Mysterious storm aids Straw Hats' escape",
+      "Smoker decides to pursue Luffy into Grand Line",
+      "Straw Hats depart for the Grand Line"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#95A5A6",
+    "secondary": "#34495E",
+    "accent": "#E67E22"
+  },
+  "quickFacts": [
+    "Where Gol D. Roger was born and executed",
+    "Last stop before the Grand Line",
+    "Where Luffy was saved by Dragon (his father)",
+    "Where Zoro got Sandai Kitetsu and Yubashiri",
+    "Home of Captain Smoker",
+    "Site of Roger's legendary final words",
+    "Gateway between East Blue and the Grand Line"
+  ],
+  "videos": [
+    {
+      "youtubeId": "9_fk30a5VFY",
+      "title": "Dragon Saves Luffy",
+      "type": "lore",
+      "description": "The mysterious moment when Monkey D. Dragon intervenes to save his son.",
+      "featured": false,
+      "order": 1
+    },
+    {
+      "youtubeId": "Ypoch82b6jw",
+      "title": "Luffy finds an old bar that Gol D roger visited",
+      "type": "fight",
+      "description": "Luffy finds a bar Gol D Roger visited before his execution",
+      "featured": false,
+      "order": 2
+    }
+  ],
+  "music": {
+    "url": "/music/loguetown-theme.mp3",
+    "title": "Departure Of The King Of The Pirates",
+    "volume": 0.3
+  }
+}

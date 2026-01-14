@@ -1,0 +1,657 @@
+{
+  "slug": "fish-man-island",
+  "name": "Fish-Man Island",
+  "banner":"/images/banners/fish-man-island-banner.jpg",
+  "region": "Grand Line - 10,000 meters below the Red Line",
+  "aliases": [
+    "Ryugu Kingdom",
+    "Undersea Paradise",
+    "The Island of Merfolk and Fish-Men",
+    "Birthplace of Poseidon"
+  ],
+  "coordinates": { "x": 411, "y": 3197 },
+  "journeyOrder": 25,
+  "saga": "Fish-Man Island",
+  "description": "Fish-Man Island is the underwater kingdom located 10,000 meters below sea level beneath the Red Line, inside a giant double-layered bubble. It serves as the home of merfolk and fish-men, ruled by the Neptune Royal Family from the magnificent Ryugu Palace. The island is a necessary checkpoint for pirates traveling from Paradise to the New World, as ships must be coated to descend and then ascend through the Red Line. Despite its beauty with glowing coral and bioluminescent scenery, Fish-Man Island carries a dark history of slavery, discrimination, and pain. The late Queen Otohime dreamed of equality and peace with humans, while the revolutionary Fisher Tiger freed slaves but died tragically. Princess Shirahoshi is revealed to be the Ancient Weapon Poseidon with the power to command Sea Kings. The Sea Forest holds Noah's Ark—a massive ship connected to a promise made by Joyboy centuries ago. Luffy fulfills a prophecy by destroying the island (Noah) to save it, and promises to take Shirahoshi to see the real sun one day.",
+  "history": "Fish-Man Island has existed for centuries as a sanctuary for fish-men and merfolk beneath the sea. However, its people have suffered brutal discrimination from humans—enslaved, sold, and treated as monsters despite their intelligence and culture. Queen Otohime spent her life peacefully advocating for equality, collecting signatures for a petition to migrate to the surface and live alongside humans. Fisher Tiger, a legendary fish-man, climbed the Red Line with his bare hands and freed thousands of slaves from Mariejois, though he was branded a criminal and later died refusing human blood transfusions. After Otohime's assassination by a human (secretly manipulated by Hody Jones), her dream seemed lost. Her children—especially Shirahoshi—inherited her gentle heart. Hody Jones, consumed by hatred inherited from the older generation without ever experiencing human cruelty himself, formed the New Fish-Man Pirates to overthrow the Ryugu Kingdom and wage war on humanity using Energy Steroids. When the Straw Hats arrived, Luffy defeated Hody and his crew, destroyed Noah's Ark to prevent it from crushing the island, and became a hero to the kingdom. The Minister of the Right discovered Shirahoshi is the Ancient Weapon Poseidon. Luffy promised to destroy Fish-Man Island (in a good way—taking them to the surface) fulfilling Madam Shyarly's prophecy differently than expected.",
+  "culture": "Fish-Man Island culture blends the nobility of the Ryugu Kingdom with the harsh realities of discrimination. Merfolk are graceful and gentle, with males becoming fish-men at certain ages. Fish-men possess ten times the strength of humans and can breathe underwater and on land. The island celebrates with festivals, has a thriving shopping district (Coral Hill), and reveres Queen Otohime as a martyr for peace. However, the Fish-Man District—a lawless slum—festers with hatred and resentment, where Arlong and Hody Jones were raised on stories of human cruelty without experiencing it firsthand. This 'inherited hatred' is the island's greatest tragedy. Fortune telling is respected (Madam Shyarly's predictions never fail). The Mermaid Cafe is a popular destination. Fish-man karate and jujutsu are martial arts traditions. The culture is torn between Otohime's dream of peaceful coexistence and the rage of those who've only known discrimination. The revelation of Joyboy's ancient promise gives hope that one day the prophecy of bringing the island to the surface will be fulfilled.",
+  "economy": {
+    "industries": [
+      "Ship coating services for New World travel",
+      "Coral and pearl harvesting",
+      "Underwater tourism (Mermaid Cafe)",
+      "Fish-man karate dojos and training",
+      "Trading with surface through Sabaody",
+      "Candy production (Tamatebako treasure)"
+    ],
+    "currency": "Berry (฿)",
+    "tradeGoods": [
+      "Ship coating bubbles (essential for Red Line passage)",
+      "Precious corals and pearls",
+      "Underwater treasures",
+      "Tamatebako (aging pills disguised as treasure)",
+      "Fish-man karate techniques",
+      "Mermaid performances and entertainment"
+    ]
+  },
+  "transportation": "Accessed by coating ships at Sabaody Archipelago and descending 10,000 meters through underwater currents. Ships enter through a giant bubble entrance. Inside the island, transportation includes bubble gondolas, swimming, riding fish, and walking. The Sea Forest is reached through underwater passages. To reach the New World, ships must be coated again and ascend through the Red Line via Fishman Island's route. Noah's Ark was a legendary ship half the size of the island meant to transport the population to the surface one day.",
+  "food": {
+    "cuisine": [
+      "Deep-sea fish and seafood delicacies",
+      "Candy from Ryugu Palace's candy factory",
+      "Mermaid Cafe sweets and desserts",
+      "Seaweed and kelp dishes",
+      "Coral-based delicacies",
+      "Sake and wine (Neptune's massive consumption)"
+    ],
+    "traditions": [
+      "Royal banquets in Ryugu Palace",
+      "Mermaid Cafe social gatherings",
+      "Sharing meals to promote unity (Otohime's teaching)",
+      "Energy Steroids (illegal and deadly overdose pills)",
+      "Tamatebako treasure (actually rapid-aging pills)"
+    ],
+    "quirks": [
+      "Neptune drinks massive amounts of sake",
+      "Luffy raids Ryugu Palace's food storage",
+      "Sanji's nosebleeds from mermaids nearly kill him",
+      "Candy is the island's favorite treat (Big Mom later demands it)",
+      "Energy Steroids cause rapid aging and death"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Princess Shirahoshi",
+      "role": "Mermaid Princess / Ancient Weapon Poseidon",
+      "description": "The giant, crybaby mermaid princess who is actually the Ancient Weapon Poseidon—able to command all Sea Kings. Locked in Hard-Shell Tower for 10 years to escape Vander Decken IX's marriage proposals via thrown weapons. Despite her fear, she inherited her mother Otohime's gentle heart and dreams of peace.",
+      "faction": "Ryugu Kingdom",
+      "type": "protagonist",
+      "tags": [
+        "Ancient Weapon Poseidon",
+        "Mermaid Princess",
+        "Sea King Communication",
+        "Crybaby",
+        "Gentle Heart",
+        "Mother's Dream",
+        "Luffy's Friend"
+      ],
+      "avatar": "/images/characters/fish-man-island/shirahoshi.jpg"
+    },
+    {
+      "name": "King Neptune",
+      "role": "Ruler of Ryugu Kingdom",
+      "description": "The massive coelacanth merman king who rules Fish-Man Island. A kind and just ruler who supported his wife Otohime's dream of peace. Wields a trident and commands respect, though he was briefly overthrown by Hody Jones.",
+      "faction": "Ryugu Kingdom",
+      "type": "protagonist",
+      "tags": [
+        "King",
+        "Coelacanth Merman",
+        "Otohime's Husband",
+        "Father of Shirahoshi",
+        "Trident Wielder",
+        "Just Ruler"
+      ],
+      "avatar": "/images/characters/fish-man-island/neptune.jpg"
+    },
+    {
+      "name": "Queen Otohime",
+      "role": "Former Queen / Martyr for Peace",
+      "description": "The late goldfish mermaid queen who dedicated her life to achieving peaceful coexistence between fish-men and humans. Despite being physically fragile, her will was unbreakable. Assassinated by a human (manipulated by Hody), but her dream lives on through her children.",
+      "faction": "Ryugu Kingdom",
+      "type": "protagonist",
+      "tags": [
+        "Former Queen",
+        "Peace Advocate",
+        "Martyr",
+        "Mother of Shirahoshi",
+        "Gentle Soul",
+        "Assassination Victim",
+        "Legacy of Hope"
+      ],
+      "avatar": "/images/characters/fish-man-island/otohime.jpg"
+    },
+    {
+      "name": "Fisher Tiger",
+      "role": "Revolutionary Hero / Former Slave",
+      "description": "The legendary fish-man who climbed the Red Line with his bare hands and freed thousands of slaves from Mariejois. Founded the Sun Pirates. Despite his heroism, he harbored deep trauma from slavery and died refusing human blood transfusions. His sun symbol was used to cover slave brands.",
+      "faction": "Sun Pirates (Former)",
+      "type": "protagonist",
+      "tags": [
+        "Legendary Hero",
+        "Slave Liberator",
+        "Sun Pirates Founder",
+        "Tragic Death",
+        "Red Line Climber",
+        "Refused Human Blood",
+        "Sun Symbol"
+      ],
+      "avatar": "/images/characters/fish-man-island/fisher-tiger.jpg"
+    },
+    {
+      "name": "Jinbe",
+      "role": "Knight of the Sea / Former Warlord / Straw Hat",
+      "description": "The whale shark fish-man and master of fish-man karate. Former Warlord who joined the Straw Hats. Helped Luffy through his grief after Ace's death. Served as the bridge between the Straw Hats and Fish-Man Island.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Helmsman",
+        "Fish-Man Karate Master",
+        "Former Warlord",
+        "Sun Pirates",
+        "Luffy's Savior",
+        "Bridge to Peace"
+      ],
+      "avatar": "/images/characters/fish-man-island/jinbe.jpg"
+    },
+    {
+      "name": "Hody Jones",
+      "role": "Captain of New Fish-Man Pirates / Main Antagonist",
+      "description": "A great white shark fish-man consumed by inherited hatred despite never experiencing human cruelty himself. Assassinated Queen Otohime and framed a human. Led a coup using Energy Steroids, which aged him rapidly. Represents hatred passed down without reason.",
+      "faction": "New Fish-Man Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Great White Shark",
+        "Inherited Hatred",
+        "Energy Steroids Addict",
+        "Otohime's Assassin",
+        "Coup Leader",
+        "Rapid Aging",
+        "Empty Villain"
+      ],
+      "avatar": "/images/characters/fish-man-island/hody-jones.jpg"
+    },
+    {
+      "name": "Vander Decken IX",
+      "role": "Captain of Flying Pirates / Stalker",
+      "description": "A Japanese bullhead shark fish-man with the Mato Mato no Mi (Mark-Mark Fruit) allowing him to mark targets and throw objects that never miss. Obsessively stalked Shirahoshi for 10 years, forcing her into isolation. Threw Noah's Ark at the island when rejected.",
+      "faction": "Flying Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Mark-Mark Fruit",
+        "Stalker",
+        "10 Years of Terror",
+        "Thrown Weapons",
+        "Noah's Ark Attack",
+        "Delusional Love"
+      ],
+      "avatar": "/images/characters/fish-man-island/vander-decken.jpg"
+    },
+    {
+      "name": "Prince Fukaboshi",
+      "role": "Eldest Prince / Shark Merman",
+      "description": "Neptune's eldest son and a noble shark merman. Wields a trident and rides a megalo shark. Wise and diplomatic, he understands his mother's dream and protects his sister Shirahoshi. The future king of Ryugu Kingdom.",
+      "faction": "Ryugu Kingdom",
+      "type": "protagonist",
+      "tags": [
+        "Eldest Prince",
+        "Shark Merman",
+        "Trident User",
+        "Otohime's Son",
+        "Future King",
+        "Diplomatic"
+      ],
+      "avatar": "/images/characters/fish-man-island/fukaboshi.jpg"
+    },
+    {
+      "name": "Prince Ryuboshi",
+      "role": "Second Prince / Oarfish Merman",
+      "description": "Neptune's second son, an oarfish merman skilled with a spear. Protects the kingdom alongside his brothers. Shares his mother's gentle nature while being a capable warrior.",
+      "faction": "Ryugu Kingdom",
+      "type": "protagonist",
+      "tags": [
+        "Second Prince",
+        "Oarfish Merman",
+        "Spear Fighter",
+        "Gentle Warrior",
+        "Otohime's Son"
+      ],
+      "avatar": "/images/characters/fish-man-island/ryuboshi.jpg"
+    },
+    {
+      "name": "Prince Manboshi",
+      "role": "Third Prince / Sunfish Merman",
+      "description": "Neptune's third son, a sunfish merman who wields a sunfish-shaped weapon. The most jovial of the three brothers, but equally dedicated to protecting Fish-Man Island and his sister.",
+      "faction": "Ryugu Kingdom",
+      "type": "protagonist",
+      "tags": [
+        "Third Prince",
+        "Sunfish Merman",
+        "Jovial",
+        "Protector",
+        "Otohime's Son"
+      ],
+      "avatar": "/images/characters/fish-man-island/manboshi.jpg"
+    },
+    {
+      "name": "Madam Shyarly",
+      "role": "Fortune Teller / Mermaid Cafe Owner",
+      "description": "A shortfin mako shark mermaid and Arlong's half-sister. Owner of the Mermaid Cafe and a fortune teller whose predictions always come true. Predicted Whitebeard's death and that Luffy would destroy Fish-Man Island. Broke her crystal ball after seeing the future.",
+      "faction": "Fish-Man Island Citizens",
+      "type": "neutral",
+      "tags": [
+        "Fortune Teller",
+        "100% Accuracy",
+        "Mermaid Cafe Owner",
+        "Arlong's Sister",
+        "Crystal Ball Breaker",
+        "Prophecy of Destruction"
+      ],
+      "avatar": "/images/characters/fish-man-island/shyarly.jpg"
+    },
+    {
+      "name": "Camie",
+      "role": "Kissing Gourami Mermaid / Friend",
+      "description": "The cheerful kissing gourami mermaid who befriended the Straw Hats at Sabaody. Works at the Mermaid Cafe and helped guide them through Fish-Man Island. Represents the new generation's hope for friendship.",
+      "faction": "Fish-Man Island Citizens",
+      "type": "protagonist",
+      "tags": [
+        "Kissing Gourami Mermaid",
+        "Mermaid Cafe Waitress",
+        "Straw Hat Friend",
+        "Cheerful",
+        "New Generation"
+      ],
+      "avatar": "/images/characters/fish-man-island/camie.jpg"
+    },
+    {
+      "name": "Pappag",
+      "role": "Starfish Designer / Friend",
+      "description": "A talking starfish and master designer of Criminal brand clothing. Camie's best friend and pet. Provides comic relief while being a successful businessman. Lives with Camie.",
+      "faction": "Fish-Man Island Citizens",
+      "type": "protagonist",
+      "tags": [
+        "Talking Starfish",
+        "Fashion Designer",
+        "Criminal Brand",
+        "Comic Relief",
+        "Camie's Friend"
+      ],
+      "avatar": "/images/characters/fish-man-island/pappag.jpg"
+    },
+    {
+      "name": "Minister of the Right",
+      "role": "Royal Advisor / Seahorse Merman",
+      "description": "Neptune's loyal advisor, a seahorse merman who is highly intelligent and cautious. Discovered the truth about Shirahoshi being Poseidon. Helps manage the kingdom's affairs.",
+      "faction": "Ryugu Kingdom",
+      "type": "protagonist",
+      "tags": [
+        "Royal Minister",
+        "Seahorse Merman",
+        "Intelligent",
+        "Discovered Poseidon",
+        "Loyal Advisor"
+      ],
+      "avatar": "/images/characters/fish-man-island/minister-right.jpg"
+    },
+    {
+      "name": "Minister of the Left",
+      "role": "Royal Advisor / Catfish Merman",
+      "description": "Neptune's other loyal advisor, a catfish merman who is cautious and traditional. Works alongside the Minister of the Right to protect the kingdom and royal family.",
+      "faction": "Ryugu Kingdom",
+      "type": "protagonist",
+      "tags": [
+        "Royal Minister",
+        "Catfish Merman",
+        "Traditional",
+        "Cautious",
+        "Loyal Advisor"
+      ],
+      "avatar": "/images/characters/fish-man-island/minister-left.jpg"
+    },
+    {
+      "name": "Caribou",
+      "role": "Logia User / Antagonist",
+      "description": "A Logia user with the Swamp-Swamp Fruit who snuck onto the Straw Hats' ship. Planned to kidnap mermaids but was repeatedly defeated. Later discovered Shirahoshi is Poseidon and tried to sell the information.",
+      "faction": "Caribou Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Swamp-Swamp Fruit",
+        "Logia User",
+        "Mermaid Kidnapper",
+        "Comic Villain",
+        "Poseidon Info"
+      ],
+      "avatar": "/images/characters/fish-man-island/caribou.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Ryugu Palace",
+      "type": "royal palace",
+      "description": "The magnificent palace of the Neptune Royal Family, made of giant coral and shells with glowing pearls. Contains the throne room, Hard-Shell Tower where Shirahoshi was locked for 10 years, a massive candy factory, and treasure vaults including the Tamatebako.",
+      "notableFeatures": [
+        "Hard-Shell Tower (Shirahoshi's prison)",
+        "Throne room",
+        "Massive candy factory",
+        "Tamatebako vault",
+        "Royal chambers",
+        "Glowing coral architecture"
+      ],
+      "image": "/images/locations/fish-man-island/ryugu-palace.jpg"
+    },
+    {
+      "name": "Fish-Man District",
+      "type": "slum",
+      "description": "The lawless slum district where fish-men live in poverty and resentment. This is where Arlong and Hody Jones grew up, raised on stories of human cruelty and discrimination. The birthplace of inherited hatred without direct experience.",
+      "notableFeatures": [
+        "Rundown buildings",
+        "Hody's hideout",
+        "Energy Steroid stash",
+        "Inherited hatred culture",
+        "Arlong's childhood home",
+        "Poverty and resentment"
+      ],
+      "image": "/images/locations/fish-man-island/fishman-district.jpg"
+    },
+    {
+      "name": "Coral Hill",
+      "type": "town",
+      "description": "The main shopping and residential district of Fish-Man Island. A bustling town with shops, the Mermaid Cafe, restaurants, and homes. Where most merfolk and fish-men live peacefully.",
+      "notableFeatures": [
+        "Mermaid Cafe",
+        "Shopping district",
+        "Residential area",
+        "Pappag's store",
+        "Peaceful atmosphere",
+        "Tourist destination"
+      ],
+      "image": "/images/locations/fish-man-island/coral-hill.jpg"
+    },
+    {
+      "name": "Sea Forest",
+      "type": "underwater forest",
+      "description": "A mystical underwater forest made of sunken ships covered in coral. Contains Noah's Ark—a massive ship half the size of Fish-Man Island built centuries ago. Features Joyboy's poneglyph with an apology to the mermaid princess of that era for breaking his promise.",
+      "notableFeatures": [
+        "Noah's Ark (massive ship)",
+        "Joyboy's apology poneglyph",
+        "Queen Otohime's grave",
+        "Sunken ship graveyard",
+        "Coral-covered trees",
+        "Ancient history"
+      ],
+      "image": "/images/locations/fish-man-island/sea-forest.jpg"
+    },
+    {
+      "name": "Mermaid Cove",
+      "type": "beach",
+      "description": "A beautiful cove where mermaids gather and play. The Straw Hats (especially Sanji) were welcomed here. A peaceful place representing the gentle nature of merfolk and their hope for the future.",
+      "notableFeatures": [
+        "Mermaid gathering spot",
+        "Beautiful coral beach",
+        "Crystal clear water",
+        "Sanji's nosebleed crisis",
+        "Peaceful atmosphere",
+        "New generation's hope"
+      ],
+      "image": "/images/locations/fish-man-island/mermaid-cove.jpg"
+    },
+    {
+      "name": "Gyoncorde Plaza",
+      "type": "public square",
+      "description": "The main plaza of Fish-Man Island where public gatherings and events occur. Site of the final battle between Luffy and Hody Jones, where Luffy declared Jinbe his crewmate and defeated the New Fish-Man Pirates.",
+      "notableFeatures": [
+        "Public execution site (Hody's plan)",
+        "Luffy vs Hody battle",
+        "Citizens gathered",
+        "Jinbe recruitment",
+        "Victory celebration",
+        "Symbol of new era"
+      ],
+      "image": "/images/locations/fish-man-island/gyoncorde-plaza.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Ancient Weapon Poseidon",
+      "category": "Ancient Power",
+      "description": "Princess Shirahoshi herself is the Ancient Weapon Poseidon—capable of commanding all Sea Kings. One of three ancient weapons that could destroy the world. Her power is her gentle ability to communicate with and command the massive Sea Kings.",
+      "icon": "🔱",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Noah's Ark",
+      "category": "Ancient Ship",
+      "description": "A massive ship half the size of Fish-Man Island built centuries ago to transport the entire population to the surface. Connected to Joyboy's promise. Luffy destroyed it to save Fish-Man Island from Vander Decken's attack.",
+      "icon": "🚢",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Joyboy's Apology Poneglyph",
+      "category": "Historical Artifact",
+      "description": "A poneglyph in the Sea Forest containing Joyboy's apology to the ancient mermaid princess for breaking his promise. Robin can read it. Reveals that Joyboy made a pact with the merfolk 800+ years ago.",
+      "icon": "📜",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Tamatebako",
+      "category": "Treasure (Cursed)",
+      "description": "The treasure of Ryugu Palace that appears to be a magnificent box of treasure but actually contains Energy Steroids that cause rapid aging. Later given to Big Mom, it explodes and contributes to her downfall at Whole Cake Island.",
+      "icon": "📦",
+      "rarity": "rare"
+    },
+    {
+      "name": "Energy Steroids",
+      "category": "Drug",
+      "description": "Illegal pills that double the user's strength but cause rapid aging and eventual death. Hody Jones and his crew became addicted, transforming into old men. Represent the self-destructive nature of hatred.",
+      "icon": "💊",
+      "rarity": "rare"
+    },
+    {
+      "name": "Queen Otohime's Signatures",
+      "category": "Historical Document",
+      "description": "The petition signatures Queen Otohime collected from citizens who supported peaceful migration to the surface and coexistence with humans. Burned by the human who assassinated her (under Hody's manipulation).",
+      "icon": "📋",
+      "rarity": "rare"
+    },
+    {
+      "name": "Sun Pirates Symbol",
+      "category": "Mark",
+      "description": "Fisher Tiger's sun symbol used to cover slave brands. Worn by all Sun Pirates members including Jinbe, Arlong, and Hody. Represents freedom from slavery and the sun they couldn't see underwater.",
+      "icon": "☀️",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Candy from Ryugu Palace",
+      "category": "Food/Tribute",
+      "description": "The candy manufactured in Ryugu Palace's factory. Later became tribute to Big Mom. When Fish-Man Island couldn't pay, it triggered events leading to Whole Cake Island arc.",
+      "icon": "🍬",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Madam Shyarly's Crystal Ball",
+      "category": "Fortune Telling Tool",
+      "description": "The crystal ball Shyarly used for predictions that always came true. She broke it after predicting Luffy would destroy Fish-Man Island, not wanting to see such a terrible future.",
+      "icon": "🔮",
+      "rarity": "rare"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Ryugu Kingdom",
+      "type": "Monarchy",
+      "leader": "King Neptune",
+      "members": [
+        "King Neptune",
+        "Princess Shirahoshi",
+        "Prince Fukaboshi",
+        "Prince Ryuboshi",
+        "Prince Manboshi",
+        "Minister of the Right",
+        "Minister of the Left",
+        "Royal guards",
+        "Palace servants"
+      ],
+      "description": "The royal family and government of Fish-Man Island, dedicated to protecting citizens and pursuing Queen Otohime's dream of peace with humanity.",
+      "alignment": "ally"
+    },
+    {
+      "name": "New Fish-Man Pirates",
+      "type": "Pirate Crew (Terrorist Organization)",
+      "leader": "Hody Jones",
+      "members": [
+        "Hody Jones",
+        "Dosun",
+        "Zeo",
+        "Daruma",
+        "Ikaros Much",
+        "Hyouzou (hired assassin)",
+        "100,000 fish-men soldiers"
+      ],
+      "description": "A radical fish-man supremacist group that staged a coup using Energy Steroids. Represents inherited hatred without reason. Defeated and imprisoned by the Straw Hats.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Sun Pirates (Historical)",
+      "type": "Revolutionary Pirates",
+      "leader": "Fisher Tiger (deceased)",
+      "members": [
+        "Fisher Tiger (founder, deceased)",
+        "Jinbe (former member, now Straw Hat)",
+        "Arlong (former member, imprisoned)",
+        "Hody Jones (corrupted the ideals)",
+        "Former slaves of all races"
+      ],
+      "description": "The legendary crew founded by Fisher Tiger to free slaves and protect fish-men. After Tiger's death, the crew split with some following justice (Jinbe) and others falling to hatred (Arlong, Hody).",
+      "alignment": "ally"
+    },
+    {
+      "name": "Merfolk & Fish-Men Citizens",
+      "type": "Population",
+      "leader": "No single leader",
+      "members": [
+        "Camie",
+        "Pappag",
+        "Madam Shyarly",
+        "Mermaid Cafe staff",
+        "Coral Hill residents",
+        "Peaceful fish-men and merfolk"
+      ],
+      "description": "The general population of Fish-Man Island caught between the dream of peace and the trauma of discrimination. Represents hope for the future generation.",
+      "alignment": "neutral"
+    },
+    {
+      "name": "Flying Pirates",
+      "type": "Pirate Crew (Stalkers)",
+      "leader": "Vander Decken IX",
+      "members": [
+        "Vander Decken IX",
+        "His crew"
+      ],
+      "description": "Pirates aboard a ship that can exist in air bubbles. Vander Decken used his Mark-Mark Fruit to terrorize Shirahoshi for 10 years. Allied with Hody briefly before betrayal.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Straw Hat Pirates",
+      "type": "Liberators",
+      "leader": "Monkey D. Luffy",
+      "members": [
+        "All Straw Hats reunited after 2 years",
+        "Jinbe (invited, joins later)"
+      ],
+      "description": "The crew that saved Fish-Man Island from Hody Jones, destroyed Noah to prevent catastrophe, and promised Shirahoshi they'd take her to see the real sun one day.",
+      "alignment": "ally"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 603-653 (Fish-Man Island Arc)",
+    "animeEpisodes": "Episodes 523-574",
+    "events": [
+      "Straw Hats reunite at Sabaody after 2 years",
+      "Ships coated and descend to Fish-Man Island",
+      "Caribou stows away on Thousand Sunny",
+      "Arrive at Fish-Man Island entrance",
+      "Sanji's massive nosebleeds from mermaids nearly kill him",
+      "Meet Camie and Pappag at Mermaid Cove",
+      "Invited to Ryugu Palace",
+      "Luffy meets King Neptune",
+      "Luffy accidentally enters Hard-Shell Tower",
+      "Meets Princess Shirahoshi - the crybaby mermaid",
+      "Vander Decken's weapons attack Shirahoshi",
+      "Luffy promises to take her outside",
+      "Hody Jones stages coup and captures Neptune",
+      "Zoro cuts Hody underwater with air attack",
+      "Flashback to Queen Otohime's life and dream",
+      "Otohime's peaceful petition for equality",
+      "Fisher Tiger's story - freed slaves from Mariejois",
+      "Fisher Tiger dies refusing human blood",
+      "Human assassinates Otohime (Hody's manipulation revealed later)",
+      "Young Hody raised on inherited hatred",
+      "Hody's crew takes Energy Steroids",
+      "New Fish-Man Pirates plan public execution",
+      "Jinbe reveals he wants to join Straw Hats",
+      "Luffy agrees enthusiastically",
+      "Shirahoshi visits her mother's grave in Sea Forest",
+      "Robin reads Joyboy's apology poneglyph",
+      "Vander Decken throws Noah's Ark at Shirahoshi",
+      "Noah falls toward Fish-Man Island - will destroy it",
+      "Battle at Gyoncorde Plaza",
+      "Luffy vs Hody Jones underwater and on land",
+      "Zoro vs Hyouzou (drunk swordsman octopus)",
+      "Sanji's improved Diable Jambe underwater",
+      "Hody overdoses on Energy Steroids",
+      "Luffy destroys Noah with Red Hawk and Elephant Gun",
+      "Sea Kings stop Noah's fall (responding to Shirahoshi)",
+      "Shirahoshi revealed as Ancient Weapon Poseidon",
+      "Luffy defeats aged Hody Jones",
+      "Hody's empty hatred exposed - never experienced discrimination",
+      "Shirahoshi forgives Hody for her mother's death",
+      "Madam Shyarly's prophecy - Luffy will destroy Fish-Man Island",
+      "Luffy promises to take Shirahoshi to the real sun someday",
+      "Joyboy's promise still unfulfilled",
+      "Big Mom's territory - Fishman Island under her protection",
+      "Luffy declares war on Big Mom over candy tribute",
+      "Neptune gives Tamatebako to Big Mom (actually aging pills)",
+      "Straw Hats leave as heroes",
+      "Caribou captured with knowledge of Poseidon"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#0077BE",
+    "secondary": "#FF6B9D",
+    "accent": "#40E0D0"
+  },
+  "quickFacts": [
+    "Located 10,000 meters below the Red Line",
+    "Shirahoshi is the Ancient Weapon Poseidon",
+    "Queen Otohime martyred for peace with humans",
+    "Fisher Tiger freed slaves from Mariejois",
+    "Hody Jones represents inherited hatred without reason",
+    "Noah's Ark connects to Joyboy's ancient promise",
+    "Luffy promised to take Shirahoshi to see the real sun",
+    "Madam Shyarly's prophecy: Luffy will destroy the island",
+    "Joyboy apologized to ancient mermaid princess",
+    "Gateway to the New World for all pirates"
+  ],
+  "videos": [
+    {
+      "youtubeId": "4UdG4yI2inM",
+      "title": "Fisher Tiger's Story",
+      "type": "lore",
+      "description": "The tragic tale of Fisher Tiger, the legendary fish-man who freed slaves and the cycle of hatred his death perpetuated.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "UngbNPW6e_0",
+      "title": "Queen Otohime's Dream",
+      "type": "lore",
+      "description": "Queen Otohime's life dedicated to peace between fish-men and humans, and her heartbreaking assassination.",
+      "featured": false,
+      "order": 2
+    },
+    {
+      "youtubeId": "mxz0xkRipe4",
+      "title": "Luffy Destroys Noah",
+      "type": "battle",
+      "description": "Luffy destroys the massive Noah's Ark to save Fish-Man Island, with Sea Kings stopping its fall at Shirahoshi's command.",
+      "featured": false,
+      "order": 3
+    }
+  ],
+  "music": {
+    "url": "/music/fish-man-island-theme.mp3",
+    "title": "Knight of the Sea",
+    "volume": 0.3
+  }
+}

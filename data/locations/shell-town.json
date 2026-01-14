@@ -1,0 +1,291 @@
+{
+  "slug": "shell-town",
+  "name": "Shell Town",
+  "banner": "/images/banners/shell-town-banner.jpg",
+  "region": "East Blue",
+  "aliases": [
+    "Marine Base 153",
+    "Captain Morgan's Town"
+  ],
+  "coordinates": { "x": 9115, "y": 1021 },
+  "pathControl": { "x": 9169, "y": 1172 },
+  "journeyOrder": 2,
+  "description": "Shell Town is a small coastal town in the East Blue dominated by Marine Base 153. Once a peaceful settlement, it fell under the tyrannical rule of Captain 'Axe-Hand' Morgan, who terrorized citizens with his ego and cruelty. The town became famous as the place where Roronoa Zoro joined Monkey D. Luffy's crew.",
+  "history": "Shell Town was a quiet marine outpost until Captain Morgan rose to power. His brutal rule turned the base into a symbol of fear rather than justice. He forced citizens to build a massive statue of himself while punishing anyone who opposed him. His reign ended when Luffy and Zoro exposed his corruption and defeated him, restoring peace to the town. Coby stayed behind to pursue his dream of becoming a marine under proper leadership.",
+  "culture": "Shell Town's culture was suppressed under Morgan's rule, with citizens living in fear of arbitrary punishment. The town traditionally valued hard work and community, but Morgan's ego cult replaced normal life. After his defeat, the town slowly recovered its identity as a peaceful maritime community. The marine base, under new leadership, now serves its proper purpose of protecting citizens.",
+  "economy": {
+    "industries": [
+      "Fishing",
+      "Maritime trade",
+      "Military supply (Marine base)",
+      "Taverns and restaurants"
+    ],
+    "currency": "Berry (฿)",
+    "tradeGoods": [
+      "Fresh seafood",
+      "Naval supplies",
+      "Rice balls",
+      "Marine provisions"
+    ]
+  },
+  "transportation": "Small fishing vessels and marine ships dock at the harbor. The marine base controls ship traffic. Within town, travel is on foot through cobblestone streets.",
+  "food": {
+    "cuisine": [
+      "Rice balls (onigiri)",
+      "Fresh fish",
+      "Navy rations",
+      "Simple home cooking"
+    ],
+    "traditions": [
+      "Rika's mother makes special rice balls",
+      "Marine mess hall meals",
+      "Town festivals (resumed after Morgan's defeat)"
+    ],
+    "quirks": [
+      "Rice balls symbolize kindness in the face of tyranny",
+      "Marines and citizens eat separately",
+      "Food tributes to Morgan (formerly)"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Roronoa Zoro",
+      "role": "Bounty Hunter / Straw Hat Pirate",
+      "description": "The legendary swordsman who was captured while protecting a girl from Morgan's son. He joined Luffy's crew after being freed and defeating Morgan's men.",
+      "type": "protagonist",
+      "faction": "Straw Hat Pirates",
+      "tags": [
+        "Swordsman",
+        "Three Sword Style",
+        "Bounty Hunter",
+        "Legendary",
+        "First Mate"
+      ],
+      "avatar": "/images/characters/shell-town/roronoa-zoro.jpg"
+    },
+    {
+      "name": "Monkey D. Luffy",
+      "role": "Pirate Captain",
+      "description": "The rubber man who freed Zoro and defeated Captain Morgan, recruiting his first crew member.",
+      "type": "protagonist",
+      "faction": "Straw Hat Pirates",
+      "tags": [
+        "Captain",
+        "Gum-Gum Fruit",
+        "Liberator",
+        "D. Clan"
+      ],
+      "avatar": "/images/characters/shell-town/monkey-d-luffy.jpg"
+    },
+    {
+      "name": "Captain Morgan",
+      "role": "Marine Captain / Tyrant",
+      "description": "The corrupt, egomaniacal marine captain with an axe for a hand who ruled Shell Town through fear and oppression.",
+      "type": "antagonist",
+      "faction": "Marines (Corrupt)",
+      "tags": [
+        "Tyrant",
+        "Corrupt",
+        "Axe-Hand",
+        "Defeated",
+        "Imprisoned"
+      ],
+      "avatar": "/images/characters/shell-town/captain-morgan.jpg"
+    },
+    {
+      "name": "Helmeppo",
+      "role": "Spoiled Brat / Marine (Reformed)",
+      "description": "Morgan's cowardly son who abused his father's power. After Morgan's defeat, he reformed and became a proper marine under Garp's training.",
+      "type": "antagonist",
+      "faction": "Marines",
+      "tags": [
+        "Spoiled",
+        "Reformed",
+        "Coward",
+        "Marine Officer"
+      ],
+      "avatar": "/images/characters/shell-town/helmeppo.jpg"
+    },
+    {
+      "name": "Coby",
+      "role": "Luffy's Friend / Marine Recruit",
+      "description": "The timid boy who became Luffy's first friend. He stayed at Shell Town to pursue his dream of becoming a marine admiral.",
+      "type": "protagonist",
+      "faction": "Marines",
+      "tags": [
+        "Dreamer",
+        "Friend",
+        "Brave",
+        "Marine",
+        "Luffy's Ally"
+      ],
+      "avatar": "/images/characters/shell-town/coby.jpg"
+    },
+    {
+      "name": "Rika",
+      "role": "Little Girl / Citizen",
+      "description": "The brave young girl who tried to feed Zoro rice balls while he was tied up, showing kindness despite the risk.",
+      "type": "citizen",
+      "faction": "Shell Town Citizens",
+      "tags": [
+        "Brave",
+        "Kind",
+        "Innocent",
+        "Zoro's Friend"
+      ],
+      "avatar": "/images/characters/shell-town/rika.jpg"
+    },
+    {
+      "name": "Ripper",
+      "role": "Marine Lieutenant",
+      "description": "Morgan's second-in-command who followed orders out of fear but was secretly relieved when Morgan was defeated.",
+      "type": "neutral",
+      "faction": "Marines",
+      "tags": [
+        "Officer",
+        "Follower",
+        "Conflicted"
+      ],
+      "avatar": "/images/characters/shell-town/ripper.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Marine Base 153",
+      "type": "Military Facility",
+      "description": "The imposing marine fortress that dominates Shell Town. Under Morgan, it became a symbol of oppression.",
+      "notableFeatures": [
+        "Execution grounds where Zoro was tied",
+        "Morgan's office with his throne",
+        "Giant statue of Morgan (destroyed)",
+        "Marine barracks and training grounds"
+      ],
+      "image": "/images/locations/shell-town/marine-base-153.jpg"
+    },
+    {
+      "name": "Town Square",
+      "type": "Public Area",
+      "description": "The central gathering place where citizens witnessed Zoro's capture and eventual liberation.",
+      "notableFeatures": [
+        "Execution post",
+        "Market stalls",
+        "View of the marine base",
+        "Where Luffy first met Zoro"
+      ],
+      "image": "/images/locations/shell-town/town-square.jpg"
+    },
+    {
+      "name": "Rika's Restaurant",
+      "type": "Tavern",
+      "description": "A small family-run restaurant where Rika and her mother serve food to locals and occasionally marines.",
+      "notableFeatures": [
+        "Famous rice balls",
+        "Family atmosphere",
+        "Safe haven from Morgan's rule"
+      ],
+      "image": "/images/locations/shell-town/rikas-restaurant.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Zoro's Swords",
+      "category": "Weapons",
+      "description": "The three swords Zoro recovered after being freed.",
+      "icon": "⚔️",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Rice Balls",
+      "category": "Food",
+      "description": "The rice balls Rika made for Zoro, symbolizing the kindness that still existed under Morgan's tyranny.",
+      "icon": "🍙",
+      "rarity": "Common"
+    },
+    {
+      "name": "Morgan's Axe-Hand",
+      "category": "Weapon",
+      "description": "The massive axe attached to Morgan's arm, a symbol of his brutality.",
+      "icon": "🪓",
+      "rarity": "Uncommon"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Shell Town Citizens",
+      "type": "Civilian",
+      "leader": "None (oppressed)",
+      "members": 500,
+      "description": "The townspeople who suffered under Morgan's rule but found hope in Luffy's actions.",
+      "alignment": "Good"
+    },
+    {
+      "name": "Morgan's Marines",
+      "type": "Military (Corrupt)",
+      "leader": "Captain Morgan (Defeated)",
+      "members": 50,
+      "description": "Marines who followed Morgan out of fear. Most were relieved when he was defeated.",
+      "alignment": "Neutral"
+    },
+    {
+      "name": "Reformed Marines",
+      "type": "Military",
+      "leader": "New Leadership",
+      "members": 50,
+      "description": "The same marines, now serving under proper leadership and protecting citizens as they should.",
+      "alignment": "Good"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 8-21 (Morgan Arc)",
+    "animeEpisodes": "Episodes 2-3",
+    "events": [
+      "Luffy and Coby arrive in Shell Town",
+      "Luffy meets Zoro tied up at the marine base",
+      "Rika brings rice balls to Zoro",
+      "Helmeppo reveals his plan to execute Zoro",
+      "Luffy frees Zoro from his bonds",
+      "Zoro vs Marine soldiers",
+      "Luffy vs Captain Morgan",
+      "Morgan is defeated and arrested",
+      "Zoro officially joins the Straw Hat Pirates",
+      "Coby stays to become a marine"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#7F8C8D",
+    "secondary": "#34495E",
+    "accent": "#95A5A6"
+  },
+  "quickFacts": [
+    "Where Zoro joined the Straw Hat Pirates",
+    "Site of Marine Base 153",
+    "Liberated from Captain Morgan's tyranny",
+    "Where Coby began his marine career",
+    "Home to the famous rice ball incident",
+    "First major victory for the Straw Hats"
+  ],
+  "videos": [
+    {
+      "youtubeId": "72XMVX2nmyU",
+      "title": "Luffy Meets Zoro",
+      "type": "lore",
+      "description": "The first meeting between Luffy and his future first mate, tied up at the marine base.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "2mHuFMdycPA",
+      "title": "Zoro Joins Luffy's Crew",
+      "type": "lore",
+      "description": "After being freed, Zoro officially becomes the first member of Luffy's pirate crew.",
+      "featured": false,
+      "order": 2
+    }
+  ],
+  "music": {
+    "url": "/music/shell-town-theme.mp3",
+    "title": "Three Thousand Worlds",
+    "volume": 0.3
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "slug": "skypeia",
+  "name": "Skypeia",
+  "region": "Sky Islands",
+  "aliases": [
+    "God's Land",
+    "Upper Yard",
+    "Island of the Gods"
+  ],
+  "coordinates": { "x": 8156, "y": 3020 },
+  "journeyOrder": 14,
+  "saga": "Sky Island",
+  "description": "Skypeia is a legendary sky island located 10,000 meters above the sea, accessible via the Knock Up Stream. It's a mystical realm where clouds form the ground and the sea, and ancient secrets of the Void Century lie hidden.",
+  "history": "Skypeia was originally part of Jaya island before being shot into the sky 400 years ago by the Knock Up Stream. The Shandians, the island's original inhabitants, were brought up with it and have been fighting to reclaim their homeland from the Skypieans ever since. The island contains ancient ruins and a Poneglyph inscribed by the Pirate King Gol D. Roger. Enel, a Logia-type Devil Fruit user, took control of Skypeia and ruled as a tyrannical 'God' until he was defeated by Monkey D. Luffy.",
+  "culture": "Skypiean culture revolves around the worship of 'God' (their leader), cloud-based architecture, and the concept of 'Vearth' (earth/soil) being incredibly precious. They use dials - special shells that can store various forms of energy. The Shandians maintain their warrior culture and light the 'Light of Shandora' as a beacon for their ancestors. Music and the sound of the Golden Bell play significant roles in their traditions.",
+  "economy": {
+    "industries": [
+      "Dial manufacturing",
+      "Cloud crafting",
+      "Tourism (rarely)",
+      "Agriculture on cloud beds"
+    ],
+    "currency": "Extol (1 Extol = 10,000 Berries (฿))",
+    "tradeGoods": [
+      "Dials (Tone, Flame, Impact, etc.)",
+      "Cloud bamboo",
+      "Sky fish",
+      "Rare fruits"
+    ]
+  },
+  "transportation": "Citizens travel using Wavers (motorized cloud surfboards powered by Breath Dials), Sky Fish riding, and special cloud paths called Milky Road. The White-White Sea and White Sea serve as cloud oceans for navigation.",
+  "food": {
+    "cuisine": [
+      "Sky fish dishes",
+      "Cloud fruits",
+      "Sky lobster",
+      "Sky noodles",
+      "Sky island vegetables"
+    ],
+    "traditions": [
+      "Communal feasts after conflicts",
+      "Offerings to God",
+      "Victory celebrations with sky sake"
+    ],
+    "quirks": [
+      "Everything is prefixed with 'Sky'",
+      "Inhabitants are shocked by the concept of dirt",
+      "Sea dwellers are treated as exotic"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Enel",
+      "role": "Self-proclaimed God / Former Ruler",
+      "description": "A Logia-type Devil Fruit user with the Goro Goro no Mi (Rumble-Rumble Fruit), giving him lightning powers. He ruled Skypeia with an iron fist until defeated by Luffy.",
+      "faction": "Enel's Priests",
+      "type": "antagonist",
+      "tags": [
+        "Devil Fruit User",
+        "Logia Type",
+        "God of Skypeia",
+        "Lightning Powers"
+      ],
+      "avatar": "/images/characters/skypeia/enel.jpg"
+    },
+    {
+      "name": "Gan Fall",
+      "role": "Former God of Skypeia / Knight of the Sky",
+      "description": "The benevolent former ruler of Skypeia who was overthrown by Enel. He rides a giant bird named Pierre and fights to protect his people.",
+      "faction": "Skypieans",
+      "type": "protagonist",
+      "tags": [
+        "Former God",
+        "Knight",
+        "Pierre's Partner",
+        "Dial User"
+      ],
+      "avatar": "/images/characters/skypeia/gan-fall.jpg"
+    },
+    {
+      "name": "Wyper",
+      "role": "Shandian Warrior Leader",
+      "description": "A fierce descendant of Calgara who leads the Shandians in their 400-year war to reclaim their homeland. Wields the Burn Bazooka and Reject Dial.",
+      "faction": "Shandian Warriors",
+      "type": "protagonist",
+      "tags": [
+        "Warrior",
+        "Calgara's Descendant",
+        "Reject Dial User",
+        "Burn Bazooka"
+      ],
+      "avatar": "/images/characters/skypeia/wyper.jpg"
+    },
+    {
+      "name": "Conis",
+      "role": "Citizen / Harp Player",
+      "description": "A kind Skypiean girl who befriends the Straw Hat Pirates and helps them understand Sky Island culture. Her father Pagaya is an engineer.",
+      "faction": "Skypieans",
+      "type": "citizen",
+      "tags": [
+        "Musician",
+        "Guide",
+        "Angel Island Resident"
+      ],
+      "avatar": "/images/characters/skypeia/conis.jpg"
+    },
+    {
+      "name": "Pagaya",
+      "role": "Engineer / Waver Builder",
+      "description": "Conis's father, a skilled engineer who builds Wavers and understands Dial technology. Helps the Straw Hats navigate Sky Island culture.",
+      "faction": "Skypieans",
+      "type": "citizen",
+      "tags": [
+        "Engineer",
+        "Dial Craftsman",
+        "Waver Builder"
+      ],
+      "avatar": "/images/characters/skypeia/pagaya.jpg"
+    },
+    {
+      "name": "Ohm",
+      "role": "Priest of the Iron Trial",
+      "description": "One of Enel's four priests who guards the Ordeal of Iron. Uses Iron Cloud and wields a massive sword. Known for his nihilistic philosophy.",
+      "faction": "Enel's Priests",
+      "type": "antagonist",
+      "tags": [
+        "Priest",
+        "Iron Cloud User",
+        "Swordsman",
+        "Mantra User"
+      ],
+      "avatar": "/images/characters/skypeia/ohm.jpg"
+    },
+    {
+      "name": "Satori",
+      "role": "Priest of the Ball Trial",
+      "description": "One of Enel's priests with powerful Mantra abilities. Guards the Ordeal of Balls and fights using Surprise Balls filled with various weapons.",
+      "faction": "Enel's Priests",
+      "type": "antagonist",
+      "tags": [
+        "Priest",
+        "Mantra Master",
+        "Surprise Balls",
+        "Observation Haki"
+      ],
+      "avatar": "/images/characters/skypeia/satori.jpg"
+    },
+    {
+      "name": "Gedatsu",
+      "role": "Priest of the Swamp Trial",
+      "description": "A comically absent-minded priest who guards the Ordeal of Swamp. Despite his scattered personality, he's a formidable fighter with Jet Dial boots.",
+      "faction": "Enel's Priests",
+      "type": "antagonist",
+      "tags": [
+        "Priest",
+        "Jet Dial User",
+        "Comic Relief",
+        "Mantra User"
+      ],
+      "avatar": "/images/characters/skypeia/gedatsu.jpg"
+    },
+    {
+      "name": "Aisa",
+      "role": "Young Shandian / Mantra Prodigy",
+      "description": "A young Shandian girl born with natural Mantra (Observation Haki) abilities. Can sense the presence and emotions of others across great distances.",
+      "faction": "Shandian Warriors",
+      "type": "citizen",
+      "tags": [
+        "Child",
+        "Mantra User",
+        "Observation Haki",
+        "Shandian"
+      ],
+      "avatar": "/images/characters/skypeia/aisa.jpg"
+    },
+    {
+      "name": "Calgara",
+      "role": "Legendary Shandian Warrior (Historical)",
+      "description": "The great warrior of Shandia 400 years ago who befriended the explorer Noland. His friendship and the promise to ring the Golden Bell became legend.",
+      "faction": "Shandian Warriors",
+      "type": "historical",
+      "tags": [
+        "Warrior",
+        "Noland's Friend",
+        "Golden Bell",
+        "400 Years Ago"
+      ],
+      "avatar": "/images/characters/skypeia/calgara.jpg"
+    },
+    {
+      "name": "Montblanc Noland",
+      "role": "Explorer (Historical)",
+      "description": "The legendary explorer who visited Jaya 400 years ago and became friends with Calgara. Known as 'Noland the Liar' in North Blue tales, but his story was true.",
+      "faction": "Explorers",
+      "type": "historical",
+      "tags": [
+        "Explorer",
+        "Calgara's Friend",
+        "North Blue",
+        "Botanist"
+      ],
+      "avatar": "/images/characters/skypeia/montblanc-noland.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Upper Yard",
+      "type": "sacred land",
+      "description": "The original landmass of Jaya that was shot into the sky 400 years ago. Contains ancient ruins, the Golden City of Shandora, and the legendary Golden Bell.",
+      "notableFeatures": [
+        "Golden Bell of Shandora",
+        "Ancient Ruins",
+        "Poneglyph",
+        "Giant Jack Beanstalk"
+      ],
+      "image": "/images/locations/skypeia/upper-yard.jpg"
+    },
+    {
+      "name": "Angel Island",
+      "type": "settlement",
+      "description": "The main Skypiean settlement with residential areas, Lovely Street shopping district, and cloud harbors.",
+      "notableFeatures": [
+        "Lovely Street",
+        "Cloud Harbor",
+        "Skypiean Homes",
+        "Angel Beach"
+      ],
+      "image": "/images/locations/skypeia/angel-island.jpg"
+    },
+    {
+      "name": "God's Shrine",
+      "type": "fortress",
+      "description": "Enel's base of operations, featuring the Arc Maxim construction site and throne room. Located in the heart of Upper Yard.",
+      "notableFeatures": [
+        "Arc Maxim",
+        "Throne Room",
+        "Ordeal Grounds",
+        "Golden Decorations"
+      ],
+      "image": "/images/locations/skypeia/gods-shrine.jpg"
+    },
+    {
+      "name": "Cloud End",
+      "type": "landmark",
+      "description": "The edge of the White-White Sea where the clouds end, revealing the vast ocean 10,000 meters below.",
+      "notableFeatures": [
+        "Edge of Skypeia",
+        "Dangerous Drop",
+        "Scenic View"
+      ],
+      "image": "/images/locations/skypeia/cloud-end.jpg"
+    },
+    {
+      "name": "Shandora Ruins",
+      "type": "ancient city",
+      "description": "The ruins of the ancient golden city built by the Shandians. Contains valuable archaeological treasures and the Poneglyph.",
+      "notableFeatures": [
+        "Golden City Ruins",
+        "Poneglyph Location",
+        "Historical Artifacts",
+        "Calgara's Legacy"
+      ],
+      "image": "/images/locations/skypeia/shandora-ruins.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Flame Dial",
+      "category": "Combat Dial",
+      "description": "Stores and releases fire for offensive attacks. Can be used as a weapon or for cooking.",
+      "icon": "🔥",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Impact Dial",
+      "category": "Combat Dial",
+      "description": "Absorbs and releases impact force. Used for powerful physical attacks but damages the user's body.",
+      "icon": "💥",
+      "rarity": "rare"
+    },
+    {
+      "name": "Reject Dial",
+      "category": "Combat Dial",
+      "description": "The ultimate Impact Dial that releases 10 times the absorbed impact. Extremely dangerous to the user.",
+      "icon": "⚡",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Tone Dial",
+      "category": "Utility Dial",
+      "description": "Records and plays back sound. Used for music, communication, and entertainment.",
+      "icon": "🎵",
+      "rarity": "common"
+    },
+    {
+      "name": "Vision Dial",
+      "category": "Utility Dial",
+      "description": "Records and plays back images like a camera. Can store visual memories.",
+      "icon": "📷",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Breath Dial",
+      "category": "Utility Dial",
+      "description": "Stores and releases wind. Powers Wavers and provides propulsion.",
+      "icon": "💨",
+      "rarity": "common"
+    },
+    {
+      "name": "Jet Dial",
+      "category": "Mobility Dial",
+      "description": "A more powerful version of Breath Dial. Provides explosive speed boosts.",
+      "icon": "🚀",
+      "rarity": "rare"
+    },
+    {
+      "name": "Milky Dial",
+      "category": "Utility Dial",
+      "description": "Stores and releases clouds for creating Milky Roads and cloud paths.",
+      "icon": "☁️",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Water Dial",
+      "category": "Utility Dial",
+      "description": "Stores and releases water. Useful for drinking and extinguishing fires.",
+      "icon": "💧",
+      "rarity": "common"
+    },
+    {
+      "name": "Axe Dial",
+      "category": "Combat Dial",
+      "description": "Releases a blade of compressed air that can cut through objects.",
+      "icon": "🪓",
+      "rarity": "uncommon"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Enel's Priests",
+      "type": "Religious Dictatorship",
+      "leader": "Enel",
+      "members": [
+        "Enel",
+        "Ohm",
+        "Satori",
+        "Gedatsu",
+        "Shura"
+      ],
+      "description": "Enel's enforcers who maintain his tyrannical rule over Skypeia through fear and the Ordeal system. Each priest guards a different trial.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Shandian Warriors",
+      "type": "Liberation Force",
+      "leader": "Wyper",
+      "members": [
+        "Wyper",
+        "Aisa",
+        "Braham",
+        "Kamakiri",
+        "Laki",
+        "Calgara"
+      ],
+      "description": "Descendants of the original inhabitants of Jaya, fighting for 400 years to reclaim their homeland and light the Golden Bell.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Skypieans",
+      "type": "Civilian Population",
+      "leader": "Gan Fall",
+      "members": [
+        "Gan Fall",
+        "Conis",
+        "Pagaya"
+      ],
+      "description": "The peaceful cloud-dwelling citizens of Angel Island who were caught between Enel's tyranny and the Shandian war.",
+      "alignment": "ally"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 237-302",
+    "animeEpisodes": "Episodes 153-195",
+    "events": [
+      "Arrival via Knock Up Stream",
+      "Discovery of Upper Yard",
+      "Ordeal trials by Enel's priests",
+      "Luffy vs Enel final battle",
+      "Ringing of the Golden Bell",
+      "Resolution of 400-year conflict"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#87CEEB",
+    "secondary": "#FFD700",
+    "accent": "#FFFFFF"
+  },
+  "quickFacts": [
+    "Located 10,000 meters above the sea",
+    "Home to the legendary Golden Bell of Shandora",
+    "Where Luffy defeated the 'God' Enel",
+    "Contains a Poneglyph with ancient history",
+    "Connected to the Void Century mysteries"
+  ],
+  "videos": [
+    {
+      "youtubeId": "nVclBd52tUk",
+      "title": "Luffy Rings the Golden Bell",
+      "type": "lore",
+      "description": "The emotional climax where Luffy rings the bell, fulfilling a 400-year promise.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "nZJ6RiLOIWc",
+      "title": "Luffy vs Enel - Final Battle",
+      "type": "fight",
+      "description": "Epic battle between the rubber man and the lightning god.",
+      "featured": false,
+      "order": 2
+    }
+  ],
+  "music": {
+    "url": "/music/skypeia-theme.mp3",
+    "title": "Going Merry Flies!",
+    "volume": 0.2
+  }
+}

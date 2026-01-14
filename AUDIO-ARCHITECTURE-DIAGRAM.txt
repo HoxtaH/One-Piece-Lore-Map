@@ -1,0 +1,221 @@
+
+╔══════════════════════════════════════════════════════════════════════════╗
+║                     AUDIO SYSTEM ARCHITECTURE                            ║
+╚══════════════════════════════════════════════════════════════════════════╝
+
+┌──────────────────────────────────────────────────────────────────────────┐
+│                           USER INTERACTION                               │
+└────────────────────────────────┬─────────────────────────────────────────┘
+                                 │
+                                 │ Click "Enable Music"
+                                 ▼
+                    ┌─────────────────────────┐
+                    │   AudioContext         │
+                    │   (React Context)       │
+                    │                         │
+                    │  State:                 │
+                    │  - currentTrack         │
+                    │  - isPlaying            │
+                    │  - userHasInteracted    │
+                    │  - volume               │
+                    │                         │
+                    │  Actions:               │
+                    │  - playTrack()          │
+                    │  - stopAudio()          │
+                    │  - enableAudio()        │
+                    └────────┬────────────────┘
+                             │
+              ┌──────────────┼──────────────┐
+              │              │              │
+              ▼              ▼              ▼
+    ┌─────────────┐  ┌─────────────┐  ┌─────────────┐
+    │  Main Page  │  │  Location   │  │   Audio     │
+    │             │  │    Page     │  │  Controls   │
+    │ playTrack() │  │ playTrack() │  │ togglePlay()│
+    │             │  │ stopAudio() │  │ setVolume() │
+    └─────────────┘  └─────────────┘  └─────────────┘
+
+
+═══════════════════════════════════════════════════════════════════════════
+
+STATE FLOW DIAGRAM:
+
+    SILENT                    No user interaction yet
+      │
+      │ User clicks "Enable Music"
+      ▼
+    READY                     Can play audio now
+      │
+      │ playTrack("/music/theme.mp3") called
+      ▼
+    LOADING                   Creating Audio element
+      │
+      │ audio.play() succeeds
+      ▼
+    PLAYING                   Music playing
+      │
+      │ Navigate to new page OR stopAudio() called
+      ▼
+    STOPPED                   Audio cleaned up
+      │
+      │ playTrack(new_url) called
+      │
+      └──────► Back to LOADING
+
+═══════════════════════════════════════════════════════════════════════════
+
+NAVIGATION FLOW:
+
+Main Page                Location Page              Main Page
+    │                           │                        │
+    │ Main theme plays          │                        │
+    │                           │                        │
+    ├─── Navigate ────────►    │ Component mounts       │
+    │                           │                        │
+    │                           │ playTrack(location)    │
+    │                           │   ↓                    │
+    │                           │ stopAudio() ← stops main theme
+    │                           │   ↓                    │
+    │                           │ new Audio(location)    │
+    │                           │   ↓                    │
+    │                           │ Location theme plays   │
+    │                           │                        │
+    │◄──── Navigate ────────────│ Component unmounts     │
+    │                           │                        │
+    │ Component mounts          │ stopAudio() ← cleanup  │
+    │                           │                        │
+    │ playTrack(main)           │                        │
+    │   ↓                       │                        │
+    │ Main theme plays          │                        │
+    │                           │                        │
+
+
+═══════════════════════════════════════════════════════════════════════════
+
+AUDIO ELEMENT LIFECYCLE:
+
+1. CREATE:
+   ┌─────────────────────────────────────────┐
+   │ const audio = new Audio(url)            │
+   │ audio.loop = true                       │
+   │ audio.volume = 0.3                      │
+   └─────────────────────────────────────────┘
+
+2. PLAY:
+   ┌─────────────────────────────────────────┐
+   │ await audio.play()                      │
+   │ audioRef.current = audio                │
+   │ setIsPlaying(true)                      │
+   └─────────────────────────────────────────┘
+
+3. CLEANUP:
+   ┌─────────────────────────────────────────┐
+   │ audio.pause()                           │
+   │ audio.src = ''                          │
+   │ audioRef.current = null                 │
+   │ setIsPlaying(false)                     │
+   └─────────────────────────────────────────┘
+
+
+═══════════════════════════════════════════════════════════════════════════
+
+PREVENT COMMON BUGS:
+
+✓ ONE Audio Element:
+  audioRef.current ────► [Audio Element]  ← Only one!
+  
+✗ Multiple Audio Elements (BUG):
+  audioRef.current ────► [Audio Element 1]  ← Playing!
+  (lost reference) ───► [Audio Element 2]  ← Also playing! (memory leak)
+  (lost reference) ───► [Audio Element 3]  ← Also playing! (doubling!)
+
+
+✓ Clean Navigation:
+  Page A unmounts ──► stopAudio() ──► audio.pause() + audio.src = ''
+  Page B mounts ────► playTrack() ──► new Audio(url)
+
+
+✗ Dirty Navigation (BUG):
+  Page A unmounts ──► (no cleanup) ──► Audio still playing!
+  Page B mounts ────► playTrack() ──► new Audio(url) + old audio = DOUBLING!
+
+
+═══════════════════════════════════════════════════════════════════════════
+
+PHASE 1 - MINIMAL CODE (~100 lines):
+
+AudioContext.tsx:
+  ├── State (4 variables)
+  ├── audioRef (1 ref)
+  ├── playTrack() (15 lines)
+  ├── stopAudio() (8 lines)
+  ├── enableAudio() (3 lines)
+  ├── cleanup useEffect (5 lines)
+  └── Provider (5 lines)
+
+Total: ~100 lines, simple and testable!
+
+
+═══════════════════════════════════════════════════════════════════════════
+
+KEY DECISIONS:
+
+1. ONE audio element? YES ✓
+   - Simpler state management
+   - No risk of doubling
+   - Easy cleanup
+
+2. Crossfade in Phase 1? NO ✗
+   - Add complexity
+   - Can be added later
+   - Test basic first
+
+3. Multiple refs? NO ✗
+   - currentAudioRef only
+   - No nextAudioRef
+   - No pendingTrackRef
+
+4. Complex state machine? NO ✗
+   - Just: isPlaying boolean
+   - URL comparison for duplicates
+   - Simple cleanup
+
+5. Inline cleanup? YES ✓
+   - No separate cleanup function
+   - Avoid circular dependencies
+   - Easier to understand
+
+
+═══════════════════════════════════════════════════════════════════════════
+
+TESTING STRATEGY:
+
+Phase 1 Tests:
+  ✓ Click "Enable Music" → plays
+  ✓ Navigate to location → switches track
+  ✓ Navigate back → switches track
+  ✓ Same track → doesn't restart
+  ✓ Console → no errors
+  ✓ Memory → stable (no leaks)
+
+Phase 2 Tests:
+  ✓ Pause button → pauses
+  ✓ Play button → resumes
+  ✓ Volume slider → changes volume
+  ✓ Mute button → mutes
+
+Phase 3 Tests:
+  ✓ Crossfade → smooth transition
+  ✓ Fast navigation → no doubling
+  ✓ 10+ page visits → no memory growth
+
+
+═══════════════════════════════════════════════════════════════════════════
+
+READY TO IMPLEMENT PHASE 1!
+
+The plan is solid. Simple, testable, reliable.
+Let's build it! 🎵
+
+═══════════════════════════════════════════════════════════════════════════
+

@@ -1,0 +1,597 @@
+{
+  "slug": "zou",
+  "name": "Zou",
+  "banner": "/images/banners/zou-banner.jpg",
+  "region": "New World - Moving Elephant Island",
+  "aliases": [
+    "The Phantom Island",
+    "The Moving Island",
+    "Millennium Kingdom Zou",
+    "Home of the Minks"
+  ],
+  "coordinates": { "x": 1879, "y": 2792 },
+  "journeyOrder": 28,
+  "saga": "Whole Cake Island",
+  "description": "Zou is a legendary island that sits atop the back of Zunesha, a colossal elephant that has been walking through the ocean for over 1,000 years as punishment for an ancient crime. The island is home to the Mink Tribe - a warrior race of animal-human hybrids known for their loyalty, combat prowess, and the ability to use Electro. The constantly moving nature of Zou makes it nearly impossible to locate without a Vivre Card, earning it the nickname 'Phantom Island.' The Minks live in harmony with the giant elephant, residing in cities built upon its back. When the Straw Hats arrived, they discovered the aftermath of Jack's brutal invasion - the Beast Pirates captain who decimated the island with poison gas searching for the ninja Raizo, whom the Minks protected at the cost of their own kingdom. Zou holds one of the four Road Poneglyphs necessary to reach Laugh Tale, and it is here that the alliance between the Minks, Kozuki Clan, and Straw Hats was solidified to liberate Wano from Kaido.",
+  "history": "Over 1,000 years ago, Zunesha committed an unspecified crime and was sentenced to walk the seas forever, only able to act if commanded by someone from the Kozuki Clan. The Mink Tribe has lived on Zou's back for centuries, developing a unique civilization in harmony with the elephant. The Minks have deep ancestral ties to the Kozuki Clan of Wano, serving as their retainers and allies across generations. This bond is symbolized by the Road Poneglyph entrusted to Zou by the Kozuki family. The island is ruled jointly by the canine Inuarashi (Duke) who governs during the day and the feline Nekomamushi (Master) who rules at night - a system born from their falling out after Oden's death, when they couldn't bear to see each other. Seventeen days before the Straw Hats' arrival, Jack of the Beast Pirates attacked Zou searching for Raizo, a Wano ninja supposedly hiding there. When the Minks refused to betray their ally, Jack unleashed Caesar's Koro poison gas, decimating the population and destroying much of Mokomo Dukedom. Despite the torture and near-annihilation, not a single Mink betrayed Raizo. When the Straw Hats and Samurai finally arrived, they discovered Raizo had been hidden safely in the sacred Whale Tree all along. The revelation of such loyalty despite the cost moved everyone deeply. After healing, the Minks, Kozuki retainers, and Straw Hats formed the Ninja-Pirate-Mink-Samurai Alliance to take down Kaido. It was also here that Sanji learned of his arranged marriage to Charlotte Pudding and departed with a retrieval team, splitting the crew temporarily.",
+  "culture": "Mink culture is defined by fierce loyalty, warrior spirit, and deep bonds with nature. Every Mink is a natural-born warrior capable of using Electro - channeling electricity through their bodies in combat. They refer to humans as 'lesser minks' without malice, seeing all species as part of the same evolutionary family. The Minks are incredibly welcoming to visitors, treating guests as family from the moment they arrive. However, this hospitality is matched by absolute loyalty to their sworn allies - they would rather die than betray a friend, as shown when they endured Jack's genocide rather than give up Raizo. The island operates on a day-night dual rulership with Inuarashi's Musketeers active during the day and Nekomamushi's Guardians at night. The two rulers avoid each other due to their bitter feud, though both still care deeply for their people and kingdom. Combat training begins in childhood, and the concept of Sulong - a transformation under the full moon that grants immense power at the cost of stamina - is taught to warriors. The Whale Tree is sacred, containing the Road Poneglyph and serving as a connection to their alliance with Wano. Minks live in harmony with Zunesha, maintaining the cities on its back and treating the elephant with reverence.",
+  "economy": {
+    "industries": [
+      "Warrior training and combat",
+      "Animal husbandry adapted to elephant-back life",
+      "Forestry from Whale Forest",
+      "Trading with occasional visitors (rare)",
+      "Craftsmanship and weapon-making",
+      "Traditional medicine and healing"
+    ],
+    "currency": "Berry (฿) - though rarely used due to isolation",
+    "tradeGoods": [
+      "Mink craftsmanship",
+      "Medicinal herbs unique to Zou",
+      "Warrior training knowledge",
+      "Electro combat techniques (not traded, but legendary)"
+    ]
+  },
+  "transportation": "Zou itself is constantly moving as Zunesha walks through the ocean. Reaching the island requires either a Vivre Card or incredible luck. Once at Zunesha, visitors must climb the elephant's massive leg using specialized climbing equipment or be carried by Minks. On the island's back, Minks travel by foot through the forested terrain, with the Guardians and Musketeers patrolling their respective territories. The Whale Forest and Mokomo Dukedom are connected by forest paths. After Jack's attack, much of the infrastructure was damaged, requiring repair and rebuilding.",
+  "food": {
+    "cuisine": [
+      "Fresh game from Zou's forests",
+      "Fish caught from Zunesha's journey",
+      "Tropical fruits and vegetables grown on Zou",
+      "Banana cultivation (Zou is known for bananas)",
+      "Warrior rations for Musketeers and Guardians",
+      "Carrot's love of carrots (obviously)"
+    ],
+    "traditions": [
+      "Communal feasts celebrating victories",
+      "Day and night shift meal times (separate for Duke and Master's forces)",
+      "Welcome feasts for rare visitors",
+      "Victory celebrations after training",
+      "Recovery meals after Sulong transformation"
+    ],
+    "quirks": [
+      "Carrot obsessed with carrots",
+      "Luffy eating everything as usual",
+      "Sanji cooking for recovering Minks",
+      "Bananas everywhere",
+      "Minks' strong stomachs from warrior lifestyle"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Inuarashi",
+      "role": "Duke of Zou / Day Ruler / Former Kozuki Retainer",
+      "description": "The canine Mink who rules Zou during the day as the Duke. One of Oden's former retainers who traveled to Wano and beyond with him. Lost a leg defending Zou from Jack but never wavered. Wields immense strength and Electro, becoming even more powerful in Sulong form.",
+      "faction": "Mink Tribe (Inuarashi Musketeers)",
+      "type": "protagonist",
+      "tags": [
+        "Duke",
+        "Day Ruler",
+        "Dog Mink",
+        "Oden's Retainer",
+        "Electro User",
+        "Sulong",
+        "Lost Leg to Jack",
+        "Former Whitebeard Pirate"
+      ],
+      "avatar": "/images/characters/zou/inuarashi.jpg"
+    },
+    {
+      "name": "Nekomamushi",
+      "role": "Master of Zou / Night Ruler / Former Kozuki Retainer",
+      "description": "The feline Mink who rules Zou during the night as the Master. One of Oden's former retainers who traveled with him. Lost an arm defending Zou from Jack. Avoids Inuarashi due to their feud after Oden's death, though they eventually reconcile. Immensely powerful with Electro and Sulong.",
+      "faction": "Mink Tribe (Guardians)",
+      "type": "protagonist",
+      "tags": [
+        "Master",
+        "Night Ruler",
+        "Cat Mink",
+        "Oden's Retainer",
+        "Electro User",
+        "Sulong",
+        "Lost Arm to Jack",
+        "Former Whitebeard Pirate"
+      ],
+      "avatar": "/images/characters/zou/nekomamushi.jpg"
+    },
+    {
+      "name": "Carrot",
+      "role": "Musketeer / Straw Hat Ally",
+      "description": "A young rabbit Mink and member of Inuarashi's Musketeers. Energetic, curious, and obsessed with carrots. Stowed away on the Thousand Sunny to join the Whole Cake Island mission. Can use Electro and transforms into a powerful Sulong under the full moon.",
+      "faction": "Mink Tribe (Inuarashi Musketeers)",
+      "type": "protagonist",
+      "tags": [
+        "Rabbit Mink",
+        "Musketeer",
+        "Electro User",
+        "Sulong Transformation",
+        "Carrot Lover",
+        "Stowaway",
+        "Pedro's Student",
+        "Young Warrior"
+      ],
+      "avatar": "/images/characters/zou/carrot.jpg"
+    },
+    {
+      "name": "Pedro",
+      "role": "Guardian Captain / Jaguar Mink",
+      "description": "Captain of the Guardians and a jaguar Mink. Lost 50 years of his lifespan to Big Mom when he tried to steal her Road Poneglyph. Accompanies the Straw Hats to Whole Cake Island and sacrifices himself to ensure their escape, believing in the dawn of the world.",
+      "faction": "Mink Tribe (Guardians)",
+      "type": "protagonist",
+      "tags": [
+        "Jaguar Mink",
+        "Guardian Captain",
+        "Electro User",
+        "Sulong",
+        "Big Mom Survivor",
+        "Lost Lifespan",
+        "Sacrificed for Dawn",
+        "Explosives Expert"
+      ],
+      "avatar": "/images/characters/zou/pedro.jpg"
+    },
+    {
+      "name": "Wanda",
+      "role": "Musketeer / Canine Mink",
+      "description": "A dog Mink and member of the Musketeers. One of the first to greet Luffy's group (by attacking them initially). Skilled warrior with Electro who helped defend Zou against Jack and later joined the Wano liberation.",
+      "faction": "Mink Tribe (Inuarashi Musketeers)",
+      "type": "protagonist",
+      "tags": [
+        "Dog Mink",
+        "Musketeer",
+        "Electro User",
+        "Sulong",
+        "Initial Greeter",
+        "Jack's Attack Survivor"
+      ],
+      "avatar": "/images/characters/zou/wanda.jpg"
+    },
+    {
+      "name": "Pekoms",
+      "role": "Big Mom Pirate / Lion Mink / Zou Native",
+      "description": "A lion Mink from Zou who became one of Big Mom's combatants. Wears sunglasses to hide his emotions. Helped the Straw Hats out of loyalty to Pedro and his homeland, leading to his betrayal of Big Mom and subsequent punishment.",
+      "faction": "Big Mom Pirates (Former)",
+      "type": "neutral",
+      "tags": [
+        "Lion Mink",
+        "Big Mom Pirate",
+        "Zou Native",
+        "Electro User",
+        "Sulong",
+        "Kame-Kame Fruit",
+        "Betrayed Big Mom",
+        "Pedro's Friend"
+      ],
+      "avatar": "/images/characters/zou/pekoms.jpg"
+    },
+    {
+      "name": "Jack",
+      "role": "Beast Pirates All-Star / Zou Destroyer",
+      "description": "One of Kaido's three All-Stars with a 1 billion berry bounty. A giant fish-man who attacked Zou with overwhelming force and poison gas, destroying the kingdom searching for Raizo. Known for extreme brutality and never backing down.",
+      "faction": "Beast Pirates",
+      "type": "antagonist",
+      "tags": [
+        "All-Star",
+        "Zou-Zou Fruit Mammoth",
+        "Fish-Man",
+        "Poison Gas Attack",
+        "Billion Berry Bounty",
+        "Brutal",
+        "Raizo Hunter",
+        "Drought"
+      ],
+      "avatar": "/images/characters/zou/jack.jpg"
+    },
+    {
+      "name": "Raizo",
+      "role": "Wano Ninja / Kozuki Retainer",
+      "description": "A ninja from Wano and one of Oden's retainers. The Minks protected him at the cost of their kingdom, hiding him in the Whale Tree. His reveal was emotional as the Straw Hats expected someone cool, but he's an old, goofy-looking ninja. Master of ninjutsu scrolls.",
+      "faction": "Kozuki Clan",
+      "type": "protagonist",
+      "tags": [
+        "Wano Ninja",
+        "Kozuki Retainer",
+        "Maki-Maki Fruit",
+        "Hidden in Whale Tree",
+        "Worth Zou's Destruction",
+        "Goofy Appearance",
+        "Scroll Master",
+        "Red Scabbard"
+      ],
+      "avatar": "/images/characters/zou/raizo.jpg"
+    },
+    {
+      "name": "Sicilian",
+      "role": "Musketeer / Lion Mink",
+      "description": "A lion Mink and member of the Musketeers. Wears medieval-style armor and serves as one of Inuarashi's loyal subordinates. Fought against Jack's forces and later joined the Wano liberation.",
+      "faction": "Mink Tribe (Inuarashi Musketeers)",
+      "type": "protagonist",
+      "tags": [
+        "Lion Mink",
+        "Musketeer",
+        "Electro User",
+        "Armored Warrior",
+        "Jack's Attack Survivor"
+      ],
+      "avatar": "/images/characters/zou/sicilian.jpg"
+    },
+    {
+      "name": "Roddy",
+      "role": "Guardian / Bull Mink",
+      "description": "A bull Mink and member of the Guardians. One of Nekomamushi's subordinates who fought against Jack's invasion and later participated in the Wano liberation.",
+      "faction": "Mink Tribe (Guardians)",
+      "type": "protagonist",
+      "tags": [
+        "Bull Mink",
+        "Guardian",
+        "Electro User",
+        "Nekomamushi's Subordinate",
+        "Jack's Attack Survivor"
+      ],
+      "avatar": "/images/characters/zou/roddy.jpg"
+    },
+    {
+      "name": "Tristan",
+      "role": "Nurse / Squirrel Mink",
+      "description": "A squirrel Mink who serves as the head nurse of Zou. Helped treat the wounded after Jack's attack, working tirelessly to save her people with limited medical supplies.",
+      "faction": "Mink Tribe",
+      "type": "protagonist",
+      "tags": [
+        "Squirrel Mink",
+        "Head Nurse",
+        "Healer",
+        "Jack's Attack Survivor",
+        "Medical Expert"
+      ],
+      "avatar": "/images/characters/zou/tristan.jpg"
+    },
+    {
+      "name": "Miyagi",
+      "role": "Doctor / Goat Mink",
+      "description": "A goat Mink and the primary doctor of Zou. Works alongside Tristan and Chopper to heal the wounded after Jack's poison gas attack. Wears a top hat and serves Duke Inuarashi.",
+      "faction": "Mink Tribe (Inuarashi Musketeers)",
+      "type": "protagonist",
+      "tags": [
+        "Goat Mink",
+        "Doctor",
+        "Healer",
+        "Top Hat",
+        "Jack's Attack Survivor",
+        "Medical Expert"
+      ],
+      "avatar": "/images/characters/zou/miyagi.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Mokomo Dukedom",
+      "type": "city",
+      "description": "The main city of Zou where most Minks reside, ruled by Duke Inuarashi during the day. Features European-style architecture built on Zunesha's back. Was heavily damaged by Jack's poison gas attack, with buildings destroyed and the population decimated.",
+      "notableFeatures": [
+        "Duke Inuarashi's residence",
+        "Musketeer headquarters",
+        "Town square",
+        "Residential districts",
+        "Jack's attack damage throughout",
+        "Rebuilding efforts"
+      ],
+      "image": "/images/locations/zou/mokomo-dukedom.jpg"
+    },
+    {
+      "name": "Whale Forest",
+      "type": "sacred forest",
+      "description": "The sacred forest domain ruled by Master Nekomamushi at night. Contains the Whale Tree, an enormous tree shaped like a whale where the Road Poneglyph is kept and where Raizo was hidden during Jack's invasion.",
+      "notableFeatures": [
+        "Whale Tree (sacred)",
+        "Road Poneglyph chamber",
+        "Raizo's hiding place",
+        "Nekomamushi's territory",
+        "Guardian headquarters",
+        "Dense forest paths"
+      ],
+      "image": "/images/locations/zou/whale-forest.jpg"
+    },
+    {
+      "name": "Zunesha's Leg",
+      "type": "climbing route",
+      "description": "The massive leg of Zunesha that visitors must climb to reach Zou. A treacherous ascent requiring specialized equipment or Mink assistance. The journey up the elephant's leg takes considerable time and effort.",
+      "notableFeatures": [
+        "Enormous elephant leg",
+        "Climbing route to Zou",
+        "Ocean water below",
+        "First barrier to entry",
+        "Treacherous climb",
+        "Gateway to island"
+      ],
+      "image": "/images/locations/zou/zunesha-leg.jpg"
+    },
+    {
+      "name": "Road Poneglyph Chamber",
+      "type": "sacred vault",
+      "description": "A hidden chamber within the Whale Tree that houses one of the four Road Poneglyphs necessary to reach Laugh Tale. Entrusted to the Minks by the Kozuki Clan, this chamber represents the deep alliance between the two peoples.",
+      "notableFeatures": [
+        "Road Poneglyph",
+        "Inside Whale Tree",
+        "Sacred chamber",
+        "Kozuki Clan connection",
+        "Robin reads it",
+        "Key to Laugh Tale"
+      ],
+      "image": "/images/locations/zou/poneglyph-chamber.jpg"
+    },
+    {
+      "name": "Kurau City Ruins",
+      "type": "destroyed settlement",
+      "description": "The ruins of another settlement on Zou that was completely destroyed during Jack's invasion. Serves as a stark reminder of the Beast Pirates' brutality and the price the Minks paid for their loyalty.",
+      "notableFeatures": [
+        "Completely destroyed",
+        "Jack's devastation",
+        "Poison gas aftermath",
+        "Memorial to fallen Minks",
+        "Symbol of loyalty's cost",
+        "Rebuilding area"
+      ],
+      "image": "/images/locations/zou/kurau-ruins.jpg"
+    },
+    {
+      "name": "Right Belly Fortress",
+      "type": "defensive structure",
+      "description": "A fortress built on Zunesha's right side that serves as a defensive position and lookout point. Was one of the key battlegrounds during Jack's invasion where Minks fought desperately to protect their home.",
+      "notableFeatures": [
+        "Defensive fortress",
+        "Lookout tower",
+        "Battle site vs Jack",
+        "Strategic position",
+        "Guardian/Musketeer cooperation point",
+        "Damaged but standing"
+      ],
+      "image": "/images/locations/zou/right-belly-fortress.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Road Poneglyph",
+      "category": "Ancient Artifact",
+      "description": "One of only four Road Poneglyphs in the world, necessary to locate Laugh Tale. Kept in the Whale Tree and protected by the Minks as part of their alliance with the Kozuki Clan. Robin takes a rubbing of it.",
+      "icon": "🗿",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Raizo (Person as Item)",
+      "category": "Protected Ally",
+      "description": "The ninja the entire island protected at the cost of their kingdom. Jack's entire invasion was to find him, but the Minks never betrayed his location despite torture and genocide.",
+      "icon": "🥷",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Vivre Card to Zou",
+      "category": "Navigation",
+      "description": "The only reliable way to find the constantly moving Zou. Without it, the island is nearly impossible to locate, earning its 'Phantom Island' reputation.",
+      "icon": "📄",
+      "rarity": "rare"
+    },
+    {
+      "name": "Sanji's Wedding Invitation",
+      "category": "Plot Device",
+      "description": "The invitation to Sanji's arranged marriage to Charlotte Pudding that triggers the crew split and Whole Cake Island arc. Delivered by Big Mom's messengers.",
+      "icon": "💌",
+      "rarity": "rare"
+    },
+    {
+      "name": "Koro Poison Gas",
+      "category": "Chemical Weapon",
+      "description": "Caesar Clown's poison gas weapon that Jack used to devastate Zou's population. The same weapon used at Punk Hazard, proving Kaido and Doflamingo's connection.",
+      "icon": "☠️",
+      "rarity": "rare"
+    },
+    {
+      "name": "Mink Medicine",
+      "category": "Medical Supplies",
+      "description": "Traditional Mink medicine that helped save the poisoned population after Jack's attack. Chopper learned from Mink doctors and adapted his treatments.",
+      "icon": "💊",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Zunesha's Voice",
+      "category": "Ancient Power",
+      "description": "The voice of the ancient elephant that only Momonosuke and Luffy can hear. Zunesha can only act if commanded by someone from the Kozuki Clan due to its ancient punishment.",
+      "icon": "🐘",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Red Poneglyph Rubbing",
+      "category": "Knowledge",
+      "description": "The rubbing Robin takes of the Road Poneglyph, preserving its information for the journey to Laugh Tale. One of four necessary pieces.",
+      "icon": "📜",
+      "rarity": "legendary"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Mink Tribe (United)",
+      "type": "Indigenous Civilization",
+      "leader": "Duke Inuarashi (Day) / Master Nekomamushi (Night)",
+      "members": [
+        "Inuarashi",
+        "Nekomamushi",
+        "Carrot",
+        "Pedro",
+        "Wanda",
+        "Sicilian",
+        "Roddy",
+        "Tristan",
+        "Miyagi",
+        "All Mink citizens"
+      ],
+      "description": "The warrior race of animal-human hybrids living on Zunesha's back. Despite their leaders' feud, they united to protect Raizo and now join the alliance to liberate Wano.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Inuarashi Musketeers",
+      "type": "Military Force (Day)",
+      "leader": "Duke Inuarashi",
+      "members": [
+        "Inuarashi",
+        "Wanda",
+        "Carrot",
+        "Sicilian",
+        "Miyagi",
+        "Day-shift warriors"
+      ],
+      "description": "The military force serving Duke Inuarashi, active during daytime. Skilled Electro users and loyal defenders of Zou.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Guardians",
+      "type": "Military Force (Night)",
+      "leader": "Master Nekomamushi",
+      "members": [
+        "Nekomamushi",
+        "Pedro",
+        "Roddy",
+        "Night-shift warriors"
+      ],
+      "description": "The military force serving Master Nekomamushi, active during nighttime. Fierce warriors who defended Zou from Jack's invasion.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Beast Pirates (Jack's Forces)",
+      "type": "Invading Army",
+      "leader": "Jack the Drought",
+      "members": [
+        "Jack",
+        "Sheepshead",
+        "Ginrummy",
+        "Jack's subordinates"
+      ],
+      "description": "Kaido's forces led by All-Star Jack who invaded Zou searching for Raizo. Used poison gas and brutal force, destroying much of the kingdom.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Kozuki Clan Retainers",
+      "type": "Wano Samurai",
+      "leader": "Kin'emon (present), Raizo (hidden)",
+      "members": [
+        "Raizo",
+        "Kin'emon",
+        "Kanjuro",
+        "Momonosuke"
+      ],
+      "description": "The surviving retainers of Oden seeking to liberate Wano. The reason the Minks endured Jack's genocide was to protect Raizo.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Ninja-Pirate-Mink-Samurai Alliance",
+      "type": "Coalition",
+      "leader": "Luffy, Inuarashi, Nekomamushi, Kin'emon (joint)",
+      "members": [
+        "Straw Hat Pirates",
+        "Heart Pirates",
+        "Mink Tribe",
+        "Kozuki Retainers"
+      ],
+      "description": "The grand alliance formed on Zou to take down Kaido and liberate Wano. Born from the bonds between Oden's allies and the new generation.",
+      "alignment": "ally"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 802-822 (Zou Arc)",
+    "animeEpisodes": "Episodes 751-779",
+    "events": [
+      "Straw Hats arrive at Zou",
+      "Climb Zunesha's massive leg",
+      "Discover Mokomo Dukedom destroyed",
+      "Meet Minks recovering from Jack's attack",
+      "Chopper and others treated Mink survivors",
+      "Learn about Jack's poison gas attack",
+      "Meet Duke Inuarashi during the day",
+      "Meet Master Nekomamushi at night",
+      "Discover Sanji's group already left",
+      "Sanji left note and Big Mom's wedding invitation",
+      "Minks explain Jack's invasion 17 days ago",
+      "Jack searched for Raizo of the Mist",
+      "Minks refused to betray Raizo despite genocide",
+      "Jack used Koro poison gas from Caesar",
+      "Inuarashi lost a leg, Nekomamushi lost an arm",
+      "Entire kingdom nearly wiped out",
+      "Samurai reveal they are looking for Raizo too",
+      "Tension rises - will Minks give him up?",
+      "Minks lead everyone to Whale Forest",
+      "Raizo revealed hidden in Whale Tree all along",
+      "Emotional reunion between ninja and samurai",
+      "Minks protected him at cost of their kingdom",
+      "Road Poneglyph shown in Whale Tree chamber",
+      "Robin takes rubbing of Road Poneglyph",
+      "Inuarashi and Nekomamushi's history with Oden revealed",
+      "Both traveled with Oden on Whitebeard and Roger's ships",
+      "Their feud began after failing to save Oden",
+      "Plan to form alliance against Kaido",
+      "Ninja-Pirate-Mink-Samurai Alliance officially formed",
+      "Momonosuke hears Zunesha's voice",
+      "Zunesha reveals ancient crime and punishment",
+      "Can only act if commanded by Kozuki",
+      "Jack returns with fleet to attack Zou again",
+      "Momonosuke commands Zunesha to defend itself",
+      "Zunesha destroys Jack's fleet with trunk",
+      "Jack sinks but survives (fish-man)",
+      "Plan splits: Luffy's team to Whole Cake Island for Sanji",
+      "Rest of alliance heads to Wano to prepare",
+      "Carrot stows away on Thousand Sunny",
+      "Pedro joins Sanji retrieval team",
+      "Pekoms reluctantly helps due to Zou loyalty",
+      "Alliance vows to meet in Wano",
+      "Zou departs as Zunesha continues walking"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#8B4513",
+    "secondary": "#228B22",
+    "accent": "#FFD700"
+  },
+  "quickFacts": [
+    "Located on the back of the 1,000-year-old elephant Zunesha",
+    "Home to the Mink Tribe of animal-human warriors",
+    "Called the 'Phantom Island' due to constant movement",
+    "Houses one of four Road Poneglyphs",
+    "Every Mink can use Electro in combat",
+    "Survived Jack's genocidal poison gas attack",
+    "Minks protected Raizo at cost of their kingdom",
+    "Ruled jointly by Inuarashi (day) and Nekomamushi (night)",
+    "Where Ninja-Pirate-Mink-Samurai Alliance was formed",
+    "Zunesha can only act if commanded by Kozuki Clan",
+    "Sanji's wedding announcement splits the crew",
+    "Inuarashi and Nekomamushi both sailed with Oden"
+  ],
+  "videos": [
+    {
+      "youtubeId": "EorWm5fXvCM",
+      "title": "Raizo is Safe - Zou's Loyalty Revealed",
+      "type": "lore",
+      "description": "The emotional moment when the Minks reveal they protected Raizo all along despite Jack's devastation.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "-z2fE7RJVGE",
+      "title": "Zunesha Destroys Jack's Fleet",
+      "type": "battle",
+      "description": "Momonosuke commands the ancient elephant Zunesha to defend itself, annihilating Jack's fleet.",
+      "featured": false,
+      "order": 2
+    },
+    {
+      "youtubeId": "uhu93CpB9gU",
+      "title": "The Alliance is Formed",
+      "type": "lore",
+      "description": "The Ninja-Pirate-Mink-Samurai Alliance is officially formed to take down Kaido and liberate Wano.",
+      "featured": false,
+      "order": 3
+    }
+  ],
+  "music": {
+    "url": "/music/zou-theme.mp3",
+    "title": "Zou - The Phantom Island",
+    "volume": 0.3
+  }
+}

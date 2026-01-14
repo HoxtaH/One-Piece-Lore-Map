@@ -1,0 +1,641 @@
+{
+  "slug": "alabasta",
+  "name": "Alabasta Kingdom",
+  "banner": "/images/banners/alabasta-banner.jpg",
+  "region": "Paradise (Grand Line)",
+  "aliases": [
+    "Sandy Kingdom",
+    "Desert Kingdom",
+    "Kingdom of Alabasta"
+  ],
+  "coordinates": { "x": 7333, "y": 2910 },
+  "journeyOrder": 12,
+  "saga": "Alabasta",
+  "description": "Alabasta is a massive desert kingdom in Paradise, one of the twenty founding nations of the World Government. The kingdom is characterized by vast deserts, ancient ruins, and cities built around oases. For three years prior to the Straw Hats' arrival, the kingdom suffered from a severe drought that only affected inland areas while the capital received rain - a conspiracy orchestrated by Crocodile using Dance Powder. This created a civil war between the king's forces and rebels who believed King Cobra was hoarding rain. The kingdom holds one of the three Ancient Weapons, Pluton, whose location is recorded on a Poneglyph hidden in the royal tomb.",
+  "history": "Alabasta has stood for over 4,000 years, ruled by the Nefertari family who were one of the twenty royal families that formed the World Government 800 years ago. Uniquely, the Nefertaris chose to remain in Alabasta rather than move to Mary Geoise, serving as one of the few royal families still ruling their original kingdom. The kingdom prospered through trade routes and oases management until Crocodile, one of the Seven Warlords of the Sea, arrived and established himself as a hero while secretly orchestrating its downfall through his criminal organization, Baroque Works. Using Dance Powder to steal rain from inland cities and frame the king, Crocodile incited a civil war as cover for his true goal: obtaining the ancient weapon Pluton. The Straw Hats, allied with Princess Vivi, exposed Crocodile's conspiracy, defeated Baroque Works, and stopped the rebellion, though not before a massive battle in Alubarna. Crocodile was defeated by Luffy and imprisoned, and the kingdom began its recovery.",
+  "culture": "Alabasta's culture is deeply tied to desert survival and water conservation. Cities are built around oases, and water management is sacred. The people are resilient and proud, with strong martial traditions exemplified by the royal guard's Zoan Devil Fruit users. The kingdom values loyalty to the crown, though the drought and conspiracy created unprecedented division. Traditional architecture features sandstone buildings designed to stay cool, and the Super Spot-Billed Duck is the primary mode of transportation. The kingdom has a rich history of ancient civilization, with ruins and tombs scattered throughout the desert that predate even the current dynasty.",
+  "economy": {
+    "industries": [
+      "Perfume production (Nanohana)",
+      "Trade and commerce",
+      "Oasis agriculture",
+      "Ancient artifact tourism",
+      "Duck breeding and training",
+      "Textiles and desert goods"
+    ],
+    "currency": "Berry (฿)",
+    "tradeGoods": [
+      "Perfume",
+      "Alabasta sand rose",
+      "Desert textiles",
+      "Oasis fruits",
+      "Super Spot-Billed Ducks",
+      "Ancient artifacts"
+    ]
+  },
+  "transportation": "Super Spot-Billed Ducks are the primary transportation, capable of running at incredible speeds across the desert. Ships dock at port cities like Nanohana and Tamarisk. The Sandora River connects some cities. Moving Crab vehicles are used for desert crossings. The vast distances between oases make travel dangerous without proper preparation.",
+  "food": {
+    "cuisine": [
+      "Oasis fruits and dates",
+      "Spiced desert meats",
+      "Flatbreads",
+      "Water-conserving dried foods",
+      "Royal palace delicacies",
+      "Desert herbs and teas"
+    ],
+    "traditions": [
+      "Water rationing during drought",
+      "Shared meals as sign of trust",
+      "Royal banquets to celebrate rain",
+      "Rebel camp simple rations",
+      "Festival foods when water is abundant"
+    ],
+    "quirks": [
+      "Water more valuable than food during drought",
+      "Sanji's restaurant meal for Vivi",
+      "Luffy eating despite the crisis",
+      "Ukkari Hot-Spicy Perfume mistaken for food"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Sir Crocodile (Mr. 0)",
+      "role": "Baroque Works Leader / Former Warlord of the Sea",
+      "description": "A Logia-type Devil Fruit user with the Sand-Sand Fruit, making him immune to physical attacks and able to control sand. Orchestrated Alabasta's civil war to obtain Pluton. Defeated by Luffy and sent to Impel Down.",
+      "faction": "Baroque Works",
+      "type": "antagonist",
+      "tags": [
+        "Warlord of the Sea",
+        "Logia Devil Fruit",
+        "Sand Powers",
+        "Main Antagonist",
+        "Baroque Works Leader",
+        "Pluton Seeker"
+      ],
+      "avatar": "/images/characters/alabasta/crocodile.jpg"
+    },
+    {
+      "name": "Nefertari Vivi",
+      "role": "Princess of Alabasta",
+      "description": "The beloved princess who infiltrated Baroque Works to save her kingdom. Traveled with the Straw Hats and formed deep bonds with them. Chose to stay in Alabasta to help rebuild after the war.",
+      "faction": "Alabasta Royal Family",
+      "type": "protagonist",
+      "tags": [
+        "Princess",
+        "Peacock Slashers",
+        "Former Baroque Works",
+        "Honorary Straw Hat",
+        "Brave",
+        "Diplomatic"
+      ],
+      "avatar": "/images/characters/alabasta/nefertari-vivi.jpg"
+    },
+    {
+      "name": "Nefertari Cobra",
+      "role": "King of Alabasta",
+      "description": "The wise and benevolent 12th king of Alabasta. Falsely accused of hoarding rain, he maintained faith that the truth would emerge. Trusted Vivi's judgment about the Straw Hats.",
+      "faction": "Alabasta Royal Family",
+      "type": "protagonist",
+      "tags": [
+        "King",
+        "Nefertari Dynasty",
+        "Benevolent Ruler",
+        "Poneglyph Guardian",
+        "Wise"
+      ],
+      "avatar": "/images/characters/alabasta/cobra.jpg"
+    },
+    {
+      "name": "Nico Robin (Miss All Sunday)",
+      "role": "Baroque Works Vice President / Archaeologist",
+      "description": "Crocodile's partner and the only person who can read Poneglyphs. After Crocodile's defeat, she forced her way onto the Straw Hat crew, beginning her journey to discover the true history.",
+      "faction": "Baroque Works",
+      "type": "neutral",
+      "tags": [
+        "Archaeologist",
+        "Poneglyph Reader",
+        "Flower-Flower Fruit",
+        "Vice President",
+        "Mysterious",
+        "Joins Straw Hats"
+      ],
+      "avatar": "/images/characters/alabasta/nico-robin.jpg"
+    },
+    {
+      "name": "Kohza",
+      "role": "Rebel Army Leader",
+      "description": "Vivi's childhood friend who leads the rebel army against the king. Once realized the truth about the drought conspiracy, he immediately worked to stop the war.",
+      "faction": "Rebel Army",
+      "type": "neutral",
+      "tags": [
+        "Rebel Leader",
+        "Vivi's Friend",
+        "Yuba Native",
+        "Swordsman",
+        "Misguided Hero"
+      ],
+      "avatar": "/images/characters/alabasta/kohza.jpg"
+    },
+    {
+      "name": "Pell the Falcon",
+      "role": "Royal Guard / Falcon Zoan User",
+      "description": "One of the two strongest warriors in Alabasta, possessing the rare Bird-Bird Fruit Model: Falcon. Sacrificed himself to carry a bomb away from Alubarna, miraculously surviving.",
+      "faction": "Alabasta Royal Guard",
+      "type": "protagonist",
+      "tags": [
+        "Royal Guard",
+        "Zoan Devil Fruit",
+        "Falcon",
+        "Guardian",
+        "Hero",
+        "Survivor"
+      ],
+      "avatar": "/images/characters/alabasta/pell.jpg"
+    },
+    {
+      "name": "Chaka the Jackal",
+      "role": "Royal Guard / Jackal Zoan User",
+      "description": "One of the two strongest warriors in Alabasta, with the Dog-Dog Fruit Model: Jackal. Head of the royal guard and fiercely loyal to the Nefertari family.",
+      "faction": "Alabasta Royal Guard",
+      "type": "protagonist",
+      "tags": [
+        "Royal Guard",
+        "Zoan Devil Fruit",
+        "Jackal",
+        "Guard Captain",
+        "Loyal"
+      ],
+      "avatar": "/images/characters/alabasta/chaka.jpg"
+    },
+    {
+      "name": "Mr. 1 (Daz Bonez)",
+      "role": "Baroque Works Officer Agent",
+      "description": "Crocodile's top male officer agent with the Dice-Dice Fruit, turning his body into blades. Fought Zoro in a battle that awakened Zoro's ability to cut steel.",
+      "faction": "Baroque Works",
+      "type": "antagonist",
+      "tags": [
+        "Officer Agent",
+        "Dice-Dice Fruit",
+        "Blade Body",
+        "Assassin",
+        "Zoro's Opponent"
+      ],
+      "avatar": "/images/characters/alabasta/mr-1.jpg"
+    },
+    {
+      "name": "Miss Doublefinger (Zala)",
+      "role": "Baroque Works Officer Agent",
+      "description": "Mr. 1's partner with the Spike-Spike Fruit, able to grow spikes from any part of her body. Fought Nami in the palace.",
+      "faction": "Baroque Works",
+      "type": "antagonist",
+      "tags": [
+        "Officer Agent",
+        "Spike-Spike Fruit",
+        "Assassin",
+        "Nami's Opponent"
+      ],
+      "avatar": "/images/characters/alabasta/miss-doublefinger.jpg"
+    },
+    {
+      "name": "Mr. 2 Bon Clay (Bentham)",
+      "role": "Baroque Works Officer Agent",
+      "description": "An okama martial artist with the Clone-Clone Fruit, able to perfectly copy anyone's appearance. Became friends with the Straw Hats despite being enemies, showing a complex sense of honor.",
+      "faction": "Baroque Works",
+      "type": "neutral",
+      "tags": [
+        "Officer Agent",
+        "Clone-Clone Fruit",
+        "Okama Kenpo",
+        "Ballet Fighter",
+        "Complex Morality",
+        "Friend"
+      ],
+      "avatar": "/images/characters/alabasta/mr-2-bon-clay.jpg"
+    },
+    {
+      "name": "Mr. 3 (Galdino)",
+      "role": "Baroque Works Officer Agent",
+      "description": "The wax-manipulating officer from Little Garden who participated in the final battles at Alubarna.",
+      "faction": "Baroque Works",
+      "type": "antagonist",
+      "tags": [
+        "Officer Agent",
+        "Wax-Wax Fruit",
+        "Tactician",
+        "From Little Garden"
+      ],
+      "avatar": "/images/characters/alabasta/mr-3.jpg"
+    },
+    {
+      "name": "Mr. 4",
+      "role": "Baroque Works Officer Agent",
+      "description": "A slow but powerful officer who wields a bazooka that 'ate' the Dog-Dog Fruit Model: Dachshund. Partnered with Miss Merry Christmas.",
+      "faction": "Baroque Works",
+      "type": "antagonist",
+      "tags": [
+        "Officer Agent",
+        "Bazooka Fighter",
+        "Slow",
+        "Powerful",
+        "Usopp's Opponent"
+      ],
+      "avatar": "/images/characters/alabasta/mr-4.jpg"
+    },
+    {
+      "name": "Miss Merry Christmas (Drophy)",
+      "role": "Baroque Works Officer Agent",
+      "description": "An elderly woman with the Mole-Mole Fruit who can tunnel underground. Partnered with Mr. 4 and fought Usopp and Chopper.",
+      "faction": "Baroque Works",
+      "type": "antagonist",
+      "tags": [
+        "Officer Agent",
+        "Mole-Mole Fruit",
+        "Tunneler",
+        "Underground Fighter"
+      ],
+      "avatar": "/images/characters/alabasta/miss-merry-christmas.jpg"
+    },
+    {
+      "name": "Portgas D. Ace",
+      "role": "Whitebeard Pirates 2nd Division Commander",
+      "description": "Luffy's older brother who appeared in Alabasta searching for Blackbeard. Possesses the Flame-Flame Fruit. Saved Luffy from Smoker and shared a meal before departing.",
+      "faction": "Whitebeard Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Whitebeard Commander",
+        "Logia Devil Fruit",
+        "Flame Powers",
+        "Luffy's Brother",
+        "Blackbeard Hunter"
+      ],
+      "avatar": "/images/characters/alabasta/ace.jpg"
+    },
+    {
+      "name": "Smoker (White Hunter)",
+      "role": "Marine Captain / Logia User",
+      "description": "The Marine pursuing the Straw Hats from Loguetown. Possesses the Smoke-Smoke Fruit. Began to question absolute justice after witnessing the Straw Hats save Alabasta while the World Government covered up the truth.",
+      "faction": "Marines",
+      "type": "neutral",
+      "tags": [
+        "Marine Captain",
+        "Logia Devil Fruit",
+        "Smoke Powers",
+        "Persistent Hunter",
+        "Questioning Justice"
+      ],
+      "avatar": "/images/characters/alabasta/smoker.jpg"
+    },
+    {
+      "name": "Tashigi",
+      "role": "Marine Officer",
+      "description": "Smoker's subordinate and skilled swordswoman who resembles Zoro's deceased friend Kuina. Conflicted about pirates after seeing the Straw Hats' heroism.",
+      "faction": "Marines",
+      "type": "neutral",
+      "tags": [
+        "Marine Officer",
+        "Swordswoman",
+        "Kuina Lookalike",
+        "Idealistic",
+        "Conflicted"
+      ],
+      "avatar": "/images/characters/alabasta/tashigi.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Alubarna",
+      "type": "capital city",
+      "description": "The capital city and seat of the royal palace. Built around a massive oasis, it's the only city that continued receiving rain during the drought. The final battle between Baroque Works and the Straw Hats took place here.",
+      "notableFeatures": [
+        "Royal Palace",
+        "Throne room with Poneglyph",
+        "Clock Tower Plaza",
+        "Central oasis",
+        "Pell's bomb sacrifice site",
+        "Final battle location"
+      ],
+      "image": "/images/locations/alabasta/alubarna.jpg"
+    },
+    {
+      "name": "Rainbase",
+      "type": "city",
+      "description": "A casino city in the desert that served as Crocodile's base of operations. Home to the Rain Dinners casino, which housed his secret underground headquarters.",
+      "notableFeatures": [
+        "Rain Dinners casino",
+        "Crocodile's secret HQ",
+        "Underground banana gator pool",
+        "Seastone cage prison",
+        "Dance Powder storage",
+        "Desert wasteland surroundings"
+      ],
+      "image": "/images/locations/alabasta/rainbase.jpg"
+    },
+    {
+      "name": "Nanohana",
+      "type": "port city",
+      "description": "A coastal port city famous for perfume production. Where the Straw Hats first landed in Alabasta and had their first encounter with Smoker in the kingdom.",
+      "notableFeatures": [
+        "Perfume shops",
+        "Port and docks",
+        "Marketplace",
+        "Restaurant",
+        "Smoker encounter site"
+      ],
+      "image": "/images/locations/alabasta/nanohana.jpg"
+    },
+    {
+      "name": "Yuba",
+      "type": "rebel base",
+      "description": "Once a thriving oasis city, now reduced to a desert wasteland by the drought. Home to the rebel army's base and Kohza's father Toto, who never stopped digging for water.",
+      "notableFeatures": [
+        "Rebel army headquarters",
+        "Dried oasis",
+        "Toto's well",
+        "Desert ruins",
+        "Sand dunes",
+        "Symbol of drought's devastation"
+      ],
+      "image": "/images/locations/alabasta/yuba.jpg"
+    },
+    {
+      "name": "Katorea",
+      "type": "city",
+      "description": "A city on the Sandora River where a massive battle between the royal army and rebel forces took place. Mr. 2 Bon Clay impersonated the king here to incite further violence.",
+      "notableFeatures": [
+        "Sandora River port",
+        "Battle site",
+        "Mr. 2's deception location",
+        "Strategic river position"
+      ],
+      "image": "/images/locations/alabasta/katorea.jpg"
+    },
+    {
+      "name": "Sandora Desert",
+      "type": "desert",
+      "description": "The vast desert that covers most of Alabasta. Extremely dangerous with scorching heat, sandstorms, and desert creatures. Contains ancient ruins and the entry to the royal tomb.",
+      "notableFeatures": [
+        "Endless sand dunes",
+        "Sandstorms",
+        "Extreme heat",
+        "Desert lizards and scorpions",
+        "Moving Crab routes",
+        "Ancient ruins scattered throughout"
+      ],
+      "image": "/images/locations/alabasta/sandora-desert.jpg"
+    },
+    {
+      "name": "Sandora River",
+      "type": "river",
+      "description": "The great river that runs through Alabasta, vital to the kingdom's survival. Several cities are built along its banks.",
+      "notableFeatures": [
+        "Lifeline of the kingdom",
+        "Kung-Fu Dugong habitat",
+        "Transportation route",
+        "Oasis source",
+        "Rebel and Royal army clashes"
+      ],
+      "image": "/images/locations/alabasta/sandora-river.jpg"
+    },
+    {
+      "name": "Royal Tomb",
+      "type": "ancient tomb",
+      "description": "The underground tomb where Alabasta's kings are buried. Contains the Poneglyph that reveals Pluton's location. Where Luffy had his final showdown with Crocodile.",
+      "notableFeatures": [
+        "Poneglyph chamber",
+        "Royal burial chambers",
+        "Ancient architecture",
+        "Luffy vs Crocodile final battle",
+        "Collapsing structure",
+        "4000 years of history"
+      ],
+      "image": "/images/locations/alabasta/royal-tomb.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Pluton Poneglyph",
+      "category": "Ancient Weapon Information",
+      "description": "The Poneglyph hidden in Alabasta's royal tomb that reveals the location of Pluton, one of the three Ancient Weapons capable of mass destruction. Crocodile's ultimate goal.",
+      "icon": "📜",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Dance Powder",
+      "category": "Weather Weapon",
+      "description": "A banned powder that creates artificial rain by stealing moisture from other areas. Used by Crocodile to create the drought and frame King Cobra, inciting the civil war.",
+      "icon": "💨",
+      "rarity": "rare"
+    },
+    {
+      "name": "Eternal Pose to Alabasta",
+      "category": "Navigation",
+      "description": "The permanent Log Pose given to the Straw Hats at Whiskey Peak to guide them to Alabasta.",
+      "icon": "🧭",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Crocodile's Hook",
+      "category": "Weapon",
+      "description": "Crocodile's golden hook that contains a hidden poison blade. His signature weapon used in combat.",
+      "icon": "🪝",
+      "rarity": "rare"
+    },
+    {
+      "name": "Time Bomb",
+      "category": "Explosive",
+      "description": "A massive bomb with a 5-kilometer blast radius planted in Alubarna's clock tower. Pell sacrificed himself to carry it away from the city.",
+      "icon": "💣",
+      "rarity": "rare"
+    },
+    {
+      "name": "Clima-Tact",
+      "category": "Weapon",
+      "description": "The weather-manipulating weapon created by Usopp for Nami, first used effectively in battle against Miss Doublefinger.",
+      "icon": "🌤️",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Mera Mera no Mi Powers",
+      "category": "Devil Fruit Ability",
+      "description": "Ace's Flame-Flame Logia fruit that allows him to create, control, and become fire.",
+      "icon": "🔥",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Alabasta Perfume",
+      "category": "Trade Good",
+      "description": "Famous perfume produced in Nanohana, a major export of the kingdom. Ukkari Hot-Spicy Perfume played a role in the story.",
+      "icon": "🌺",
+      "rarity": "common"
+    },
+    {
+      "name": "Kung-Fu Dugong Shells",
+      "category": "Trophy",
+      "description": "Shells marking Luffy's defeat of the Kung-Fu Dugongs, who then became his 'students' in a comedic subplot.",
+      "icon": "🥋",
+      "rarity": "uncommon"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Baroque Works",
+      "type": "Criminal Organization",
+      "leader": "Sir Crocodile (Mr. 0)",
+      "members": [
+        "Crocodile",
+        "Nico Robin (Miss All Sunday)",
+        "Mr. 1",
+        "Miss Doublefinger",
+        "Mr. 2 Bon Clay",
+        "Mr. 3",
+        "Mr. 4",
+        "Miss Merry Christmas",
+        "Hundreds of agents"
+      ],
+      "description": "The criminal syndicate orchestrating Alabasta's civil war to obtain Pluton. Defeated and dismantled by the Straw Hats.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Alabasta Royal Family",
+      "type": "Monarchy",
+      "leader": "King Nefertari Cobra",
+      "members": [
+        "Cobra",
+        "Vivi",
+        "Pell",
+        "Chaka",
+        "Igaram",
+        "Karoo",
+        "Terracotta (Vivi's mother, deceased)"
+      ],
+      "description": "The ruling family of Alabasta, descended from one of the twenty founding families of the World Government. Chose to remain in Alabasta 800 years ago.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Rebel Army",
+      "type": "Rebellion",
+      "leader": "Kohza",
+      "members": [
+        "Kohza",
+        "Toto (Kohza's father)",
+        "Kebi",
+        "Thousands of citizens from drought-stricken cities"
+      ],
+      "description": "Citizens who rebelled against the king believing he was hoarding rain. Stood down after learning the truth about Crocodile's conspiracy.",
+      "alignment": "neutral"
+    },
+    {
+      "name": "Straw Hat Pirates (Allies)",
+      "type": "Pirate Crew",
+      "leader": "Monkey D. Luffy",
+      "members": [
+        "Luffy",
+        "Zoro",
+        "Nami",
+        "Usopp",
+        "Sanji",
+        "Chopper",
+        "Vivi (temporary)",
+        "Karoo (temporary)"
+      ],
+      "description": "The pirate crew that allied with Vivi to save Alabasta, defeated Baroque Works, and stopped the civil war.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Marines (Alabasta Unit)",
+      "type": "Military",
+      "leader": "Captain Smoker",
+      "members": [
+        "Smoker",
+        "Tashigi",
+        "Marine forces"
+      ],
+      "description": "The Marine forces pursuing the Straw Hats who arrived in Alabasta. Witnessed the truth but were ordered to credit the World Government for Crocodile's defeat.",
+      "alignment": "neutral"
+    },
+    {
+      "name": "Whitebeard Pirates (Visitors)",
+      "type": "Pirate Crew",
+      "leader": "Edward Newgate 'Whitebeard'",
+      "members": [
+        "Portgas D. Ace (2nd Division Commander)"
+      ],
+      "description": "Representatives of one of the Four Emperors' crews. Ace visited Alabasta hunting Blackbeard and briefly reunited with Luffy.",
+      "alignment": "ally"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 155-217 (Alabasta Arc)",
+    "animeEpisodes": "Episodes 92-130",
+    "events": [
+      "Straw Hats arrive at Nanohana",
+      "First encounter with Ace",
+      "Learning about the civil war and drought",
+      "Kung-Fu Dugongs fight",
+      "Captured by Crocodile at Rain Dinners",
+      "Escape from Rainbase prison",
+      "Race across the desert to Alubarna",
+      "Mr. 2's king impersonation exposed",
+      "Straw Hats vs Baroque Works officer battles",
+      "Luffy vs Crocodile (first defeat)",
+      "Luffy vs Crocodile (second defeat)",
+      "Discovery of Pluton Poneglyph",
+      "Luffy vs Crocodile (final victory)",
+      "Pell's sacrifice with the bomb",
+      "Civil war stopped",
+      "Crocodile's arrest by Marines",
+      "World Government covers up the truth",
+      "Rain finally falls across Alabasta",
+      "Vivi's choice to stay",
+      "Straw Hat farewell (X mark on arms)",
+      "Robin joins the crew"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#D4AF37",
+    "secondary": "#8B7355",
+    "accent": "#FF8C00"
+  },
+  "quickFacts": [
+    "One of the twenty founding kingdoms of World Government",
+    "Home to Ancient Weapon Pluton (location hidden)",
+    "3-year drought orchestrated by Crocodile using Dance Powder",
+    "Civil war between rebels and royal army",
+    "Where Luffy defeated his first Warlord of the Sea",
+    "Nico Robin joins the Straw Hat crew here",
+    "Vivi's emotional farewell to the Straw Hats",
+    "Ace and Luffy's reunion"
+  ],
+  "videos": [
+    {
+      "youtubeId": "rmRzTBY-8EY",
+      "title": "Luffy vs Crocodile Final Battle",
+      "type": "fight",
+      "description": "Luffy's climactic third battle against Crocodile in the royal tomb, defeating the Warlord with water-enhanced attacks.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "ep_2LNgcGxQ",
+      "title": "Vivi's Farewell - X Marks",
+      "type": "lore",
+      "description": "The emotional goodbye where the Straw Hats and Vivi silently show their bond with the X marks on their arms.",
+      "featured": true,
+      "order": 2
+    },
+    {
+      "youtubeId": "C_AuS_EZCi8",
+      "title": "Pell's Sacrifice",
+      "type": "lore",
+      "description": "Pell carries the massive bomb away from Alubarna to save the kingdom.",
+      "featured": false,
+      "order": 3
+    }
+  ],
+  "music": {
+    "url": "/music/alabasta-theme.mp3",
+    "title": "Miss All Sunday Theme",
+    "volume": 0.3
+  }
+}

@@ -1,0 +1,514 @@
+{
+  "slug": "sea-train",
+  "name": "Puffing Tom (Sea Train)",
+  "banner": "/images/banners/sea-train-banner.jpg",
+  "region": "Paradise (Grand Line) - Water 7 to Enies Lobby Route",
+  "aliases": [
+    "Puffing Tom",
+    "Sea Train",
+    "Rocket Man",
+    "Tom's Sea Train"
+  ],
+  "coordinates": { "x": 9770, "y": 3168 },
+  "journeyOrder": 17,
+  "description": "The Sea Train, called 'Puffing Tom,' is a revolutionary steam locomotive that travels on underwater tracks between Water 7 and Enies Lobby. Built by the legendary shipwright Tom, it was designed to connect Water 7 to other islands despite the dangerous Aqua Laguna storms. The train runs on tracks laid on the ocean floor, powered by Sea Stone-enhanced steam engines that allow it to push through any weather. During the rescue mission for Robin, the train became a mobile battlefield as the Straw Hats and Franky Family pursued CP9, with intense battles occurring across the moving cars during a massive Aqua Laguna storm. A second train, 'Rocket Man,' was used by the rescue party - an older, faster, more dangerous prototype.",
+  "history": "The Sea Train was the masterpiece of Tom, a fish-man shipwright of legendary skill who also built Gold Roger's ship, the Oro Jackson. After being sentenced to death for building the Pirate King's ship, Tom was given a reprieve to complete the Sea Train project, which would benefit all of Water 7. He succeeded, creating a transportation revolution that saved the city's economy. However, Spandam (CP5 at the time) framed Tom by stealing his blueprints to build the Battle Frankys that attacked Water 7. Tom took responsibility for his creations and was taken to Enies Lobby, where he was executed. Years later, Tom's apprentices - Iceburg and Franky - continued operating the Sea Trains. When CP9 captured Robin and took her on the Puffing Tom toward Enies Lobby, Sanji stowed away and fought his way through guards. The Straw Hats and Franky Family then boarded Rocket Man, the prototype train, in a desperate chase that involved battles against CP9 agents, the storm itself, and culminated in Sogeking's debut as Usopp's alter ego.",
+  "culture": "The Sea Train represents Water 7's greatest achievement in shipbuilding technology and Tom's legacy. It operates on strict schedules, running between Water 7, Pucci, San Faldo, and Enies Lobby. The trains are considered marvels of engineering, combining steam power with Sea Stone technology to traverse dangerous waters. Train staff maintain Tom's traditions of excellence and safety. However, the government also uses the train to transport prisoners to Enies Lobby for judgment, making it both a lifeline for commerce and a route to execution.",
+  "economy": {
+    "industries": [
+      "Passenger transportation",
+      "Cargo shipping",
+      "Government prisoner transport",
+      "Tourism between islands",
+      "Emergency evacuation during Aqua Laguna"
+    ],
+    "currency": "Berry (฿)",
+    "tradeGoods": [
+      "Passenger tickets",
+      "Cargo freight",
+      "Mail delivery",
+      "Fresh goods from connected islands"
+    ]
+  },
+  "transportation": "The Sea Train itself IS the transportation. It runs on underwater tracks anchored to the ocean floor, powered by steam engines enhanced with Sea Stone to handle storms and sea kings. Puffing Tom is the main passenger train (newer, safer). Rocket Man is the prototype (faster, more dangerous, no brakes). Tracks connect Water 7, Pucci, San Faldo, and Enies Lobby.",
+  "food": {
+    "cuisine": [
+      "Train dining car meals",
+      "Wanze's ramen (weaponized)",
+      "Passenger snacks and drinks",
+      "Box lunches",
+      "Steam-heated food"
+    ],
+    "traditions": [
+      "Dining car service",
+      "Celebration meals on safe arrivals",
+      "CP9 members eating casually while guarding",
+      "Sanji fighting in the kitchen car"
+    ],
+    "quirks": [
+      "Wanze's Ramen Kenpo (ramen martial arts)",
+      "Food fights during battles",
+      "Sanji cooking while fighting",
+      "Meals interrupted by combat"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Tom",
+      "role": "Legendary Shipwright / Sea Train Creator",
+      "description": "A fish-man shipwright who built both Gold Roger's Oro Jackson and the Sea Train. Executed after being framed by Spandam. His legacy lives on through his apprentices and his creations. Famous for his motto: 'Do it with a DON!'",
+      "faction": "Tom's Workers (Historical)",
+      "type": "protagonist",
+      "tags": [
+        "Fish-man",
+        "Legendary Shipwright",
+        "Roger's Shipwright",
+        "Sea Train Inventor",
+        "Executed",
+        "Master Craftsman",
+        "Mentor"
+      ],
+      "avatar": "/images/characters/sea-train/tom.jpg"
+    },
+    {
+      "name": "Kokoro",
+      "role": "Sea Train Conductor / Tom's Assistant",
+      "description": "A mermaid (disguised as human) who was Tom's assistant and secretary. Now operates as the conductor and stationmaster. Helped the Straw Hats by piloting Rocket Man during the rescue mission. Heavy drinker.",
+      "faction": "Tom's Workers",
+      "type": "protagonist",
+      "tags": [
+        "Mermaid",
+        "Conductor",
+        "Tom's Assistant",
+        "Drunk",
+        "Pilot",
+        "Helpful Elder"
+      ],
+      "avatar": "/images/characters/sea-train/kokoro.jpg"
+    },
+    {
+      "name": "Chimney",
+      "role": "Kokoro's Granddaughter",
+      "description": "A young, energetic girl who is 1/4 mermaid. Always seen with her pet rabbit Gonbe. Helped guide the Straw Hats and provided critical reconnaissance during the mission.",
+      "faction": "Tom's Workers",
+      "type": "protagonist",
+      "tags": [
+        "Child",
+        "1/4 Mermaid",
+        "Energetic",
+        "Scout",
+        "Helper",
+        "Comic Relief"
+      ],
+      "avatar": "/images/characters/sea-train/chimney.jpg"
+    },
+    {
+      "name": "Gonbe",
+      "role": "Chimney's Pet",
+      "description": "Chimney's pet rabbit with cat-like features (actually a cat acting like a rabbit). Constantly accompanies Chimney and helps in small ways.",
+      "faction": "Tom's Workers",
+      "type": "neutral",
+      "tags": [
+        "Cat-Rabbit",
+        "Pet",
+        "Companion",
+        "Comic Relief"
+      ],
+      "avatar": "/images/characters/sea-train/gonbe.jpg"
+    },
+    {
+      "name": "Wanze",
+      "role": "CP7 Agent / Ramen Cook",
+      "description": "A CP7 agent who uses Ramen Kenpo - martial arts involving weaponized ramen noodles. Fought Sanji in the dining car. Has a bizarre appearance with noodles covering his body.",
+      "faction": "CP7",
+      "type": "antagonist",
+      "tags": [
+        "CP7",
+        "Ramen Kenpo",
+        "Chef Fighter",
+        "Bizarre",
+        "Sanji's Opponent"
+      ],
+      "avatar": "/images/characters/sea-train/wanze.jpg"
+    },
+    {
+      "name": "T-Bone",
+      "role": "Marine Captain",
+      "description": "A chivalrous Marine captain who protected the Sea Train passengers from the Franky Family. Despite his skull-like appearance, he's kind-hearted and honorable. Defeated by the Franky Family's combined assault.",
+      "faction": "Marines",
+      "type": "neutral",
+      "tags": [
+        "Marine Captain",
+        "Chivalrous",
+        "Honorable",
+        "Swordsman",
+        "Protector",
+        "Ship Cutter"
+      ],
+      "avatar": "/images/characters/sea-train/t-bone.jpg"
+    },
+    {
+      "name": "Sanji",
+      "role": "Straw Hat Cook",
+      "description": "Stowed away on Puffing Tom to rescue Robin. Fought through CP7 agents including Wanze, showcasing his determination to save Robin despite overwhelming odds. Infiltration specialist of the rescue mission.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Cook",
+        "Stowaway",
+        "Infiltrator",
+        "Robin's Savior",
+        "Black Leg",
+        "Determined"
+      ],
+      "avatar": "/images/characters/sea-train/sanji.jpg"
+    },
+    {
+      "name": "Usopp (Sogeking)",
+      "role": "Sniper King",
+      "description": "Usopp's alter ego that debuted on Rocket Man. Wearing a mask to hide his identity after leaving the crew, he still came to save Robin. His 'Sogeking' persona allowed him to help without directly rejoining.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Sniper",
+        "Sogeking",
+        "Masked Hero",
+        "Alter Ego",
+        "From Sniper Island",
+        "Kabuto Debut"
+      ],
+      "avatar": "/images/characters/sea-train/sogeking.jpg"
+    },
+    {
+      "name": "Franky",
+      "role": "Cyborg / Tom's Apprentice",
+      "description": "Initially tried to stop the Straw Hats but ended up joining the rescue after learning the truth about Robin and CP9. His presence on Rocket Man marks his first real alliance with the crew.",
+      "faction": "Franky Family",
+      "type": "protagonist",
+      "tags": [
+        "Cyborg",
+        "Tom's Apprentice",
+        "Shipwright",
+        "Cola-Powered",
+        "Turned Ally",
+        "Superhuman"
+      ],
+      "avatar": "/images/characters/sea-train/franky.jpg"
+    },
+    {
+      "name": "Rob Lucci",
+      "role": "CP9 Agent",
+      "description": "Guarded Robin on Puffing Tom with cold efficiency. His presence demonstrated the threat level - even Sanji couldn't reach Robin past the CP9 agents.",
+      "faction": "CP9",
+      "type": "antagonist",
+      "tags": [
+        "CP9",
+        "Assassin",
+        "Zoan Devil Fruit",
+        "Leopard",
+        "Robin's Guard",
+        "Strongest CP9"
+      ],
+      "avatar": "/images/characters/sea-train/rob-lucci.jpg"
+    },
+    {
+      "name": "Nico Robin",
+      "role": "Captured Archaeologist",
+      "description": "Being transported to Enies Lobby as a prisoner. Despite the rescue attempts, she maintained her decision to sacrifice herself to protect the crew, not revealing her true feelings until later.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Archaeologist",
+        "Prisoner",
+        "Sacrificing Self",
+        "Guarded by CP9",
+        "Silent Suffering"
+      ],
+      "avatar": "/images/characters/sea-train/robin.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Puffing Tom Engine",
+      "type": "locomotive",
+      "description": "The main engine car of the passenger Sea Train, powered by Sea Stone-enhanced steam engines. Where CP9 elite agents guarded Robin.",
+      "notableFeatures": [
+        "Steam engine room",
+        "Sea Stone technology",
+        "CP9 guard position",
+        "Engineer's cabin",
+        "Reinforced security",
+        "Robin held here"
+      ],
+      "image": "/images/locations/sea-train/puffing-tom-engine.jpg"
+    },
+    {
+      "name": "Rocket Man",
+      "type": "prototype locomotive",
+      "description": "Tom's original prototype Sea Train - faster but more dangerous with no brakes. Piloted by Kokoro with the Straw Hats, Franky Family, and Galley-La aboard racing to rescue Robin.",
+      "notableFeatures": [
+        "No brakes",
+        "Faster than Puffing Tom",
+        "Open-air design",
+        "Dangerous speeds",
+        "Rescue party vessel",
+        "Kokoro's piloting"
+      ],
+      "image": "/images/locations/sea-train/rocket-man.jpg"
+    },
+    {
+      "name": "Dining Car",
+      "type": "passenger car",
+      "description": "Restaurant car where Sanji fought Wanze's bizarre Ramen Kenpo. A chaotic battle that destroyed much of the dining area.",
+      "notableFeatures": [
+        "Restaurant setup",
+        "Kitchen area",
+        "Passenger seating",
+        "Battle damage",
+        "Wanze's ramen everywhere",
+        "Sanji vs Wanze location"
+      ],
+      "image": "/images/locations/sea-train/dining-car.jpg"
+    },
+    {
+      "name": "Passenger Cars",
+      "type": "train cars",
+      "description": "Standard passenger cars that became battlefields as Sanji fought through CP7 and government agents to reach Robin.",
+      "notableFeatures": [
+        "Seating areas",
+        "Narrow corridors",
+        "Government agents",
+        "Civilian passengers evacuated",
+        "Combat zones",
+        "Progressive infiltration"
+      ],
+      "image": "/images/locations/sea-train/passenger-cars.jpg"
+    },
+    {
+      "name": "Train Roof",
+      "type": "exterior",
+      "description": "The roofs of the train cars where battles occurred during the Aqua Laguna storm. Extremely dangerous with high winds and waves crashing over.",
+      "notableFeatures": [
+        "Storm conditions",
+        "High-speed wind",
+        "Wave crashes",
+        "Precarious footing",
+        "Dramatic battles",
+        "Connection between cars"
+      ],
+      "image": "/images/locations/sea-train/train-roof.jpg"
+    },
+    {
+      "name": "Underwater Track",
+      "type": "railway",
+      "description": "The revolutionary underwater tracks that allow the Sea Train to operate. Built with incredible engineering to withstand Aqua Laguna and sea kings.",
+      "notableFeatures": [
+        "Ocean floor anchoring",
+        "Storm-resistant design",
+        "Tom's engineering",
+        "Sea king deterrents",
+        "Multiple route system",
+        "Maintenance stations"
+      ],
+      "image": "/images/locations/sea-train/underwater-track.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Sea Train Blueprints",
+      "category": "Historical Document",
+      "description": "Tom's original designs for the Sea Train system. Stolen by Spandam to frame Tom with the Battle Franky attacks.",
+      "icon": "📐",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Sogeking Mask",
+      "category": "Disguise",
+      "description": "The mask Usopp created to become Sogeking, the 'Sniper King from Sniper Island.' Allowed him to help rescue Robin while maintaining his pride after leaving the crew.",
+      "icon": "🎭",
+      "rarity": "unique"
+    },
+    {
+      "name": "Kabuto",
+      "category": "Weapon",
+      "description": "Usopp's upgraded slingshot received from the Franky Family, making its debut as Sogeking's weapon. More powerful than his previous weapons.",
+      "icon": "🏹",
+      "rarity": "rare"
+    },
+    {
+      "name": "Ramen Kenpo Techniques",
+      "category": "Fighting Style",
+      "description": "Wanze's bizarre martial art using weaponized ramen noodles as both offense and defense. Defeated by Sanji's kicks.",
+      "icon": "🍜",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "CP9 Keys",
+      "category": "Important Items",
+      "description": "Keys held by CP9 members, one of which unlocks Robin's seastone handcuffs. The key mystery becomes crucial at Enies Lobby.",
+      "icon": "🔑",
+      "rarity": "rare"
+    },
+    {
+      "name": "Sea Stone Train Engine",
+      "category": "Technology",
+      "description": "The revolutionary Sea Stone-enhanced engine that allows trains to run on underwater tracks through any weather.",
+      "icon": "⚙️",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Aqua Laguna Storm",
+      "category": "Natural Phenomenon",
+      "description": "The massive annual tidal wave that hits Water 7. The rescue mission occurred during the largest Aqua Laguna in years, making the journey even more dangerous.",
+      "icon": "🌊",
+      "rarity": "rare"
+    }
+  ],
+  "factions": [
+    {
+      "name": "CP9",
+      "type": "Government Assassins",
+      "leader": "Rob Lucci",
+      "members": [
+        "Rob Lucci",
+        "Kaku",
+        "Kalifa",
+        "Blueno",
+        "Jabra",
+        "Kumadori",
+        "Fukurou",
+        "Spandam (leader)"
+      ],
+      "description": "Elite World Government assassins transporting Robin to Enies Lobby. Guarded her on Puffing Tom with overwhelming force.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Straw Hat Rescue Party",
+      "type": "Pirate Crew",
+      "leader": "Monkey D. Luffy",
+      "members": [
+        "Luffy",
+        "Zoro",
+        "Nami",
+        "Chopper",
+        "Sanji (infiltrator on Puffing Tom)",
+        "Sogeking/Usopp"
+      ],
+      "description": "The crew pursuing Robin's rescue, split between Sanji infiltrating Puffing Tom and the others on Rocket Man.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Franky Family",
+      "type": "Dismantlers",
+      "leader": "Franky",
+      "members": [
+        "Franky",
+        "Zambai",
+        "Kiwi",
+        "Mozu",
+        "Franky Family members"
+      ],
+      "description": "Initially opposed the Straw Hats but joined the rescue mission on Rocket Man after learning the truth about Pluton and CP9.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Tom's Workers (Historical/Current)",
+      "type": "Shipwrights",
+      "leader": "Tom (deceased) / Kokoro (current)",
+      "members": [
+        "Tom (deceased)",
+        "Kokoro",
+        "Chimney",
+        "Gonbe",
+        "Train staff"
+      ],
+      "description": "The original team that built the Sea Train and those who continue operating it, honoring Tom's legacy.",
+      "alignment": "ally"
+    },
+    {
+      "name": "CP7 & Marines",
+      "type": "Government Forces",
+      "leader": "Captain T-Bone",
+      "members": [
+        "Wanze (CP7)",
+        "Jerry (CP7)",
+        "T-Bone (Marine Captain)",
+        "Government agents",
+        "Train guards"
+      ],
+      "description": "Lower-level government forces protecting the Sea Train and its passengers, unaware of CP9's true mission.",
+      "alignment": "enemy"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 367-375 (Sea Train Arc - part of Water 7 Saga)",
+    "animeEpisodes": "Episodes 259-269",
+    "events": [
+      "Sanji stows away on Puffing Tom",
+      "CP9 transports Robin to Enies Lobby",
+      "Straw Hats and Franky Family board Rocket Man",
+      "Sogeking's debut - Usopp's masked hero persona",
+      "Kokoro pilots Rocket Man through Aqua Laguna",
+      "Sanji vs CP7 agents",
+      "Sanji vs Wanze (Ramen Kenpo battle)",
+      "Sanji reaches Robin but can't rescue her (CP9 too strong)",
+      "Franky Family vs T-Bone",
+      "T-Bone defeated by combined assault",
+      "Rocket Man catches up to Puffing Tom",
+      "Battles on train roofs during storm",
+      "Chimney provides reconnaissance",
+      "Revelation about Tom's past and legacy",
+      "Franky fully commits to helping Straw Hats",
+      "Arrival at Enies Lobby",
+      "Rocket Man crashes through Enies Lobby gates"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#4682B4",
+    "secondary": "#708090",
+    "accent": "#FF4500"
+  },
+  "quickFacts": [
+    "Built by legendary shipwright Tom",
+    "Runs on underwater tracks on ocean floor",
+    "Tom also built Gold Roger's ship (Oro Jackson)",
+    "Sogeking debuts on Rocket Man",
+    "Sanji infiltrates alone to rescue Robin",
+    "Battles occur during massive Aqua Laguna storm",
+    "Rocket Man is faster but has no brakes",
+    "Tom's motto: 'Do it with a DON!'",
+    "Connects Water 7 to Enies Lobby"
+  ],
+  "videos": [
+    {
+      "youtubeId": "Ajspl2VuOdo",
+      "title": "Sogeking's Theme and Debut",
+      "type": "lore",
+      "description": "The iconic debut of Sogeking, the Sniper King from Sniper Island, as Usopp's alter ego.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "ZdhNs5zVC6E",
+      "title": "Sanji vs Wanze - Ramen Kenpo",
+      "type": "fight",
+      "description": "The bizarre battle between Sanji's kicks and Wanze's weaponized ramen noodles.",
+      "featured": false,
+      "order": 2
+    },
+    {
+      "youtubeId": "UcUibJcnfMQ",
+      "title": "Rocket Man Crashes into Enies Lobby",
+      "type": "lore",
+      "description": "The dramatic arrival as Rocket Man breaks through Enies Lobby's main gate.",
+      "featured": false,
+      "order": 3
+    }
+  ],
+  "music": {
+    "url": "/music/sea-train-theme.mp3",
+    "title": "Sniper King!",
+    "volume": 0.3
+  }
+}

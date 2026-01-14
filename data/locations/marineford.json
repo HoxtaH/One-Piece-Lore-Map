@@ -1,0 +1,672 @@
+{
+  "slug": "marineford",
+  "name": "Marineford",
+  "region": "Paradise (Grand Line) - Marine Headquarters",
+  "aliases": [
+    "Marine Headquarters",
+    "Marine HQ",
+    "Navy Headquarters",
+    "The Paramount War Battlefield"
+  ],
+  "coordinates": { "x": 10437, "y": 3140 },
+  "pathControl": { "x": 10277, "y": 3156 },
+  "journeyOrder": 23,
+  "saga": "Summit War",
+  "description": "Marineford was the former headquarters of the Marines, a massive fortress island in the center of the Calm Belt connected to Enies Lobby and Impel Down through the Gates of Justice. This fortress served as the symbol of the World Government's military might and justice. It became the site of the Paramount War - the greatest battle in recent history when Whitebeard, one of the Four Emperors, launched an all-out assault to rescue Portgas D. Ace from public execution. The war saw the full might of the Marines including three Admirals, the Seven Warlords, and Fleet Admiral Sengoku against Whitebeard's entire fleet and allied pirates. The battle resulted in the deaths of both Ace and Whitebeard, Blackbeard stealing Whitebeard's Devil Fruit power, and Shanks arriving to end the war. The devastation was so complete that the Marines relocated their headquarters to the New World afterward. This war marked the end of one era and the beginning of another.",
+  "history": "Marineford served as the Marine Headquarters for decades, representing the World Government's power and the Navy's absolute justice. When Blackbeard captured Portgas D. Ace and traded him to the government for a Warlord position, Sengoku saw an opportunity to destroy Whitebeard by executing his 'son' publicly. The public execution was announced worldwide, and Whitebeard responded by mobilizing his entire fleet of 43 allied pirate crews. The Marines gathered 100,000 elite soldiers, all seven Warlords, three Admirals, Vice Admirals, Sengoku, and even the legendary Garp. The battle began when Whitebeard's fleet emerged from beneath the waves, bypassing the surrounding fleet using coated ships. Luffy and the Impel Down escapees crashed the war from above. The war escalated as Whitebeard demonstrated his world-destroying power, Admirals showed their elemental might, and Warlords fought on both sides. Ace was briefly freed but turned back to face Admiral Akainu's insult to Whitebeard - leading to Akainu's magma fist punching through Ace as he protected Luffy. Ace died in Luffy's arms. Whitebeard, enraged, fought Akainu and declared the One Piece is real before dying standing up, his body bearing 267 sword wounds and 152 bullet wounds with no scars on his back (never ran from battle). Blackbeard then stole Whitebeard's Gura Gura fruit power. As chaos erupted, Shanks arrived and ended the war, with Sengoku agreeing. The fortress was left in ruins. After the war, the world changed dramatically: Blackbeard became a Yonko by hunting Devil Fruit users, pirates surged into the New World creating chaos, and Whitebeard's former territories became battlegrounds. Sengoku resigned and recommended Aokiji as his successor, but the World Government chose Akainu instead. Aokiji opposed this decision so strongly that he and Akainu fought a 10-day duel on Punk Hazard, permanently changing the island to half fire and half ice. Akainu won, and Aokiji left the Marines. The Marines relocated their headquarters to the former G-1 base in the New World to better combat the new era of piracy, while Marineford became the new G-1. Grave markers for Whitebeard and Ace were erected. The balance of the Three Great Powers (Marines, Warlords, Yonko) was shattered, and a new chaotic era began.",
+  "culture": "Marineford embodied Marine ideals of Absolute Justice - the belief that pirates must be eliminated regardless of cost. The fortress operated with military precision: soldiers trained constantly, officers commanded with authority, and the admirals represented different interpretations of justice (Akainu's absolute, Kizaru's unclear, Aokiji's lazy). The execution platform symbolized the Marines' power to punish even the strongest pirates. During the war, the culture clashed violently - Marines following orders to kill even allies caught in crossfire versus pirates' bonds of family and loyalty. Sengoku's revelation of Ace being Gold Roger's son shocked the world. The broadcast of the war was meant to demonstrate Marine superiority but instead showed their ruthlessness when Akainu killed fleeing soldiers for cowardice. Garp's internal conflict (duty vs family) represented the human side beneath military justice. The war's brutality and the deaths of legends marked the culture's darkest moment.",
+  "economy": {
+    "industries": [
+      "Military operations and training",
+      "Justice enforcement worldwide",
+      "Pirate suppression and capture",
+      "Government security services",
+      "Weapons development and production"
+    ],
+    "currency": "Berry (฿) - government funded",
+    "tradeGoods": [
+      "Military equipment and weapons",
+      "Seastone technology",
+      "Marine vessels and battleships",
+      "Communication Den Den Mushi",
+      "Strategic intelligence"
+    ]
+  },
+  "transportation": "Connected to Enies Lobby and Impel Down through the Gates of Justice and Tarai Current system. Dozens of battleships surrounded the fortress during the war. Marine vessels could cross the Calm Belt. Whitebeard's fleet used coating to approach underwater. The Moby Dick and allied ships surfaced in the bay. Luffy's group arrived on a stolen battleship falling from the sky. After the war, the headquarters was relocated to the former G-1 base in the New World.",
+  "food": {
+    "cuisine": [
+      "Military rations and mess hall meals",
+      "Officer-grade dining",
+      "Sengoku's rice crackers (his pet goat eats them)",
+      "Garp's love of rice crackers",
+      "Emergency rations during war",
+      "Victory feast cancelled (war outcome)"
+    ],
+    "traditions": [
+      "Pre-battle military meals",
+      "Garp's casual snacking during serious moments",
+      "Sengoku's goat stealing his crackers",
+      "Officers' formal dinners",
+      "Post-execution ceremonies (never occurred)"
+    ],
+    "quirks": [
+      "Garp eating rice crackers while crying about Ace",
+      "Sengoku's goat eating paperwork",
+      "No one eating during the actual war",
+      "Luffy's hunger even amid chaos",
+      "Whitebeard's IV drip (medical not food)"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Edward Newgate (Whitebeard)",
+      "role": "Yonko / Strongest Man in the World",
+      "description": "The legendary pirate who declared war on the World Government to save Ace. Wielder of the Gura Gura no Mi (Quake-Quake Fruit), the most destructive Devil Fruit. Died standing up after declaring the One Piece is real. His death marked the end of an era.",
+      "faction": "Whitebeard Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Yonko",
+        "Strongest Man",
+        "Quake-Quake Fruit",
+        "Father Figure",
+        "Died Standing",
+        "One Piece Declaration",
+        "267 Sword Wounds",
+        "No Retreat"
+      ],
+      "avatar": "/images/characters/marineford/whitebeard.jpg"
+    },
+    {
+      "name": "Portgas D. Ace",
+      "role": "Whitebeard's 2nd Division Commander / Roger's Son",
+      "description": "Luffy's sworn brother and Roger's biological son. User of the Mera Mera no Mi (Flame-Flame Fruit). Died protecting Luffy from Akainu's magma fist. His execution sparked the war and his death devastated Luffy.",
+      "faction": "Whitebeard Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Fire Fist",
+        "2nd Division Commander",
+        "Flame-Flame Fruit",
+        "Roger's Son",
+        "Luffy's Brother",
+        "Died Protecting Luffy",
+        "Execution Target"
+      ],
+      "avatar": "/images/characters/marineford/ace.jpg"
+    },
+    {
+      "name": "Monkey D. Luffy",
+      "role": "Straw Hat Captain / Brother's Savior",
+      "description": "Crashed the war to save Ace after breaking out of Impel Down. Used Conqueror's Haki unconsciously. Held Ace as he died, causing complete mental breakdown. Protected by everyone as he fell unconscious.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Captain",
+        "Ace's Brother",
+        "Conqueror's Haki Awakening",
+        "Mental Breakdown",
+        "War Crasher",
+        "Protected by All"
+      ],
+      "avatar": "/images/characters/marineford/luffy.jpg"
+    },
+    {
+      "name": "Sakazuki (Akainu)",
+      "role": "Admiral / Absolute Justice",
+      "description": "The most ruthless Admiral with the Magu Magu no Mi (Magma-Magma Fruit). Killed Ace by punching magma through his chest. Represents Absolute Justice - willing to kill anyone including allies for complete victory. Later became Fleet Admiral.",
+      "faction": "Marines",
+      "type": "antagonist",
+      "tags": [
+        "Admiral",
+        "Magma-Magma Fruit",
+        "Ace's Killer",
+        "Absolute Justice",
+        "Ruthless",
+        "Future Fleet Admiral",
+        "Half Face Burned"
+      ],
+      "avatar": "/images/characters/marineford/akainu.jpg"
+    },
+    {
+      "name": "Borsalino (Kizaru)",
+      "role": "Admiral / Unclear Justice",
+      "description": "The laid-back Admiral with the Pika Pika no Mi (Glint-Glint Fruit) allowing light-speed movement and laser attacks. Fought Marco, Whitebeard commanders, and nearly killed Luffy multiple times. Represents Unclear Justice.",
+      "faction": "Marines",
+      "type": "antagonist",
+      "tags": [
+        "Admiral",
+        "Light-Light Fruit",
+        "Light Speed",
+        "Lasers",
+        "Unclear Justice",
+        "Laid Back",
+        "Overwhelming"
+      ],
+      "avatar": "/images/characters/marineford/kizaru.jpg"
+    },
+    {
+      "name": "Kuzan (Aokiji)",
+      "role": "Admiral / Lazy Justice",
+      "description": "The ice Admiral with the Hie Hie no Mi (Ice-Ice Fruit). Froze the tsunami Whitebeard created. Fought Whitebeard commanders. Represents Lazy Justice with personal morals. Later quit Marines after losing Fleet Admiral duel to Akainu.",
+      "faction": "Marines",
+      "type": "antagonist",
+      "tags": [
+        "Admiral",
+        "Ice-Ice Fruit",
+        "Lazy Justice",
+        "Tsunami Freezer",
+        "Moral Conflict",
+        "Future Defector"
+      ],
+      "avatar": "/images/characters/marineford/aokiji.jpg"
+    },
+    {
+      "name": "Sengoku the Buddha",
+      "role": "Fleet Admiral",
+      "description": "The Fleet Admiral and strategist behind the war. User of the Hito Hito no Mi, Model: Daibutsu (Human-Human Fruit: Buddha). Revealed Ace's parentage to the world. Restrained Garp when he tried to kill Akainu.",
+      "faction": "Marines",
+      "type": "antagonist",
+      "tags": [
+        "Fleet Admiral",
+        "The Strategist",
+        "Buddha Fruit",
+        "Golden Buddha",
+        "Wise Leader",
+        "Garp's Friend",
+        "War Planner"
+      ],
+      "avatar": "/images/characters/marineford/sengoku.jpg"
+    },
+    {
+      "name": "Monkey D. Garp",
+      "role": "Vice Admiral / The Hero",
+      "description": "The legendary Marine Hero and Luffy's grandfather. Stood guard at the execution platform torn between duty and family. Let Luffy pass when he couldn't bring himself to stop his grandson. Cried eating rice crackers as Ace died.",
+      "faction": "Marines",
+      "type": "neutral",
+      "tags": [
+        "Vice Admiral",
+        "The Hero",
+        "Luffy's Grandfather",
+        "Family vs Duty",
+        "Let Luffy Pass",
+        "Grief-Stricken",
+        "Legendary"
+      ],
+      "avatar": "/images/characters/marineford/garp.jpg"
+    },
+    {
+      "name": "Marco the Phoenix",
+      "role": "Whitebeard's 1st Division Commander",
+      "description": "Whitebeard's right hand with the Tori Tori no Mi, Model: Phoenix - a Mythical Zoan allowing regeneration with blue flames. Led the charge after Whitebeard's death. Fought admirals directly.",
+      "faction": "Whitebeard Pirates",
+      "type": "protagonist",
+      "tags": [
+        "1st Division Commander",
+        "Phoenix Fruit",
+        "Mythical Zoan",
+        "Blue Flames",
+        "Regeneration",
+        "Whitebeard's Right Hand",
+        "Pineapple Head"
+      ],
+      "avatar": "/images/characters/marineford/marco.jpg"
+    },
+    {
+      "name": "Jozu",
+      "role": "Whitebeard's 3rd Division Commander",
+      "description": "The diamond-man with the Kira Kira no Mi (Diamond-Diamond Fruit). Stopped Mihawk's slash and sent Crocodile flying. Lost an arm when frozen by Aokiji while distracted by Whitebeard's heart attack.",
+      "faction": "Whitebeard Pirates",
+      "type": "protagonist",
+      "tags": [
+        "3rd Division Commander",
+        "Diamond-Diamond Fruit",
+        "Tank",
+        "Lost Arm",
+        "Mihawk Blocker"
+      ],
+      "avatar": "/images/characters/marineford/jozu.jpg"
+    },
+    {
+      "name": "Marshall D. Teach (Blackbeard)",
+      "role": "Former Whitebeard Pirate / Warlord",
+      "description": "The traitor who killed Thatch and captured Ace, starting the war. Arrived after Whitebeard's death and stole his Quake-Quake Fruit power, becoming the only person with two Devil Fruits. Became a Yonko after the war.",
+      "faction": "Blackbeard Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Traitor",
+        "Dark-Dark Fruit",
+        "Quake-Quake Fruit (stolen)",
+        "Two Devil Fruits",
+        "War Starter",
+        "Future Yonko",
+        "Opportunist"
+      ],
+      "avatar": "/images/characters/marineford/blackbeard.jpg"
+    },
+    {
+      "name": "Shanks",
+      "role": "Yonko / War Ender",
+      "description": "The Red-Haired Yonko who arrived at the war's end and stopped everyone from fighting. Convinced Sengoku to end the war to save lives. Buried Ace and Whitebeard. The only person all sides respected enough to listen to.",
+      "faction": "Red Hair Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Yonko",
+        "War Ender",
+        "Peacekeeper",
+        "Respected by All",
+        "Ace's Burial",
+        "Luffy's Idol"
+      ],
+      "avatar": "/images/characters/marineford/shanks.jpg"
+    },
+    {
+      "name": "Boa Hancock",
+      "role": "Warlord / Luffy's Ally",
+      "description": "Fought on the Marines' side while secretly helping Luffy throughout the war. Her love for Luffy made her betray the World Government repeatedly without being caught.",
+      "faction": "Kuja Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Warlord",
+        "Secret Ally",
+        "Love-Love Fruit",
+        "Luffy's Helper",
+        "Traitor to Marines",
+        "Lovestruck"
+      ],
+      "avatar": "/images/characters/marineford/hancock.jpg"
+    },
+    {
+      "name": "Dracule Mihawk",
+      "role": "Warlord / World's Strongest Swordsman",
+      "description": "Fought seriously to test Whitebeard's strength and measure the distance between them. His slash was stopped by Jozu. Later trained Zoro during timeskip.",
+      "faction": "Warlords",
+      "type": "neutral",
+      "tags": [
+        "Warlord",
+        "Strongest Swordsman",
+        "Yoru Wielder",
+        "Testing Whitebeard",
+        "Future Trainer"
+      ],
+      "avatar": "/images/characters/marineford/mihawk.jpg"
+    },
+    {
+      "name": "Jinbe",
+      "role": "Former Warlord / Whitebeard's Ally",
+      "description": "Refused to fight Whitebeard and was imprisoned. Escaped with Luffy and fought alongside him. Quit being a Warlord. Later saved Luffy's life and sanity after Ace's death.",
+      "faction": "Sun Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Former Warlord",
+        "Fish-Man Karate",
+        "Luffy's Protector",
+        "Whitebeard's Ally",
+        "Sanity Saver"
+      ],
+      "avatar": "/images/characters/marineford/jinbe.jpg"
+    },
+    {
+      "name": "Crocodile",
+      "role": "Former Warlord / Chaotic Ally",
+      "description": "Fought against Marines unpredictably. Protected Luffy multiple times while claiming to just hate Whitebeard. Saved Ace from execution briefly. Fought Akainu and Doflamingo.",
+      "faction": "Former Baroque Works",
+      "type": "neutral",
+      "tags": [
+        "Former Warlord",
+        "Sand-Sand Fruit",
+        "Chaotic Ally",
+        "Luffy Protector",
+        "Whitebeard Hater"
+      ],
+      "avatar": "/images/characters/marineford/crocodile.jpg"
+    },
+    {
+      "name": "Trafalgar Law",
+      "role": "Supernova / Luffy's Savior",
+      "description": "Arrived in his submarine after the war and saved Luffy's life, escaping with him and Jinbe. This action created the alliance that would define the New World saga.",
+      "faction": "Heart Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Supernova",
+        "Surgeon of Death",
+        "Ope-Ope Fruit",
+        "Luffy's Savior",
+        "Future Ally",
+        "Submarine Captain"
+      ],
+      "avatar": "/images/characters/marineford/law.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Execution Platform",
+      "type": "stage",
+      "description": "The raised platform where Ace was to be executed publicly. Site of Garp blocking Luffy's path, Ace's brief freedom, and his ultimate death. The symbolic center of the war.",
+      "notableFeatures": [
+        "Ace's shackles",
+        "Executioners with blades",
+        "Garp's guard position",
+        "Broadcast cameras",
+        "Key unlocking moment",
+        "Ace's death nearby"
+      ],
+      "image": "/images/locations/marineford/execution-platform.jpg"
+    },
+    {
+      "name": "Marineford Bay",
+      "type": "battlefield",
+      "description": "The frozen bay where Whitebeard's fleet surfaced and the initial battles occurred. Aokiji froze the tsunami here. Site of countless pirate vs Marine clashes.",
+      "notableFeatures": [
+        "Frozen tsunami",
+        "Moby Dick emergence",
+        "Underwater approach",
+        "Ice battlefield",
+        "Fleet battles",
+        "Whitebeard's entrance"
+      ],
+      "image": "/images/locations/marineford/bay.jpg"
+    },
+    {
+      "name": "Marine Fortress",
+      "type": "headquarters building",
+      "description": "The massive fortress building containing Marine operations, the broadcast room, and Sengoku's command center. Heavily damaged during the war.",
+      "notableFeatures": [
+        "Sengoku's office",
+        "Broadcast room",
+        "Command center",
+        "Marine symbol",
+        "Strategic position",
+        "Battle damage"
+      ],
+      "image": "/images/locations/marineford/fortress.jpg"
+    },
+    {
+      "name": "Oris Plaza",
+      "type": "battlefield",
+      "description": "The area where Whitebeard made his final stand against Blackbeard's crew and where he died standing, declaring the One Piece is real.",
+      "notableFeatures": [
+        "Whitebeard's last stand",
+        "One Piece declaration",
+        "Death standing up",
+        "Blackbeard's arrival",
+        "Fruit theft location",
+        "Era's end"
+      ],
+      "image": "/images/locations/marineford/oris-plaza.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Gura Gura no Mi (Quake-Quake Fruit)",
+      "category": "Devil Fruit",
+      "description": "The most destructive Paramecia fruit allowing earthquakes and tsunamis. Whitebeard's power, later stolen by Blackbeard - the only person with two Devil Fruits.",
+      "icon": "💥",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Ace's Execution Key",
+      "category": "Important Item",
+      "description": "The key Mr. 3 created with wax to free Ace from his seastone handcuffs. Briefly gave hope before Ace's death.",
+      "icon": "🔑",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Ace's Vivre Card",
+      "category": "Life Paper",
+      "description": "The Vivre Card that led Luffy to Ace and burned away as Ace died. Its destruction showed Luffy his brother was gone.",
+      "icon": "🔥",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Whitebeard's Bisento",
+      "category": "Weapon",
+      "description": "Whitebeard's massive naginata that he wielded with devastating power. Became a symbol of his strength and legacy.",
+      "icon": "🔱",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Den Den Mushi Broadcast",
+      "category": "Communication",
+      "description": "The worldwide broadcast system that showed the war to everyone. Buggy's interference revealed truth the Marines wanted hidden.",
+      "icon": "📡",
+      "rarity": "rare"
+    },
+    {
+      "name": "Marine Battleships",
+      "category": "Vehicles",
+      "description": "The dozens of battleships forming the blockade. Multiple were destroyed by Whitebeard's quakes and battles.",
+      "icon": "⚓",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Pacifista Units",
+      "category": "Weapons",
+      "description": "Cyborg weapons modeled after Kuma that fought on the Marines' side. Demonstrated the government's technological advancement.",
+      "icon": "🤖",
+      "rarity": "rare"
+    },
+    {
+      "name": "Conqueror's Haki",
+      "category": "Power",
+      "description": "Luffy unconsciously used this rare power, knocking out weaker soldiers and shocking everyone present.",
+      "icon": "👑",
+      "rarity": "legendary"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Marines (Full Force)",
+      "type": "Military",
+      "leader": "Sengoku",
+      "members": [
+        "Sengoku (Fleet Admiral)",
+        "Akainu (Admiral)",
+        "Kizaru (Admiral)",
+        "Aokiji (Admiral)",
+        "Garp (Vice Admiral)",
+        "Tsuru (Vice Admiral)",
+        "100,000 elite soldiers",
+        "Vice Admirals",
+        "Pacifistas"
+      ],
+      "description": "The full military might of the World Government assembled to execute Ace and destroy Whitebeard. Victory came at enormous cost.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Whitebeard Pirates & Allies",
+      "type": "Pirate Fleet",
+      "leader": "Edward Newgate (Whitebeard)",
+      "members": [
+        "Whitebeard",
+        "Marco",
+        "Jozu",
+        "Ace (rescued/died)",
+        "16 Division Commanders",
+        "43 Allied New World Captains",
+        "Thousands of pirates"
+      ],
+      "description": "The entire Whitebeard fleet and allied crews who came to save Ace. Suffered devastating losses including Whitebeard and Ace.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Seven Warlords (Divided)",
+      "type": "Government Pirates",
+      "leader": "No unified leader",
+      "members": [
+        "Mihawk (fought seriously)",
+        "Hancock (secretly helping Luffy)",
+        "Doflamingo (chaos lover)",
+        "Moria (fought)",
+        "Kuma (Pacifista)",
+        "Jimbei (refused, imprisoned)",
+        "Blackbeard (arrived after)"
+      ],
+      "description": "The Warlords summoned to fight for the Marines, though several betrayed or had their own agendas.",
+      "alignment": "neutral"
+    },
+    {
+      "name": "Impel Down Escapees",
+      "type": "Prison Breakers",
+      "leader": "Luffy",
+      "members": [
+        "Luffy",
+        "Jinbe",
+        "Crocodile",
+        "Ivankov",
+        "Buggy",
+        "Mr. 3",
+        "Mr. 1",
+        "Inazuma",
+        "Hundreds of prisoners"
+      ],
+      "description": "The chaotic group that crashed the war from above, creating a third faction in the battle.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Blackbeard Pirates",
+      "type": "Opportunists",
+      "leader": "Marshall D. Teach",
+      "members": [
+        "Blackbeard",
+        "His original crew",
+        "Shiryu (recruited from Impel Down)",
+        "Level 6 prisoners (recruited)"
+      ],
+      "description": "Arrived after Whitebeard's death to steal his Devil Fruit and announce their rise to power.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Red Hair Pirates",
+      "type": "War Enders",
+      "leader": "Shanks",
+      "members": [
+        "Shanks",
+        "His crew",
+        "Enough power to stop everyone"
+      ],
+      "description": "Arrived at the war's end and stopped all fighting through sheer presence and respect.",
+      "alignment": "neutral"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 550-580 (Marineford Arc), 581-597 (Post-War Arc)",
+    "animeEpisodes": "Episodes 457-489 (War), 490-516 (Post-War)",
+    "events": [
+      "100,000 Marines assembled",
+      "Seven Warlords summoned",
+      "Three Admirals positioned",
+      "Ace brought to execution platform",
+      "Sengoku reveals Ace is Gol D. Roger's son",
+      "Whitebeard's fleet appears - 43 allied crews",
+      "Whitebeard emerges from underwater with Moby Dick",
+      "Whitebeard creates massive tsunami",
+      "Aokiji freezes tsunami and bay",
+      "Initial battles begin",
+      "Jozu stops Mihawk's slash",
+      "Luffy's group crashes from above",
+      "Buggy accidentally broadcasts to the world",
+      "Whitebeard's heart attacks from illness",
+      "Jozu loses arm frozen by Aokiji",
+      "Marco fights Kizaru",
+      "Luffy uses Conqueror's Haki unconsciously",
+      "Garp stands guard at execution platform",
+      "Luffy confronts Garp",
+      "Garp lets Luffy pass (can't fight grandson)",
+      "Mr. 3 creates key to free Ace",
+      "Ace freed from execution",
+      "Ace and Luffy fight together briefly",
+      "Akainu insults Whitebeard",
+      "Ace turns back to defend Whitebeard's honor",
+      "Akainu punches magma fist through Ace protecting Luffy",
+      "Ace dies in Luffy's arms with smile",
+      "Luffy's complete mental breakdown",
+      "Jinbe protects unconscious Luffy",
+      "Whitebeard enraged fights Akainu",
+      "Half of Whitebeard's face burned off",
+      "Whitebeard continues fighting with half face",
+      "Blackbeard arrives with Level 6 prisoners",
+      "Whitebeard's final speech",
+      "Declares THE ONE PIECE IS REAL",
+      "Whitebeard dies standing up - never ran",
+      "Blackbeard steals Gura Gura no Mi",
+      "First person with two Devil Fruits",
+      "Chaos as Blackbeard demonstrates both powers",
+      "Shanks arrives to end the war",
+      "Sengoku agrees to ceasefire",
+      "Law saves Luffy in submarine",
+      "Shanks buries Ace and Whitebeard",
+      "War ends - new era begins",
+      "Blackbeard declared Yonko",
+      "Marines relocate to New World",
+      "POST-WAR: Marineford left half-destroyed",
+      "POST-WAR: World reacts - pirates surge into New World",
+      "POST-WAR: Power vacuum after Whitebeard's death",
+      "POST-WAR: Territories scramble begins",
+      "POST-WAR: Sengoku resigns as Fleet Admiral",
+      "POST-WAR: Akainu promoted to Fleet Admiral",
+      "POST-WAR: Aokiji opposes Akainu's promotion",
+      "POST-WAR: Aokiji and Akainu duel on Punk Hazard for 10 days",
+      "POST-WAR: Akainu wins - Aokiji loses leg",
+      "POST-WAR: Aokiji quits Marines",
+      "POST-WAR: Marine HQ relocated to former G-1 base in New World",
+      "POST-WAR: Old Marineford becomes G-1",
+      "POST-WAR: Grave markers erected for fallen",
+      "POST-WAR: Blackbeard hunts Devil Fruit users",
+      "POST-WAR: New generation of pirates inspired",
+      "POST-WAR: Balance of Three Great Powers shifts"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#000080",
+    "secondary": "#8B0000",
+    "accent": "#FFD700"
+  },
+  "quickFacts": [
+    "The Paramount War - greatest battle in recent history",
+    "Ace died protecting Luffy from Akainu",
+    "Whitebeard died standing, declared One Piece is real",
+    "Blackbeard stole Whitebeard's Devil Fruit power",
+    "Luffy used Conqueror's Haki unconsciously",
+    "Shanks arrived and ended the war",
+    "100,000 Marines vs Whitebeard's entire fleet",
+    "Three Admirals showed overwhelming power",
+    "Garp let Luffy pass - couldn't fight family",
+    "Law saved Luffy's life after the war",
+    "Akainu became Fleet Admiral after war",
+    "Aokiji quit Marines after losing 10-day duel",
+    "Marine HQ relocated to New World",
+    "Blackbeard became Yonko post-war",
+    "Power vacuum triggered new pirate age"
+  ],
+  "videos": [
+    {
+      "youtubeId": "k1_s1uaNT_M",
+      "title": "Ace's Death",
+      "type": "lore",
+      "description": "The heartbreaking moment where Ace dies protecting Luffy from Akainu's magma fist, dying in his brother's arms.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "fuH9TkBEN4U",
+      "title": "Whitebeard's Death & One Piece Declaration",
+      "type": "lore",
+      "description": "Whitebeard's final stand, declaring the One Piece is real before dying standing up with no scars on his back.",
+      "featured": false,
+      "order": 2
+    },
+    {
+      "youtubeId": "RmuTH25PfpI",
+      "title": "Shanks Ends the War",
+      "type": "lore",
+      "description": "Shanks arrives at Marineford and stops the war through sheer presence and respect from all sides.",
+      "featured": false,
+      "order": 3
+    }
+  ],
+  "music": {
+    "url": "/music/marineford-theme.mp3",
+    "title": "Mother Sea",
+    "volume": 0.3
+  }
+}

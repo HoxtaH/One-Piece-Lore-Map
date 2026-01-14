@@ -1,0 +1,452 @@
+{
+  "slug": "whiskey-peak",
+  "name": "Whiskey Peak",
+  "banner": "/images/banners/whiskey-peak-banner.jpg",
+  "region": "Paradise (Grand Line)",
+  "aliases": [
+    "Cactus Island",
+    "Town of Welcome",
+    "Bounty Hunter's Paradise"
+  ],
+  "coordinates": { "x": 6159, "y": 2950 },
+  "journeyOrder": 9,
+  "saga": "Alabasta",
+  "description": "Whiskey Peak is a town on Cactus Island that serves as the first stop for many pirates entering the Grand Line from Reverse Mountain. The town appears to welcome pirates with open arms, throwing lavish parties and celebrations. However, this hospitality is a facade - Whiskey Peak is actually a base of operations for Baroque Works, a criminal organization. The townspeople are bounty hunters who get pirates drunk and capture them for their bounties. The town is characterized by cactus-shaped rock formations and buildings designed to look welcoming.",
+  "history": "Whiskey Peak was established as one of the earliest Baroque Works operations in Paradise, designed to trap rookie pirates before they could become threats. Under the leadership of Igaram (Mr. 8) and with the presence of Princess Nefertari Vivi (Miss Wednesday) working undercover to expose the organization, the town operated as a bounty hunter haven. When the Straw Hats arrived, they were given a massive welcome party. While most of the crew got drunk and passed out, Zoro stayed awake and discovered the town's true nature, leading to him fighting and defeating over 100 bounty hunters single-handedly. The conflict escalated when Mr. 5 and Miss Valentine arrived with orders to eliminate Vivi and Igaram for discovering the identity of Baroque Works' leader, Mr. 0 (Crocodile). Vivi's identity as a princess was revealed, and she formed an alliance with the Straw Hats to save her kingdom of Alabasta. Igaram disguised himself as Vivi to draw away pursuers but his ship was destroyed. The Straw Hats departed with Vivi, setting the stage for the Alabasta Saga.",
+  "culture": "Whiskey Peak's culture is built on deception and false hospitality. The townspeople present themselves as pirate admirers who celebrate every crew that arrives with feasts, music, and alcohol. The buildings are designed with cactus motifs to blend with the island's natural rock formations. In reality, the entire town operates as a criminal syndicate where residents are ranked by code names (Mr./Miss + Number) based on their fighting ability within Baroque Works. The culture values cunning, ambush tactics, and exploiting pirates' guards being down. Despite the deception, there's a strange camaraderie among the bounty hunters who genuinely celebrate their 'catches.'",
+  "economy": {
+    "industries": [
+      "Bounty hunting",
+      "Pirate entrapment",
+      "Baroque Works operations",
+      "Food and alcohol production (for traps)",
+      "Ship salvaging"
+    ],
+    "currency": "Berry (฿)",
+    "tradeGoods": [
+      "Captured pirates",
+      "Bounty rewards",
+      "Stolen pirate treasure",
+      "Salvaged ships",
+      "Information"
+    ]
+  },
+  "transportation": "Ships dock at the small harbor. Within the town, residents walk between buildings and use the cactus rock formations as natural pathways and hiding spots. The town is compact enough for foot travel. Pirates are often too drunk to need transportation before being captured.",
+  "food": {
+    "cuisine": [
+      "Elaborate feast foods (for trapping pirates)",
+      "Abundant alcohol and wine",
+      "Roasted meats",
+      "Tropical fruits",
+      "Cactus-based dishes"
+    ],
+    "traditions": [
+      "Mandatory 'welcome parties' for all arriving pirates",
+      "Victory feasts after successful bounty captures",
+      "Drinking contests (rigged)",
+      "Food used as weapon to lower guards"
+    ],
+    "quirks": [
+      "Food quality exceeds what's expected from a small town",
+      "Alcohol flows freely (part of the trap)",
+      "Sanji's special treatment by the nuns",
+      "Zoro abstaining from drinking saves the crew"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Nefertari Vivi (Miss Wednesday)",
+      "role": "Alabasta Princess / Baroque Works Infiltrator",
+      "description": "The princess of Alabasta who infiltrated Baroque Works as 'Miss Wednesday' alongside Igaram to discover the identity of Mr. 0. Her identity was exposed when the Straw Hats arrived, leading to her alliance with them.",
+      "faction": "Alabasta Kingdom",
+      "type": "protagonist",
+      "tags": [
+        "Princess",
+        "Undercover Agent",
+        "Baroque Works (Former)",
+        "Ally",
+        "Peacock Slashers",
+        "Brave"
+      ],
+      "avatar": "/images/characters/whiskey-peak/nefertari-vivi.jpg"
+    },
+    {
+      "name": "Igaram (Mr. 8)",
+      "role": "Alabasta Royal Guard Captain / Baroque Works Infiltrator",
+      "description": "Captain of the Alabasta royal guard who went undercover as Mr. 8 alongside Vivi. A loyal retainer who sacrificed himself by impersonating Vivi to draw away pursuers, though he survived.",
+      "faction": "Alabasta Kingdom",
+      "type": "protagonist",
+      "tags": [
+        "Royal Guard",
+        "Undercover Agent",
+        "Loyal",
+        "Baroque Works (Former)",
+        "Saxophone Gun",
+        "Survivor"
+      ],
+      "avatar": "/images/characters/whiskey-peak/igaram.jpg"
+    },
+    {
+      "name": "Mr. 9",
+      "role": "Baroque Works Frontier Agent",
+      "description": "A Baroque Works agent partnered with Miss Wednesday (Vivi). Uses bat-shaped weapons and acrobatics. He helped defend Vivi when her identity was exposed.",
+      "faction": "Baroque Works",
+      "type": "neutral",
+      "tags": [
+        "Baroque Works Agent",
+        "Acrobat",
+        "Bat Weapons",
+        "Loyal Partner",
+        "Frontier Agent"
+      ],
+      "avatar": "/images/characters/whiskey-peak/mr-9.jpg"
+    },
+    {
+      "name": "Miss Monday",
+      "role": "Baroque Works Frontier Agent",
+      "description": "A muscular female agent partnered with Mr. 9. Known for her incredible physical strength despite her appearance.",
+      "faction": "Baroque Works",
+      "type": "neutral",
+      "tags": [
+        "Baroque Works Agent",
+        "Superhuman Strength",
+        "Frontier Agent",
+        "Wrestler"
+      ],
+      "avatar": "/images/characters/whiskey-peak/miss-monday.jpg"
+    },
+    {
+      "name": "Mr. 5",
+      "role": "Baroque Works Officer Agent",
+      "description": "An officer agent with the Bomb-Bomb Fruit power, making his entire body explosive. Sent to eliminate Vivi and Igaram for learning Mr. 0's identity.",
+      "faction": "Baroque Works",
+      "type": "antagonist",
+      "tags": [
+        "Baroque Works Officer",
+        "Devil Fruit User",
+        "Paramecia Type",
+        "Explosive Powers",
+        "Assassin"
+      ],
+      "avatar": "/images/characters/whiskey-peak/mr-5.jpg"
+    },
+    {
+      "name": "Miss Valentine",
+      "role": "Baroque Works Officer Agent",
+      "description": "An officer agent with the Kilo-Kilo Fruit, allowing her to change her weight from 1 to 10,000 kilograms. Partner of Mr. 5.",
+      "faction": "Baroque Works",
+      "type": "antagonist",
+      "tags": [
+        "Baroque Works Officer",
+        "Devil Fruit User",
+        "Paramecia Type",
+        "Weight Manipulation",
+        "Assassin"
+      ],
+      "avatar": "/images/characters/whiskey-peak/miss-valentine.jpg"
+    },
+    {
+      "name": "Karoo",
+      "role": "Vivi's Super Spot-Billed Duck Companion",
+      "description": "Vivi's loyal duck companion and mount. A brave and fast Super Spot-Billed Duck who stayed by Vivi's side throughout her journey.",
+      "faction": "Alabasta Kingdom",
+      "type": "protagonist",
+      "tags": [
+        "Duck",
+        "Mount",
+        "Loyal",
+        "Fast Runner",
+        "Comic Relief"
+      ],
+      "avatar": "/images/characters/whiskey-peak/karoo.jpg"
+    },
+    {
+      "name": "Roronoa Zoro",
+      "role": "Straw Hat Pirate Swordsman",
+      "description": "The only Straw Hat who didn't get drunk at the party. He single-handedly defeated over 100 bounty hunters when he discovered the town's true nature.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Swordsman",
+        "Pirate Hunter",
+        "Three Sword Style",
+        "Observant",
+        "Legendary Fight"
+      ],
+      "avatar": "/images/characters/whiskey-peak/roronoa-zoro.jpg"
+    },
+    {
+      "name": "Nami",
+      "role": "Straw Hat Navigator",
+      "description": "Quickly understood the political situation and negotiated a deal with Vivi for 1 billion berries to escort her to Alabasta.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Navigator",
+        "Businesswoman",
+        "Clever",
+        "Vivi's Friend"
+      ],
+      "avatar": "/images/characters/whiskey-peak/nami.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Town Square",
+      "type": "public area",
+      "description": "The central area where Whiskey Peak holds its elaborate welcome parties for arriving pirates. Features long tables, decorations, and a festive atmosphere designed to lower pirates' guards.",
+      "notableFeatures": [
+        "Welcome party venue",
+        "Long feast tables",
+        "Festival decorations",
+        "Performance stage",
+        "Trap center"
+      ],
+      "image": "/images/locations/whiskey-peak/town-square.jpg"
+    },
+    {
+      "name": "Cactus Rock Formations",
+      "type": "natural landmark",
+      "description": "The distinctive cactus-shaped rock formations that give the island its character. Used by bounty hunters as hiding spots and vantage points during ambushes.",
+      "notableFeatures": [
+        "Distinctive cactus shapes",
+        "Strategic hiding spots",
+        "Town landmark",
+        "Natural fortifications",
+        "Observation points"
+      ],
+      "image": "/images/locations/whiskey-peak/cactus-rocks.jpg"
+    },
+    {
+      "name": "Harbor",
+      "type": "port",
+      "description": "The small harbor where pirate ships dock. The Going Merry was moored here during the Straw Hats' stay. Where Igaram's decoy ship was destroyed.",
+      "notableFeatures": [
+        "Pirate ship docks",
+        "Going Merry's location",
+        "Igaram's ship explosion site",
+        "Entry point to town",
+        "Strategic chokepoint"
+      ],
+      "image": "/images/locations/whiskey-peak/harbor.jpg"
+    },
+    {
+      "name": "Cemetery",
+      "type": "graveyard",
+      "description": "A cemetery area where bounty hunters store captured pirates or where Zoro's battle with the 100 bounty hunters took place among the gravestones.",
+      "notableFeatures": [
+        "Gravestones",
+        "Zoro's battleground",
+        "Eerie atmosphere",
+        "Bodies of defeated bounty hunters",
+        "Strategic terrain"
+      ],
+      "image": "/images/locations/whiskey-peak/cemetery.jpg"
+    },
+    {
+      "name": "Igaram's Residence",
+      "type": "building",
+      "description": "The house where Igaram (Mr. 8) resided while undercover. Where Vivi's true identity was revealed to the Straw Hats.",
+      "notableFeatures": [
+        "Secret meeting place",
+        "Vivi's reveal location",
+        "Igaram's quarters",
+        "Planning room",
+        "Safe house"
+      ],
+      "image": "/images/locations/whiskey-peak/igarams-residence.jpg"
+    },
+    {
+      "name": "Rooftops",
+      "type": "combat area",
+      "description": "The rooftops where much of Zoro's battle against the bounty hunters took place, showcasing his acrobatic swordsmanship.",
+      "notableFeatures": [
+        "Battle terrain",
+        "Zoro's showcase",
+        "Elevated positions",
+        "Strategic advantage points",
+        "Cactus building tops"
+      ],
+      "image": "/images/locations/whiskey-peak/rooftops.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Eternal Pose to Alabasta",
+      "category": "Navigation",
+      "description": "A permanent Log Pose that always points to Alabasta, given to the Straw Hats to help them escort Vivi home.",
+      "icon": "🧭",
+      "rarity": "rare"
+    },
+    {
+      "name": "Mr. 8's Saxophone Gun",
+      "category": "Weapon",
+      "description": "Igaram's weapon that shoots bullets from a saxophone. Represents his dual identity as musician and warrior.",
+      "icon": "🎷",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Miss Wednesday's Peacock Slashers",
+      "category": "Weapon",
+      "description": "Vivi's string-and-blade weapon that creates cutting wires. Used during her time as a Baroque Works agent.",
+      "icon": "🦚",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Whiskey Barrels",
+      "category": "Trap Item",
+      "description": "Endless barrels of alcohol used to get pirates drunk and defenseless. The town's primary trap mechanism.",
+      "icon": "🍺",
+      "rarity": "common"
+    },
+    {
+      "name": "Mr. 9's Bats",
+      "category": "Weapon",
+      "description": "Metal bat weapons used by Mr. 9 for both melee combat and acrobatic attacks.",
+      "icon": "🦇",
+      "rarity": "common"
+    },
+    {
+      "name": "Bounty Posters",
+      "category": "Information",
+      "description": "Collection of wanted posters the bounty hunters use to identify and price their targets.",
+      "icon": "📜",
+      "rarity": "common"
+    },
+    {
+      "name": "Igaram's Decoy Ship",
+      "category": "Vehicle (Destroyed)",
+      "description": "The ship Igaram used while disguised as Vivi to draw away pursuers. Destroyed by Mr. 5.",
+      "icon": "💥",
+      "rarity": "unique"
+    },
+    {
+      "name": "Baroque Works Code Names",
+      "category": "System",
+      "description": "The numbered ranking system (Mr./Miss + Number) that identifies Baroque Works agents' hierarchy and partnerships.",
+      "icon": "🔢",
+      "rarity": "uncommon"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Baroque Works (Whiskey Peak Branch)",
+      "type": "Criminal Organization",
+      "leader": "Mr. 0 / Crocodile (distant leader)",
+      "members": [
+        "Mr. 8 / Igaram (infiltrator)",
+        "Miss Wednesday / Vivi (infiltrator)",
+        "Mr. 9",
+        "Miss Monday",
+        "Mr. 5 (visiting)",
+        "Miss Valentine (visiting)",
+        "100+ Frontier Agents"
+      ],
+      "description": "The mysterious criminal syndicate operating from Whiskey Peak as bounty hunters. Most members don't know the true identity of their leader, Mr. 0.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Alabasta Infiltrators",
+      "type": "Undercover Agents",
+      "leader": "Igaram",
+      "members": [
+        "Nefertari Vivi",
+        "Igaram",
+        "Karoo"
+      ],
+      "description": "Alabasta Kingdom loyalists who infiltrated Baroque Works to discover the identity of Mr. 0 and stop the plot against their kingdom.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Straw Hat Pirates (Visitors)",
+      "type": "Pirate Crew",
+      "leader": "Monkey D. Luffy",
+      "members": [
+        "Luffy",
+        "Zoro",
+        "Nami",
+        "Usopp",
+        "Sanji"
+      ],
+      "description": "The rookie pirate crew that arrived at Whiskey Peak, exposed the bounty hunter trap, and formed an alliance with Vivi.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Whiskey Peak Bounty Hunters",
+      "type": "Mercenaries",
+      "leader": "Various Baroque Works Frontier Agents",
+      "members": [
+        "100+ bounty hunters",
+        "Townspeople",
+        "Baroque Works recruits"
+      ],
+      "description": "The population of Whiskey Peak who make their living capturing drunk pirates for bounties under Baroque Works' organization.",
+      "alignment": "enemy"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 106-114 (Whiskey Peak Arc)",
+    "animeEpisodes": "Episodes 64-67",
+    "events": [
+      "Straw Hats arrive at their first Grand Line island",
+      "Townspeople throw massive welcome party",
+      "Crew gets drunk and passes out (except Zoro)",
+      "Zoro discovers the town's true nature",
+      "Zoro vs 100 bounty hunters",
+      "Mr. 5 and Miss Valentine arrive to kill Vivi",
+      "Vivi's identity as Alabasta princess revealed",
+      "Igaram's ship destroyed (he survives)",
+      "Misunderstanding between Luffy and Zoro",
+      "Nami negotiates 1 billion berry deal with Vivi",
+      "Straw Hats form alliance with Vivi",
+      "Departure for Alabasta with Eternal Pose",
+      "Mr. 5 and Miss Valentine pursue"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#8B4513",
+    "secondary": "#DAA520",
+    "accent": "#CD853F"
+  },
+  "quickFacts": [
+    "First island the Straw Hats visit in the Grand Line",
+    "Home to over 100 Baroque Works bounty hunters",
+    "Where Vivi's true identity was revealed",
+    "Zoro defeated 100+ bounty hunters while protecting sleeping crewmates",
+    "Introduction to Baroque Works organization",
+    "Where the Alabasta Saga truly begins",
+    "Famous for its cactus-shaped rock formations"
+  ],
+  "videos": [
+    {
+      "youtubeId": "DnD_z4fdETM",
+      "title": "Zoro vs 100 Bounty Hunters",
+      "type": "fight",
+      "description": "Zoro's legendary solo battle against the entire town of Baroque Works agents.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "_oHTXD5Sdjw",
+      "title": "Vivi blabs about crocodile",
+      "type": "lore",
+      "description": "The moment vivi accidentally places the strawhats in harms way.",
+      "featured": false,
+      "order": 2
+    },
+    {
+      "youtubeId": "vCwx5iinWNE",
+      "title": "Luffy vs Zoro Misunderstanding",
+      "type": "fight",
+      "description": "The brief but intense clash between Luffy and Zoro due to miscommunication.",
+      "featured": false,
+      "order": 3
+    }
+  ],
+  "music": {
+    "url": "/music/whiskey-peak-theme.mp3",
+    "title": "Baroque Works",
+    "volume": 0.3
+  }
+}

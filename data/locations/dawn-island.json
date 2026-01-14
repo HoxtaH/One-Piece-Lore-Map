@@ -1,0 +1,384 @@
+{
+  "slug": "dawn-island",
+  "name": "Dawn Island",
+  "banner": "/images/banners/dawn-island-banner.jpg",
+  "region": "East Blue",
+  "aliases": [
+    "Foosha Village",
+    "Windmill Village",
+    "Luffy's Hometown"
+  ],
+  "coordinates": { "x": 9410, "y": 1166 },
+  "journeyOrder": 1,
+  "saga": "East Blue",
+  "description": "Dawn Island is a small, peaceful island in the East Blue, home to Foosha Village where Monkey D. Luffy spent his childhood. The island is known for its windmill, Party's Bar, and the mountain bandits who occasionally cause trouble. This humble island became the birthplace of one of the world's most notorious pirates.",
+  "history": "Dawn Island has been a quiet fishing village for generations. Its place in history changed when the legendary pirate Gol D. Roger was executed in nearby Loguetown, inspiring a new age of piracy. Years later, Red-Haired Shanks and his crew made the island a temporary base, where a young boy named Luffy ate the Gum-Gum Fruit and declared his dream to become King of the Pirates. After Shanks left, entrusting Luffy with his straw hat, the boy trained relentlessly. Luffy eventually set sail at age 17, beginning his journey to find the One Piece.",
+  "culture": "Life on Dawn Island is simple and peaceful. The villagers are friendly, hardworking fishermen and farmers who value community and hospitality. The island has a long tradition of celebrating the harvest season with festivals. Party's Bar serves as the social hub where news from the outside world arrives via travelers. Despite being far from the Grand Line, stories of pirates and adventure capture the imagination of the island's youth.",
+  "economy": {
+    "industries": [
+      "Fishing",
+      "Agriculture",
+      "Small-scale trading",
+      "Tavern/Hospitality"
+    ],
+    "currency": "Berry (฿)",
+    "tradeGoods": [
+      "Fresh fish",
+      "Produce",
+      "Sake",
+      "Local crafts"
+    ]
+  },
+  "transportation": "Small fishing boats connect Dawn Island to nearby islands. A winding path leads from Foosha Village up to Mt. Colubo where bandits reside. Travel is mostly on foot or by small boat.",
+  "food": {
+    "cuisine": [
+      "Fresh seafood",
+      "Grilled fish",
+      "Rice dishes",
+      "Meat (from mountain hunting)",
+      "Sake"
+    ],
+    "traditions": [
+      "Community dinners at Party's Bar",
+      "Harvest celebrations",
+      "Welcome parties for travelers"
+    ],
+    "quirks": [
+      "Luffy's massive appetite became legendary here",
+      "Makino's bar is the heart of village life",
+      "Mountain bandits occasionally trade meat for sake"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Monkey D. Luffy",
+      "role": "Village Boy / Future Pirate King",
+      "description": "A young boy who ate the Gum-Gum Fruit and declared his dream to become King of the Pirates. Inspired by Shanks, he promised to return the straw hat after becoming a great pirate.",
+      "type": "protagonist",
+      "faction": "Straw Hat Pirates",
+      "tags": [
+        "Protagonist",
+        "Gum-Gum Fruit",
+        "Dreamer",
+        "Future Yonko",
+        "D. Clan"
+      ],
+      "avatar": "/images/characters/dawn-island/monkey-d-luffy.jpg"
+    },
+    {
+      "name": "Red-Haired Shanks",
+      "role": "Pirate Captain / Mentor / Yonko",
+      "description": "The legendary red-haired pirate who inspired Luffy and sacrificed his arm to save him from a Sea King. He entrusted Luffy with his treasured straw hat.",
+      "type": "protagonist",
+      "faction": "Red Hair Pirates",
+      "tags": [
+        "Yonko",
+        "Mentor",
+        "Legendary",
+        "One Arm",
+        "Conqueror's Haki",
+        "Roger's Crew"
+      ],
+      "avatar": "/images/characters/dawn-island/red-haired-shanks.jpg"
+    },
+    {
+      "name": "Makino",
+      "role": "Bar Owner / Village Caretaker",
+      "description": "The kind-hearted owner of Party's Bar who helped raise Luffy and was close to Shanks' crew during their stay on the island.",
+      "type": "citizen",
+      "faction": "Foosha Village",
+      "tags": [
+        "Caretaker",
+        "Bartender",
+        "Kind",
+        "Village Elder"
+      ],
+      "avatar": "/images/characters/dawn-island/makino.jpg"
+    },
+    {
+      "name": "Woop Slap",
+      "role": "Village Mayor",
+      "description": "The elderly mayor of Foosha Village who watched Luffy grow up. Often frustrated by Luffy's recklessness but proud of his accomplishments.",
+      "type": "citizen",
+      "faction": "Foosha Village",
+      "tags": [
+        "Mayor",
+        "Elder",
+        "Authority",
+        "Proud"
+      ],
+      "avatar": "/images/characters/dawn-island/woop-slap.jpg"
+    },
+    {
+      "name": "Higuma",
+      "role": "Mountain Bandit Leader",
+      "description": "The leader of mountain bandits who had a bounty of 8,000,000 berries. His clash with Shanks led to the incident where Shanks lost his arm saving Luffy.",
+      "type": "antagonist",
+      "faction": "Mountain Bandits",
+      "tags": [
+        "Bandit",
+        "Antagonist",
+        "Deceased",
+        "Eaten by Sea King"
+      ],
+      "avatar": "/images/characters/dawn-island/higuma.jpg"
+    },
+    {
+      "name": "Curly Dadan",
+      "role": "Bandit Boss / Luffy's Guardian",
+      "description": "A mountain bandit who reluctantly raised Luffy (and later Ace and Sabo) at Garp's request. Despite her tough exterior, she deeply cares for the boys.",
+      "type": "neutral",
+      "faction": "Dadan Family",
+      "tags": [
+        "Guardian",
+        "Bandit",
+        "Surrogate Mother",
+        "Tough Love"
+      ],
+      "avatar": "/images/characters/dawn-island/curly-dadan.jpg"
+    },
+    {
+      "name": "Monkey D. Garp",
+      "role": "Marine Vice Admiral / Luffy's Grandfather",
+      "description": "The legendary 'Hero of the Marines' who left Luffy in Dadan's care to raise him as a proper marine. His training methods were brutal but effective.",
+      "type": "neutral",
+      "faction": "Marines",
+      "tags": [
+        "Vice Admiral",
+        "Family",
+        "Hero",
+        "Legendary",
+        "D. Clan",
+        "Powerful"
+      ],
+      "avatar": "/images/characters/dawn-island/monkey-d-garp.jpg"
+    },
+    {
+      "name": "Portgas D. Ace",
+      "role": "Luffy's Sworn Brother / Pirate (Historical)",
+      "description": "Luffy's older sworn brother who he grew up with. Ace later became the 2nd Division Commander of the Whitebeard Pirates.",
+      "type": "historical",
+      "faction": "Whitebeard Pirates",
+      "tags": [
+        "Brother",
+        "Fire Fist",
+        "Historical",
+        "D. Clan",
+        "Legendary",
+        "Martyr"
+      ],
+      "avatar": "/images/characters/dawn-island/portgas-d-ace.jpg"
+    },
+    {
+      "name": "Sabo",
+      "role": "Luffy's Sworn Brother / Revolutionary (Believed Dead)",
+      "description": "Luffy's other sworn brother, a noble who ran away to become a pirate. Believed to have died at sea, but later revealed to be alive.",
+      "type": "protagonist",
+      "faction": "Revolutionary Army",
+      "tags": [
+        "Brother",
+        "Revolutionary",
+        "Noble",
+        "Flame User",
+        "Ace's Will"
+      ],
+      "avatar": "/images/characters/dawn-island/sabo.jpg"
+    },
+    {
+      "name": "Lucky Roux",
+      "role": "Red Hair Pirates Officer",
+      "description": "The cheerful, meat-loving member of Shanks' crew who frequently visited Party's Bar during their stay.",
+      "type": "protagonist",
+      "faction": "Red Hair Pirates",
+      "tags": [
+        "Pirate",
+        "Yonko Crew",
+        "Friendly",
+        "Officer"
+      ],
+      "avatar": "/images/characters/dawn-island/lucky-roux.jpg"
+    },
+    {
+      "name": "Benn Beckman",
+      "role": "Red Hair Pirates First Mate",
+      "description": "Shanks' intelligent and powerful first mate, one of the most respected pirates in the world.",
+      "type": "protagonist",
+      "faction": "Red Hair Pirates",
+      "tags": [
+        "First Mate",
+        "Yonko Crew",
+        "Intelligent",
+        "Powerful"
+      ],
+      "avatar": "/images/characters/dawn-island/benn-beckman.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Foosha Village",
+      "type": "Settlement",
+      "description": "The main village on Dawn Island where Luffy grew up. A peaceful fishing village with a close-knit community.",
+      "notableFeatures": [
+        "Party's Bar (Makino's establishment)",
+        "Village dock where Luffy departed",
+        "Windmill that gives the village its nickname",
+        "Mayor's office"
+      ],
+      "image": "/images/locations/dawn-island/foosha-village.jpg"
+    },
+    {
+      "name": "Mt. Colubo",
+      "type": "Mountain",
+      "description": "The mountain where bandits live and where Luffy, Ace, and Sabo spent much of their childhood training and causing mischief.",
+      "notableFeatures": [
+        "Dadan Family hideout",
+        "Gray Terminal (junkyard at the base)",
+        "Training grounds where the brothers grew strong",
+        "Forest filled with dangerous beasts"
+      ],
+      "image": "/images/locations/dawn-island/mt-colubo.jpg"
+    },
+    {
+      "name": "Party's Bar",
+      "type": "Tavern",
+      "description": "Makino's bar, the social heart of Foosha Village where Shanks' crew stayed and where Luffy declared his dream.",
+      "notableFeatures": [
+        "Where Luffy ate the Gum-Gum Fruit",
+        "Scene of Higuma's confrontation with Shanks",
+        "Village gathering spot",
+        "Source of news from the outside world"
+      ],
+      "image": "/images/locations/dawn-island/partys-bar.jpg"
+    },
+    {
+      "name": "Village Dock",
+      "type": "Harbor",
+      "description": "The small dock where fishing boats come and go, and where Luffy eventually departed to begin his journey.",
+      "notableFeatures": [
+        "Luffy's departure point",
+        "Fishing fleet",
+        "Trading ships occasionally dock here"
+      ],
+      "image": "/images/locations/dawn-island/village-dock.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Straw Hat",
+      "category": "Treasure",
+      "description": "The iconic straw hat that once belonged to Gol D. Roger, then to Shanks, and finally entrusted to Luffy. A symbol of their promise.",
+      "icon": "👒",
+      "rarity": "Legendary"
+    },
+    {
+      "name": "Gum-Gum Fruit (Gomu Gomu no Mi)",
+      "category": "Devil Fruit",
+      "description": "The Devil Fruit that Luffy accidentally ate, granting him a rubber body but taking away his ability to swim. Later revealed to be the Hito Hito no Mi, Model: Nika.",
+      "icon": "🍎",
+      "rarity": "Mythical"
+    },
+    {
+      "name": "Sake Cup",
+      "category": "Symbol",
+      "description": "The cups shared by Luffy, Ace, and Sabo when they became sworn brothers, symbolizing their unbreakable bond.",
+      "icon": "🍶",
+      "rarity": "Common"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Foosha Village Citizens",
+      "type": "Civilian",
+      "leader": "Mayor Woop Slap",
+      "members": 200,
+      "description": "The peaceful villagers who raised Luffy and celebrated his victories despite their initial concerns about his pirate path.",
+      "alignment": "Good"
+    },
+    {
+      "name": "Red Hair Pirates",
+      "type": "Pirate Crew",
+      "leader": "Shanks",
+      "members": 10,
+      "description": "One of the Four Emperors' crews. They temporarily based on Dawn Island and inspired Luffy's dream.",
+      "alignment": "Good"
+    },
+    {
+      "name": "Dadan Family",
+      "type": "Bandits",
+      "leader": "Curly Dadan",
+      "members": 15,
+      "description": "Mountain bandits who raised Luffy, Ace, and Sabo at Garp's request. Tough but caring.",
+      "alignment": "Neutral"
+    },
+    {
+      "name": "Mountain Bandits",
+      "type": "Criminal",
+      "leader": "Higuma (Deceased)",
+      "members": 20,
+      "description": "Hostile bandits led by Higuma who clashed with Shanks. Decimated after Higuma's death.",
+      "alignment": "Evil"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 1-7 (Romance Dawn)",
+    "animeEpisodes": "Episodes 1-4, Episode 878 (flashbacks throughout)",
+    "events": [
+      "Luffy eats the Gum-Gum Fruit",
+      "Higuma insults Shanks at Party's Bar",
+      "Luffy is taken hostage by Higuma",
+      "Shanks loses his arm saving Luffy from the Sea King",
+      "Shanks entrusts his straw hat to Luffy",
+      "Luffy promises to return as a great pirate",
+      "Ace, Luffy, and Sabo become sworn brothers",
+      "Sabo's 'death' (departure)",
+      "Ace leaves to become a pirate",
+      "Luffy departs at age 17 to begin his journey"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#E74C3C",
+    "secondary": "#F39C12",
+    "accent": "#3498DB"
+  },
+  "quickFacts": [
+    "Birthplace of Monkey D. Luffy",
+    "Where Shanks sacrificed his arm for Luffy",
+    "Home to Makino's Party's Bar",
+    "Starting point of Luffy's journey",
+    "Childhood home of Ace, Luffy, and Sabo",
+    "Regularly visited by Vice Admiral Garp",
+    "A peaceful village untouched by the Grand Line's chaos"
+  ],
+  "videos": [
+    {
+      "youtubeId": "6N2tokhASug",
+      "title": "Shanks Saves Luffy - Sacrifices His Arm",
+      "type": "lore",
+      "description": "The defining moment when Shanks lost his arm saving young Luffy and inspired him to become a great pirate.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "fzoQZ2dJ4fk",
+      "title": "Luffy Receives the Straw Hat",
+      "type": "lore",
+      "description": "Shanks entrusts his precious straw hat to Luffy, making him promise to return it when he becomes a great pirate.",
+      "featured": false,
+      "order": 2
+    },
+    {
+      "youtubeId": "3O0DDvMEJyA",
+      "title": "Ace, Sabo, and Luffy Become Brothers",
+      "type": "lore",
+      "description": "The three boys share sake and make their oath to become brothers and achieve their dreams.",
+      "featured": false,
+      "order": 3
+    }
+  ],
+  "music": {
+    "url": "/music/dawn-island-theme.mp3",
+    "title": "Village Harbour",
+    "volume": 0.3
+  }
+}

@@ -1,0 +1,633 @@
+{
+  "slug": "enies-lobby",
+  "name": "Enies Lobby",
+  "banner": "/images/banners/enies-lobby-banner.jpg",
+  "region": "Paradise (Grand Line) - World Government Territory",
+  "aliases": [
+    "Judicial Island",
+    "Island of Justice",
+    "The Never-Night Island",
+    "Gate of Justice Location"
+  ],
+  "coordinates": { "x": 10026, "y": 3170 },
+  "journeyOrder": 18,
+  "saga": "Water 7",
+  "description": "Enies Lobby is a World Government judicial island where criminals are processed before being sent to Impel Down or executed. The island is perpetually illuminated by a hole in the clouds that creates permanent daylight - it is said night never falls here. The island consists of a massive courthouse, the Tower of Justice, and is connected to the Gates of Justice that lead to Marine Headquarters and Impel Down. No one who passes through these gates has ever returned. The island has ten thousand Marines and government agents stationed there, making it one of the World Government's three major strongholds alongside Marine HQ and Impel Down. It was here that the Straw Hats staged their most audacious rescue mission, declaring war on the World Government itself by having Sogeking shoot down the flag, defeating all of CP9, surviving a Buster Call, and saving Robin - all while the world watched in shock.",
+  "history": "Enies Lobby has served as the World Government's judicial center for centuries, where the guilty are processed through a mock trial before execution or imprisonment. Tom was brought here years ago and executed after being framed by Spandam. When CP9 captured Robin and Franky, they brought them to Enies Lobby for the same fate. The Straw Hats, joined by the Franky Family and Galley-La foremen, crashed through the front gates on Rocket Man and fought through thousands of Marines to reach the Tower of Justice. The most pivotal moment came when Robin, from atop the tower, finally admitted she wanted to live - contradicting her resignation to die. Luffy declared war on the World Government by having Sogeking burn their flag. The crew then fought CP9 in individual battles across the island, with Luffy unveiling Gear 2 and Gear 3 to defeat Rob Lucci. Spandam accidentally triggered a Buster Call, and ten battleships began obliterating the island. As everyone escaped, the Going Merry - thought destroyed - appeared one last time to save them, Klabautermann and all. After reaching safety, they held a viking funeral for their beloved ship. The incident made global news and resulted in massive bounty increases for the entire crew.",
+  "culture": "Enies Lobby represents the absolute authority of the World Government and their version of 'justice.' There are no trials here - only guilty verdicts and sentencing. The Marines stationed here are fanatically loyal, viewing the World Government as absolute. The island's perpetual daylight symbolizes the government's claim that 'justice never sleeps.' The architecture is grand and imposing, designed to intimidate. However, the Straw Hats shattered this image, proving that even the World Government's strongholds can fall to those with strong enough conviction.",
+  "economy": {
+    "industries": [
+      "Government judiciary processing",
+      "Marine base operations",
+      "Prisoner transport management",
+      "Government administration",
+      "Military logistics"
+    ],
+    "currency": "Berry (฿)",
+    "tradeGoods": [
+      "Military supplies",
+      "Government documents",
+      "Prisoner transfer records",
+      "Marine provisions"
+    ]
+  },
+  "transportation": "Accessed via Sea Train from Water 7. The Gates of Justice connect to Marine Headquarters (Marineford) and Impel Down via special currents. Within the island, there's a massive bridge called the Bridge of Hesitation connecting the courthouse to the Tower of Justice. The island has no civilian transportation - only military vessels and government trains.",
+  "food": {
+    "cuisine": [
+      "Military rations",
+      "Government facility meals",
+      "Marine mess hall food",
+      "Prisoner gruel (for captives)",
+      "Emergency provisions during Buster Call"
+    ],
+    "traditions": [
+      "Victory celebrations (pre-Straw Hats)",
+      "Execution day ceremonies",
+      "Marine shift change meals"
+    ],
+    "quirks": [
+      "Sanji's cooking impossible during battle",
+      "Luffy's hunger even during crisis",
+      "CP9 eating before battles",
+      "Spandam's room service"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Monkey D. Luffy",
+      "role": "Straw Hat Pirates Captain",
+      "description": "Declared war on the World Government and defeated Rob Lucci using his new Gear 2nd and Gear 3rd techniques. Showed the world that even the government's strongest can be beaten. Nearly died from exhaustion but saved Robin and the crew.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Captain",
+        "Gear 2 Debut",
+        "Gear 3 Debut",
+        "War Declaration",
+        "Lucci's Defeater",
+        "World Enemy",
+        "Hero"
+      ],
+      "avatar": "/images/characters/enies-lobby/luffy.jpg"
+    },
+    {
+      "name": "Nico Robin",
+      "role": "Straw Hat Archaeologist",
+      "description": "Finally admitted she wanted to live after being shown the crew's determination to save her. Her cry of 'I want to live! Take me out to sea with you!' became one of the most iconic moments in One Piece history.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Archaeologist",
+        "I Want to Live",
+        "Rescued",
+        "Ohara Survivor",
+        "Reborn",
+        "Clutch Queen"
+      ],
+      "avatar": "/images/characters/enies-lobby/robin.jpg"
+    },
+    {
+      "name": "Roronoa Zoro",
+      "role": "Straw Hat Swordsman",
+      "description": "Defeated Kaku and his giraffe form using his new Asura technique - a nine-sword style illusion born from his demonic spirit. Pushed his limits to help save Robin.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Swordsman",
+        "Asura Debut",
+        "Nine Sword Style",
+        "Kaku's Defeater",
+        "Demonic Aura"
+      ],
+      "avatar": "/images/characters/enies-lobby/zoro.jpg"
+    },
+    {
+      "name": "Sanji",
+      "role": "Straw Hat Cook",
+      "description": "Defeated Jabra using his Diable Jambe - a new technique where he heats his leg to create fire kicks. His chivalry conflicted with Kalifa's gender, requiring Nami to defeat her instead.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Cook",
+        "Diable Jambe Debut",
+        "Fire Kicks",
+        "Jabra's Defeater",
+        "Chivalrous"
+      ],
+      "avatar": "/images/characters/enies-lobby/sanji.jpg"
+    },
+    {
+      "name": "Sogeking (Usopp)",
+      "role": "Sniper King",
+      "description": "Shot down the World Government flag, officially declaring war. Later sniped Spandam from an incredible distance to save Robin. Proved his bravery despite his fear. His actions helped him eventually rejoin the crew.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Sniper",
+        "Flag Shooter",
+        "War Declarer",
+        "Brave",
+        "Incredible Shot",
+        "Masked Hero"
+      ],
+      "avatar": "/images/characters/enies-lobby/sogeking.jpg"
+    },
+    {
+      "name": "Nami",
+      "role": "Straw Hat Navigator",
+      "description": "Defeated Kalifa using her upgraded Perfect Clima-Tact, showing impressive combat growth. Had to fight in Sanji's place due to his chivalry.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Navigator",
+        "Kalifa's Defeater",
+        "Perfect Clima-Tact",
+        "Thunder attacks",
+        "Combat Growth"
+      ],
+      "avatar": "/images/characters/enies-lobby/nami.jpg"
+    },
+    {
+      "name": "Tony Tony Chopper",
+      "role": "Straw Hat Doctor",
+      "description": "Defeated Kumadori and used Monster Point for the first time - a dangerous transformation that gives him immense power but loses control. Showed the risks he'd take to save his friends.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Doctor",
+        "Monster Point Debut",
+        "Kumadori's Defeater",
+        "Rumble Ball User",
+        "Dangerous Form"
+      ],
+      "avatar": "/images/characters/enies-lobby/chopper.jpg"
+    },
+    {
+      "name": "Franky",
+      "role": "Cyborg Shipwright",
+      "description": "Defeated Fukurou and fought to protect Robin and the Pluton blueprints. His actions during this arc cemented his bond with the Straw Hats, leading to him joining as their shipwright.",
+      "faction": "Franky Family",
+      "type": "protagonist",
+      "tags": [
+        "Cyborg",
+        "Fukurou's Defeater",
+        "Cola-Powered",
+        "Coup de Vent",
+        "Future Shipwright"
+      ],
+      "avatar": "/images/characters/enies-lobby/franky.jpg"
+    },
+    {
+      "name": "Rob Lucci",
+      "role": "CP9 Strongest Agent",
+      "description": "The main antagonist who fought Luffy in an intense battle across the island. His Leopard Zoan form and Rokushiki mastery made him Luffy's toughest opponent yet. Defeated but survived.",
+      "faction": "CP9",
+      "type": "antagonist",
+      "tags": [
+        "CP9 Strongest",
+        "Leopard Zoan",
+        "Rokushiki Master",
+        "Dark Justice",
+        "Luffy's Opponent",
+        "Ruthless"
+      ],
+      "avatar": "/images/characters/enies-lobby/rob-lucci.jpg"
+    },
+    {
+      "name": "Kaku",
+      "role": "CP9 Agent",
+      "description": "Fought Zoro using his newly acquired Giraffe Zoan powers combined with his Four-Sword Style. Despite his strength, he was defeated by Zoro's Asura technique.",
+      "faction": "CP9",
+      "type": "antagonist",
+      "tags": [
+        "CP9",
+        "Giraffe Zoan",
+        "Four-Sword Style",
+        "Zoro's Opponent",
+        "Square Nose"
+      ],
+      "avatar": "/images/characters/enies-lobby/kaku.jpg"
+    },
+    {
+      "name": "Jabra",
+      "role": "CP9 Agent",
+      "description": "A wolf Zoan user who fought Sanji. Claims to be in love with anyone who shows him kindness. Defeated by Sanji's new Diable Jambe technique.",
+      "faction": "CP9",
+      "type": "antagonist",
+      "tags": [
+        "CP9",
+        "Wolf Zoan",
+        "Sanji's Opponent",
+        "Liar",
+        "Tekkai Kenpo"
+      ],
+      "avatar": "/images/characters/enies-lobby/jabra.jpg"
+    },
+    {
+      "name": "Kalifa",
+      "role": "CP9 Agent",
+      "description": "Fought Nami using her Bubble-Bubble Fruit powers that clean away strength. Her 'Sexual Harassment!' catchphrase backfired against Nami's anger.",
+      "faction": "CP9",
+      "type": "antagonist",
+      "tags": [
+        "CP9",
+        "Bubble-Bubble Fruit",
+        "Nami's Opponent",
+        "Secretary",
+        "Cleaning Powers"
+      ],
+      "avatar": "/images/characters/enies-lobby/kalifa.jpg"
+    },
+    {
+      "name": "Kumadori",
+      "role": "CP9 Agent",
+      "description": "A kabuki-styled CP9 agent who fought Chopper. His Life Return technique allows him to control his body and hair. Defeated by Chopper's Monster Point.",
+      "faction": "CP9",
+      "type": "antagonist",
+      "tags": [
+        "CP9",
+        "Kabuki Style",
+        "Life Return",
+        "Chopper's Opponent",
+        "Hair Control"
+      ],
+      "avatar": "/images/characters/enies-lobby/kumadori.jpg"
+    },
+    {
+      "name": "Fukurou",
+      "role": "CP9 Agent",
+      "description": "A zipper-mouthed CP9 agent who measures power levels with his 'Doriki' system. Fought and was defeated by Franky. Can't keep secrets despite his zipper mouth.",
+      "faction": "CP9",
+      "type": "antagonist",
+      "tags": [
+        "CP9",
+        "Zipper Mouth",
+        "Doriki Measurer",
+        "Franky's Opponent",
+        "Loudmouth"
+      ],
+      "avatar": "/images/characters/enies-lobby/fukurou.jpg"
+    },
+    {
+      "name": "Spandam",
+      "role": "CP9 Director",
+      "description": "The cowardly, sadistic leader of CP9 who physically abused Robin and accidentally triggered the Buster Call. Defeated humiliatingly by Robin and Franky. His incompetence destroyed the very island he commanded.",
+      "faction": "CP9",
+      "type": "antagonist",
+      "tags": [
+        "CP9 Leader",
+        "Coward",
+        "Sadist",
+        "Weak",
+        "Buster Call Trigger",
+        "Incompetent"
+      ],
+      "avatar": "/images/characters/enies-lobby/spandam.jpg"
+    },
+    {
+      "name": "Going Merry (Klabautermann)",
+      "role": "Ship Spirit",
+      "description": "The spirit of the Going Merry appeared one final time to rescue the crew from the Buster Call. Her sacrifice and subsequent viking funeral became one of the series' most emotional moments.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Ship Spirit",
+        "Klabautermann",
+        "Final Rescue",
+        "Sacrifice",
+        "Beloved Ship",
+        "Funeral"
+      ],
+      "avatar": "/images/characters/enies-lobby/going-merry.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Main Island Gate",
+      "type": "entrance",
+      "description": "The massive front gate where Rocket Man crashed through, beginning the assault. Thousands of Marines were stationed here but couldn't stop the combined forces.",
+      "notableFeatures": [
+        "Rocket Man crash site",
+        "First battle location",
+        "Massive gates destroyed",
+        "Marine garrison",
+        "Opening statement of war"
+      ],
+      "image": "/images/locations/enies-lobby/main-gate.jpg"
+    },
+    {
+      "name": "Courthouse",
+      "type": "government building",
+      "description": "The massive courthouse where 'trials' occur - though all verdicts are guilty. The Straw Hats and allies fought through thousands of Marines here.",
+      "notableFeatures": [
+        "Mock trial chambers",
+        "Marine battalions",
+        "Government authority symbol",
+        "Multiple floors of combat",
+        "Justice facade"
+      ],
+      "image": "/images/locations/enies-lobby/courthouse.jpg"
+    },
+    {
+      "name": "Tower of Justice",
+      "type": "tower",
+      "description": "The massive tower where Robin was held and where most of the CP9 battles occurred. Spandam's office is at the top. The site of Robin's 'I want to live!' moment.",
+      "notableFeatures": [
+        "Robin's holding location",
+        "CP9 battle floors",
+        "Spandam's office",
+        "I Want to Live moment",
+        "Flag burning site",
+        "War declaration location"
+      ],
+      "image": "/images/locations/enies-lobby/tower-of-justice.jpg"
+    },
+    {
+      "name": "Bridge of Hesitation",
+      "type": "bridge",
+      "description": "The long bridge connecting the courthouse to the Tower of Justice, spanning the waterfall to the abyss below. Named for prisoners' last hesitation before judgment. Site of major battles.",
+      "notableFeatures": [
+        "Massive suspension bridge",
+        "Waterfall views",
+        "CP9 confrontations",
+        "Marine battleground",
+        "Strategic chokepoint",
+        "Dramatic backdrop"
+      ],
+      "image": "/images/locations/enies-lobby/bridge-of-hesitation.jpg"
+    },
+    {
+      "name": "Underground Passage",
+      "type": "secret tunnel",
+      "description": "Secret passages beneath the island used by Spandam to transport Robin. The Straw Hats pursued through these tunnels during the rescue.",
+      "notableFeatures": [
+        "Secret transportation route",
+        "Prison transport tunnels",
+        "Chase sequences",
+        "Narrow corridors",
+        "Emergency exits"
+      ],
+      "image": "/images/locations/enies-lobby/underground-passage.jpg"
+    },
+    {
+      "name": "Gates of Justice",
+      "type": "massive gates",
+      "description": "The enormous gates that control access to Marine HQ and Impel Down. No one who passes through returns. The Buster Call fleet emerged from here.",
+      "notableFeatures": [
+        "Massive scale",
+        "Current control system",
+        "Marine HQ connection",
+        "Impel Down connection",
+        "Buster Call fleet entrance",
+        "No return zone"
+      ],
+      "image": "/images/locations/enies-lobby/gates-of-justice.jpg"
+    },
+    {
+      "name": "Buster Call Destruction Zone",
+      "type": "battlefield",
+      "description": "The entire island became a war zone when ten battleships and five Vice Admirals began the Buster Call, indiscriminately destroying everything with cannon fire.",
+      "notableFeatures": [
+        "Ten battleships firing",
+        "Five Vice Admirals",
+        "Complete devastation",
+        "Friendly fire casualties",
+        "Absolute destruction",
+        "Government's power display"
+      ],
+      "image": "/images/locations/enies-lobby/buster-call-zone.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Gear 2nd",
+      "category": "Technique",
+      "description": "Luffy's new technique using his rubber body to pump blood faster, dramatically increasing his speed and power. Debuted against Blueno and perfected against Lucci.",
+      "icon": "💨",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Gear 3rd",
+      "category": "Technique",
+      "description": "Luffy's technique where he inflates his bones to giant size for devastating attacks, though it leaves him shrunken afterward. First used against Lucci.",
+      "icon": "🦴",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Asura",
+      "category": "Technique",
+      "description": "Zoro's nine-sword style illusion technique born from his demonic spirit. Creates the image of a three-faced, six-armed demon. Used to defeat Kaku.",
+      "icon": "👹",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Diable Jambe",
+      "category": "Technique",
+      "description": "Sanji's new technique where he spins to heat his leg, creating fire kicks. The heat and flames add massive power to his attacks. Used to defeat Jabra.",
+      "icon": "🔥",
+      "rarity": "rare"
+    },
+    {
+      "name": "Monster Point",
+      "category": "Transformation",
+      "description": "Chopper's uncontrolled ultimate form accessed by taking three Rumble Balls. Gives him massive power but he loses consciousness and goes berserk.",
+      "icon": "👹",
+      "rarity": "rare"
+    },
+    {
+      "name": "CP9 Keys",
+      "category": "Important Items",
+      "description": "Five keys held by CP9 members. One opens Robin's seastone handcuffs. The key mystery added tension as each member had to be defeated.",
+      "icon": "🔑",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Golden Den Den Mushi",
+      "category": "Weapon of Mass Destruction",
+      "description": "Spandam's transponder snail that authorized the Buster Call. He accidentally triggered it, causing the island's destruction.",
+      "icon": "📞",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Buster Call",
+      "category": "Military Operation",
+      "description": "The World Government's ultimate destruction protocol - ten battleships and five Vice Admirals obliterate an entire island with overwhelming firepower.",
+      "icon": "💥",
+      "rarity": "legendary"
+    },
+    {
+      "name": "World Government Flag",
+      "category": "Symbol",
+      "description": "The flag representing the World Government's authority. Sogeking shot it down, officially declaring war on the world's ruling power.",
+      "icon": "🏴",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Going Merry's Spirit",
+      "category": "Supernatural",
+      "description": "The Klabautermann - the ship spirit of the Going Merry that appeared to save the crew one last time before her final goodbye.",
+      "icon": "⛵",
+      "rarity": "legendary"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Straw Hat Pirates (Invasion Force)",
+      "type": "Pirate Crew",
+      "leader": "Monkey D. Luffy",
+      "members": [
+        "Luffy",
+        "Zoro",
+        "Nami",
+        "Sogeking/Usopp",
+        "Sanji",
+        "Chopper",
+        "Robin (rescued)"
+      ],
+      "description": "The pirate crew that declared war on the World Government, defeated all of CP9, and rescued Robin from the government's judicial stronghold.",
+      "alignment": "ally"
+    },
+    {
+      "name": "CP9",
+      "type": "Government Assassins",
+      "leader": "Spandam",
+      "members": [
+        "Spandam",
+        "Rob Lucci",
+        "Kaku",
+        "Kalifa",
+        "Blueno",
+        "Jabra",
+        "Kumadori",
+        "Fukurou"
+      ],
+      "description": "The World Government's elite assassination unit, all defeated by the Straw Hats and their allies. Later abandoned by the government.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Enies Lobby Marines",
+      "type": "Military",
+      "leader": "Various commanders",
+      "members": [
+        "10,000 Marines",
+        "Giant squad",
+        "Oimo and Kashii (giants who switched sides)"
+      ],
+      "description": "The massive Marine force stationed at Enies Lobby, overwhelmed by the invasion force's determination.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Galley-La & Franky Family Alliance",
+      "type": "Allies",
+      "leader": "Franky, Paulie",
+      "members": [
+        "Franky",
+        "Zambai",
+        "Paulie",
+        "Tilestone",
+        "Peepley Lulu",
+        "Franky Family members",
+        "Galley-La shipwrights"
+      ],
+      "description": "Former enemies who united to help rescue Robin and oppose the World Government's injustice.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Buster Call Fleet",
+      "type": "Naval Force",
+      "leader": "Five Vice Admirals",
+      "members": [
+        "Five Vice Admirals",
+        "Ten battleships",
+        "Thousands of Marines"
+      ],
+      "description": "The overwhelming military force that destroyed Enies Lobby with indiscriminate bombardment, showing the government's willingness to sacrifice its own.",
+      "alignment": "enemy"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 375-430 (Enies Lobby Arc)",
+    "animeEpisodes": "Episodes 263-312",
+    "events": [
+      "Rocket Man crashes through main gate",
+      "Straw Hats vs 10,000 Marines",
+      "Luffy defeats Blueno with Gear 2nd",
+      "Robin atop Tower of Justice",
+      "Sogeking shoots down World Government flag",
+      "War declared on World Government",
+      "Robin cries 'I want to live!'",
+      "Crew promises to save her",
+      "CP9 battles begin throughout tower",
+      "Nami vs Kalifa (Nami wins)",
+      "Chopper vs Kumadori (Monster Point debut, Chopper wins)",
+      "Franky vs Fukurou (Franky wins)",
+      "Sanji vs Jabra (Diable Jambe debut, Sanji wins)",
+      "Zoro vs Kaku (Asura debut, Zoro wins)",
+      "Luffy vs Lucci (longest fight)",
+      "Gear 3rd debut",
+      "Spandam beats Robin while dragging her",
+      "Spandam accidentally triggers Buster Call",
+      "Robin and Franky defeat Spandam",
+      "Buster Call begins - island bombarded",
+      "Marines caught in friendly fire",
+      "Luffy defeats Lucci with final Jet Gatling",
+      "Crew escapes but trapped by Marines",
+      "Going Merry appears - Klabautermann",
+      "Merry rescues everyone one last time",
+      "Merry apologizes for being weak",
+      "Viking funeral for Going Merry",
+      "Crew mourns their ship",
+      "News spreads worldwide",
+      "New bounties issued for all crew"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#B8860B",
+    "secondary": "#CD853F",
+    "accent": "#FF4500"
+  },
+  "quickFacts": [
+    "World Government judicial stronghold",
+    "Never experiences night - perpetual daylight",
+    "10,000 Marines stationed",
+    "Straw Hats declared war on World Government",
+    "Gear 2nd and Gear 3rd debut",
+    "Robin's 'I want to live!' moment",
+    "All CP9 members defeated",
+    "Buster Call destroyed the island",
+    "Going Merry's final rescue and funeral",
+    "Crew's bounties dramatically increased"
+  ],
+  "videos": [
+    {
+      "youtubeId": "OujdWHtqdss",
+      "title": "I Want to Live - Robin's Cry",
+      "type": "lore",
+      "description": "The most iconic moment where Robin finally admits she wants to live and asks the crew to save her.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "rlw8KlbFHdU",
+      "title": "Luffy vs Rob Lucci - Final Battle",
+      "type": "fight",
+      "description": "The intense final battle featuring Gear 2nd, Gear 3rd, and Luffy's determination to save Robin.",
+      "featured": false,
+      "order": 2
+    },
+    {
+      "youtubeId": "HYpLmQaSc1A",
+      "title": "Going Merry's Funeral",
+      "type": "lore",
+      "description": "The emotional viking funeral as the crew says goodbye to their beloved ship.",
+      "featured": false,
+      "order": 3
+    }
+  ],
+  "music": {
+    "url": "/music/enies-lobby-theme.mp3",
+    "title": "Three Towers",
+    "volume": 0.3
+  }
+}

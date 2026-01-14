@@ -1,0 +1,426 @@
+{
+  "slug": "long-ring-long-land",
+  "name": "Long Ring Long Land",
+  "region": "Paradise (Grand Line)",
+  "aliases": [
+    "Long Land",
+    "Nomad Island",
+    "Island of Ten Separate Lands"
+  ],
+  "coordinates": { "x": 8913, "y": 3080 },
+  "pathControl": { "x": 8574, "y": 2836 },
+  "journeyOrder": 15,
+  "saga": "Water 7",
+  "description": "Long Ring Long Land is a bizarre island in Paradise where everything is stretched vertically - the animals, the plants, even the landmass itself. The island is actually ten separate ring-shaped islands that connect only during low tide, creating long stretches of exposed land between them. The native animals and ecosystem have adapted to this unusual geography, becoming extremely elongated. It's here that the Straw Hats encountered the Foxy Pirates and were challenged to a Davy Back Fight, an ancient pirate tradition. More significantly, this is where Admiral Aokiji first appeared, demonstrating the overwhelming power gap between the Straw Hats and the World Government's strongest forces.",
+  "history": "Long Ring Long Land has existed with its unique geography for countless years, with nomadic tribes adapting to the tidal patterns that connect and separate the ten islands. The island became a location for Davy Back Fights, brutal pirate games where crew members are gambled away. When the Straw Hats arrived, they met Tonjit, a nomad who had been stranded on stilts for ten years. The Foxy Pirates, led by 'Silver Fox' Foxy, challenged them to a Davy Back Fight, cheating their way through events using Foxy's Slow-Slow Fruit powers. Despite Foxy's underhanded tactics, Luffy defeated him in a one-on-one battle. However, the real threat came after - Admiral Aokiji appeared, claiming to be 'just passing by' but actually investigating Robin. His casual display of power, freezing the ocean and nearly killing Luffy and Robin effortlessly, showed the crew how outmatched they were against Admiral-level opponents. This encounter foreshadowed the coming conflicts with the World Government.",
+  "culture": "The island's culture is defined by its nomadic inhabitants who must time their movements with the tides to travel between the ten ring islands. The native population has learned to live in harmony with the stretched ecosystem. The Davy Back Fight tradition represents old pirate culture - a brutal but 'honorable' way to settle disputes and strengthen crews by taking the best members from defeated pirates. However, the Foxy Pirates corrupted this tradition with constant cheating and dirty tactics, showing how even pirate 'honor' can be twisted.",
+  "economy": {
+    "industries": [
+      "Nomadic hunting and gathering",
+      "Pirate challenges and gambling",
+      "Minimal trade (isolated island)",
+      "Fishing during high tide"
+    ],
+    "currency": "Berry (฿)",
+    "tradeGoods": [
+      "Long animals (exotic pets)",
+      "Stilts and nomadic equipment",
+      "Seafood"
+    ]
+  },
+  "transportation": "Movement on the island requires understanding tidal patterns. During low tide, the ten islands connect via long stretches of exposed land. During high tide, they're separated by water. Nomads use extremely tall stilts to traverse the terrain. Ships can sail between the islands during high tide. The Foxy Pirates use their ship, the Sexy Foxy.",
+  "food": {
+    "cuisine": [
+      "Stretched animals (long horses, long rabbits, etc.)",
+      "Bamboo shoots",
+      "Fish and seafood",
+      "Nomadic preserved foods",
+      "Simple grilled meats"
+    ],
+    "traditions": [
+      "Nomadic feast timing with tides",
+      "Post-Davy Back Fight celebrations",
+      "Tonjit's simple campfire cooking",
+      "Victory feasts for winners"
+    ],
+    "quirks": [
+      "Everything is elongated",
+      "Tonjit eating after 10 years on stilts",
+      "Foxy Pirates' elaborate party setups",
+      "Sanji cooking long animals"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Foxy the Silver Fox",
+      "role": "Foxy Pirates Captain",
+      "description": "Captain with a 24 million berry bounty who possesses the Slow-Slow Fruit, allowing him to emit 'Noro Noro' beams that slow anything they hit for 30 seconds. A shameless cheater who has won 920 Davy Back Fights through underhanded tactics.",
+      "faction": "Foxy Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Captain",
+        "Slow-Slow Fruit",
+        "Paramecia Type",
+        "Cheater",
+        "Split Head",
+        "920 Victories",
+        "Coward"
+      ],
+      "avatar": "/images/characters/long-ring-long-land/foxy.jpg"
+    },
+    {
+      "name": "Porche",
+      "role": "Foxy Pirates Combatant",
+      "description": "Foxy's main female combatant and singer. Uses twin batons as weapons and is fiercely loyal to Foxy despite his cowardly nature.",
+      "faction": "Foxy Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Combatant",
+        "Singer",
+        "Baton Fighter",
+        "Loyal",
+        "Tactician"
+      ],
+      "avatar": "/images/characters/long-ring-long-land/porche.jpg"
+    },
+    {
+      "name": "Hamburg",
+      "role": "Foxy Pirates Combatant",
+      "description": "A large fish-man who serves as one of Foxy's main fighters. Participated in the Groggy Ring event.",
+      "faction": "Foxy Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Fish-man",
+        "Combatant",
+        "Groggy Monsters",
+        "Brawler"
+      ],
+      "avatar": "/images/characters/long-ring-long-land/hamburg.jpg"
+    },
+    {
+      "name": "Tonjit",
+      "role": "Nomad",
+      "description": "An elderly nomad who was stuck on stilts for 10 years because he got too tall and couldn't get down. Represents the simple, peaceful inhabitants of the island.",
+      "faction": "Island Nomads",
+      "type": "protagonist",
+      "tags": [
+        "Nomad",
+        "Elderly",
+        "Stilt Walker",
+        "Comic Relief",
+        "Innocent",
+        "Grandfather Figure"
+      ],
+      "avatar": "/images/characters/long-ring-long-land/tonjit.jpg"
+    },
+    {
+      "name": "Shelly",
+      "role": "Tonjit's Horse",
+      "description": "Tonjit's elongated horse companion who waited for him for 10 years. Represents the stretched animals native to the island. Frozen by Aokiji but saved by the Straw Hats.",
+      "faction": "Island Nomads",
+      "type": "neutral",
+      "tags": [
+        "Long Horse",
+        "Loyal Animal",
+        "Native Species",
+        "Frozen by Aokiji",
+        "Restored"
+      ],
+      "avatar": "/images/characters/long-ring-long-land/shelly.jpg"
+    },
+    {
+      "name": "Kuzan (Aokiji)",
+      "role": "Admiral / Marine HQ",
+      "description": "One of the three Marine Admirals with the Ice-Ice Logia Fruit. Appeared 'by chance' to investigate Robin. His overwhelming power, freezing the ocean solid and casually defeating Luffy and Robin, showed the crew the gap between them and Admiral-level opponents. Claims to operate under 'Lazy Justice.'",
+      "faction": "Marines",
+      "type": "antagonist",
+      "tags": [
+        "Admiral",
+        "Logia Devil Fruit",
+        "Ice Powers",
+        "Lazy Justice",
+        "Overwhelming Power",
+        "Robin's Past Connection",
+        "Morally Gray"
+      ],
+      "avatar": "/images/characters/long-ring-long-land/aokiji.jpg"
+    },
+    {
+      "name": "Monkey D. Luffy",
+      "role": "Straw Hat Pirates Captain",
+      "description": "Accepted Foxy's Davy Back Fight challenge to protect his crew. Won despite Foxy's cheating by using his creativity and the Afro Power. Nearly died fighting Aokiji, realizing how weak they still are.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Captain",
+        "Afro Luffy",
+        "Davy Back Fighter",
+        "Outmatched by Aokiji",
+        "Determined"
+      ],
+      "avatar": "/images/characters/long-ring-long-land/luffy.jpg"
+    },
+    {
+      "name": "Nico Robin",
+      "role": "Straw Hat Pirates Archaeologist",
+      "description": "Encountered her past when Aokiji appeared - he was present at Ohara's destruction. His presence and words about her bringing misfortune to allies planted seeds of doubt that would grow at Water 7.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Archaeologist",
+        "Ohara Survivor",
+        "Aokiji's Past Connection",
+        "Growing Unease",
+        "Frozen by Aokiji"
+      ],
+      "avatar": "/images/characters/long-ring-long-land/robin.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "The Ten Ring Islands",
+      "type": "archipelago",
+      "description": "Ten ring-shaped islands that connect during low tide, creating the 'long ring long land' phenomenon. Each ring has unique stretched geography and wildlife.",
+      "notableFeatures": [
+        "Tidal connection system",
+        "Stretched geography",
+        "Native long animals",
+        "Bamboo forests",
+        "Nomadic camps",
+        "Ring-shaped formation"
+      ],
+      "image": "/images/locations/long-ring-long-land/ring-islands.jpg"
+    },
+    {
+      "name": "Tonjit's Stilt Location",
+      "type": "abandoned camp",
+      "description": "Where Tonjit stood on stilts for 10 years, unable to get down. His campfire and belongings remained below while he was trapped above.",
+      "notableFeatures": [
+        "Extremely tall stilts",
+        "Abandoned camp below",
+        "10 years of isolation",
+        "Meeting point with Straw Hats"
+      ],
+      "image": "/images/locations/long-ring-long-land/tonjits-camp.jpg"
+    },
+    {
+      "name": "Davy Back Fight Arena",
+      "type": "competition grounds",
+      "description": "The areas where various Davy Back Fight events took place - the boat race, Groggy Ring combat arena, and the final captain's duel location.",
+      "notableFeatures": [
+        "Boat race course",
+        "Groggy Ring (ball game arena)",
+        "Combat Circle (captain duel)",
+        "Foxy Pirates setup",
+        "Referee stations",
+        "Cheating traps"
+      ],
+      "image": "/images/locations/long-ring-long-land/davy-back-arena.jpg"
+    },
+    {
+      "name": "Bamboo Forest",
+      "type": "forest",
+      "description": "Dense forests of extremely tall, stretched bamboo that covers parts of the islands. Home to elongated wildlife.",
+      "notableFeatures": [
+        "Stretched bamboo",
+        "Long animals habitat",
+        "Dense vegetation",
+        "Natural maze",
+        "Nomadic hunting grounds"
+      ],
+      "image": "/images/locations/long-ring-long-land/bamboo-forest.jpg"
+    },
+    {
+      "name": "Frozen Ocean Area",
+      "type": "coastal waters",
+      "description": "The section of ocean that Aokiji froze solid during his demonstration of power. Remained frozen for a week, trapping any ships in the area.",
+      "notableFeatures": [
+        "Ice-Age frozen sea",
+        "Week-long freeze duration",
+        "Trapped ships",
+        "Admiral power demonstration",
+        "Escape route blocked"
+      ],
+      "image": "/images/locations/long-ring-long-land/frozen-ocean.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Davy Back Fight Rules",
+      "category": "Tradition",
+      "description": "Ancient pirate tradition where crews compete in three events, with losing team members being taken by the winners. Started by the legendary pirate Davy Jones.",
+      "icon": "🏴‍☠️",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Slow-Slow Beam (Noro Noro)",
+      "category": "Devil Fruit Ability",
+      "description": "Foxy's ability to shoot beams that slow anything they hit for 30 seconds. Can be reflected with mirrors.",
+      "icon": "🐌",
+      "rarity": "rare"
+    },
+    {
+      "name": "Afro",
+      "category": "Power-Up Item",
+      "description": "The legendary afro wig that gave Luffy 'Afro Power' during his duel with Foxy, increasing his coolness and fighting ability.",
+      "icon": "💈",
+      "rarity": "unique"
+    },
+    {
+      "name": "Ice-Ice Fruit Powers",
+      "category": "Devil Fruit Ability",
+      "description": "Aokiji's Logia ability to create, control, and become ice. Can freeze entire oceans and create ice weapons.",
+      "icon": "❄️",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Groggy Monsters Ball",
+      "category": "Sports Equipment",
+      "description": "The special ball used in the Groggy Ring event - a brutal combination of rugby and combat.",
+      "icon": "⚽",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Stilts",
+      "category": "Transportation",
+      "description": "Extremely tall stilts used by nomads to traverse the stretched terrain during different tidal phases.",
+      "icon": "🦯",
+      "rarity": "common"
+    },
+    {
+      "name": "Foxy's Split-Head Cannon",
+      "category": "Weapon",
+      "description": "Foxy's special move where he opens his split head to fire a powerful beam attack during the final duel.",
+      "icon": "💥",
+      "rarity": "rare"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Foxy Pirates",
+      "type": "Pirate Crew",
+      "leader": "Foxy the Silver Fox",
+      "members": [
+        "Foxy",
+        "Porche",
+        "Hamburg",
+        "Pickles",
+        "Big Pan",
+        "Capote",
+        "500+ crew members won through Davy Back Fights"
+      ],
+      "description": "A large crew of 500+ members, most won through 920 Davy Back Fight victories. Known for shameless cheating and Foxy's cowardly tactics.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Straw Hat Pirates",
+      "type": "Pirate Crew",
+      "leader": "Monkey D. Luffy",
+      "members": [
+        "Luffy",
+        "Zoro",
+        "Nami",
+        "Usopp",
+        "Sanji",
+        "Chopper",
+        "Robin"
+      ],
+      "description": "Challenged to a Davy Back Fight but managed to not lose any permanent members. First real encounter with Admiral-level power.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Island Nomads",
+      "type": "Natives",
+      "leader": "None (tribal)",
+      "members": [
+        "Tonjit",
+        "Various nomadic tribespeople"
+      ],
+      "description": "Peaceful nomadic inhabitants who live in harmony with the island's unique tidal geography.",
+      "alignment": "neutral"
+    },
+    {
+      "name": "Marines (Admiral)",
+      "type": "Military",
+      "leader": "Admiral Aokiji",
+      "members": [
+        "Kuzan (Aokiji)"
+      ],
+      "description": "Admiral Aokiji appeared alone, claiming to be 'just passing by' but investigating Robin and testing the Straw Hats' resolve.",
+      "alignment": "enemy"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 303-321 (Long Ring Long Land Arc)",
+    "animeEpisodes": "Episodes 207-219 (heavily expanded in anime)",
+    "events": [
+      "Straw Hats arrive at Long Ring Long Land",
+      "Meeting Tonjit stuck on stilts for 10 years",
+      "Shelly the long horse reunion",
+      "Foxy Pirates challenge Davy Back Fight",
+      "First event: Donut Race (boat race)",
+      "Chopper temporarily taken by Foxy Pirates",
+      "Second event: Groggy Ring (Zoro, Sanji, Chopper vs Groggy Monsters)",
+      "Chopper recovered, Robin taken",
+      "Third event: Combat (Luffy vs Foxy)",
+      "Afro Luffy appears",
+      "Luffy defeats Foxy despite cheating",
+      "Robin returned to crew",
+      "Admiral Aokiji appears",
+      "Aokiji reveals connection to Robin's past (Ohara)",
+      "Aokiji freezes Robin and Luffy",
+      "Crew desperately saves Luffy and Robin",
+      "Aokiji freezes the ocean (Ice Age)",
+      "Aokiji leaves, warning about Robin",
+      "Crew realizes they need to get stronger",
+      "Departure toward Water 7"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#90EE90",
+    "secondary": "#DEB887",
+    "accent": "#4169E1"
+  },
+  "quickFacts": [
+    "Ten ring-shaped islands that connect during low tide",
+    "Everything is stretched vertically (animals, plants, land)",
+    "Location of ancient pirate tradition: Davy Back Fight",
+    "Foxy won 920 Davy Back Fights through cheating",
+    "Afro Luffy makes his debut",
+    "Admiral Aokiji's first appearance",
+    "Aokiji froze the ocean for a week",
+    "Foreshadows Water 7 arc with Robin's growing unease"
+  ],
+  "videos": [
+    {
+      "youtubeId": "-lRb7XoANP8",
+      "title": "Luffy vs Aokiji - Admiral Power",
+      "type": "fight",
+      "description": "The overwhelming power difference between the Straw Hats and an Admiral is demonstrated as Aokiji casually defeats them.",
+      "featured": false,
+      "order": 1
+    },
+    {
+      "youtubeId": "ohVD_Kxzbx4",
+      "title": "Afro Luffy vs Foxy",
+      "type": "fight",
+      "description": "Luffy dons the legendary afro to defeat Foxy in the final Davy Back Fight event.",
+      "featured": true,
+      "order": 2
+    },
+    {
+      "youtubeId": "EmENirtZSik",
+      "title": "Aokiji Freezes the Ocean - Ice Age",
+      "type": "lore",
+      "description": "Aokiji demonstrates Admiral-level power by freezing the ocean solid.",
+      "featured": false,
+      "order": 3
+    }
+  ],
+  "music": {
+    "url": "/music/long-ring-long-land-theme.mp3",
+    "title": "Long Ring Long Land - Stretched Island",
+    "volume": 0.3
+  }
+}

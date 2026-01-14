@@ -1,0 +1,340 @@
+{
+  "slug": "syrup-village",
+  "name": "Syrup Village",
+  "banner": "/images/banners/syrup-village-banner.jpg",
+  "region": "East Blue",
+  "aliases": [
+    "Gecko Islands",
+    "Usopp's Village",
+    "Kaya's Village"
+  ],
+  "coordinates": { "x": 7705, "y": 1569 },
+  "pathControl": { "x": 8100, "y": 1861 },
+  "journeyOrder": 4,
+  "saga": "East Blue",
+  "description": "Syrup Village is a peaceful, idyllic coastal village known for its wealthy families and tranquil lifestyle. The village gained notoriety when the infamous Captain Kuro attempted to seize the fortune of the sick heiress Kaya through an elaborate three-year deception. It's the hometown of Usopp and where the Straw Hats acquired their first proper ship, the Going Merry.",
+  "history": "Syrup Village has been a quiet, prosperous settlement for generations. The Kaya family were among the wealthiest residents, known for their kindness. Three years before Luffy's arrival, a mysterious butler named Klahadore appeared and slowly gained Kaya's trust after her parents' death. In reality, he was the ruthless Captain Kuro planning to inherit her fortune. Usopp, the village's resident liar and storyteller, discovered the plot. With the Straw Hats' help, they exposed Kuro and saved both Kaya and the village.",
+  "culture": "Syrup Village culture is characterized by peaceful daily routines, wealthy estates, and a tolerance for harmless tall tales. Usopp's daily 'pirate raids' warnings became a beloved tradition despite being lies. The village values honesty and hard work, though they forgave Usopp's harmless stories. After the real pirate attack, villagers gained newfound respect for Usopp's bravery.",
+  "economy": {
+    "industries": [
+      "Estate management",
+      "Shipbuilding (Merry's shipyard)",
+      "Agriculture",
+      "Domestic service"
+    ],
+    "currency": "Berry (฿)",
+    "tradeGoods": [
+      "Agricultural products",
+      "Luxury goods",
+      "Shipbuilding services",
+      "Domestic products"
+    ]
+  },
+  "transportation": "Small boats for fishing and trading. The Going Merry was built in the village's shipyard. Travel within the village is primarily on foot along tree-lined paths.",
+  "food": {
+    "cuisine": [
+      "Estate-quality meals at Kaya's mansion",
+      "Simple village fare",
+      "Fresh produce",
+      "Home-cooked meals"
+    ],
+    "traditions": [
+      "Mansion dinner parties",
+      "Village gatherings",
+      "Harvest celebrations"
+    ],
+    "quirks": [
+      "Usopp's mother's cooking (remembered fondly)",
+      "Kaya's special diet during illness",
+      "Merry's feast preparations"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Usopp",
+      "role": "Liar / Sniper / Straw Hat Pirate",
+      "description": "The village storyteller and self-proclaimed captain of imaginary pirates. Son of Yasopp, he proved his bravery defending Kaya and joined Luffy's crew.",
+      "type": "protagonist",
+      "faction": "Straw Hat Pirates",
+      "tags": [
+        "Sniper",
+        "Liar",
+        "Brave",
+        "Inventor",
+        "Storyteller",
+        "Yasopp's Son"
+      ],
+      "avatar": "/images/characters/syrup-village/usopp.jpg"
+    },
+    {
+      "name": "Kaya",
+      "role": "Heiress / Ship Donor",
+      "description": "The kind, wealthy heiress who was ill with grief after her parents' death. She gave the Straw Hats the Going Merry as thanks for saving her life.",
+      "type": "citizen",
+      "faction": "Syrup Village Citizens",
+      "tags": [
+        "Wealthy",
+        "Kind",
+        "Grateful",
+        "Ship Designer"
+      ],
+      "avatar": "/images/characters/syrup-village/kaya.jpg"
+    },
+    {
+      "name": "Captain Kuro",
+      "role": "Pirate Captain / Butler (Disguised)",
+      "description": "The ruthless ex-pirate captain disguised as butler Klahadore. Master of the 'Silent Step' technique and wielder of cat claws.",
+      "type": "antagonist",
+      "faction": "Black Cat Pirates",
+      "tags": [
+        "Mastermind",
+        "Assassin",
+        "Disguised",
+        "Cat Claws",
+        "Defeated"
+      ],
+      "avatar": "/images/characters/syrup-village/captain-kuro.jpg"
+    },
+    {
+      "name": "Merry",
+      "role": "Butler / Kaya's Caretaker",
+      "description": "Kaya's loyal butler who designed the Going Merry. He was manipulated by Kuro but ultimately sided with Kaya.",
+      "type": "citizen",
+      "faction": "Kaya's Household",
+      "tags": [
+        "Butler",
+        "Designer",
+        "Loyal",
+        "Going Merry's Creator"
+      ],
+      "avatar": "/images/characters/syrup-village/merry.jpg"
+    },
+    {
+      "name": "Jango",
+      "role": "Hypnotist / First Mate",
+      "description": "Kuro's hypnotist first mate with a heart-shaped pendulum. He later reforms and joins the Marines.",
+      "type": "antagonist",
+      "faction": "Black Cat Pirates",
+      "tags": [
+        "Hypnotist",
+        "Officer",
+        "Reformed Later",
+        "Dancer"
+      ],
+      "avatar": "/images/characters/syrup-village/jango.jpg"
+    },
+    {
+      "name": "Ninjin",
+      "role": "Usopp Pirates Member",
+      "description": "One of three young boys who follow Usopp and help defend the village.",
+      "type": "citizen",
+      "faction": "Usopp Pirates",
+      "tags": [
+        "Child",
+        "Loyal",
+        "Brave",
+        "Usopp's Follower"
+      ],
+      "avatar": "/images/characters/syrup-village/ninjin.jpg"
+    },
+    {
+      "name": "Piiman",
+      "role": "Usopp Pirates Member",
+      "description": "One of Usopp's young followers who showed courage during the Black Cat Pirates attack.",
+      "type": "citizen",
+      "faction": "Usopp Pirates",
+      "tags": [
+        "Child",
+        "Loyal",
+        "Brave",
+        "Usopp's Follower"
+      ],
+      "avatar": "/images/characters/syrup-village/piiman.jpg"
+    },
+    {
+      "name": "Tamanegi",
+      "role": "Usopp Pirates Member",
+      "description": "The third member of the Usopp Pirates, a loyal friend who defended the village.",
+      "type": "citizen",
+      "faction": "Usopp Pirates",
+      "tags": [
+        "Child",
+        "Loyal",
+        "Brave",
+        "Usopp's Follower"
+      ],
+      "avatar": "/images/characters/syrup-village/tamanegi.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Kaya's Mansion",
+      "type": "Estate",
+      "description": "The grand mansion where Kaya lives with her servants. Site of Kuro's elaborate three-year deception.",
+      "notableFeatures": [
+        "Luxurious rooms and gardens",
+        "Kaya's bedroom where she recovered",
+        "Kitchen where Kuro revealed himself",
+        "Where the Going Merry was gifted"
+      ],
+      "image": "/images/locations/syrup-village/kayas-mansion.jpg"
+    },
+    {
+      "name": "Northern Slope",
+      "type": "Coast",
+      "description": "The isolated coastal area where Kuro planned to have his crew land and carry out his plan.",
+      "notableFeatures": [
+        "Site of the final battle",
+        "Where Usopp made his stand",
+        "Black Cat Pirates' landing point",
+        "Steep cliffs overlooking the sea"
+      ],
+      "image": "/images/locations/syrup-village/northern-slope.jpg"
+    },
+    {
+      "name": "Village Center",
+      "type": "Settlement",
+      "description": "The peaceful village where Usopp grew up and told his stories every morning.",
+      "notableFeatures": [
+        "Usopp's daily route",
+        "Village homes and shops",
+        "Usopp's house",
+        "Where villagers gathered"
+      ],
+      "image": "/images/locations/syrup-village/village-center.jpg"
+    },
+    {
+      "name": "Shipyard",
+      "type": "Industrial",
+      "description": "The shipyard where Merry designed and built the Going Merry.",
+      "notableFeatures": [
+        "Ship construction facilities",
+        "Merry's workshop",
+        "Where the Going Merry was born",
+        "Shipbuilding tools and materials"
+      ],
+      "image": "/images/locations/syrup-village/shipyard.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Going Merry",
+      "category": "Ship",
+      "description": "The caravel ship designed by Merry and gifted by Kaya. It became the Straw Hats' first true home.",
+      "icon": "⛵",
+      "rarity": "Legendary"
+    },
+    {
+      "name": "Cat Claws",
+      "category": "Weapon",
+      "description": "Kuro's signature weapons - long, blade-like claws attached to gloves.",
+      "icon": "🐱",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Jango's Pendulum",
+      "category": "Tool",
+      "description": "The heart-shaped chakram used by Jango to hypnotize victims.",
+      "icon": "💿",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Usopp's Slingshot",
+      "category": "Weapon",
+      "description": "Usopp's trusty slingshot that he used to defend the village.",
+      "icon": "🏹",
+      "rarity": "Common"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Syrup Village Citizens",
+      "type": "Civilian",
+      "leader": "Village Elder",
+      "members": 200,
+      "description": "Peaceful villagers who tolerated Usopp's lies and were saved from Kuro's plot.",
+      "alignment": "Good"
+    },
+    {
+      "name": "Black Cat Pirates",
+      "type": "Pirate Crew",
+      "leader": "Captain Kuro (Defeated)",
+      "members": 50,
+      "description": "Kuro's former crew brought back for one final job. Defeated by the Straw Hats.",
+      "alignment": "Evil"
+    },
+    {
+      "name": "Usopp Pirates",
+      "type": "Children's Group",
+      "leader": "Usopp",
+      "members": 3,
+      "description": "Three brave kids who followed Usopp and helped defend their village.",
+      "alignment": "Good"
+    },
+    {
+      "name": "Kaya's Household",
+      "type": "Servants",
+      "leader": "Merry (Butler)",
+      "members": 5,
+      "description": "The staff serving Kaya's estate, unknowingly harboring an enemy.",
+      "alignment": "Good"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 22-41 (Syrup Village Arc)",
+    "animeEpisodes": "Episodes 9-18",
+    "events": [
+      "Straw Hats arrive seeking a ship",
+      "Usopp tells his daily 'pirate' lies",
+      "Usopp discovers Kuro's true identity",
+      "Klahadore reveals himself as Captain Kuro",
+      "Jango hypnotizes Kaya to write a will",
+      "Battle at the Northern Slope begins",
+      "Usopp Pirates help evacuate Kaya",
+      "Zoro vs Jango and the Nyaban Brothers",
+      "Usopp vs Jango",
+      "Luffy vs Captain Kuro",
+      "Kuro is defeated",
+      "Kaya gifts the Going Merry to the Straw Hats",
+      "Usopp officially joins the crew",
+      "Going Merry sets sail"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#27AE60",
+    "secondary": "#F39C12",
+    "accent": "#8B4513"
+  },
+  "quickFacts": [
+    "Usopp's hometown and where he joined the crew",
+    "Where the Going Merry was built and gifted",
+    "Site of Captain Kuro's three-year deception",
+    "Home of the wealthy Kaya family",
+    "Where the Usopp Pirates defended their village",
+    "Peaceful village of storytellers and farmers"
+  ],
+  "videos": [
+    {
+      "youtubeId": "dKzJVeC64g8",
+      "title": "Luffy vs Captain Kuro",
+      "type": "fight",
+      "description": "The battle between Luffy and the master assassin Captain Kuro at the Northern Slope.",
+      "featured": false,
+      "order": 1
+    },
+    {
+      "youtubeId": "c3ccq4gQQz4",
+      "title": "Going Merry Joins the Crew",
+      "type": "lore",
+      "description": "The emotional moment when Kaya gifts the Going Merry to the Straw Hats.",
+      "featured": true,
+      "order": 2
+    }
+  ],
+  "music": {
+    "url": "/music/syrup-village-theme.mp3",
+    "title": "Usopp's Theme",
+    "volume": 0.3
+  }
+}

@@ -1,0 +1,658 @@
+{
+  "slug": "impel-down",
+  "name": "Impel Down",
+  "region": "Paradise (Grand Line) - Calm Belt",
+  "aliases": [
+    "The Great Prison",
+    "The Underwater Prison",
+    "Hell on Earth",
+    "The Impregnable Fortress"
+  ],
+  "coordinates": { "x": 10226, "y": 3430 },
+  "journeyOrder": 22,
+  "saga": "Summit War",
+  "description": "Impel Down is the World Government's maximum-security underwater prison, considered the most fearsome and inescapable jail in the world. Built in the Calm Belt between the Gates of Justice connecting to Enies Lobby and Marine Headquarters, it's a massive structure submerged beneath the ocean with six levels descending deeper underground - each level worse than the last. The prison houses the world's most dangerous criminals, from common pirates in the upper levels to legendary prisoners whose existence has been erased from history in the lowest depths. The entire structure is filled with torture devices, deadly creatures, and environmental hazards designed to break prisoners both physically and mentally. It was considered impregnable until Luffy, aided by Boa Hancock, infiltrated it to rescue his brother Ace, triggering the greatest mass prison break in history. The facility is run by Chief Warden Magellan, whose Poison-Poison Fruit makes him nearly unbeatable within the prison's confines.",
+  "history": "Impel Down has served as the World Government's ultimate prison for generations, holding everyone from small-time pirates to world-threatening criminals. Its reputation was built on zero successful escapes - until Shiki the Golden Lion became the first to escape 20 years before the main story by cutting off his own legs. The prison's six levels create a hierarchy of suffering: Level 1 for minor criminals, descending to Level 6 where the world's worst are kept in eternal darkness. A hidden Level 5.5 'Newkama Land' was secretly carved out by prisoners led by Emporio Ivankov. When Luffy learned Ace was being held in Level 6 before execution, he convinced Hancock to smuggle him in. The infiltration turned into chaos as Luffy freed prisoners including Buggy, Mr. 3, Crocodile, Jinbe, and Ivankov. Magellan nearly killed Luffy with poison until Ivankov's hormones saved him. Bon Clay made the ultimate sacrifice, staying behind to open the Gates of Justice. The mass breakout included Level 6 prisoners and culminated in Luffy's crew escaping on a Marine battleship. The event shattered Impel Down's perfect security record and released some of the world's most dangerous criminals.",
+  "culture": "Impel Down operates on absolute hierarchy and cruelty. Guards are brutal enforcers who show no mercy. The Jailer Beasts (Awakened Zoan users) patrol as mindless monsters. Magellan rules with poison-laced authority, spending most of his time on the toilet due to his fruit's side effects. Vice Warden Hannyabal openly desires to become Chief Warden and incompetently tries to prove himself. The culture is one of despair - prisoners are meant to suffer until death. However, Newkama Land represents rebellion - a hidden paradise where Ivankov's ideology of freedom and transformation thrives. The 'Okama Way' clashes hilariously with the prison's grimness. Guards are deathly afraid of Magellan's poison and Saldeath's Blue Gorillas. Torture is normalized. Escape is considered impossible, making Luffy's invasion and the mass breakout an unprecedented humiliation.",
+  "economy": {
+    "industries": [
+      "Prisoner containment and torture",
+      "Execution management",
+      "Government security operations",
+      "Jailer Beast patrol systems",
+      "Poison production and deployment"
+    ],
+    "currency": "Berry (฿) - government funded",
+    "tradeGoods": [
+      "Prison supplies",
+      "Torture devices",
+      "Seastone restraints",
+      "Antidotes (limited)",
+      "Guard equipment"
+    ]
+  },
+  "transportation": "Accessed via the Gates of Justice, connected to Enies Lobby and Marine Headquarters by special government ships. The main entrance features a massive elevator system descending through all six levels. Prisoners are transported via the Tarai Current system. Internal transportation includes staircases between levels, prisoner transport cages, and hidden passages. The Marine battleship was stolen during the breakout. Newkama Land has secret passages throughout the prison.",
+  "food": {
+    "cuisine": [
+      "Prisoner gruel and scraps",
+      "Magellan's seafood platters (spends hours on toilet after)",
+      "Guard mess hall rations",
+      "Newkama Land's Okama cuisine (surprisingly good)",
+      "Ivankov's Energy Hormones (not food but sustains)",
+      "Boiling blood from Level 4 (not consumed)"
+    ],
+    "traditions": [
+      "Magellan's daily diarrhea from poison absorption",
+      "Newkama Land feast celebrations",
+      "Hannyabal's failed power plays",
+      "Ivankov's hormone injection parties",
+      "Last meals before execution (rare)"
+    ],
+    "quirks": [
+      "Magellan on toilet 10 hours a day",
+      "Ivankov's 'HEEHAW!' food presentations",
+      "Buggy pretending to be tough while terrified",
+      "Mr. 3's wax food sculptures",
+      "Bon Clay's swan ballet cooking"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Magellan",
+      "role": "Chief Warden",
+      "description": "The demon-like Chief Warden with the Poison-Poison Fruit. Can produce various types of deadly poison from his body. Nearly invincible inside Impel Down. Spends 10 hours a day on the toilet due to poisoning himself by eating poisoned food. Deeply loyal to justice but devastated when the prison break occurs on his watch.",
+      "faction": "Impel Down Staff",
+      "type": "antagonist",
+      "tags": [
+        "Chief Warden",
+        "Poison-Poison Fruit",
+        "Deadly",
+        "Demon Appearance",
+        "Diarrhea Problems",
+        "Hydra Poison",
+        "Nearly Unbeatable"
+      ],
+      "avatar": "/images/characters/impel-down/magellan.jpg"
+    },
+    {
+      "name": "Hannyabal",
+      "role": "Vice Warden",
+      "description": "The incompetent but well-meaning Vice Warden who openly admits he wants Magellan's job. Despite his bumbling nature and constant failures, he genuinely cares about preventing evil from escaping. His speech about protecting innocent people from escaped criminals showed his true heroism.",
+      "faction": "Impel Down Staff",
+      "type": "antagonist",
+      "tags": [
+        "Vice Warden",
+        "Ambitious",
+        "Incompetent",
+        "Egyptian Theme",
+        "Naginata User",
+        "Secret Hero"
+      ],
+      "avatar": "/images/characters/impel-down/hannyabal.jpg"
+    },
+    {
+      "name": "Emporio Ivankov",
+      "role": "Queen of Newkama Land / Revolutionary",
+      "description": "The 'Miracle Person' with the Horm-Horm Fruit that can manipulate hormones. A Revolutionary Army commander who was secretly imprisoned in Level 5 but created the hidden Newkama Land. Flamboyant, powerful, and loyal to Dragon (Luffy's father). 'HEEHAW!' is his catchphrase.",
+      "faction": "Revolutionary Army",
+      "type": "protagonist",
+      "tags": [
+        "Revolutionary Commander",
+        "Horm-Horm Fruit",
+        "Okama Queen",
+        "Level 5.5 Creator",
+        "Death Wink",
+        "Miracle Healer",
+        "Dragon's Friend"
+      ],
+      "avatar": "/images/characters/impel-down/ivankov.jpg"
+    },
+    {
+      "name": "Bon Clay (Mr. 2)",
+      "role": "Luffy's Ally / Ultimate Sacrifice",
+      "description": "Former Baroque Works agent who became Luffy's dear friend. His Clone-Clone Fruit let him impersonate Magellan to help the escape. Made the ultimate sacrifice by staying behind to open the Gates of Justice, allowing everyone to escape while he was recaptured. A true swan of friendship.",
+      "faction": "Newkama Land",
+      "type": "protagonist",
+      "tags": [
+        "Swan",
+        "Clone-Clone Fruit",
+        "Okama Way",
+        "Ultimate Sacrifice",
+        "Luffy's Friend",
+        "Ballet Fighter",
+        "Hero"
+      ],
+      "avatar": "/images/characters/impel-down/bon-clay.jpg"
+    },
+    {
+      "name": "Jinbe",
+      "role": "Former Warlord / Fish-Man",
+      "description": "A whale shark fish-man and former Warlord imprisoned for refusing to fight Whitebeard. Master of Fish-Man Karate. Became Luffy's ally and eventual crew member. Broke out to help save Ace and join the Marineford War.",
+      "faction": "Sun Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Fish-Man",
+        "Former Warlord",
+        "Fish-Man Karate",
+        "Level 6 Prisoner",
+        "Luffy's Ally",
+        "Future Crew Member",
+        "Honor-Bound"
+      ],
+      "avatar": "/images/characters/impel-down/jinbe.jpg"
+    },
+    {
+      "name": "Crocodile",
+      "role": "Former Warlord / Level 6 Prisoner",
+      "description": "The former Warlord defeated by Luffy in Alabasta, imprisoned in Level 6. Freed by Luffy and reluctantly joined the breakout and Marineford battle. His Sand-Sand powers returned when free. Prideful and calculating.",
+      "faction": "Former Baroque Works",
+      "type": "neutral",
+      "tags": [
+        "Former Warlord",
+        "Sand-Sand Fruit",
+        "Level 6 Prisoner",
+        "Alabasta Villain",
+        "Freed by Luffy",
+        "Uneasy Ally",
+        "Hook Hand"
+      ],
+      "avatar": "/images/characters/impel-down/crocodile.jpg"
+    },
+    {
+      "name": "Buggy the Clown",
+      "role": "Escaped Prisoner / Accidental Leader",
+      "description": "Luffy's old enemy who accidentally became a hero during the breakout. His Bara-Bara Fruit and dumb luck made prisoners think he was powerful. Freed many Level 2 prisoners who became his followers. Became a Warlord later due to this.",
+      "faction": "Buggy Pirates",
+      "type": "neutral",
+      "tags": [
+        "Clown",
+        "Bara-Bara Fruit",
+        "Accidental Hero",
+        "Coward",
+        "Lucky",
+        "Future Warlord",
+        "Level 1 Prisoner"
+      ],
+      "avatar": "/images/characters/impel-down/buggy.jpg"
+    },
+    {
+      "name": "Mr. 3 (Galdino)",
+      "role": "Former Baroque Works / Wax Savior",
+      "description": "Former Baroque Works agent whose Wax-Wax Fruit became crucial. Created wax armor to protect against Magellan's poison. Became key to escaping Level 4. Reluctant ally.",
+      "faction": "Former Baroque Works",
+      "type": "neutral",
+      "tags": [
+        "Wax-Wax Fruit",
+        "Baroque Works",
+        "Wax Armor",
+        "Poison Protection",
+        "Coward",
+        "Reluctant Helper"
+      ],
+      "avatar": "/images/characters/impel-down/mr-3.jpg"
+    },
+    {
+      "name": "Monkey D. Luffy",
+      "role": "Infiltrator / Breakout Leader",
+      "description": "Infiltrated Impel Down with Hancock's help to rescue Ace. His presence triggered the greatest prison break in history. Nearly died from Magellan's poison but was saved by Ivankov's hormones.",
+      "faction": "Straw Hat Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Captain",
+        "Infiltrator",
+        "Breakout Leader",
+        "Poison Victim",
+        "Ace's Brother",
+        "Prison Destroyer",
+        "Determined"
+      ],
+      "avatar": "/images/characters/impel-down/luffy.jpg"
+    },
+    {
+      "name": "Saldeath",
+      "role": "Chief Guard / Blue Gorilla Commander",
+      "description": "The devilish-looking chief guard who commands the Blue Gorillas on Level 4. Wields a trident and takes sadistic pleasure in tormenting prisoners.",
+      "faction": "Impel Down Staff",
+      "type": "antagonist",
+      "tags": [
+        "Chief Guard",
+        "Blue Gorilla Commander",
+        "Trident User",
+        "Sadistic",
+        "Level 4 Boss"
+      ],
+      "avatar": "/images/characters/impel-down/saldeath.jpg"
+    },
+    {
+      "name": "Sadi",
+      "role": "Chief Jailer / Dominatrix",
+      "description": "The sadistic chief jailer who commands the Jailer Beasts (Awakened Zoan guards). Takes pleasure in torturing prisoners with her whip. Attractive but terrifying.",
+      "faction": "Impel Down Staff",
+      "type": "antagonist",
+      "tags": [
+        "Chief Jailer",
+        "Dominatrix",
+        "Whip User",
+        "Sadistic",
+        "Jailer Beast Commander",
+        "Torture Expert"
+      ],
+      "avatar": "/images/characters/impel-down/sadi.jpg"
+    },
+    {
+      "name": "Shiryu",
+      "role": "Former Head Jailer",
+      "description": "A swordsman as strong as Magellan, imprisoned for excessive killing of prisoners. Freed during the chaos, he killed many guards and eventually joined Blackbeard's crew. Invisible-Invisible Fruit user later.",
+      "faction": "Blackbeard Pirates (joins)",
+      "type": "antagonist",
+      "tags": [
+        "Swordsman",
+        "Former Head Jailer",
+        "Mass Murderer",
+        "Magellan's Equal",
+        "Traitor",
+        "Blackbeard's Recruit",
+        "Ruthless"
+      ],
+      "avatar": "/images/characters/impel-down/shiryu.jpg"
+    },
+    {
+      "name": "Domino",
+      "role": "Vice Warden Assistant",
+      "description": "The cool and composed assistant who helps manage the prison. More competent than Hannyabal but overshadowed during the chaos.",
+      "faction": "Impel Down Staff",
+      "type": "antagonist",
+      "tags": [
+        "Vice Warden Assistant",
+        "Composed",
+        "Whip User",
+        "Competent"
+      ],
+      "avatar": "/images/characters/impel-down/domino.jpg"
+    },
+    {
+      "name": "Inazuma",
+      "role": "Revolutionary / Scissors User",
+      "description": "A Revolutionary Army officer and Ivankov's right hand. The Snip-Snip Fruit lets them turn their hands into giant scissors that can cut anything like paper. Can switch between male and female forms.",
+      "faction": "Revolutionary Army",
+      "type": "protagonist",
+      "tags": [
+        "Revolutionary Officer",
+        "Snip-Snip Fruit",
+        "Scissors",
+        "Gender Fluid",
+        "Ivankov's Partner",
+        "Escape Architect"
+      ],
+      "avatar": "/images/characters/impel-down/inazuma.jpg"
+    },
+    {
+      "name": "Daz Bones (Mr. 1)",
+      "role": "Former Baroque Works / Crocodile's Partner",
+      "description": "Crocodile's most loyal subordinate with the Dice-Dice Fruit. Freed from Level 4 and followed Crocodile through the breakout and Marineford.",
+      "faction": "Former Baroque Works",
+      "type": "neutral",
+      "tags": [
+        "Dice-Dice Fruit",
+        "Blade Man",
+        "Crocodile's Partner",
+        "Level 4 Prisoner",
+        "Loyal",
+        "Stoic"
+      ],
+      "avatar": "/images/characters/impel-down/daz-bones.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Level 1 - Crimson Hell",
+      "type": "torture level",
+      "description": "The first level featuring a forest of blade-like grass and trees that constantly cut prisoners. Relatively mild compared to lower levels. Where Buggy and Mr. 3 were initially held.",
+      "notableFeatures": [
+        "Blade grass forest",
+        "Constant cutting",
+        "Entry level prison",
+        "Minor criminals",
+        "Buggy's initial location",
+        "Puzzle Scorpions"
+      ],
+      "image": "/images/locations/impel-down/level-1.jpg"
+    },
+    {
+      "name": "Level 2 - Wild Beast Hell",
+      "type": "monster level",
+      "description": "Features various deadly beasts including Basilisks, Sphinx, and Manticores. The Jailer Beasts patrol here. Prisoners must survive constant animal attacks.",
+      "notableFeatures": [
+        "Deadly monsters",
+        "Sphinx riddles",
+        "Basilisk attacks",
+        "Jailer Beast patrols",
+        "Animal terror",
+        "Manticore threats"
+      ],
+      "image": "/images/locations/impel-down/level-2.jpg"
+    },
+    {
+      "name": "Level 3 - Starvation Hell",
+      "description": "An arid desert level where prisoners receive minimal food and water. The heat from Level 4 below makes it unbearably hot. Prisoners slowly die of thirst and hunger.",
+      "type": "desert torture",
+      "notableFeatures": [
+        "Extreme heat from below",
+        "Minimal food and water",
+        "Desert environment",
+        "Slow death by starvation",
+        "Dehydration torture",
+        "Sand and suffering"
+      ],
+      "image": "/images/locations/impel-down/level-3.jpg"
+    },
+    {
+      "name": "Level 4 - Blazing Hell",
+      "type": "fire torture",
+      "description": "A massive pool of boiling blood surrounded by intense flames. The heat is unbearable and prisoners are burned alive. Saldeath and his Blue Gorillas oversee torture here.",
+      "notableFeatures": [
+        "Boiling blood pool",
+        "Intense flames everywhere",
+        "Unbearable heat",
+        "Blue Gorilla guards",
+        "Burn torture",
+        "Saldeath's domain"
+      ],
+      "image": "/images/locations/impel-down/level-4.jpg"
+    },
+    {
+      "name": "Level 5 - Freezing Hell",
+      "type": "ice torture",
+      "description": "A frozen wasteland where prisoners slowly freeze to death. Filled with wolves. The extreme cold contrasts with Level 4's heat. Many prisoners die before execution.",
+      "notableFeatures": [
+        "Extreme cold",
+        "Frozen environment",
+        "Wolf packs",
+        "Slow death by freezing",
+        "Ice and snow",
+        "Pre-execution holding"
+      ],
+      "image": "/images/locations/impel-down/level-5.jpg"
+    },
+    {
+      "name": "Level 5.5 - Newkama Land",
+      "type": "hidden paradise",
+      "description": "The secret level carved between Levels 5 and 6 by Ivankov and Inazuma. A colorful paradise where escaped prisoners live freely following the Okama Way. Hidden from guards.",
+      "notableFeatures": [
+        "Secret level",
+        "Okama paradise",
+        "Ivankov's kingdom",
+        "Colorful and fun",
+        "Hidden from guards",
+        "Freedom and hormones",
+        "Revolutionary base"
+      ],
+      "image": "/images/locations/impel-down/newkama-land.jpg"
+    },
+    {
+      "name": "Level 6 - Eternal Hell",
+      "type": "ultimate prison",
+      "description": "The lowest level where the world's most dangerous criminals are kept. Prisoners here are erased from history. Includes former Warlords, legendary pirates, and world threats. Ace was held here before execution.",
+      "notableFeatures": [
+        "Worst criminals",
+        "Eternal darkness",
+        "Erased from history",
+        "Strongest prisoners",
+        "Ace's cell",
+        "Crocodile, Jinbe held here",
+        "Mass breakout occurred"
+      ],
+      "image": "/images/locations/impel-down/level-6.jpg"
+    },
+    {
+      "name": "Gates of Justice",
+      "type": "entrance/exit",
+      "description": "The massive gates controlling access to Impel Down, Marine HQ, and Enies Lobby. Bon Clay sacrificed himself operating the control room to open them for the escapees.",
+      "notableFeatures": [
+        "Massive gates",
+        "Current control",
+        "Government network",
+        "Control room",
+        "Bon Clay's sacrifice",
+        "Escape route"
+      ],
+      "image": "/images/locations/impel-down/gates-of-justice.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Poison-Poison Fruit Powers",
+      "category": "Devil Fruit Ability",
+      "description": "Magellan's ability to create various types of deadly poison. His Hydra poison is nearly instantly fatal. Makes him almost unbeatable in close combat.",
+      "icon": "☠️",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Horm-Horm Fruit Powers",
+      "category": "Devil Fruit Ability",
+      "description": "Ivankov's power to manipulate hormones. Can heal, energize, change gender, and create various effects. Used to save Luffy from poison twice.",
+      "icon": "💉",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Tension Hormones",
+      "category": "Medical Treatment",
+      "description": "Ivankov's hormones that saved Luffy's life by helping him fight off Magellan's poison. Took 10 hours and reduced Luffy's lifespan but saved him.",
+      "icon": "💉",
+      "rarity": "rare"
+    },
+    {
+      "name": "Emporio Healing Hormones",
+      "category": "Medical Treatment",
+      "description": "Secondary hormone treatment that gave Luffy energy to fight despite his injuries. Another lifespan reduction but necessary.",
+      "icon": "💊",
+      "rarity": "rare"
+    },
+    {
+      "name": "Mr. 3's Wax Armor",
+      "category": "Protection",
+      "description": "Wax coating that protects against Magellan's poison. Crucial for the escape through Level 4. Can be shaped into armor.",
+      "icon": "🕯️",
+      "rarity": "rare"
+    },
+    {
+      "name": "Seastone Handcuffs",
+      "category": "Restraint",
+      "description": "Special handcuffs used throughout the prison to nullify Devil Fruit powers. Standard equipment for dangerous prisoners.",
+      "icon": "⛓️",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Den Den Mushi Network",
+      "category": "Communication",
+      "description": "The prison's internal communication system. Used to coordinate guards and report emergencies during the breakout chaos.",
+      "icon": "📞",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Elevator System",
+      "category": "Transportation",
+      "description": "The massive elevator connecting all prison levels. Became a battleground during the escape attempt.",
+      "icon": "🛗",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Stolen Marine Battleship",
+      "category": "Escape Vehicle",
+      "description": "The Marine ship stolen by the escapees to flee Impel Down and head to Marineford. Carried Luffy's alliance.",
+      "icon": "⚓",
+      "rarity": "rare"
+    },
+    {
+      "name": "Ace's Execution Notice",
+      "category": "Important Document",
+      "description": "The notice that brought Luffy to Impel Down in the first place. Announced Ace's public execution at Marineford.",
+      "icon": "📜",
+      "rarity": "legendary"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Impel Down Staff",
+      "type": "Prison Guards",
+      "leader": "Magellan",
+      "members": [
+        "Magellan (Chief Warden)",
+        "Hannyabal (Vice Warden)",
+        "Sadi (Chief Jailer)",
+        "Saldeath (Chief Guard)",
+        "Domino (Assistant)",
+        "Shiryu (former, traitor)",
+        "Jailer Beasts (Awakened Zoans)",
+        "Blue Gorillas",
+        "Thousands of guards"
+      ],
+      "description": "The World Government employees tasked with containing the world's worst criminals. Overwhelmed during the mass breakout.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Revolutionary Army (Newkama Land)",
+      "type": "Revolutionary Force",
+      "leader": "Emporio Ivankov",
+      "members": [
+        "Emporio Ivankov",
+        "Inazuma",
+        "Newkama Land residents",
+        "Hidden prisoners"
+      ],
+      "description": "Revolutionary commanders secretly operating from Level 5.5, helping Luffy escape and joining his cause.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Luffy's Breakout Alliance",
+      "type": "Escape Coalition",
+      "leader": "Monkey D. Luffy",
+      "members": [
+        "Luffy",
+        "Bon Clay",
+        "Buggy",
+        "Mr. 3",
+        "Ivankov",
+        "Inazuma",
+        "Hundreds of freed prisoners"
+      ],
+      "description": "The chaotic alliance formed during the infiltration, becoming a mass of freed prisoners fighting to escape.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Level 6 Breakout Group",
+      "type": "Legendary Criminals",
+      "leader": "No single leader",
+      "members": [
+        "Jinbe",
+        "Crocodile",
+        "Daz Bones (Mr. 1)",
+        "Other Level 6 escapees"
+      ],
+      "description": "The world's most dangerous criminals freed by Luffy, forming an uneasy alliance for the escape and Marineford.",
+      "alignment": "neutral"
+    },
+    {
+      "name": "Blackbeard Pirates (Infiltrators)",
+      "type": "Pirate Crew",
+      "leader": "Marshall D. Teach (Blackbeard)",
+      "members": [
+        "Blackbeard",
+        "His crew",
+        "Shiryu (recruited)"
+      ],
+      "description": "Blackbeard's crew who infiltrated Level 6 during the chaos to recruit powerful criminals for his crew.",
+      "alignment": "enemy"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 525-549 (Impel Down Arc)",
+    "animeEpisodes": "Episodes 422-425, 430-452",
+    "events": [
+      "Luffy learns Ace will be executed",
+      "Hancock smuggles Luffy into Impel Down",
+      "Luffy reaches Level 1, meets Buggy",
+      "Buggy and Mr. 3 join reluctantly",
+      "Battle through Level 2's beasts",
+      "Bon Clay reveals he's imprisoned",
+      "Emotional reunion with Bon Clay",
+      "Magellan appears - overwhelming poison power",
+      "Luffy poisoned nearly to death",
+      "Bon Clay carries dying Luffy",
+      "Ivankov appears from Newkama Land",
+      "10-hour hormone treatment saves Luffy",
+      "Learn Ace already transferred to Marineford",
+      "Decision to break out and reach Marineford",
+      "Fight through Level 4's blazing hell",
+      "Mr. 3's wax armor saves from poison",
+      "Level 5 freezing hell battles",
+      "Descend to Level 6 Eternal Hell",
+      "Free Crocodile (uneasy alliance)",
+      "Free Jinbe (becomes ally)",
+      "Free other Level 6 prisoners",
+      "Massive breakout begins",
+      "Magellan unleashes full poison power",
+      "Ivankov second hormone injection for Luffy",
+      "Shiryu released, kills guards, joins Blackbeard",
+      "Hannyabal's heroic speech about protecting innocents",
+      "Luffy and allies overwhelm Hannyabal",
+      "Magellan blocks final escape path",
+      "Mr. 3 and Luffy's fire combine to break through",
+      "Reach Gates of Justice control room",
+      "Bon Clay's ultimate sacrifice - stays behind",
+      "Opens gates for everyone else to escape",
+      "Bon Clay recaptured but alive",
+      "Mass escape on stolen Marine battleship",
+      "Head toward Marineford for the war"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#8B0000",
+    "secondary": "#4B0082",
+    "accent": "#FF4500"
+  },
+  "quickFacts": [
+    "World's most secure underwater prison",
+    "Six levels descending into hell",
+    "Magellan nearly unbeatable with poison",
+    "Hidden Level 5.5 'Newkama Land' exists",
+    "First successful mass breakout in history",
+    "Bon Clay's ultimate sacrifice for friends",
+    "Luffy poisoned twice, saved by Ivankov",
+    "Level 6 holds erased legendary criminals",
+    "Buggy accidentally becomes prison break hero",
+    "Ace already moved before Luffy arrived"
+  ],
+  "videos": [
+    {
+      "youtubeId": "yxPqLf6e6T4",
+      "title": "Bon Clay's Sacrifice - Opening the Gates",
+      "type": "lore",
+      "description": "The heartbreaking moment where Bon Clay stays behind to open the Gates of Justice, sacrificing his freedom for his friends.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "J_YsdWXvddc",
+      "title": "Luffy vs Magellan - Poison Battle",
+      "type": "fight",
+      "description": "Luffy's desperate fight against Magellan's overwhelming poison powers, ending in near-death.",
+      "featured": false,
+      "order": 2
+    },
+    {
+      "youtubeId": "Bnwp3eoMnwg",
+      "title": "Luffy and Allies vs Blackbeard Pirates",
+      "type": "fight",
+      "description": "The chaotic battle as Luffy's breakout alliance clashes with Blackbeard's infiltrators in Level 6.",
+      "featured": false,
+      "order": 3
+    }
+  ],
+  "music": {
+    "url": "/music/impel-down-theme.mp3",
+    "title": "Impel Down",
+    "volume": 0.3
+  }
+}

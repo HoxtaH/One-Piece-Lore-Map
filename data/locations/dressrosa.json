@@ -1,0 +1,513 @@
+{
+  "slug": "dressrosa",
+  "name": "Dressrosa",
+  "region": "New World",
+  "aliases": [
+    "Country of Love, Passion and Toys",
+    "Island of Fairies"
+  ],
+  "coordinates": { "x": 1244, "y": 3050 },
+  "pathControl": { "x": 1139, "y": 2939 },
+  "journeyOrder": 27,
+  "saga": "Dressrosa",
+  "description": "Dressrosa is a tropical island kingdom known for its passionate citizens, flamenco dancing, and living toys that coexist with humans. Beneath its colorful surface lies a dark history of manipulation and forgotten memories, orchestrated by the former Warlord Donquixote Doflamingo.",
+  "history": "Dressrosa was originally ruled by the Riku royal family for generations as a peaceful kingdom. 900 years ago, the Donquixote Family were its rulers before becoming World Nobles. Doflamingo returned ten years before the main story and used his powers to frame King Riku, taking over the kingdom. He used Sugar's Devil Fruit power to turn dissenters into toys, erasing them from memory. The underground port managed the illegal SMILE fruit trade and an arena for gladiator battles. The country was eventually liberated when Luffy defeated Doflamingo, and King Riku was restored to power.",
+  "culture": "Dressrosan culture is vibrant and passionate, with flamenco dancing, colorful architecture, and festivals being central to life. Citizens are known for their fiery temperament and romantic nature. The coexistence with living toys was normalized through Sugar's powers. The Corrida Colosseum gladiator tournaments are major entertainment events. Art, music, and dance permeate daily life.",
+  "economy": {
+    "industries": [
+      "Tourism",
+      "Gladiator entertainment",
+      "SMILE factory (formerly)",
+      "Arms trading (underground)",
+      "Toy manufacturing",
+      "Agriculture (sunflowers, grapes)"
+    ],
+    "currency": "Berry (฿)",
+    "tradeGoods": [
+      "Toys",
+      "Weapons (illegal)",
+      "SMILE Devil Fruits (formerly)",
+      "Wine",
+      "Handicrafts"
+    ]
+  },
+  "transportation": "Citizens walk through the cobblestone streets, use horse-drawn carriages, and ride on special Fighting Fish-pulled boats in the waterways. The toy trains and cable cars connect different areas of the island.",
+  "food": {
+    "cuisine": [
+      "Paella",
+      "Tapas",
+      "Fresh seafood",
+      "Tropical fruits",
+      "Wine from local vineyards",
+      "Spanish-inspired dishes"
+    ],
+    "traditions": [
+      "Festival feasts",
+      "Arena vendor food",
+      "Royal banquets",
+      "Street food culture"
+    ],
+    "quirks": [
+      "Fish-shaped bread",
+      "Passion fruit desserts",
+      "Spicy dishes reflecting the passionate culture"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Donquixote Doflamingo",
+      "role": "Former King / Former Warlord / Underground Broker (Joker)",
+      "description": "The manipulative tyrant who ruled Dressrosa through fear and memory manipulation. User of the String-String Fruit.",
+      "avatar": "/images/characters/dressrosa/donquixote-doflamingo.jpg",
+      "type": "antagonist",
+      "faction": "Donquixote Pirates",
+      "tags": ["Warlord", "Former Noble", "Tyrant", "Devil Fruit User", "Underground Broker", "Joker"]
+    },
+    {
+      "name": "King Riku Doldo III",
+      "role": "Rightful King (Restored)",
+      "description": "The beloved former king who was framed by Doflamingo. Known for his kindness and dedication to his people.",
+      "avatar": "/images/characters/dressrosa/king-riku-doldo-iii.jpg",
+      "type": "protagonist",
+      "faction": "Riku Royal Family",
+      "tags": ["King", "Rightful Ruler", "Benevolent", "Victim", "Leader"]
+    },
+    {
+      "name": "Rebecca",
+      "role": "Princess / Gladiator",
+      "description": "King Riku's granddaughter who fought in the Corrida Colosseum to win back the Mera Mera no Mi.",
+      "avatar": "/images/characters/dressrosa/rebecca.jpg",
+      "type": "protagonist",
+      "faction": "Riku Royal Family",
+      "tags": ["Princess", "Gladiator", "Fighter", "Survivor", "Granddaughter"]
+    },
+    {
+      "name": "Kyros",
+      "role": "Legendary Gladiator / Toy Soldier",
+      "description": "The undefeated gladiator turned into a toy soldier, Rebecca's father who fought for Dressrosa's freedom.",
+      "avatar": "/images/characters/dressrosa/kyros.jpg",
+      "type": "protagonist",
+      "faction": "Riku Royal Family",
+      "tags": ["Legendary Gladiator", "Father", "Hero", "Undefeated", "Toy Soldier"]
+    },
+    {
+      "name": "Viola (Violet)",
+      "role": "Princess of Dressrosa / Assassin (Former)",
+      "description": "King Riku's daughter who pretended to serve Doflamingo to protect her father. Ate the Glare-Glare Fruit, granting clairvoyance.",
+      "avatar": "/images/characters/dressrosa/viola.jpg",
+      "type": "protagonist",
+      "faction": "Riku Royal Family",
+      "tags": ["Princess", "Devil Fruit User", "Clairvoyance", "Double Agent", "Riku Family"]
+    },
+    {
+      "name": "Trafalgar Law",
+      "role": "Pirate Captain / Warlord / Straw Hat Ally",
+      "description": "Formed an alliance with Luffy to take down Doflamingo as part of his revenge against the man who killed his benefactor.",
+      "avatar": "/images/characters/dressrosa/trafalgar-law.jpg",
+      "type": "protagonist",
+      "faction": "Heart Pirates",
+      "tags": ["Supernova", "Ally", "Doctor", "Devil Fruit User", "Strategist", "Surgeon of Death"]
+    },
+    {
+      "name": "Sabo",
+      "role": "Revolutionary Army Chief of Staff",
+      "description": "Luffy's sworn brother who competed for and won the Mera Mera no Mi at the Corrida Colosseum.",
+      "avatar": "/images/characters/dressrosa/sabo.jpg",
+      "type": "protagonist",
+      "faction": "Revolutionary Army",
+      "tags": ["Revolutionary", "Flame User", "Brother", "Chief of Staff", "Ace's Will"]
+    },
+    {
+      "name": "Bartolomeo",
+      "role": "Super Rookie / Barrier-Barrier Fruit User",
+      "description": "Captain of the Barto Club and massive Straw Hat fanboy. Became captain of the 2nd division of the Straw Hat Grand Fleet.",
+      "avatar": "/images/characters/dressrosa/bartolomeo.jpg",
+      "type": "protagonist",
+      "faction": "Straw Hat Grand Fleet",
+      "tags": ["Super Rookie", "Devil Fruit User", "Barrier Powers", "Grand Fleet Captain", "Fanboy"]
+    },
+    {
+      "name": "Cavendish",
+      "role": "Super Rookie / Beautiful Pirate Prince",
+      "description": "The narcissistic 'Beautiful Pirate Prince' with a split personality - Hakuba. Captain of the 1st division of the Straw Hat Grand Fleet.",
+      "avatar": "/images/characters/dressrosa/cavendish.jpg",
+      "type": "protagonist",
+      "faction": "Straw Hat Grand Fleet",
+      "tags": ["Super Rookie", "Swordsman", "Split Personality", "Grand Fleet Captain", "Beautiful"]
+    },
+    {
+      "name": "Sugar",
+      "role": "Donquixote Officer / Toy Transformer",
+      "description": "The child-like officer whose Hobby-Hobby Fruit powers enabled Doflamingo's entire scheme.",
+      "avatar": "/images/characters/dressrosa/sugar.jpg",
+      "type": "antagonist",
+      "faction": "Donquixote Pirates",
+      "tags": ["Devil Fruit User", "Officer", "Manipulator", "Hobby-Hobby Fruit", "Key Villain"]
+    },
+    {
+      "name": "Diamante",
+      "role": "Donquixote Family Elite Officer",
+      "description": "One of Doflamingo's three elite officers. Killed Rebecca's mother years ago. Wields the Flag-Flag Fruit.",
+      "avatar": "/images/characters/dressrosa/diamante.jpg",
+      "type": "antagonist",
+      "faction": "Donquixote Pirates",
+      "tags": ["Elite Officer", "Devil Fruit User", "Flag Powers", "Murderer"]
+    },
+    {
+      "name": "Trebol",
+      "role": "Donquixote Family Elite Officer",
+      "description": "One of Doflamingo's original crew who gave him his Devil Fruit as a child. Wields the Sticky-Sticky Fruit.",
+      "avatar": "/images/characters/dressrosa/trebol.jpg",
+      "type": "antagonist",
+      "faction": "Donquixote Pirates",
+      "tags": ["Elite Officer", "Devil Fruit User", "Sticky Powers", "Original Member"]
+    },
+    {
+      "name": "Pica",
+      "role": "Donquixote Family Elite Officer",
+      "description": "One of Doflamingo's three elite officers with a comically high-pitched voice. Ate the Stone-Stone Fruit. Defeated by Zoro.",
+      "avatar": "/images/characters/dressrosa/pica.jpg",
+      "type": "antagonist",
+      "faction": "Donquixote Pirates",
+      "tags": ["Elite Officer", "Devil Fruit User", "Stone Powers", "High Voice"]
+    },
+    {
+      "name": "Leo",
+      "role": "Tontatta Tribe Warrior Captain",
+      "description": "Captain of the Tontatta warriors and wielder of the Stitch-Stitch Fruit. Led the dwarf rebellion and became the 5th division commander of the Straw Hat Grand Fleet.",
+      "avatar": "/images/characters/dressrosa/leo.jpg",
+      "type": "protagonist",
+      "faction": "Straw Hat Grand Fleet",
+      "tags": ["Dwarf", "Tontatta Tribe", "Devil Fruit User", "Grand Fleet Captain"]
+    },
+    {
+      "name": "Mansherry",
+      "role": "Tontatta Princess / Heal-Heal Fruit User",
+      "description": "Princess of the Tontatta Tribe with the Heal-Heal Fruit power. Was held captive by Doflamingo to exploit her healing abilities.",
+      "avatar": "/images/characters/dressrosa/mansherry.jpg",
+      "type": "protagonist",
+      "faction": "Tontatta Tribe",
+      "tags": ["Dwarf Princess", "Tontatta Tribe", "Devil Fruit User", "Healing Powers"]
+    },
+    {
+      "name": "Fujitora (Issho)",
+      "role": "Marine Admiral / Blind Swordsman",
+      "description": "A blind Admiral with the Gravity-Gravity Fruit. Despite being ordered to capture Luffy, he respects him and intentionally let him escape.",
+      "avatar": "/images/characters/dressrosa/fujitora.jpg",
+      "type": "neutral",
+      "faction": "Marines",
+      "tags": ["Admiral", "Devil Fruit User", "Gravity Powers", "Blind", "Honorable"]
+    },
+    {
+      "name": "Senor Pink",
+      "role": "Donquixote Family Officer",
+      "description": "A 'hardboiled' assassin who dresses like a baby due to a tragic past. Wields the Swim-Swim Fruit. Fought Franky.",
+      "avatar": "/images/characters/dressrosa/senor-pink.jpg",
+      "type": "antagonist",
+      "faction": "Donquixote Pirates",
+      "tags": ["Assassin", "Devil Fruit User", "Swimming Powers", "Tragic Backstory"]
+    },
+    {
+      "name": "Bellamy",
+      "role": "Doflamingo's Subordinate (Former)",
+      "description": "Former enemy from Mock Town who idolized Doflamingo. Betrayed by Doflamingo and saved by Luffy, leading to his redemption.",
+      "avatar": "/images/characters/dressrosa/bellamy.jpg",
+      "type": "neutral",
+      "faction": "Independent",
+      "tags": ["Former Enemy", "Devil Fruit User", "Spring Powers", "Reformed"]
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Corrida Colosseum",
+      "type": "arena",
+      "description": "A massive gladiatorial arena where warriors compete for prizes, including Devil Fruits. The site of the tournament for Ace's Flame-Flame Fruit that drew fighters from across the world.",
+      "notableFeatures": [
+        "Gladiatorial tournaments",
+        "Underground holding cells",
+        "Royal viewing box",
+        "Statue of Kyros (restored)",
+        "Memorial for fallen gladiators"
+      ],
+      "image": "/images/locations/dressrosa/corrida-colosseum.jpg"
+    },
+    {
+      "name": "Flower Hill",
+      "type": "memorial",
+      "description": "A beautiful hill covered in sunflowers where Kyros lived as the Thunder Soldier with Rebecca. Now a memorial site for Scarlett and a symbol of hope.",
+      "notableFeatures": [
+        "Sunflower fields",
+        "Scarlett's grave",
+        "Kyros' former home",
+        "Peaceful overlook"
+      ],
+      "image": "/images/locations/dressrosa/flower-hill.jpg"
+    },
+    {
+      "name": "SMILE Factory (Destroyed)",
+      "type": "underground facility",
+      "description": "The massive underground factory where artificial Devil Fruits (SMILEs) were manufactured for Kaido. Powered by enslaved Tontatta dwarves. Destroyed during the final battle.",
+      "notableFeatures": [
+        "Now destroyed ruins",
+        "Former dwarf slavery site",
+        "Connection to Kaido's army",
+        "Underground levels",
+        "Memorial to victims"
+      ],
+      "image": "/images/locations/dressrosa/smile-factory.jpg"
+    },
+    {
+      "name": "Royal Palace",
+      "type": "castle",
+      "description": "The seat of power in Dressrosa. Was occupied by Doflamingo for 10 years before being restored to the Riku Family. Site of the final battle between Luffy and Doflamingo.",
+      "notableFeatures": [
+        "Throne room",
+        "Battle damage from Luffy vs Doflamingo",
+        "Royal gardens",
+        "Restored to Riku Family",
+        "Historic architecture"
+      ],
+      "image": "/images/locations/dressrosa/royal-palace.jpg"
+    },
+    {
+      "name": "Green Bit",
+      "type": "island",
+      "description": "A small island connected to Dressrosa by an iron bridge, home to the Tontatta Tribe. Contains the ancient ruins of the Donquixote Family's original kingdom.",
+      "notableFeatures": [
+        "Tontatta Kingdom underground",
+        "Ancient ruins",
+        "Iron bridge to Dressrosa",
+        "Fighting Fish in waters",
+        "Dense jungle"
+      ],
+      "image": "/images/locations/dressrosa/green-bit.jpg"
+    },
+    {
+      "name": "Toy House",
+      "type": "establishment (former)",
+      "description": "Where the 'living toys' worked and resided, their existence normalized by Sugar's powers. After her defeat, it became a memorial to the horror of forgotten people.",
+      "notableFeatures": [
+        "Now a memorial site",
+        "Former slave quarters",
+        "Symbol of oppression",
+        "Education center about history"
+      ],
+      "image": "/images/locations/dressrosa/toy-house.jpg"
+    },
+    {
+      "name": "Acacia Harbor",
+      "type": "port",
+      "description": "The main port of Dressrosa where ships dock. Features the iron bridge to Green Bit and is patrolled by Fighting Fish.",
+      "notableFeatures": [
+        "Main docks",
+        "Iron bridge connection",
+        "Fighting Fish patrol",
+        "Customs and trade center"
+      ],
+      "image": "/images/locations/dressrosa/acacia-harbor.jpg"
+    },
+    {
+      "name": "Primula District",
+      "type": "residential area",
+      "description": "A residential district of Dressrosa with Spanish-style architecture, flower-lined streets, and passionate citizens.",
+      "notableFeatures": [
+        "Flamenco dancers",
+        "Flower markets",
+        "Residential homes",
+        "Plaza with fountain"
+      ],
+      "image": "/images/locations/dressrosa/primula-district.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Mera Mera no Mi (Flame-Flame Fruit)",
+      "category": "Devil Fruit",
+      "description": "Ace's former Devil Fruit that reappeared after his death. Was the grand prize at the Corrida Colosseum tournament. Now possessed by Sabo.",
+      "icon": "🔥",
+      "rarity": "legendary"
+    },
+    {
+      "name": "SMILE Artificial Devil Fruit",
+      "category": "Devil Fruit (Artificial)",
+      "description": "Defective artificial Devil Fruits manufactured in the factory. Only 10% grant actual Zoan powers; the rest cause permanent smiling. Production stopped.",
+      "icon": "😊",
+      "rarity": "rare"
+    },
+    {
+      "name": "Birdcage",
+      "category": "Weapon/Trap",
+      "description": "Doflamingo's ultimate technique using his String-String Fruit - a massive cage of strings that can shrink and slice through anything, trapping an entire country.",
+      "icon": "🕸️",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Explosive Collar",
+      "category": "Restraint",
+      "description": "Explosive devices Doflamingo placed on key figures to ensure loyalty. Would detonate if they disobeyed or tried to escape.",
+      "icon": "💣",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Eternal Pose to Zou",
+      "category": "Navigation",
+      "description": "A permanent Log Pose pointing to the moving elephant island of Zou, given to the Straw Hats.",
+      "icon": "🧭",
+      "rarity": "rare"
+    },
+    {
+      "name": "Kyros' Bronze Statue",
+      "category": "Landmark",
+      "description": "A statue of the legendary gladiator that was mysteriously one-legged. After Sugar's defeat, people remembered it was actually Kyros himself turned to bronze by her powers.",
+      "icon": "🗿",
+      "rarity": "unique"
+    },
+    {
+      "name": "Tontatta Growth Accelerator",
+      "category": "Agriculture",
+      "description": "Special dwarven technique that makes crops grow incredibly fast with amazing quality. Used to cultivate the grapes for SMILE fruits.",
+      "icon": "🌱",
+      "rarity": "rare"
+    },
+    {
+      "name": "Fighting Fish",
+      "category": "Transportation/Guard",
+      "description": "Aggressive bull-like fish that patrol the waters around Dressrosa and pull barges to Green Bit.",
+      "icon": "🐟",
+      "rarity": "uncommon"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Riku Family (Restored)",
+      "type": "Royalty",
+      "leader": "King Riku Doldo III",
+      "members": [
+        "King Riku III",
+        "Viola",
+        "Rebecca",
+        "Kyros"
+      ],
+      "description": "The rightful royal family of Dressrosa, known for their benevolence and wisdom. Restored to power after Doflamingo's defeat.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Donquixote Pirates (Defeated)",
+      "type": "Pirate Crew / Criminal Organization",
+      "leader": "Donquixote Doflamingo (imprisoned)",
+      "members": [
+        "Doflamingo",
+        "Trebol",
+        "Diamante",
+        "Pica",
+        "Sugar",
+        "Senor Pink"
+      ],
+      "description": "A powerful criminal organization led by a former Celestial Dragon. Controlled the underworld arms trade, SMILE production, and ruled Dressrosa through terror. Completely dismantled.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Straw Hat Grand Fleet",
+      "type": "Pirate Alliance",
+      "leader": "Monkey D. Luffy (reluctant leader)",
+      "members": [
+        "Bartolomeo (2nd Division)",
+        "Cavendish (1st Division)",
+        "Leo (5th Division)"
+      ],
+      "description": "Seven pirate crews totaling 5,640 members who swore allegiance to Luffy after he saved Dressrosa. Formed despite Luffy's protests.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Tontatta Tribe",
+      "type": "Indigenous People",
+      "leader": "Gancho (Elder), Leo (Warrior Captain)",
+      "members": [
+        "Leo",
+        "Mansherry",
+        "500+ dwarves"
+      ],
+      "description": "The dwarf tribe living in Green Bit, known for extreme gullibility but incredible strength and speed. Were enslaved to work in the SMILE Factory but liberated.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Revolutionary Army (Dressrosa Unit)",
+      "type": "Military",
+      "leader": "Sabo",
+      "members": [
+        "Sabo"
+      ],
+      "description": "Revolutionary Army members who came to Dressrosa to investigate Doflamingo's weapons trade and support the rebellion.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Marines (Dressrosa Occupation)",
+      "type": "Military",
+      "leader": "Admiral Fujitora",
+      "members": [
+        "Fujitora"
+      ],
+      "description": "Marine forces sent to arrest Luffy and Law but ultimately helped clean up after Doflamingo's defeat. Fujitora apologized to King Riku for the World Government's failure.",
+      "alignment": "neutral"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 700-801",
+    "animeEpisodes": "Episodes 629-746",
+    "events": [
+      "Corrida Colosseum tournament for the Mera Mera no Mi",
+      "Discovery of the toy conspiracy",
+      "SMILE factory raid",
+      "Sugar's defeat and return of memories",
+      "Birdcage activation",
+      "Luffy vs Doflamingo final battle",
+      "Dressrosa's liberation",
+      "Formation of the Straw Hat Grand Fleet"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#FF1744",
+    "secondary": "#FFC107",
+    "accent": "#E91E63"
+  },
+  "quickFacts": [
+    "Famous for living toys walking among citizens",
+    "Home of the Corrida Colosseum gladiator arena",
+    "Where the Straw Hat Grand Fleet was formed",
+    "Underground SMILE factory connected to Kaido",
+    "Citizens are known for passionate personalities",
+    "Sunflowers bloom throughout the kingdom"
+  ],
+  "videos": [
+    {
+      "youtubeId": "BZrm24gEcQM",
+      "title": "Luffy vs Doflamingo - King Kong Gun",
+      "type": "fight",
+      "description": "The climactic final blow that freed Dressrosa from tyranny.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "-xoIy69j_ag",
+      "title": "Sugar Defeated - Toys Return to Normal",
+      "type": "lore",
+      "description": "The emotional moment when forgotten loved ones are remembered again.",
+      "featured": false,
+      "order": 2
+    },
+    {
+      "youtubeId": "zWTBMyDtRSw",
+      "title": "Sabo Returns and Gets the Mera Mera no Mi",
+      "type": "lore",
+      "description": "Luffy's brother returns and inherits Ace's flame powers.",
+      "featured": false,
+      "order": 3
+    }
+  ],
+  "music": {
+    "url": "/music/dressrosa-theme.mp3",
+    "title": "Corrida Colosseum",
+    "volume": 0.3
+  }
+}

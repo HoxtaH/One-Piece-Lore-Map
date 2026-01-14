@@ -1,0 +1,303 @@
+{
+  "slug": "orange-town",
+  "name": "Orange Town",
+  "banner": "/images/banners/orange-town-banner.jpg",
+  "region": "East Blue",
+  "aliases": [
+    "Buggy's Territory",
+    "Town of Oranges"
+  ],
+  "coordinates": { "x": 8300, "y": 1447 },
+  "pathControl": { "x": 8916, "y": 1694 },
+  "journeyOrder": 3,
+  "saga": "East Blue",
+  "description": "Orange Town was once a prosperous trading town known for its orange groves and peaceful atmosphere. When Buggy the Clown and his pirates arrived, they terrorized the population and destroyed much of the town. It's where Nami first encountered Luffy and temporarily allied with him against Buggy.",
+  "history": "Orange Town thrived as a agricultural and trading hub for generations. When news of Buggy's approach reached the town, most citizens evacuated, leaving only the stubborn Mayor Boodle and a few brave souls. Buggy occupied the town and began looting it systematically. Chouchou, a loyal dog, remained to guard his deceased owner's pet food shop. The town was liberated when Luffy and Nami defeated Buggy and his crew, though significant damage remained.",
+  "culture": "Before Buggy's attack, Orange Town had a simple, agricultural culture centered around orange farming and honest trade. The citizens valued hard work and community bonds. The town's pet culture was strong, with many families keeping animals. After liberation, citizens slowly returned to rebuild their beloved home, maintaining their resilient spirit.",
+  "economy": {
+    "industries": [
+      "Orange farming",
+      "Agricultural trading",
+      "Pet supplies",
+      "Small-scale commerce"
+    ],
+    "currency": "Berry (฿)",
+    "tradeGoods": [
+      "Oranges",
+      "Orange products",
+      "Pet food and supplies",
+      "Agricultural goods"
+    ]
+  },
+  "transportation": "Small trading ships dock at the harbor. Within town, travel is by foot or cart. The orange groves surround the town's perimeter.",
+  "food": {
+    "cuisine": [
+      "Fresh oranges",
+      "Orange juice",
+      "Orange-flavored dishes",
+      "Simple farming fare"
+    ],
+    "traditions": [
+      "Orange harvest festivals (formerly)",
+      "Community meals",
+      "Pet-friendly dining"
+    ],
+    "quirks": [
+      "Everything flavored with oranges",
+      "Pet food shop is a town landmark",
+      "Mayor's determination to protect his town alone"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Nami",
+      "role": "Thief / Navigator (Temporary Ally)",
+      "description": "The cunning navigator who was stealing from pirates to buy back her village. She temporarily allied with Luffy against Buggy.",
+      "type": "protagonist",
+      "faction": "Straw Hat Pirates (Future)",
+      "tags": [
+        "Navigator",
+        "Thief",
+        "Clever",
+        "Cartographer",
+        "Treasure Hunter"
+      ],
+      "avatar": "/images/characters/orange-town/nami.jpg"
+    },
+    {
+      "name": "Buggy the Clown",
+      "role": "Pirate Captain",
+      "description": "The flashy pirate with the Chop-Chop Fruit who terrorized Orange Town. He has a violent hatred of anyone insulting his red nose.",
+      "type": "antagonist",
+      "faction": "Buggy Pirates",
+      "tags": [
+        "Devil Fruit User",
+        "Clown",
+        "Bara Bara no Mi",
+        "Roger's Crew",
+        "Recurring Villain"
+      ],
+      "avatar": "/images/characters/orange-town/buggy-the-clown.jpg"
+    },
+    {
+      "name": "Mayor Boodle",
+      "role": "Town Mayor",
+      "description": "The stubborn elderly mayor who refused to abandon Orange Town despite Buggy's threat, willing to die defending his home.",
+      "type": "citizen",
+      "faction": "Orange Town Citizens",
+      "tags": [
+        "Mayor",
+        "Stubborn",
+        "Brave",
+        "Elderly",
+        "Loyal"
+      ],
+      "avatar": "/images/characters/orange-town/mayor-boodle.jpg"
+    },
+    {
+      "name": "Chouchou",
+      "role": "Guard Dog",
+      "description": "The incredibly loyal dog who guarded his deceased owner's pet food shop against all threats, even Buggy's crew.",
+      "type": "citizen",
+      "faction": "Orange Town Citizens",
+      "tags": [
+        "Dog",
+        "Loyal",
+        "Guardian",
+        "Brave",
+        "Symbol of Devotion"
+      ],
+      "avatar": "/images/characters/orange-town/chouchou.jpg"
+    },
+    {
+      "name": "Mohji",
+      "role": "Buggy Pirates Chief of Staff / Beast Tamer",
+      "description": "Buggy's first mate who commands Richie the lion. He attacked Chouchou's shop but was defeated by Luffy.",
+      "type": "antagonist",
+      "faction": "Buggy Pirates",
+      "tags": [
+        "Beast Tamer",
+        "Officer",
+        "Defeated"
+      ],
+      "avatar": "/images/characters/orange-town/mohji.jpg"
+    },
+    {
+      "name": "Cabaji",
+      "role": "Buggy Pirates Chief of Staff / Acrobat",
+      "description": "The unicycling swordsman of Buggy's crew who fought Zoro using dirty tricks and acrobatic maneuvers.",
+      "type": "antagonist",
+      "faction": "Buggy Pirates",
+      "tags": [
+        "Acrobat",
+        "Swordsman",
+        "Dirty Fighter",
+        "Officer"
+      ],
+      "avatar": "/images/characters/orange-town/cabaji.jpg"
+    },
+    {
+      "name": "Richie",
+      "role": "Lion / Mohji's Pet",
+      "description": "Mohji's large, cowardly lion who destroyed Chouchou's shop but was defeated by Luffy.",
+      "type": "antagonist",
+      "faction": "Buggy Pirates",
+      "tags": [
+        "Lion",
+        "Beast",
+        "Cowardly"
+      ],
+      "avatar": "/images/characters/orange-town/richie.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Pet Food Shop",
+      "type": "Store",
+      "description": "The small shop that Chouchou's owner ran before passing away. Chouchou guards it with his life as his owner's treasure.",
+      "notableFeatures": [
+        "Chouchou's guard post",
+        "Store of pet food and supplies",
+        "Symbol of loyalty and devotion",
+        "Destroyed by Richie, rebuilt after"
+      ],
+      "image": "/images/locations/orange-town/pet-food-shop.jpg"
+    },
+    {
+      "name": "Town Square",
+      "type": "Public Area",
+      "description": "The central area of Orange Town where Buggy set up his base and displayed his Buggy Ball cannon.",
+      "notableFeatures": [
+        "Buggy's temporary headquarters",
+        "Battle site between Luffy and Buggy",
+        "Mayor's office nearby",
+        "Damaged by Buggy Ball attacks"
+      ],
+      "image": "/images/locations/orange-town/town-square.jpg"
+    },
+    {
+      "name": "Orange Groves",
+      "type": "Agricultural Area",
+      "description": "The orchards surrounding Orange Town that give it its name and primary industry.",
+      "notableFeatures": [
+        "Rows of orange trees",
+        "Town's pride and economic foundation",
+        "Partially damaged by pirates"
+      ],
+      "image": "/images/locations/orange-town/orange-groves.jpg"
+    },
+    {
+      "name": "Harbor",
+      "type": "Port",
+      "description": "The small dock where Buggy's ship was anchored and where trading vessels normally arrived.",
+      "notableFeatures": [
+        "Buggy's ship location",
+        "Trading docks",
+        "Where Luffy's crew departed"
+      ],
+      "image": "/images/locations/orange-town/harbor.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "Buggy's Bara Bara no Mi",
+      "category": "Devil Fruit",
+      "description": "The Chop-Chop Fruit that allows Buggy to split his body into pieces and control them independently.",
+      "icon": "🍎",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Grand Line Map",
+      "category": "Treasure",
+      "description": "A map of the Grand Line that Nami stole from Buggy's treasury.",
+      "icon": "🗺️",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Buggy Ball",
+      "category": "Weapon",
+      "description": "Buggy's special cannonball that creates massive explosions, used to terrorize the town.",
+      "icon": "💣",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Pet Food Shop",
+      "category": "Treasure",
+      "description": "To Chouchou, his owner's shop is the most precious treasure in the world.",
+      "icon": "🏪",
+      "rarity": "Legendary"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Orange Town Citizens",
+      "type": "Civilian",
+      "leader": "Mayor Boodle",
+      "members": 300,
+      "description": "The townsfolk who evacuated when Buggy arrived, slowly returning after his defeat.",
+      "alignment": "Good"
+    },
+    {
+      "name": "Buggy Pirates",
+      "type": "Pirate Crew",
+      "leader": "Buggy the Clown",
+      "members": 30,
+      "description": "The flashy circus-themed pirates who terrorized the town for treasure.",
+      "alignment": "Evil"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 9-21 (Buggy Arc)",
+    "animeEpisodes": "Episodes 4-8",
+    "events": [
+      "Nami steals from Buggy and meets Luffy",
+      "Citizens evacuate Orange Town",
+      "Buggy occupies the town",
+      "Chouchou guards his treasure shop",
+      "Mohji and Richie destroy the pet food shop",
+      "Luffy promises to avenge Chouchou",
+      "Zoro vs Cabaji",
+      "Luffy vs Buggy",
+      "Buggy is defeated and blown away",
+      "Nami temporarily joins Luffy",
+      "Town begins rebuilding"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#FF6B35",
+    "secondary": "#F7931E",
+    "accent": "#FDB827"
+  },
+  "quickFacts": [
+    "Where Nami first met Luffy",
+    "Famous for orange groves",
+    "Home of the legendary guard dog Chouchou",
+    "Terrorized by Buggy the Clown",
+    "Where Nami stole her first Grand Line map",
+    "Destroyed but rebuilt by determined citizens"
+  ],
+  "videos": [
+    {
+      "youtubeId": "8QrFR-MJnVo",
+      "title": "Luffy vs Buggy the Clown",
+      "type": "fight",
+      "description": "The battle between Luffy and the Chop-Chop Fruit user in Orange Town.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "BhBx4KEGB_Y",
+      "title": "Chouchou's Loyalty",
+      "type": "lore",
+      "description": "The touching story of the dog who would protect his owner's treasure shop no matter what.",
+      "featured": false,
+      "order": 2
+    }
+  ],
+  "music": {
+    "url": "/music/orange-town-theme.mp3",
+    "title": "Buggy's Entrance!",
+    "volume": 0.3
+  }
+}

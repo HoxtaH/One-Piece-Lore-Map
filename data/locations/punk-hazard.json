@@ -1,0 +1,597 @@
+{
+  "slug": "punk-hazard",
+  "name": "Punk Hazard",
+  "banner": "/images/banners/punk-hazard-banner.jpg",
+  "region": "New World - First Island After Fish-Man Island",
+  "aliases": [
+    "The Burning Island",
+    "The Frozen Island",
+    "Vegapunk's Former Laboratory",
+    "Island of Fire and Ice"
+  ],
+  "coordinates": { "x": 874, "y": 3300 },
+  "journeyOrder": 26,
+  "saga": "Dressrosa",
+  "description": "Punk Hazard is a bizarre island in the New World permanently divided into two extreme halves: one side engulfed in eternal flames and scorching heat, the other frozen in perpetual ice and snow. This unnatural division was caused by the 10-day duel between Admirals Akainu and Aokiji fighting for the position of Fleet Admiral after Marineford. The island was originally a top-secret research facility run by Dr. Vegapunk for the World Government, but four years before the Straw Hats arrived, a catastrophic chemical weapon experiment went wrong, forcing the island to be evacuated and declared off-limits. However, the island was secretly taken over by Caesar Clown, a former colleague of Vegapunk, who continued illegal experiments including creating artificial Devil Fruits (SMILEs), gigantification of children, and developing mass-murder weapons. The island became the stage for the Straw Hat-Heart Pirate alliance, marking the beginning of Luffy and Law's plan to take down Kaido by targeting his SMILE supply through Doflamingo.",
+  "history": "Punk Hazard began as one of the World Government's most important research facilities, where the brilliant scientist Dr. Vegapunk conducted experiments on Devil Fruits, gigantification, weapons, and other classified projects. Four years before the Straw Hats' arrival, Caesar Clown - a rival scientist working under Vegapunk - conducted an unauthorized experiment with a chemical weapon called Shinokuni. The experiment went catastrophically wrong, releasing a deadly poisonous gas that killed or petrified everyone on the island. The incident forced the World Government to evacuate and seal off the island, declaring it too dangerous for habitation. After Marineford, Admirals Akainu and Aokiji fought their legendary 10-day duel here for the Fleet Admiral position, permanently transforming the island's climate into fire and ice. Akainu won and Aokiji left the Marines. After the duel, Caesar Clown returned to the abandoned island with the help of Donquixote Doflamingo and turned it into his secret laboratory. He kidnapped children from nearby islands and conducted cruel gigantification experiments using drugged candy to make them dependent and compliant. He also manufactured SAD - the key ingredient for SMILE artificial Devil Fruits that Doflamingo sold to Kaido. When the Straw Hats arrived pursuing a distress call, they discovered the children, exposed Caesar's crimes, and formed an alliance with Trafalgar Law. Together they defeated Caesar, rescued the children, and began their plan to dismantle the production of SMILEs, setting in motion the events that would eventually lead to taking down both Doflamingo and Kaido.",
+  "culture": "Punk Hazard has no real culture as it's an abandoned government facility turned illegal laboratory. The environment is hostile and extreme - survival on either the burning or frozen side requires constant adaptation. Caesar's subordinates live in the laboratory's climate-controlled sections, conducting twisted experiments without moral boundaries. The giant children were manipulated through candy addiction, creating a tragic dynamic where victims were made to worship their captor. G-5 Marines under Smoker represent rough justice and are initially hostile but eventually ally with the Straw Hats against greater evil. The island embodies the dark side of scientific progress when ethics are abandoned - human experimentation, child abuse, weapons of mass destruction, and amoral research all conducted in secret. The physical division of fire and ice mirrors the moral extremes present: the burning passion for ambition (Caesar's mad science) versus the cold ruthlessness of those who enable it (Doflamingo's underworld network).",
+  "economy": {
+    "industries": [
+      "Illegal scientific experimentation",
+      "SMILE artificial Devil Fruit production (SAD manufacturing)",
+      "Chemical weapons development",
+      "Human gigantification research",
+      "Black market weapons trade"
+    ],
+    "currency": "Berry (฿) - funded by Doflamingo's underworld empire",
+    "tradeGoods": [
+      "SAD (SMILE ingredient sold to Doflamingo)",
+      "Shinokuni poison gas weapon",
+      "Experimental drugs and candy (for child control)",
+      "Scientific research data (stolen from Vegapunk)",
+      "Illegal weapons prototypes"
+    ]
+  },
+  "transportation": "The island is surrounded by dangerous seas in the New World. Ships must navigate carefully to avoid the extreme temperature zones. Inside the island, Caesar's subordinates use gas-propelled sleds on the ice side and heat-resistant vehicles on the fire side. The laboratory has internal passages and elevators connecting different sections. Caesar himself flies using his Gas-Gas Fruit powers. The giant children were kept docile and couldn't leave. After the incident, Marine ships and Law's submarine arrived to evacuate survivors and prisoners.",
+  "food": {
+    "cuisine": [
+      "Laboratory rations and preserved food",
+      "Drugged candy (used to control children)",
+      "Emergency survival rations",
+      "Marine mess hall food (G-5 base supplies)",
+      "Whatever could be scavenged or transported"
+    ],
+    "traditions": [
+      "Children's daily candy distribution (addiction control)",
+      "Caesar's subordinates' meal times",
+      "Marine ration distribution",
+      "No real dining culture - purely functional"
+    ],
+    "quirks": [
+      "Candy is weaponized as addiction control",
+      "Sanji cooks despite extreme conditions",
+      "Children crave candy desperately",
+      "Caesar's gas body doesn't need food",
+      "Kinemon is hungry constantly"
+    ]
+  },
+  "notablePeople": [
+    {
+      "name": "Caesar Clown",
+      "role": "Mad Scientist / Main Antagonist",
+      "description": "A former colleague of Dr. Vegapunk and master of the Gasu Gasu no Mi (Gas-Gas Fruit). Caesar is an amoral scientist obsessed with surpassing Vegapunk, conducting illegal experiments including child gigantification and creating Shinokuni poison gas. Manufactures SAD for SMILE production. Captured by Law and used as hostage.",
+      "faction": "Caesar's Subordinates",
+      "type": "antagonist",
+      "tags": [
+        "Mad Scientist",
+        "Gas-Gas Fruit",
+        "Vegapunk Rival",
+        "Child Experimenter",
+        "SAD Creator",
+        "Shinokuni Developer",
+        "Amoral Genius"
+      ],
+      "avatar": "/images/characters/punk-hazard/caesar.jpg"
+    },
+    {
+      "name": "Monet",
+      "role": "Caesar's Assistant / Doflamingo's Spy",
+      "description": "A harpy woman with the Yuki Yuki no Mi (Snow-Snow Fruit) and Doflamingo's loyal spy disguised as Caesar's secretary. She has bird wings and talons instead of arms and legs. Deeply devoted to Doflamingo, willing to die for his plans. Fought Luffy and Zoro.",
+      "faction": "Donquixote Pirates (Undercover)",
+      "type": "antagonist",
+      "tags": [
+        "Snow-Snow Fruit",
+        "Harpy Transformation",
+        "Doflamingo's Spy",
+        "Secretary Disguise",
+        "Loyal Unto Death",
+        "Wing Arms",
+        "Talon Legs"
+      ],
+      "avatar": "/images/characters/punk-hazard/monet.jpg"
+    },
+    {
+      "name": "Vergo",
+      "role": "Undercover Marine / Doflamingo's Top Executive",
+      "description": "A high-ranking G-5 Vice Admiral who is actually Doflamingo's first and most loyal crew member, having infiltrated the Marines for decades. Master of full-body Armament Haki. Fought Law and was cut in half along with the entire laboratory. Always has food on his face.",
+      "faction": "Donquixote Pirates (Undercover)",
+      "type": "antagonist",
+      "tags": [
+        "Vice Admiral (Fake)",
+        "Doflamingo's Corazon",
+        "Decades-Long Infiltration",
+        "Full-Body Haki",
+        "Bamboo Stick Weapon",
+        "Food on Face",
+        "Cut in Half"
+      ],
+      "avatar": "/images/characters/punk-hazard/vergo.jpg"
+    },
+    {
+      "name": "Trafalgar D. Water Law",
+      "role": "Supernova Captain / Alliance Leader",
+      "description": "The Surgeon of Death with the Ope Ope no Mi (Op-Op Fruit). Proposed alliance with Luffy to take down Kaido. His true goal is revenge against Doflamingo for killing Corazon. Orchestrated Caesar's capture and planned to destroy the SMILE factory.",
+      "faction": "Heart Pirates",
+      "type": "protagonist",
+      "tags": [
+        "Surgeon of Death",
+        "Ope-Ope Fruit",
+        "Alliance Proposer",
+        "Revenge Against Doflamingo",
+        "Strategic Mind",
+        "Former Warlord",
+        "D. Clan"
+      ],
+      "avatar": "/images/characters/punk-hazard/law.jpg"
+    },
+    {
+      "name": "Smoker",
+      "role": "Vice Admiral / White Hunter",
+      "description": "The Marine Vice Admiral with the Moku Moku no Mi (Smoke-Smoke Fruit) who has pursued Luffy since Loguetown. At Punk Hazard, he reluctantly teams up with the Straw Hats against Caesar and Vergo. Had his heart stolen by Law and was defeated by Vergo.",
+      "faction": "Marines (G-5)",
+      "type": "neutral",
+      "tags": [
+        "Vice Admiral",
+        "Smoke-Smoke Fruit",
+        "White Hunter",
+        "Jitte Weapon",
+        "Luffy's Rival",
+        "Reluctant Ally",
+        "Heart Stolen"
+      ],
+      "avatar": "/images/characters/punk-hazard/smoker.jpg"
+    },
+    {
+      "name": "Tashigi",
+      "role": "Marine Captain / Swordswoman",
+      "description": "A Marine Captain and swordswoman who looks identical to Zoro's deceased friend Kuina. At Punk Hazard, Law swapped her mind with Smoker's body. She fights for justice and protecting children, allying with the Straw Hats against Caesar.",
+      "faction": "Marines (G-5)",
+      "type": "neutral",
+      "tags": [
+        "Marine Captain",
+        "Swordswoman",
+        "Kuina Lookalike",
+        "Body-Swapped",
+        "Justice for Children",
+        "Shigure Sword",
+        "Zoro's Awkwardness"
+      ],
+      "avatar": "/images/characters/punk-hazard/tashigi.jpg"
+    },
+    {
+      "name": "Kin'emon",
+      "role": "Wano Samurai / Momonosuke's Retainer",
+      "description": "A samurai from Wano with the ability to create clothes with his Fuku Fuku no Mi powers. Searching for his master's son Momonosuke. Comically traditional and easily flustered. Joins the Straw Hats to rescue Momonosuke and return to Wano.",
+      "faction": "Wano Samurai",
+      "type": "protagonist",
+      "tags": [
+        "Wano Samurai",
+        "Foxfire Style",
+        "Fuku-Fuku Fruit",
+        "Momonosuke's Retainer",
+        "Traditional Mindset",
+        "Fire-Cutting Technique",
+        "Comic Relief"
+      ],
+      "avatar": "/images/characters/punk-hazard/kinemon.jpg"
+    },
+    {
+      "name": "Momonosuke",
+      "role": "Wano Heir / Child Dragon",
+      "description": "The young son of Wano's shogun Oden, transformed into a small Eastern dragon after eating Caesar's artificial Devil Fruit. Perverted despite being a child. His dragon form is pink and he can fly by creating flame clouds. Key to the Wano storyline.",
+      "faction": "Wano Royalty",
+      "type": "protagonist",
+      "tags": [
+        "Wano Heir",
+        "Oden's Son",
+        "Artificial Dragon Fruit",
+        "Pink Dragon",
+        "Perverted Child",
+        "Future Shogun",
+        "Flame Clouds"
+      ],
+      "avatar": "/images/characters/punk-hazard/momonosuke.jpg"
+    },
+    {
+      "name": "Brownbeard",
+      "role": "Former Pirate Captain / Caesar's Victim",
+      "description": "A former New World pirate who lost his legs to Basil Hawkins and was given alligator legs by Law. Became Caesar's subordinate but was betrayed when Caesar used him to test Shinokuni. Eventually helped the Straw Hats expose Caesar.",
+      "faction": "Former Caesar Subordinate",
+      "type": "neutral",
+      "tags": [
+        "Centaur (Alligator Legs)",
+        "Former Captain",
+        "Caesar's Victim",
+        "Shinokuni Test Subject",
+        "Turned on Caesar",
+        "Crocodile Lower Body"
+      ],
+      "avatar": "/images/characters/punk-hazard/brownbeard.jpg"
+    },
+    {
+      "name": "The Giant Children",
+      "role": "Experiment Victims",
+      "description": "Children kidnapped from nearby islands and subjected to Caesar's gigantification experiments. Drugged with addictive candy to keep them compliant. Named characters include Sind, Uzu, Konbu, and Biyo. Rescued by the Straw Hats and cured.",
+      "faction": "Victims",
+      "type": "protagonist",
+      "tags": [
+        "Kidnapped Children",
+        "Gigantification Experiments",
+        "Candy Addiction",
+        "Innocent Victims",
+        "Rescued by Straw Hats",
+        "Cured Eventually"
+      ],
+      "avatar": "/images/characters/punk-hazard/children.jpg"
+    },
+    {
+      "name": "Smiley",
+      "role": "Giant Slime Monster / Weapon",
+      "description": "Caesar's pet - a gigantic poisonous slime monster created from compressed Shinokuni gas and given a Devil Fruit (Sara Sara no Mi, Model: Axolotl). When killed, it released the deadly gas across the island. It smiled constantly, hence the name.",
+      "faction": "Caesar's Creations",
+      "type": "antagonist",
+      "tags": [
+        "Poison Slime",
+        "Axolotl Devil Fruit",
+        "Shinokuni Container",
+        "Death Releases Gas",
+        "Always Smiling",
+        "Island-Wide Threat"
+      ],
+      "avatar": "/images/characters/punk-hazard/smiley.jpg"
+    },
+    {
+      "name": "Baby 5",
+      "role": "Doflamingo's Assassin",
+      "description": "A maid-assassin from the Donquixote Pirates with the Buki Buki no Mi (Arms-Arms Fruit) allowing her to transform her body into any weapon. Easily manipulated and says yes to any request. Arrived to pick up Caesar.",
+      "faction": "Donquixote Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Arms-Arms Fruit",
+        "Maid Assassin",
+        "Transforms into Weapons",
+        "Easily Manipulated",
+        "Can't Say No",
+        "Doflamingo's Crew"
+      ],
+      "avatar": "/images/characters/punk-hazard/baby5.jpg"
+    },
+    {
+      "name": "Buffalo",
+      "role": "Doflamingo's Subordinate",
+      "description": "A large man with the Guru Guru no Mi (Spin-Spin Fruit) allowing him to spin any part of his body like propellers to fly. Partnered with Baby 5. Arrived to pick up Caesar but was defeated by Franky.",
+      "faction": "Donquixote Pirates",
+      "type": "antagonist",
+      "tags": [
+        "Spin-Spin Fruit",
+        "Propeller Flight",
+        "Baby 5's Partner",
+        "Defeated by Franky",
+        "Doflamingo's Crew"
+      ],
+      "avatar": "/images/characters/punk-hazard/buffalo.jpg"
+    }
+  ],
+  "subLocations": [
+    {
+      "name": "Burning Lands",
+      "type": "scorched wasteland",
+      "description": "The half of Punk Hazard engulfed in eternal flames from Akainu's magma powers during the Admiral duel. The ground is constantly on fire, lava flows through the landscape, and the heat is unbearable. Home to fire-breathing dragons (actually modified by Vegapunk).",
+      "notableFeatures": [
+        "Eternal flames everywhere",
+        "Rivers of lava",
+        "Scorching heat",
+        "Modified fire-breathing dragons",
+        "Akainu's power residue",
+        "Burned wasteland"
+      ],
+      "image": "/images/locations/punk-hazard/burning-lands.jpg"
+    },
+    {
+      "name": "Ice Lands",
+      "type": "frozen tundra",
+      "description": "The half of Punk Hazard frozen in perpetual ice and snow from Aokiji's ice powers during the Admiral duel. Everything is covered in thick ice and snow, temperatures are freezing, and blizzards are constant. Entry point for the Straw Hats.",
+      "notableFeatures": [
+        "Eternal ice and snow",
+        "Frozen landscape",
+        "Constant blizzards",
+        "Aokiji's power residue",
+        "Ice formations",
+        "Entry point for Straw Hats"
+      ],
+      "image": "/images/locations/punk-hazard/ice-lands.jpg"
+    },
+    {
+      "name": "Central Laboratory",
+      "type": "research facility",
+      "description": "The massive laboratory complex where Caesar conducts his experiments. Climate-controlled with multiple floors, research rooms, monitoring systems, and the biscuits room where giant children are kept. Contains Vegapunk's old equipment and Caesar's modifications.",
+      "notableFeatures": [
+        "Climate-controlled interior",
+        "Research laboratories",
+        "Monitoring rooms",
+        "Caesar's throne room",
+        "Vegapunk's old tech",
+        "Cut in half by Law"
+      ],
+      "image": "/images/locations/punk-hazard/laboratory.jpg"
+    },
+    {
+      "name": "SAD Production Room",
+      "type": "manufacturing facility",
+      "description": "The secret room where Caesar manufactures SAD - the key ingredient for SMILE artificial Devil Fruits. This is what Doflamingo needs for his deal with Kaido. Heavily guarded and hidden within the laboratory complex.",
+      "notableFeatures": [
+        "SAD manufacturing equipment",
+        "Chemical production",
+        "Heavily secured",
+        "Doflamingo's interest",
+        "Key to SMILE production",
+        "Target of Law's plan"
+      ],
+      "image": "/images/locations/punk-hazard/sad-room.jpg"
+    },
+    {
+      "name": "Biscuits Room",
+      "type": "holding area",
+      "description": "The room where the giant children are kept, fed drugged candy called 'biscuits' to maintain their gigantification and addiction. They worship Caesar as 'Master' due to drug manipulation. Site of emotional rescue by the Straw Hats.",
+      "notableFeatures": [
+        "Giant children held here",
+        "Drugged candy distribution",
+        "Caesar worship indoctrination",
+        "Tragic conditions",
+        "Rescue mission site",
+        "Chopper's medical work"
+      ],
+      "image": "/images/locations/punk-hazard/biscuits-room.jpg"
+    },
+    {
+      "name": "Central Lake",
+      "type": "dividing border",
+      "description": "The lake at the exact center of the island where fire and ice meet. Steam rises constantly from the clash of extreme temperatures. This neutral zone shows where Akainu and Aokiji's powers collided during their duel.",
+      "notableFeatures": [
+        "Fire meets ice",
+        "Constant steam",
+        "Temperature neutral zone",
+        "Visual border",
+        "Duel epicenter",
+        "Symbolic division"
+      ],
+      "image": "/images/locations/punk-hazard/central-lake.jpg"
+    }
+  ],
+  "items": [
+    {
+      "name": "SAD",
+      "category": "Chemical Compound",
+      "description": "The key ingredient Caesar manufactures for creating SMILE artificial Devil Fruits. Doflamingo sells SMILEs to Kaido. Destroying SAD production is central to Law's plan to dismantle Kaido's army.",
+      "icon": "⚗️",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Shinokuni",
+      "category": "Weapon of Mass Destruction",
+      "description": "Caesar's deadly poison gas weapon that petrifies and kills anyone who touches it. The accident four years ago involved this. Released island-wide when Smiley died, forcing everyone to flee.",
+      "icon": "☠️",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Drugged Candy",
+      "category": "Drug",
+      "description": "Addictive candy given to the giant children to keep them compliant and dependent on Caesar. Contains chemicals that maintain gigantification and create psychological addiction.",
+      "icon": "🍬",
+      "rarity": "rare"
+    },
+    {
+      "name": "Artificial Devil Fruit (Momonosuke's)",
+      "category": "Failed Experiment",
+      "description": "The artificial Devil Fruit that turned Momonosuke into a pink Eastern dragon. Caesar considered it a failure, but it actually works. Later revealed to be based on Kaido's Devil Fruit.",
+      "icon": "🐉",
+      "rarity": "legendary"
+    },
+    {
+      "name": "Vegapunk's Research Data",
+      "category": "Scientific Knowledge",
+      "description": "The abandoned research data and equipment left by Dr. Vegapunk when the facility was evacuated. Caesar used this as the foundation for his own experiments.",
+      "icon": "📊",
+      "rarity": "rare"
+    },
+    {
+      "name": "Smiley (Sara Sara no Mi, Model: Axolotl)",
+      "category": "Living Weapon",
+      "description": "The giant poisonous slime monster that ate a Devil Fruit. When killed, it released Shinokuni gas island-wide. Represents Caesar's cruel experimentation.",
+      "icon": "😊",
+      "rarity": "rare"
+    },
+    {
+      "name": "Modified Fire Dragons",
+      "category": "Creatures",
+      "description": "Dragons modified by Vegapunk that live in the Burning Lands. Can breathe fire and are extremely dangerous. One befriended the Straw Hats briefly.",
+      "icon": "🔥",
+      "rarity": "uncommon"
+    },
+    {
+      "name": "Heart-Switching Device",
+      "category": "Medical Equipment",
+      "description": "Equipment in the lab that displays whose heart is where after Law uses his powers to swap them. Showed Smoker and Tashigi's hearts switched, among others.",
+      "icon": "💓",
+      "rarity": "rare"
+    }
+  ],
+  "factions": [
+    {
+      "name": "Straw Hat Pirates",
+      "type": "Pirate Crew",
+      "leader": "Monkey D. Luffy",
+      "members": [
+        "All Straw Hats (post-timeskip reunion)",
+        "Later joined by Kin'emon",
+        "Later joined by Momonosuke"
+      ],
+      "description": "The crew that exposed Caesar's crimes, rescued the children, and formed an alliance with Law. First major arc after timeskip reunion.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Heart Pirates",
+      "type": "Pirate Crew",
+      "leader": "Trafalgar D. Water Law",
+      "members": [
+        "Trafalgar Law",
+        "Bepo",
+        "His crew on submarine"
+      ],
+      "description": "Law's crew that proposed alliance with Luffy to take down Kaido. Law orchestrated Caesar's capture as part of revenge against Doflamingo.",
+      "alignment": "ally"
+    },
+    {
+      "name": "Caesar's Subordinates",
+      "type": "Criminal Organization",
+      "leader": "Caesar Clown",
+      "members": [
+        "Caesar Clown",
+        "Monet (Doflamingo's spy)",
+        "Centaurs (former pirates given animal legs)",
+        "Brownbeard (betrayed)",
+        "Various scientists and guards"
+      ],
+      "description": "The illegal operation conducting human experiments and manufacturing SAD for SMILE production. All defeated or betrayed Caesar.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "G-5 Marines",
+      "type": "Marine Branch",
+      "leader": "Smoker (Vice Admiral)",
+      "members": [
+        "Smoker",
+        "Tashigi",
+        "G-5 soldiers (rough justice types)",
+        "Vergo (traitor)"
+      ],
+      "description": "The rough Marine branch stationed in the New World. Reluctantly allied with Straw Hats against Caesar and exposed Vergo's betrayal.",
+      "alignment": "neutral"
+    },
+    {
+      "name": "Donquixote Pirates (Off-Site)",
+      "type": "Underworld Organization",
+      "leader": "Donquixote Doflamingo (Joker)",
+      "members": [
+        "Doflamingo (not present)",
+        "Vergo (undercover as Marine)",
+        "Monet (spy)",
+        "Baby 5 (arrived)",
+        "Buffalo (arrived)"
+      ],
+      "description": "The underworld organization backing Caesar's operation to manufacture SAD for SMILE production sold to Kaido.",
+      "alignment": "enemy"
+    },
+    {
+      "name": "Wano Samurai",
+      "type": "Refugee Warriors",
+      "leader": "Kin'emon",
+      "members": [
+        "Kin'emon",
+        "Momonosuke",
+        "Kanjuro (mentioned, not yet present)"
+      ],
+      "description": "Samurai from Wano searching for Momonosuke and seeking help to return home. Introduction to the Wano storyline.",
+      "alignment": "ally"
+    }
+  ],
+  "storyArcs": {
+    "mangaChapters": "Chapters 654-699 (Punk Hazard Arc)",
+    "animeEpisodes": "Episodes 579-625",
+    "events": [
+      "Straw Hats receive distress call",
+      "Arrive at Punk Hazard - island split fire and ice",
+      "Discover island changed by Akainu vs Aokiji duel",
+      "Group splits - some to fire side, some ice side",
+      "Meet fire-breathing dragons",
+      "Luffy's group discovers giant children",
+      "Nami's group encounters samurai legs (Kin'emon)",
+      "Law appears and proposes alliance",
+      "Law swaps Straw Hat minds/bodies (Nami-Sanji, Chopper-Franky)",
+      "Smoker and G-5 Marines arrive",
+      "Law swaps Smoker and Tashigi's hearts",
+      "Discover Caesar Clown runs the facility",
+      "Meet Monet - snow harpy and spy",
+      "Children addicted to drugged candy revealed",
+      "Momonosuke found - pink dragon child",
+      "Kin'emon reunited with Momonosuke",
+      "Caesar demonstrates Shinokuni gas weapon",
+      "Smiley (slime monster) released",
+      "Vergo revealed as Doflamingo's spy",
+      "Vergo vs Smoker - Smoker defeated",
+      "Law vs Vergo - old hatred",
+      "Alliance plan revealed: destroy SAD to stop SMILEs",
+      "Take down Kaido by cutting his army supply",
+      "True goal: Law's revenge on Doflamingo",
+      "Caesar broadcasts to underworld buyers",
+      "Luffy crashes broadcast and declares war",
+      "Shinokuni released island-wide - everyone flees",
+      "Luffy vs Caesar Clown",
+      "Luffy defeats Caesar with Grizzly Magnum",
+      "Law cuts Vergo and entire laboratory in half",
+      "Vergo defeated and facility destroyed",
+      "Children rescued and treatment started",
+      "Smoker lets Straw Hats go",
+      "Doflamingo resigns from Warlords",
+      "Baby 5 and Buffalo arrive for Caesar",
+      "Franky defeats Buffalo",
+      "Caesar captured and taken hostage",
+      "Alliance officially formed",
+      "Next target: Dressrosa to destroy SMILE factory",
+      "Kin'emon and Momonosuke join to reach Wano",
+      "Depart for Dressrosa"
+    ]
+  },
+  "images": [],
+  "colorScheme": {
+    "primary": "#FF4500",
+    "secondary": "#00BFFF",
+    "accent": "#32CD32"
+  },
+  "quickFacts": [
+    "Island split into fire and ice by Akainu vs Aokiji duel",
+    "Former Vegapunk research facility",
+    "Caesar manufactures SAD for SMILE production",
+    "Giant children kidnapped and experimented on",
+    "Law and Luffy alliance begins here",
+    "Smoker reluctantly allies with Straw Hats",
+    "Vergo exposed as decades-long Marine spy",
+    "Monet and Vergo both defeated",
+    "Introduction to Wano arc (Kin'emon, Momonosuke)",
+    "Caesar captured as hostage to Doflamingo",
+    "Plan to take down Kaido initiated",
+    "Doflamingo quits Warlords in response",
+    "First island after Fish-Man Island in New World"
+  ],
+  "videos": [
+    {
+      "youtubeId": "hNkPQPaalgI",
+      "title": "Law Proposes Alliance to Luffy",
+      "type": "lore",
+      "description": "Trafalgar Law proposes the alliance with Luffy to take down a Yonko, beginning their partnership.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "youtubeId": "DKXEQh7HaYE",
+      "title": "Law Cuts Vergo and the Laboratory",
+      "type": "battle",
+      "description": "Law's incredible display cutting both Vergo and the entire laboratory in half with his Room ability.",
+      "featured": false,
+      "order": 2
+    },
+    {
+      "youtubeId": "zvut-bC_L8U",
+      "title": "Luffy Defeats Caesar Clown",
+      "type": "battle",
+      "description": "Luffy defeats Caesar with Grizzly Magnum after crashing his broadcast to underworld buyers.",
+      "featured": false,
+      "order": 3
+    }
+  ],
+  "music": {
+    "url": "/music/punk-hazard-theme.mp3",
+    "title": "Don't Be Too Stiff",
+    "volume": 0.3
+  }
+}
