@@ -4,6 +4,7 @@
  */
 
 import type { AudioServiceConfig } from '@/lib/types/audio';
+import { getAssetUrl } from '@/lib/utils/assets';
 
 class AudioService {
   private static instance: AudioService;
@@ -88,8 +89,10 @@ class AudioService {
         await this.fadeOut();
       }
 
+      const assetSrc = getAssetUrl(src);
+
       // Load new track
-      this.audioElement.src = src;
+      this.audioElement.src = assetSrc;
       this.audioElement.volume = 0;
       this.currentTrack = src;
 

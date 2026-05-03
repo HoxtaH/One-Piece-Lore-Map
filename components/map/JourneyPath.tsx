@@ -2,6 +2,7 @@
 
 import { useMemo, useEffect, useState } from 'react';
 import { Location } from '@/lib/types/location';
+import { getAssetUrl } from '@/lib/utils/assets';
 
 interface JourneyPathProps {
   locations: Location[];
@@ -327,7 +328,7 @@ export function JourneyPath({ locations, isPlaying, onProgressChange }: JourneyP
              <circle r="40" fill="white" opacity="0.4" filter="blur(15px)" />
              {/* Going Merry GIF */}
              <image
-               href="/images/onePieceMerryGoSticker.gif"
+               href={getAssetUrl("/images/onePieceMerryGoSticker.gif")}
                width="150"
                height="150"
                x="-75"

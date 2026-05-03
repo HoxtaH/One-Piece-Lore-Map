@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { NotablePerson } from '@/lib/types/location'
 import { X } from 'lucide-react'
 import Image from 'next/image'
+import { getAssetUrl } from '@/lib/utils/assets'
 
 interface CharacterModalProps {
   character: NotablePerson | null
@@ -92,7 +93,7 @@ export default function CharacterModal({ character, colorScheme, onClose }: Char
                   >
                     {character.avatar ? (
                       <Image
-                        src={character.avatar}
+                        src={getAssetUrl(character.avatar)}
                         alt={character.name}
                         fill
                         className="object-cover"

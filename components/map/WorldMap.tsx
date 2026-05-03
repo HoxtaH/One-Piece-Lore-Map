@@ -8,6 +8,7 @@ import { JourneyPath } from './JourneyPath'
 import { JourneyControls } from './JourneyControls'
 import { useMapAudio } from '@/lib/hooks/useMapAudio'
 import { ZoomIn, ZoomOut, Maximize2 } from 'lucide-react'
+import { getAssetUrl } from '@/lib/utils/assets'
 
 interface WorldMapProps {
   locations: LocationSummary[]
@@ -400,7 +401,7 @@ export default function WorldMap({ locations }: WorldMapProps) {
       >
         {/* Map Image - Pixel Art */}
         <img
-          src="/Ohara_World_Map_Pixel.png"
+          src={getAssetUrl("/Ohara_World_Map_Pixel.png")}
           alt="One Piece World Map - Pixel Art"
           style={{
             position: 'absolute',

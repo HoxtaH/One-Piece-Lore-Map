@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { MOCK_NEWS } from '@/lib/types/news';
+import { getAssetUrl } from '@/lib/utils/assets';
 
 interface NewsCooIconProps {
   onClick: () => void;
@@ -37,7 +38,7 @@ export default function NewsCooIcon({ onClick }: NewsCooIconProps) {
         {/* News Coo Image */}
         <div className="relative transition-transform group-hover:scale-110 group-hover:-translate-y-2 duration-300">
           <img
-            src="/images/newsCoo.png"
+            src={getAssetUrl("/images/newsCoo.png")}
             alt="News Coo"
             className="w-24 h-24 drop-shadow-2xl animate-bounce-slow"
             style={{ 

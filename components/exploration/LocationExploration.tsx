@@ -8,6 +8,7 @@ import ReactPlayer from 'react-player/youtube'
 import { useLocationAudio } from '@/lib/hooks/useLocationAudio'
 import CharacterGrid from '@/components/characters/CharacterGrid'
 import CharacterModal from '@/components/characters/CharacterModal'
+import { getAssetUrl } from '@/lib/utils/assets'
 
 interface LocationExplorationProps {
   location: Location
@@ -31,7 +32,7 @@ export default function LocationExploration({ location }: LocationExplorationPro
   
   // Use custom banner if available, otherwise fallback to featured video thumbnail
   const bannerImage = location.banner 
-    ? location.banner 
+    ? getAssetUrl(location.banner)
     : featuredVideo 
       ? `https://img.youtube.com/vi/${featuredVideo.youtubeId}/maxresdefault.jpg`
       : null
@@ -395,7 +396,7 @@ export default function LocationExploration({ location }: LocationExplorationPro
                     {subLocation.image && (
                       <div className="relative h-48 w-full overflow-hidden">
                         <img
-                          src={subLocation.image}
+                          src={getAssetUrl(subLocation.image)}
                           alt={subLocation.name}
                           className="w-full h-full object-cover sepia-filter"
                         />

@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { NotablePerson } from '@/lib/types/location'
 import Image from 'next/image'
+import { getAssetUrl } from '@/lib/utils/assets'
 
 interface CharacterCardProps {
   character: NotablePerson
@@ -70,7 +71,7 @@ export default function CharacterCard({ character, colorScheme, onClick }: Chara
         >
           {character.avatar ? (
             <Image
-              src={character.avatar}
+              src={getAssetUrl(character.avatar)}
               alt={character.name}
               fill
               className="object-cover sepia-filter"

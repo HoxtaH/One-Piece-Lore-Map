@@ -38,4 +38,7 @@ next-env.d.ts
 # prisma
 /prisma/migrations
 
-
+# local large assets (now hosted on Supabase)
+/public/images/
+/public/music/
+/public/*.png
