@@ -75,15 +75,79 @@ Open [http://localhost:3000](http://localhost:3000) — no database required!
 
 ## 📚 Current Locations
 
-| Location | Region | Description |
-|----------|--------|-------------|
-| **Skypeia** | Sky Island | The legendary sky island 10,000 meters above the sea |
-| **Sabaody Archipelago** | Paradise | The soap bubble islands and gateway to the New World |
-| **Wano Country** | New World | The isolated samurai nation with rich history |
-| **Dressrosa** | New World | The passionate kingdom of toys and secrets |
-| **Egghead** | New World | The futuristic island of cutting-edge science |
+The map covers **31 locations** spanning nearly the entire One Piece world — from the earliest East Blue arcs through Egghead.
 
-*...and more from the East Blue Saga!*
+### East Blue
+| Location | Description |
+|----------|-------------|
+| **Shell Town** | Where Zoro was imprisoned and the crew first formed |
+| **Orange Town** | Nami's introduction and the Buggy the Clown arc |
+| **Syrup Village** | Usopp's hometown and the Kaya arc |
+| **Baratie** | The floating restaurant where Sanji joined the crew |
+| **Arlong Park** | Nami's tragic past and the Arlong arc |
+| **Loguetown** | The town of the beginning and the end — Gol D. Roger's birthplace |
+
+### Alabasta Saga
+| Location | Description |
+|----------|-------------|
+| **Reverse Mountain** | The legendary entrance to the Grand Line |
+| **Whiskey Peak** | The bounty hunter town disguised as a welcoming port |
+| **Little Garden** | The prehistoric island where time stands still |
+| **Drum Island** | Chopper's homeland and the kingdom of medicine |
+| **Alabasta** | The desert kingdom and Vivi's homeland |
+
+### Sky Island Saga
+| Location | Description |
+|----------|-------------|
+| **Jaya** | The island of dreams and Mock Town |
+| **Skypeia** | The legendary sky island 10,000 meters above the sea |
+
+### Water 7 Saga
+| Location | Description |
+|----------|-------------|
+| **Long Ring Long Land** | The flat archipelago of the Davy Back Fight |
+| **Water 7** | The city of water and the greatest shipwrights in the world |
+| **Sea Train (Puffing Tom)** | The iconic sea train connecting Water 7 to Enies Lobby |
+| **Enies Lobby** | The judicial island — site of the Straw Hats' most daring rescue |
+| **Thriller Bark** | Gecko Moria's massive ghost ship island |
+
+### Summit War Saga
+| Location | Description |
+|----------|-------------|
+| **Sabaody Archipelago** | The soap bubble islands and gateway to the New World |
+| **Amazon Lily** | The all-female island ruled by the Pirate Empress Boa Hancock |
+| **Impel Down** | The world's most inescapable underwater prison |
+| **Marineford** | The site of the Summit War and Ace's final stand |
+
+### Fishman Island Saga
+| Location | Description |
+|----------|-------------|
+| **Fish-Man Island** | The underwater kingdom at the base of the Red Line |
+
+### Dressrosa Saga
+| Location | Description |
+|----------|-------------|
+| **Punk Hazard** | The lawless island of ice and fire |
+| **Dressrosa** | The passionate kingdom of toys and secrets |
+
+### Yonko Saga
+| Location | Description |
+|----------|-------------|
+| **Zou** | The living elephant island home of the Mink Tribe |
+| **Whole Cake Island** | Big Mom's territory and the land of sweets |
+| **Wano Country** | The isolated samurai nation fighting for freedom |
+| **Mary Geoise** | The holy land atop the Red Line — seat of the World Government |
+
+### Final Saga
+| Location | Description |
+|----------|-------------|
+| **Egghead** | Dr. Vegapunk's futuristic island of cutting-edge science |
+
+---
+
+### 🏴‍☠️ Want to Contribute?
+
+**Elbaf** — the legendary Giant Island — is intentionally left open as the first major community contribution. If you're a One Piece fan who wants to add to the map, this is where to start. See [CONTRIBUTING.md](CONTRIBUTING.md) to get involved.
 
 ---
 
