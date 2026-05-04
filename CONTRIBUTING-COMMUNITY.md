@@ -4,34 +4,21 @@
 
 ## Ways to Contribute
 
-### 1. 🌐 Web Form (Easiest!)
+### 1. 🐛 GitHub Issues (Recommended)
 
-Visit **[wanpisumap.com/contribute](https://wanpisumap.com/contribute)** and fill out our guided form:
-
-1. Select what you want to contribute (new location, edit, or correction)
-2. Fill in the details you know
-3. Enter your email for verification
-4. Click the verification link we send you
-5. Wait for our team to review and approve!
-
-**That's it!** No accounts, no coding, no technical knowledge needed.
-
----
-
-### 2. 📝 GitHub Issues (Need a GitHub account)
-
-If you have a GitHub account, you can submit contributions as issues:
+The easiest way to contribute is through GitHub Issues:
 
 1. Go to our [Issues page](https://github.com/HoxtaH/One-Piece-Lore-Map/issues/new/choose)
 2. Choose a template:
-   - **🏝️ New Location** - Suggest a new island or place
-   - **📜 Lore Correction** - Fix incorrect information
-3. Fill out the form
-4. Submit!
+   - **🏝️ New Location** — Suggest a new island or place
+   - **📜 Lore Correction** — Fix incorrect information
+3. Fill out the form and submit
+
+No account setup beyond a GitHub account is required.
 
 ---
 
-### 3. 💬 GitHub Discussions (Community chat)
+### 2. 💬 GitHub Discussions (Community chat)
 
 Join our [Discussions](https://github.com/HoxtaH/One-Piece-Lore-Map/discussions) to:
 
@@ -46,11 +33,11 @@ Join our [Discussions](https://github.com/HoxtaH/One-Piece-Lore-Map/discussions)
 
 ### ✅ DO:
 
-- **Be accurate** - Verify information against the manga/anime
-- **Be specific** - Include chapter/episode references when possible
-- **Be complete** - The more detail, the better!
-- **Be respectful** - This is a community project
-- **Be patient** - Reviews take time
+- **Be accurate** — Verify information against the manga/anime
+- **Be specific** — Include chapter/episode references when possible
+- **Be complete** — The more detail, the better!
+- **Be respectful** — This is a community project
+- **Be patient** — Reviews take time
 
 ### ❌ DON'T:
 
@@ -72,7 +59,7 @@ When contributing a location, here's what to include:
 |-------|-------------|---------|
 | **Name** | Official location name | Wano Country |
 | **Region** | Part of the One Piece world | New World |
-| **Description** | 2-3 sentence overview | "An isolated nation..." |
+| **Description** | 2–3 sentence overview | "An isolated nation..." |
 
 ### Optional (But Helpful!) Fields
 
@@ -107,13 +94,10 @@ We display YouTube videos for each location. Here's how to get a video ID:
 
 ## Review Process
 
-1. **Submission** - You submit via web form or GitHub
-2. **Verification** - For web form, click the email link
-3. **Review** - Our team checks for accuracy
-4. **Approval/Feedback** - We either add it or ask for changes
-5. **Live!** - Your contribution appears on the map
-
-**Typical review time:** 1-7 days
+1. **Submission** — Open a GitHub Issue using a template
+2. **Review** — Maintainers check for accuracy and completeness
+3. **Approval/Feedback** — Added to the map or feedback requested
+4. **Live!** — Your contribution appears on the map
 
 ---
 
@@ -123,15 +107,12 @@ All contributors are credited! When your submission is approved:
 
 - Your name appears in our [Contributors list](CONTRIBUTORS.md)
 - You get a shoutout in release notes
-- You earn our eternal gratitude! 🙏
 
 ---
 
 ## Questions?
 
-- **Email:** [coming soon]
 - **GitHub Discussions:** [Join here](https://github.com/HoxtaH/One-Piece-Lore-Map/discussions)
-- **Discord:** [Coming soon]
 
 ---
 

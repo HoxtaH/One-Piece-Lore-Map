@@ -147,7 +147,7 @@ data/locations/
   ├── dressrosa.json (has music field)
   ├── skypeia.json (has music field)
   ├── sabaody-archipelago.json (has music field)
-  ├── wano-theme.json (has music field)
+  ├── wano.json (has music field)
   └── egghead.json (has music field)
 ```
 

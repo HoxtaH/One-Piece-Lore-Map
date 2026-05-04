@@ -17,13 +17,13 @@ Complete guide for adding character images to your One Piece Lore Map.
 
 ```bash
 # 1. Check what images are needed
-node scripts/check-image-coverage.js
+npm run images:missing
 
 # 2. Add your images to the correct folders
 #    (see naming convention below)
 
-# 3. Run batch processor
-node scripts/add-images.js --apply
+# 3. Verify all paths are correctly set in JSON files
+npm run images:verify
 ```
 
 ---
@@ -35,13 +35,15 @@ node scripts/add-images.js --apply
 Run the coverage checker to see what you need:
 
 ```bash
-node scripts/check-image-coverage.js
+npm run images:missing
 ```
 
 **Output shows:**
 - ✅ Characters that already have images
 - ❌ Characters that need images
 - 📁 Expected filename for each character
+
+You can also run `npm run images:list` to see all expected images regardless of status, or `npm run images:verify` to validate the paths already set in JSON files.
 
 ### Step 2: Gather Images
 
@@ -112,21 +114,26 @@ You can manually test by editing the JSON directly:
 
 Refresh your browser → Check if image appears on the character card.
 
-### Step 6: Run Batch Processor
+### Step 6: Verify with Image Manager
 
-**Dry run first (preview changes):**
+**Check what's missing:**
 ```bash
-node scripts/add-images.js
+npm run images:missing
 ```
 
-**Apply changes:**
+**Verify paths in JSON files are valid:**
 ```bash
-node scripts/add-images.js --apply
+npm run images:verify
 ```
 
-**Process only one location:**
+**List all expected images:**
 ```bash
-node scripts/add-images.js --location=skypeia --apply
+npm run images:list
+```
+
+For full options, run the manager directly:
+```bash
+npm run images -- --help
 ```
 
 ### Step 7: Verify Results
@@ -160,31 +167,10 @@ public/images/characters/skypeia/
 └── pagaya.jpg       (400x400, 155KB)
 ```
 
-**2. Run batch processor:**
+**2. Verify coverage:**
 ```bash
-node scripts/add-images.js --apply
-```
-
-**3. Output:**
-```
-🖼️  One Piece Lore Map - Batch Image Processor
-
-💾 APPLY MODE - Files will be updated
-
-📍 Processing: Skypeia (skypeia)
-────────────────────────────────────────────────────────────
-  ✅ Enel - Found: /images/characters/skypeia/enel.jpg
-  ✅ Gan Fall - Found: /images/characters/skypeia/gan-fall.jpg
-  ✅ Wyper - Found: /images/characters/skypeia/wyper.jpg
-  ✅ Conis - Found: /images/characters/skypeia/conis.jpg
-  ✅ Pagaya - Found: /images/characters/skypeia/pagaya.jpg
-
-  Summary: ✅ 5 added | ⏭️  0 skipped | ❌ 0 not found
-
-💾 Saving changes...
-  ✅ Updated: skypeia.json
-
-📈 Total characters updated: 5
+npm run images:missing
+npm run images:verify
 ```
 
 ### Bulk Download Tips
@@ -220,7 +206,7 @@ ls public/images/characters/skypeia/enel.jpg
 **Check 3: JSON Updated**
 ```bash
 # Check if avatar field was added
-node scripts/check-image-coverage.js
+npm run images:verify
 ```
 
 **Check 4: Browser Cache**
@@ -232,7 +218,7 @@ node scripts/check-image-coverage.js
 
 Script normalizes names. Check the expected filename:
 ```bash
-node scripts/check-image-coverage.js
+npm run images:missing
 ```
 
 Compare to your actual filename:
@@ -273,7 +259,7 @@ Or use online tool: https://squoosh.app
 
 ```bash
 # Generate list of needed images
-node scripts/check-image-coverage.js > image-todo.txt
+npm run images:missing > image-todo.txt
 ```
 
 ### Priority Order
@@ -316,9 +302,10 @@ Wyper.png         → wyper.jpg
 Move-Item *.jpg public/images/characters/skypeia/
 ```
 
-**Step 5:** Run script (1 min)
+**Step 5:** Verify images (1 min)
 ```bash
-node scripts/add-images.js --location=skypeia --apply
+npm run images:missing
+npm run images:verify
 ```
 
 **Step 6:** Test in browser (1 min)
@@ -357,7 +344,7 @@ node scripts/add-images.js --location=skypeia --apply
 
 **Ready to add images?** Start with:
 ```bash
-node scripts/check-image-coverage.js
+npm run images:missing
 ```
 
 Then follow the steps above! 🎨
