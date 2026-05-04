@@ -6,6 +6,7 @@
 'use client';
 
 import { createContext, useContext, useRef, useState, useCallback, useEffect, ReactNode } from 'react';
+import { getAssetUrl } from '@/lib/utils/assets';
 
 interface AudioContextType {
   currentTrack: string | null;
@@ -36,6 +37,9 @@ export function AudioProvider({ children }: { children: ReactNode }) {
     
     console.log('[Audio] Playing:', url);
     
+    // Resolve the URL using asset utility
+    const resolvedUrl = getAssetUrl(url);
+    
     // Stop current
     if (audioRef.current) {
       audioRef.current.pause();
@@ -43,7 +47,7 @@ export function AudioProvider({ children }: { children: ReactNode }) {
     }
     
     // Play new
-    const audio = new Audio(url);
+    const audio = new Audio(resolvedUrl);
     audio.loop = true;
     audio.volume = volume;
     audio.play().then(() => {
