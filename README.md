@@ -18,7 +18,6 @@ An interactive, immersive web application that brings the vast world of One Piec
 - [Project Structure](#-project-structure)
 - [Testing](#-testing)
 - [Contributing](#-contributing)
-- [Roadmap](#-roadmap)
 - [License](#-license)
 - [Acknowledgments](#-acknowledgments)
 
@@ -253,28 +252,6 @@ No coding required! Open a [GitHub Issue](https://github.com/HoxtaH/One-Piece-Lo
 
 See [CONTRIBUTING-COMMUNITY.md](CONTRIBUTING-COMMUNITY.md) for details.
 
----
-
-## 🔮 Roadmap
-
-### Completed ✅
-- Interactive world map with clickable hotspots
-- Detailed lore exploration pages
-- Immersive audio with crossfading
-- YouTube video integration
-- One Piece news feed
-- Community contribution form
-- Unit testing infrastructure
-
-### Planned
-- [ ] Interactive pan/zoom map (Leaflet.js or Mapbox)
-- [ ] Character relationship graphs
-- [ ] Story arc timeline visualization
-- [ ] Search and filter functionality
-- [ ] User accounts with favorites and progress tracking
-- [ ] Mobile app version (React Native)
-
----
 
 ## 📝 License
 
