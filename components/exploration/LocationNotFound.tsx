@@ -24,7 +24,7 @@ export default function LocationNotFound() {
             Location Not Found
           </h2>
           <p className="old-book-font text-[#5C4033] mb-8 text-lg">
-            The location you're looking for doesn't exist or has been lost to the seas.
+            The location you&apos;re looking for doesn&apos;t exist or has been lost to the seas.
           </p>
           <button
             onClick={() => router.push('/')}

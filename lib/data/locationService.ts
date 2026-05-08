@@ -59,11 +59,15 @@ function readAllLocationsFromJSON(): LocationSummary[] {
 // Get all location summaries
 export async function getAllLocations(): Promise<LocationSummary[]> {
   if (DATA_SOURCE === 'local') {
-    console.log('📁 [LOCAL MODE] Reading locations from JSON files');
-    return readAllLocationsFromJSON();
+    if (process.env.NODE_ENV === 'development') {
+      console.log('📁 [LOCAL MODE] Reading locations from JSON files')
+    }
+    return readAllLocationsFromJSON()
   }
   
-  console.log('🗄️  [DATABASE MODE] Reading locations from Supabase');
+  if (process.env.NODE_ENV === 'development') {
+    console.log('🗄️  [DATABASE MODE] Reading locations from Supabase')
+  }
   const locations = await prisma.location.findMany({
     include: {
       videos: {
@@ -92,17 +96,21 @@ export async function getAllLocations(): Promise<LocationSummary[]> {
 // Get single location by slug
 export async function getLocationBySlug(slug: string): Promise<Location | null> {
   if (DATA_SOURCE === 'local') {
-    console.log(`📁 [LOCAL MODE] Reading ${slug} from JSON file`);
-    return readLocationFromJSON(slug);
+    if (process.env.NODE_ENV === 'development') {
+      console.log(`📁 [LOCAL MODE] Reading ${slug} from JSON file`)
+    }
+    return readLocationFromJSON(slug)
   }
   
-  console.log(`🗄️  [DATABASE MODE] Reading ${slug} from Supabase`);
+  if (process.env.NODE_ENV === 'development') {
+    console.log(`🗄️  [DATABASE MODE] Reading ${slug} from Supabase`)
+  }
   const location = await prisma.location.findUnique({
     where: { slug },
     include: {
       videos: { orderBy: { order: 'asc' } },
     },
-  });
+  })
 
   return location as any;
 }

@@ -1,9 +1,15 @@
 import LocationExploration from '@/components/exploration/LocationExploration'
 import LocationNotFound from '@/components/exploration/LocationNotFound'
-import { getLocationBySlug } from '@/lib/data/locationService'
+import { getLocationBySlug, getAllLocations } from '@/lib/data/locationService'
 
-export const dynamic = 'force-dynamic'
-export const revalidate = 0
+// Use ISR: revalidate every 1 hour - pre-render all location pages at build time
+export const revalidate = 3600
+
+export async function generateStaticParams() {
+  // Pre-render all location pages at build time for fast static serving
+  const locations = await getAllLocations()
+  return locations.map(location => ({ slug: location.slug }))
+}
 
 interface PageProps {
   params: {

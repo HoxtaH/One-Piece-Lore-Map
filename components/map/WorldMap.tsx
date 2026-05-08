@@ -55,8 +55,8 @@ export default function WorldMap({ locations }: WorldMapProps) {
   // Toggle coordinate finder mode with Ctrl+Shift+C
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      // Ctrl+Shift+C for coordinate finder
-      if (e.ctrlKey && e.shiftKey && e.key === 'C') {
+      // Ctrl+Shift+C for coordinate finder (dev only)
+      if (process.env.NODE_ENV === 'development' && e.ctrlKey && e.shiftKey && e.key === 'C') {
         setCoordinateFinderMode(prev => {
           const newMode = !prev;
           console.clear();
@@ -81,8 +81,8 @@ export default function WorldMap({ locations }: WorldMapProps) {
         e.preventDefault();
       }
       
-      // Ctrl+Shift+H for hotspot visibility
-      if (e.ctrlKey && e.shiftKey && e.key === 'H') {
+      // Ctrl+Shift+H for hotspot visibility (dev only)
+      if (process.env.NODE_ENV === 'development' && e.ctrlKey && e.shiftKey && e.key === 'H') {
         setShowHotspots(prev => {
           const newMode = !prev;
           console.log(newMode 
@@ -276,10 +276,12 @@ export default function WorldMap({ locations }: WorldMapProps) {
     const x = Math.round((event.clientX - rect.left) * scaleX);
     const y = Math.round((event.clientY - rect.top) * scaleY);
     
-    console.log(`%c📍 Clicked!`, 'color: yellow; font-weight: bold');
-    console.log(`%c{ "x": ${x}, "y": ${y} }`, 'color: lime; font-size: 14px; font-weight: bold; background: #000; padding: 8px');
-    console.log(`%c↑ Copy this!`, 'color: cyan');
-    console.log('');
+    if (process.env.NODE_ENV === 'development') {
+      console.log(`%c📍 Clicked!`, 'color: yellow; font-weight: bold');
+      console.log(`%c{ "x": ${x}, "y": ${y} }`, 'color: lime; font-size: 14px; font-weight: bold; background: #000; padding: 8px');
+      console.log(`%c↑ Copy this!`, 'color: cyan');
+      console.log('');
+    }
     
     event.stopPropagation();
     event.preventDefault();

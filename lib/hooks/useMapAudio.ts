@@ -13,7 +13,9 @@ export function useMapAudio() {
 
   useEffect(() => {
     if (isEnabled) {
-      console.log('[MapAudio] Playing map theme');
+      if (process.env.NODE_ENV === 'development') {
+        console.log('[MapAudio] Playing map theme');
+      }
       playTrack('/music/world-map-theme.mp3', 'To the Grand Line');
     }
   }, [isEnabled, playTrack]);

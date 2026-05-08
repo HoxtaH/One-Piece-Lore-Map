@@ -49,16 +49,26 @@ export function SegmentPath({
     prevIsPlayingRef.current = nowPlaying;
   }, [isPlaying, phase]);
 
+  const getCoords = (loc: Location) => {
+    const coords = loc.coordinates;
+    if (Array.isArray(coords)) {
+      return coords[0] || { x: 0, y: 0 };
+    }
+    return coords;
+  };
+
   const pathD = useMemo(() => {
     if (!locations.length) return "";
     if (locations.length === 1) {
-      const { x, y } = locations[0].coordinates;
+      const { x, y } = getCoords(locations[0]);
       return `M ${x} ${y}`;
     }
 
-    let d = `M ${locations[0].coordinates.x} ${locations[0].coordinates.y}`;
+    const start = getCoords(locations[0]);
+    let d = `M ${start.x} ${start.y}`;
     for (let i = 1; i < locations.length; i++) {
-      d += ` L ${locations[i].coordinates.x} ${locations[i].coordinates.y}`;
+      const point = getCoords(locations[i]);
+      d += ` L ${point.x} ${point.y}`;
     }
     return d;
   }, [locations]);

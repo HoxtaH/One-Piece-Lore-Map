@@ -1,8 +1,8 @@
 import HomeClient from '@/components/home/HomeClient'
 import { getAllLocations } from '@/lib/data/locationService'
 
-export const dynamic = 'force-dynamic'
-export const revalidate = 0
+// Use ISR: revalidate every 1 hour since locations rarely change
+export const revalidate = 3600
 
 export default async function Home() {
   const locations = await getAllLocations()

@@ -37,14 +37,16 @@ export async function sendVerificationEmail({
 
   // If no API key is set, log the verification URL for development
   if (!RESEND_API_KEY) {
-    console.log('='.repeat(60));
-    console.log('📧 EMAIL VERIFICATION (Development Mode)');
-    console.log('='.repeat(60));
-    console.log(`To: ${to}`);
-    console.log(`Contributor: ${contributorName}`);
-    console.log(`Location: ${locationName}`);
-    console.log(`Verification URL: ${verificationUrl}`);
-    console.log('='.repeat(60));
+    if (process.env.NODE_ENV === 'development') {
+      console.log('='.repeat(60));
+      console.log('📧 EMAIL VERIFICATION (Development Mode)');
+      console.log('='.repeat(60));
+      console.log(`To: ${to}`);
+      console.log(`Contributor: ${contributorName}`);
+      console.log(`Location: ${locationName}`);
+      console.log(`Verification URL: ${verificationUrl}`);
+      console.log('='.repeat(60));
+    }
     
     return { success: true };
   }

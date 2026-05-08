@@ -137,7 +137,7 @@ export default function AudioControls() {
               🎵 <strong>Experience the Grand Line with music!</strong>
             </p>
             <p className="text-xs text-slate-400 mt-1">
-              Each location has its own theme. Click "Enable Music" to start.
+              Each location has its own theme. Click &quot;Enable Music&quot; to start.
             </p>
           </div>
         </motion.div>

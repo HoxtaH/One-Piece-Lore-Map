@@ -129,7 +129,7 @@ export default function NewsPanel({ isOpen, onClose }: NewsPanelProps) {
                   📰 BIG NEWS!
                 </h1>
                 <p className="text-lg opacity-90" style={{ fontFamily: 'Special Elite' }}>
-                  World Economic Journal - Published by "Big News" Morgans
+                  World Economic Journal - Published by &quot;Big News&quot; Morgans
                 </p>
               </div>
               <button

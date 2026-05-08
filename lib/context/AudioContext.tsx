@@ -30,11 +30,15 @@ export function AudioProvider({ children }: { children: ReactNode }) {
   
   const playTrack = useCallback((url: string, title?: string) => {
     if (!isEnabled) {
-      console.log('[Audio] Not enabled yet');
+      if (process.env.NODE_ENV === 'development') {
+        console.log('[Audio] Not enabled yet');
+      }
       return;
     }
     
-    console.log('[Audio] Playing:', url);
+    if (process.env.NODE_ENV === 'development') {
+      console.log('[Audio] Playing:', url);
+    }
     
     // Stop current
     if (audioRef.current) {
@@ -47,7 +51,9 @@ export function AudioProvider({ children }: { children: ReactNode }) {
     audio.loop = true;
     audio.volume = volume;
     audio.play().then(() => {
-      console.log('[Audio] Playback started');
+      if (process.env.NODE_ENV === 'development') {
+        console.log('[Audio] Playback started');
+      }
     }).catch(err => {
       console.error('[Audio] Playback failed:', err);
     });
@@ -70,7 +76,9 @@ export function AudioProvider({ children }: { children: ReactNode }) {
   const toggleAudio = useCallback(() => {
     setIsEnabled(prev => {
       const newState = !prev;
-      console.log('[Audio] Toggled to:', newState);
+      if (process.env.NODE_ENV === 'development') {
+        console.log('[Audio] Toggled to:', newState);
+      }
       if (!newState) {
         stopTrack();
       }
