@@ -96,8 +96,8 @@ Before deploying to production:
 3. ✅ Switch to `DATA_SOURCE=database` in `.env.local`
 4. ✅ Run `npm run db:seed` to sync to Supabase
 5. ✅ Test with database mode locally
-6. ✅ Deploy to Vercel
-7. ✅ Set `DATA_SOURCE=database` in Vercel environment variables
+6. ✅ Deploy to your hosting platform (see [SETUP.md](../SETUP.md#-self-hosting--production-deployment))
+7. ✅ Set `DATA_SOURCE=database` in your production environment variables
 
 ---
 

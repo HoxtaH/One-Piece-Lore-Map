@@ -7,22 +7,17 @@
 
 An interactive, immersive web application that brings the vast world of One Piece to life. Explore legendary locations, discover hidden lore, and experience the journey of the Straw Hat Pirates through an intuitive and visually stunning interface.
 
-<!-- TODO: Add screenshot/GIF of the map in action -->
-<!-- ![One Piece Lore Map Preview](public/screenshots/map-preview.gif) -->
-
 ---
 
 ## 📑 Table of Contents
 
 - [Features](#-features)
-- [Live Demo](#-live-demo)
 - [Getting Started](#-getting-started)
 - [Current Locations](#-current-locations)
 - [Tech Stack](#️-tech-stack)
-- [Contributing](#-contributing)
 - [Project Structure](#-project-structure)
 - [Testing](#-testing)
-- [Deployment](#-deployment)
+- [Contributing](#-contributing)
 - [License](#-license)
 - [Acknowledgments](#-acknowledgments)
 
@@ -30,79 +25,128 @@ An interactive, immersive web application that brings the vast world of One Piec
 
 ## 🌟 Features
 
-- **Interactive World Map**: Hover over locations to see quick facts and preview content
-- **Detailed Exploration Pages**: Deep dive into each location with comprehensive lore
-- **YouTube Integration**: Watch key moments, epic battles, and memorable scenes
-- **Rich Lore Database**: Economy, culture, notable people, food, transportation, and more
-- **Immersive Audio**: Location-specific background music and ambient sounds
-- **News Feed**: Latest One Piece news and updates from across the web
-- **Community Contributions**: Submit new locations and lore via our easy web form
-- **Responsive Design**: Beautiful experience on desktop and mobile
-- **Modern Tech Stack**: Built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion
-
----
-
-## 🎮 Live Demo
-
-> **Coming Soon!** This project will be deployed at a custom domain soon.
->
-> In the meantime, you can run it locally following the [Getting Started](#-getting-started) guide below.
+- **Interactive World Map** — Hover over locations to see quick facts and preview content
+- **Detailed Exploration Pages** — Deep dive into each location with comprehensive lore
+- **YouTube Integration** — Watch key moments, epic battles, and memorable scenes
+- **Rich Lore Database** — Economy, culture, notable people, food, transportation, and more
+- **Immersive Audio** — Location-specific background music with smooth crossfading
+- **News Feed** — Latest One Piece news and updates pulled from RSS feeds
+- **Community Contributions** — Submit new locations and lore via the built-in web form
+- **Responsive Design** — Works on desktop and mobile
+- **Modern Tech Stack** — Built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion
 
 ---
 
 ## 🚀 Getting Started
 
-Want to run this locally? See the **[Setup Guide](SETUP.md)** for detailed instructions.
+The project is not yet publicly deployed. To run it locally, see the **[Setup Guide](SETUP.md)** for full instructions.
 
 ### Quick Start
 
 ```bash
-# Clone the repository
 git clone https://github.com/HoxtaH/One-Piece-Lore-Map.git
 cd One-Piece-Lore-Map
-
-# Install dependencies
 npm install
+```
 
-# Set up your Supabase database (see SETUP.md)
-# Then configure your .env.local file
+Set `DATA_SOURCE=local` in `.env.local`, then:
 
-# Push database schema
-npm run db:push
-
-# Seed with MVP locations
-npm run db:seed
-
-# Start development server
+```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to see the map!
+Open [http://localhost:3000](http://localhost:3000) — no database required!
 
-### 📖 Detailed Guides
+> See **[SETUP.md](SETUP.md)** for full instructions, including optional database setup.
+
+### 📖 Guides
 
 | Guide | Description |
 |-------|-------------|
-| [Setup Guide](SETUP.md) | Complete local development setup |
-| [Deployment Guide](DEPLOYMENT.md) | Deploy to production with Vercel |
-| [Contributing Guide](CONTRIBUTING.md) | For developers - add locations via code |
-| [Community Guide](CONTRIBUTING-COMMUNITY.md) | For non-developers - contribute via web form |
+| [Setup Guide](SETUP.md) | Local development setup + self-hosting reference |
+| [Contributing Guide](CONTRIBUTING.md) | For developers — add locations via JSON and PRs |
+| [Community Guide](CONTRIBUTING-COMMUNITY.md) | For non-developers — contribute via GitHub Issues |
+| [Local Development](docs/LOCAL_DEVELOPMENT.md) | Data source toggle, hotspot positioning |
+| [Audio System](docs/AUDIO_SYSTEM.md) | Audio architecture and configuration |
+| [Image Workflow](docs/IMAGE_WORKFLOW.md) | Adding character images |
 
 ---
 
 ## 📚 Current Locations
 
-The map currently features these showcase locations:
+The map covers **31 locations** spanning nearly the entire One Piece world — from the earliest East Blue arcs through Egghead.
 
-| Location | Region | Description |
-|----------|--------|-------------|
-| **Skypeia** | Sky Island | The legendary sky island 10,000 meters above the sea |
-| **Sabaody Archipelago** | Paradise | The soap bubble islands and gateway to the New World |
-| **Wano Country** | New World | The isolated samurai nation with rich history |
-| **Dressrosa** | New World | The passionate kingdom of toys and secrets |
-| **Egghead** | New World | The futuristic island of cutting-edge science |
+### East Blue
+| Location | Description |
+|----------|-------------|
+| **Shell Town** | Where Zoro was imprisoned and the crew first formed |
+| **Orange Town** | Nami's introduction and the Buggy the Clown arc |
+| **Syrup Village** | Usopp's hometown and the Kaya arc |
+| **Baratie** | The floating restaurant where Sanji joined the crew |
+| **Arlong Park** | Nami's tragic past and the Arlong arc |
+| **Loguetown** | The town of the beginning and the end — Gol D. Roger's birthplace |
 
-*...and many more from the East Blue Saga!*
+### Alabasta Saga
+| Location | Description |
+|----------|-------------|
+| **Reverse Mountain** | The legendary entrance to the Grand Line |
+| **Whiskey Peak** | The bounty hunter town disguised as a welcoming port |
+| **Little Garden** | The prehistoric island where time stands still |
+| **Drum Island** | Chopper's homeland and the kingdom of medicine |
+| **Alabasta** | The desert kingdom and Vivi's homeland |
+
+### Sky Island Saga
+| Location | Description |
+|----------|-------------|
+| **Jaya** | The island of dreams and Mock Town |
+| **Skypeia** | The legendary sky island 10,000 meters above the sea |
+
+### Water 7 Saga
+| Location | Description |
+|----------|-------------|
+| **Long Ring Long Land** | The flat archipelago of the Davy Back Fight |
+| **Water 7** | The city of water and the greatest shipwrights in the world |
+| **Sea Train (Puffing Tom)** | The iconic sea train connecting Water 7 to Enies Lobby |
+| **Enies Lobby** | The judicial island — site of the Straw Hats' most daring rescue |
+| **Thriller Bark** | Gecko Moria's massive ghost ship island |
+
+### Summit War Saga
+| Location | Description |
+|----------|-------------|
+| **Sabaody Archipelago** | The soap bubble islands and gateway to the New World |
+| **Amazon Lily** | The all-female island ruled by the Pirate Empress Boa Hancock |
+| **Impel Down** | The world's most inescapable underwater prison |
+| **Marineford** | The site of the Summit War and Ace's final stand |
+
+### Fishman Island Saga
+| Location | Description |
+|----------|-------------|
+| **Fish-Man Island** | The underwater kingdom at the base of the Red Line |
+
+### Dressrosa Saga
+| Location | Description |
+|----------|-------------|
+| **Punk Hazard** | The lawless island of ice and fire |
+| **Dressrosa** | The passionate kingdom of toys and secrets |
+
+### Yonko Saga
+| Location | Description |
+|----------|-------------|
+| **Zou** | The living elephant island home of the Mink Tribe |
+| **Whole Cake Island** | Big Mom's territory and the land of sweets |
+| **Wano Country** | The isolated samurai nation fighting for freedom |
+| **Mary Geoise** | The holy land atop the Red Line — seat of the World Government |
+
+### Final Saga
+| Location | Description |
+|----------|-------------|
+| **Egghead** | Dr. Vegapunk's futuristic island of cutting-edge science |
+
+---
+
+### 🏴‍☠️ Want to Contribute?
+
+**Elbaf** — the legendary Giant Island — is intentionally left open as the first major community contribution. If you're a One Piece fan who wants to add to the map, this is where to start. See [CONTRIBUTING.md](CONTRIBUTING.md) to get involved.
 
 ---
 
@@ -123,10 +167,11 @@ The map currently features these showcase locations:
 </td>
 <td valign="top">
 
-### Backend & Database
+### Backend & Data
 - **Next.js API Routes**
 - **PostgreSQL** (via Supabase)
 - **Prisma ORM**
+- **RSS Parser** (news feed)
 
 ### Testing
 - **Vitest** (unit tests)
@@ -135,10 +180,9 @@ The map currently features these showcase locations:
 </td>
 <td valign="top">
 
-### DevOps
-- **Vercel** (hosting)
+### Infrastructure
 - **Supabase** (database)
-- **GitHub Actions** (CI/CD)
+- **GitHub Actions** (CI)
 
 </td>
 </tr>
@@ -146,91 +190,72 @@ The map currently features these showcase locations:
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions from the One Piece community! There are two ways to contribute:
-
-### 👨‍💻 For Developers
-
-Fork the repo, make changes, and submit a PR. See [CONTRIBUTING.md](CONTRIBUTING.md) for:
-- Code style guidelines
-- How to add locations via JSON
-- PR checklist
-
-### 🏴‍☠️ For Non-Developers
-
-No coding required! Visit our **[Contribution Form](/contribute)** to:
-- Suggest new locations
-- Submit lore corrections
-- Add YouTube video recommendations
-
-See [CONTRIBUTING-COMMUNITY.md](CONTRIBUTING-COMMUNITY.md) for detailed instructions.
-
----
-
 ## 📁 Project Structure
 
 ```
 ├── app/                    # Next.js App Router
-│   ├── api/               # API routes
+│   ├── api/               # API routes (locations, contributions, news)
 │   ├── contribute/        # Community contribution form
 │   └── locations/[slug]/  # Dynamic location pages
 ├── components/            # React components
-│   ├── map/              # Map and hotspot components
+│   ├── map/              # Map canvas and hotspot components
 │   ├── exploration/      # Location detail views
-│   └── audio/            # Audio player components
+│   ├── audio/            # Audio player and controls
+│   └── news/             # News feed components
 ├── lib/                   # Utilities and services
+│   ├── context/          # React context (AudioContext)
 │   ├── services/         # Business logic
 │   └── types/            # TypeScript interfaces
-├── data/locations/        # JSON seed data for locations
+├── data/locations/        # JSON location data (used in local dev mode)
 ├── prisma/                # Database schema
-├── tests/                 # Test files
-└── public/                # Static assets
+├── scripts/               # Image management utilities
+├── tests/                 # Unit test suite
+└── docs/                  # Technical documentation
 ```
 
 ---
 
 ## 🧪 Testing
 
-Run the test suite:
-
 ```bash
-# Run tests once
+# Run all tests once
 npm test
 
 # Run tests in watch mode
 npm run test:watch
 
-# Run tests with coverage report
+# Generate coverage report
 npm run test:coverage
 ```
 
----
-
-## 🌐 Deployment
-
-This project is designed to be deployed on **Vercel** with a **Supabase** PostgreSQL database.
-
-See [DEPLOYMENT.md](DEPLOYMENT.md) for step-by-step deployment instructions.
-
-### Domain Setup Guidance
-
-Looking to set up a custom domain? Here are recommended options:
-
-| Provider | Pros | Best For |
-|----------|------|----------|
-| **Vercel Domains** | Seamless integration, automatic SSL | Easiest setup with Vercel hosting |
-| **Cloudflare** | Free tier, excellent DNS, DDoS protection | Performance-focused, free option |
-| **Namecheap** | Affordable, good reputation | Budget-friendly domain registration |
-| **Google Domains** | Reliable, clean interface | Simple, straightforward option |
-
-> **Tip**: If hosting on Vercel, purchasing a domain directly through Vercel provides the smoothest setup experience with automatic HTTPS and zero configuration.
+Tests cover services, hooks, and key UI components using Vitest and React Testing Library.
 
 ---
+
+## 🤝 Contributing
+
+Contributions from the One Piece community are very welcome!
+
+### 👨‍💻 For Developers
+
+Fork the repo, make changes, and submit a PR. See [CONTRIBUTING.md](CONTRIBUTING.md) for:
+- How to add locations via JSON
+- Code style guidelines
+- PR checklist
+
+### 🏴‍☠️ For Non-Developers
+
+No coding required! Open a [GitHub Issue](https://github.com/HoxtaH/One-Piece-Lore-Map/issues) using one of the templates to:
+- Suggest new locations
+- Submit lore corrections
+- Recommend YouTube videos
+
+See [CONTRIBUTING-COMMUNITY.md](CONTRIBUTING-COMMUNITY.md) for details.
+
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -238,26 +263,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Eiichiro Oda** for creating the incredible world of One Piece
 - **The One Piece Community** for their passion and dedication
-- **All Contributors** who help bring this map to life - see [CONTRIBUTORS.md](CONTRIBUTORS.md)
-
----
-
-## 🔮 Roadmap
-
-Future enhancements planned:
-
-- [ ] Interactive pan/zoom map (Leaflet.js/Mapbox)
-- [ ] Character relationship graphs
-- [ ] Story timeline visualization
-- [ ] Search and filter functionality
-- [ ] User accounts with favorites and progress tracking
-- [ ] Mobile app version (React Native)
+- **All Contributors** — see [CONTRIBUTORS.md](CONTRIBUTORS.md)
 
 ---
 
 ## 📞 Contact
-
-Have questions or suggestions? 
 
 - 🐛 [Open an Issue](https://github.com/HoxtaH/One-Piece-Lore-Map/issues)
 - 💬 [Join Discussions](https://github.com/HoxtaH/One-Piece-Lore-Map/discussions)
