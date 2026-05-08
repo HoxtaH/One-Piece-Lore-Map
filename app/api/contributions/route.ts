@@ -3,6 +3,7 @@
 // GET - List contributions (for admin)
 
 import { NextRequest, NextResponse } from 'next/server';
+import * as Sentry from '@sentry/nextjs';
 import { prisma } from '@/lib/db/prisma';
 import { 
   sendVerificationEmail, 
@@ -12,11 +13,13 @@ import {
 import type { ContributionFormData } from '@/lib/types/contribution';
 
 export async function POST(request: NextRequest) {
+  let data: ContributionFormData | undefined;
+
   try {
-    const data: ContributionFormData = await request.json();
+    data = await request.json();
 
     // Validate required fields
-    if (!data.contributor?.email || !data.contributor?.name) {
+    if (!data?.contributor?.email || !data.contributor?.name) {
       return NextResponse.json(
         { success: false, message: 'Email and name are required' },
         { status: 400 }
@@ -60,15 +63,15 @@ export async function POST(request: NextRequest) {
           description: data.description,
           history: data.history,
           culture: data.culture,
-          economy: data.economy,
+          economy: data.economy as any,
           transportation: data.transportation,
-          food: data.food,
+          food: data.food as any,
           quickFacts: data.quickFacts || [],
-          notablePeople: data.notablePeople,
-          videos: data.videos,
-          coordinates: data.coordinates,
-          colorScheme: data.colorScheme,
-        },
+          notablePeople: data.notablePeople as any,
+          videos: data.videos as any,
+          coordinates: data.coordinates as any,
+          colorScheme: data.colorScheme as any,
+        } as any,
       },
     });
 
@@ -101,6 +104,21 @@ export async function POST(request: NextRequest) {
 
   } catch (error) {
     console.error('Contribution submission error:', error);
+    
+    // Capture error to Sentry for monitoring
+    Sentry.captureException(error, {
+      tags: {
+        endpoint: '/api/contributions',
+        method: 'POST',
+      },
+      extra: {
+        contribution: {
+          email: data?.contributor?.email ? `${data.contributor.email.substring(0, 5)}...` : undefined,
+          locationName: data?.locationName,
+        },
+      },
+    });
+    
     return NextResponse.json(
       { success: false, message: 'An error occurred. Please try again.' },
       { status: 500 }

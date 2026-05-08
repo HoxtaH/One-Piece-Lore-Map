@@ -2,6 +2,9 @@
   "name": "one-piece-lore-map",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=18.17.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -21,6 +24,7 @@
   },
   "dependencies": {
     "@prisma/client": "^5.11.0",
+    "@sentry/nextjs": "^10.52.0",
     "@supabase/supabase-js": "^2.42.0",
     "@tanstack/react-query": "^5.28.0",
     "framer-motion": "^11.0.0",

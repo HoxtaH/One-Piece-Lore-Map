@@ -6,6 +6,7 @@ This guide covers deploying the One Piece Lore Map to production using Vercel an
 
 ### Prerequisites
 
+- Node.js 18.17 or higher
 - GitHub account
 - Vercel account (free tier is fine)
 - Supabase project set up (see [SETUP.md](SETUP.md))
@@ -38,38 +39,36 @@ git push -u origin main
 5. Add Environment Variables:
 
 ```env
-DATABASE_URL=postgresql://postgres:[PASSWORD]@db.[PROJECT-REF].supabase.co:5432/postgres
+DATABASE_URL=postgresql://postgres:[PASSWORD]@db.[PROJECT-REF].supabase.co:5432/postgres?pgbouncer=true&connection_limit=1
 NEXT_PUBLIC_SUPABASE_URL=https://[PROJECT-REF].supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=[YOUR-ANON-KEY]
+NEXT_PUBLIC_SENTRY_DSN=[YOUR-SENTRY-DSN]
+SENTRY_ORG=native-arcade
+SENTRY_PROJECT=one-piece-lore-map
+SENTRY_AUTH_TOKEN=[YOUR-SENTRY-AUTH-TOKEN]
 ```
+
+**Note**: The `?pgbouncer=true&connection_limit=1` parameters enable connection pooling for production use.
 
 6. Click **"Deploy"**
 
 ### Step 3: Seed Production Database
 
-After deployment, seed your production database:
+After deployment, seed your production database from your local machine:
 
-1. Install Vercel CLI:
+1. Create a `.env.production.local` file locally with your production credentials:
+
 ```bash
-npm i -g vercel
+DATABASE_URL="postgresql://postgres:[PASSWORD]@db.[PROJECT-REF].supabase.co:5432/postgres?pgbouncer=true&connection_limit=1"
 ```
 
-2. Link to your project:
-```bash
-vercel link
-```
+2. Run the seed script:
 
-3. Run seed command:
 ```bash
-vercel env pull .env.production.local
 npm run db:seed
 ```
 
-Alternatively, run the seed script from your local machine:
-```bash
-# Make sure DATABASE_URL points to production
-npm run db:seed
-```
+**Note**: Do not commit `.env.production.local` to git. The seed script will use this to populate your production database.
 
 ## 🔒 Security Best Practices
 
@@ -87,45 +86,43 @@ npm run db:seed
 
 ### API Rate Limiting
 
-For production, consider adding rate limiting to API routes:
+For production, consider adding rate limiting to API routes. This is optional but recommended for public APIs:
 
 ```typescript
-// app/api/locations/route.ts
-import { ratelimit } from '@/lib/redis' // You'll need to set this up
-
+// Simple example without external dependencies
 export async function GET(request: Request) {
-  const ip = request.headers.get('x-forwarded-for') ?? 'unknown'
-  const { success } = await ratelimit.limit(ip)
+  // For production rate limiting, consider services like:
+  // - Vercel KV (included with Vercel Pro)
+  // - Upstash Redis
+  // - Custom database-based solution
   
-  if (!success) {
-    return new Response('Too Many Requests', { status: 429 })
-  }
-  
-  // ... rest of your code
+  // Implement based on your chosen rate limiting service
 }
 ```
 
 ## 📊 Monitoring
 
-### Vercel Analytics
+### Vercel Analytics (Essential)
 
 Enable in Vercel dashboard:
 1. Go to your project
 2. Click **Analytics** tab
 3. Enable Web Analytics (free)
 
-### Error Tracking
+### Optional Enhancements
 
-Consider adding Sentry:
+#### Error Tracking with Sentry
+
+Consider adding Sentry for error tracking:
 
 ```bash
 npm install @sentry/nextjs
 npx @sentry/wizard@latest -i nextjs
 ```
 
-### Performance Monitoring
+#### Performance Monitoring with Speed Insights
 
-Use Vercel Speed Insights:
+Add Vercel Speed Insights (optional):
 
 ```bash
 npm install @vercel/speed-insights
@@ -291,11 +288,13 @@ export const revalidate = 3600 // 1 hour
 
 ### Database Connection Pooling
 
-Use PgBouncer in your DATABASE_URL:
+Your DATABASE_URL should already include PgBouncer settings (added in Step 2):
 
 ```
 postgresql://postgres:password@db.xxx.supabase.co:5432/postgres?pgbouncer=true&connection_limit=1
 ```
+
+This enables connection pooling to handle database connections efficiently in a serverless environment.
 
 ## 🚦 Health Checks
 
