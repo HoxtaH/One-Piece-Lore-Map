@@ -329,10 +329,10 @@ export function JourneyPath({ locations, isPlaying, onProgressChange }: JourneyP
              {/* Going Merry GIF */}
              <image
                href={getAssetUrl("/images/onePieceMerryGoSticker.gif")}
-               width="150"
-               height="150"
-               x="-75"
-               y="-75"
+               width="250"
+               height="250"
+               x="-125"
+               y="-125"
                style={{
                  filter: 'drop-shadow(0 5px 15px rgba(0,0,0,0.6))',
                }}

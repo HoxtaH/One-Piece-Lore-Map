@@ -9,6 +9,8 @@ import { JourneyControls } from './JourneyControls'
 import { useMapAudio } from '@/lib/hooks/useMapAudio'
 import { ZoomIn, ZoomOut, Maximize2 } from 'lucide-react'
 import { getAssetUrl } from '@/lib/utils/assets'
+import MobileTapPopup from '../popups/MobileTapPopup'
+import AudioControls from '../audio/AudioControls'
 
 interface WorldMapProps {
   locations: LocationSummary[]
@@ -16,6 +18,7 @@ interface WorldMapProps {
 
 export default function WorldMap({ locations }: WorldMapProps) {
   const [hoveredLocation, setHoveredLocation] = useState<LocationSummary | null>(null)
+  const [tappedLocation, setTappedLocation] = useState<LocationSummary | null>(null)
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
   
   // Zoom and Pan state
@@ -49,8 +52,10 @@ export default function WorldMap({ locations }: WorldMapProps) {
   // AUDIO: Initialize map audio
   useMapAudio();
 
-  // AUDIO: Initialize map audio
-  useMapAudio();
+  // Touch refs for pinch-to-zoom and panning
+  const pinchStartDistRef = useRef<number>(0)
+  const pinchStartScaleRef = useRef<number>(0)
+  const lastTouchPosRef = useRef<{ x: number; y: number }>({ x: 0, y: 0 })
 
   // Toggle coordinate finder mode with Ctrl+Shift+C
   useEffect(() => {
@@ -99,6 +104,22 @@ export default function WorldMap({ locations }: WorldMapProps) {
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, []);
+
+  // Initial Mobile Scale
+  useEffect(() => {
+    if (typeof window !== 'undefined' && window.innerWidth < 768) {
+      setScale(1.8)
+    }
+    
+    const handleResize = () => {
+      if (window.innerWidth < 768 && scale === 1) {
+        setScale(1.8)
+      }
+    }
+    
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
 
   // Calculate bounds based on current scale
   const getBounds = (currentScale: number) => {
@@ -208,6 +229,94 @@ export default function WorldMap({ locations }: WorldMapProps) {
   // Stop dragging
   const handleMouseUp = () => {
     setIsDragging(false)
+  }
+
+  // --- TOUCH HANDLERS ---
+  
+  const handleTouchStart = (event: React.TouchEvent) => {
+    if (coordinateFinderMode) return
+
+    if (event.touches.length === 1) {
+      // Single finger pan
+      const touch = event.touches[0]
+      setIsDragging(true)
+      setDragStart({ x: touch.clientX, y: touch.clientY })
+      lastTouchPosRef.current = { x: touch.clientX, y: touch.clientY }
+    } else if (event.touches.length === 2) {
+      // Pinch to zoom
+      setIsDragging(false) // Stop panning when two fingers are down
+      const t1 = event.touches[0]
+      const t2 = event.touches[1]
+      const dist = Math.hypot(t1.clientX - t2.clientX, t1.clientY - t2.clientY)
+      pinchStartDistRef.current = dist
+      pinchStartScaleRef.current = scale
+    }
+  }
+
+  const handleTouchMove = (event: React.TouchEvent) => {
+    if (coordinateFinderMode) return
+    
+    if (event.touches.length === 1 && isDragging) {
+      // Single finger pan
+      const touch = event.touches[0]
+      if (isJourneyPlaying && isCameraLocked) setIsCameraLocked(false)
+
+      const deltaX = touch.clientX - lastTouchPosRef.current.x
+      const deltaY = touch.clientY - lastTouchPosRef.current.y
+      
+      const nextX = position.x + deltaX
+      const nextY = position.y + deltaY
+      
+      const bounds = getBounds(scale)
+      
+      setPosition({
+        x: Math.max(-bounds.x, Math.min(bounds.x, nextX)),
+        y: Math.max(-bounds.y, Math.min(bounds.y, nextY)),
+      })
+      
+      lastTouchPosRef.current = { x: touch.clientX, y: touch.clientY }
+    } else if (event.touches.length === 2) {
+      // Pinch to zoom
+      const t1 = event.touches[0]
+      const t2 = event.touches[1]
+      const currentDist = Math.hypot(t1.clientX - t2.clientX, t1.clientY - t2.clientY)
+      
+      if (pinchStartDistRef.current > 0) {
+        const ratio = currentDist / pinchStartDistRef.current
+        const newScale = Math.min(Math.max(pinchStartScaleRef.current * ratio, MIN_SCALE), MAX_SCALE)
+        
+        if (newScale !== scale && containerRef.current) {
+          // Calculate midpoint for focal point
+          const rect = containerRef.current.getBoundingClientRect()
+          const midX = (t1.clientX + t2.clientX) / 2 - rect.left
+          const midY = (t1.clientY + t2.clientY) / 2 - rect.top
+          
+          const scaleRatio = newScale / scale
+          const newX = midX - (midX - position.x) * scaleRatio
+          const newY = midY - (midY - position.y) * scaleRatio
+          
+          const bounds = getBounds(newScale)
+          setPosition({ 
+            x: Math.max(-bounds.x, Math.min(bounds.x, newX)),
+            y: Math.max(-bounds.y, Math.min(bounds.y, newY))
+          })
+          setScale(newScale)
+        }
+      }
+    }
+  }
+
+  const handleTouchEnd = () => {
+    setIsDragging(false)
+    pinchStartDistRef.current = 0
+  }
+
+  const handleLocationTap = (location: LocationSummary) => {
+    setTappedLocation(location)
+  }
+
+  const handleBackgroundClick = () => {
+    if (tappedLocation) setTappedLocation(null)
   }
 
   // Zoom controls
@@ -366,12 +475,17 @@ export default function WorldMap({ locations }: WorldMapProps) {
       onMouseDown={handleMouseDown}
       onMouseUp={handleMouseUp}
       onDoubleClick={handleDoubleClick}
+      onTouchStart={handleTouchStart}
+      onTouchMove={handleTouchMove}
+      onTouchEnd={handleTouchEnd}
+      onClick={handleBackgroundClick}
       style={{ 
         cursor: coordinateFinderMode ? 'crosshair' : (isDragging ? 'grabbing' : 'grab'),
         userSelect: 'none',
         WebkitUserSelect: 'none',
         MozUserSelect: 'none',
         msUserSelect: 'none',
+        touchAction: 'none',
       }}
     >
       {/* Coordinate Finder Mode Indicator */}
@@ -457,6 +571,8 @@ export default function WorldMap({ locations }: WorldMapProps) {
                   showHotspot={showHotspots}
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
+                  onTap={handleLocationTap}
+                  isTapped={tappedLocation?.id === location.id}
                 />
               </g>
             ));
@@ -464,7 +580,13 @@ export default function WorldMap({ locations }: WorldMapProps) {
         </svg>
       </div>
 
-      {/* Journey Controls */}
+      {/* Mobile Location Popup */}
+      <MobileTapPopup 
+        location={tappedLocation} 
+        onClose={() => setTappedLocation(null)} 
+      />
+
+      {/* Desktop Journey Controls (hidden on mobile — handled by MobileBottomHUD below) */}
       <JourneyControls
         showJourneyPath={showJourneyPath}
         isPlaying={isJourneyPlaying}
@@ -477,61 +599,90 @@ export default function WorldMap({ locations }: WorldMapProps) {
         onToggleCameraLock={() => setIsCameraLocked(!isCameraLocked)}
       />
 
+      {/* Desktop Audio Controls (hidden on mobile — handled by MobileBottomHUD below) */}
+      <AudioControls />
+
+      {/* ── Mobile Bottom HUD ──────────────────────────────────────────────
+           Fixed to the bottom of the screen, grows upward as content expands.
+           Stack order (bottom → top): Journey Controls → Audio Controls → Prompt
+           Everything stays in the blue letterbox area below the map image.
+      ────────────────────────────────────────────────────────────────── */}
+      <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden flex flex-col items-center gap-2 px-3 pb-3">
+        {/* Audio Controls (prompt + enable button) — sits above journey */}
+        <AudioControls mobileInline />
+
+        {/* Journey Controls — always at the very bottom */}
+        <JourneyControls
+          showJourneyPath={showJourneyPath}
+          isPlaying={isJourneyPlaying}
+          isCameraLocked={isCameraLocked}
+          progress={journeyProgress}
+          currentLocation={currentJourneyLocation}
+          onToggleJourney={handleToggleJourney}
+          onPlay={handlePlayJourney}
+          onRestart={handleRestartJourney}
+          onToggleCameraLock={() => setIsCameraLocked(!isCameraLocked)}
+          mobileInline
+        />
+      </div>
+
       {/* Header */}
       <div 
+        className="absolute top-2 left-0 right-0 p-2 md:p-6 z-[5]"
         style={{
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          right: 0,
-          padding: '1.5rem',
-          background: 'linear-gradient(to bottom, rgba(0,0,0,0.5), transparent)',
+          background: 'linear-gradient(to bottom, rgba(0,0,0,0.6), transparent)',
           pointerEvents: 'none',
-          zIndex: 5,
         }}
       >
-        <h1 className="text-3xl font-bold text-white drop-shadow-lg">
-          One Piece World Map
-        </h1>
-        <p className="text-white/80 mt-1 text-sm drop-shadow">
-          Scroll to zoom • Double-click to toggle zoom • Drag to pan • Hover over locations
-        </p>
+        <div className="max-w-7xl mx-auto px-4 flex justify-between items-start">
+          <div>
+            <h1 className="text-xl md:text-3xl font-bold text-white drop-shadow-lg">
+              One Piece World Map
+            </h1>
+            <p className="text-white/80 mt-1 text-xs md:text-sm drop-shadow hidden md:block">
+              Scroll to zoom • Double-click to toggle zoom • Drag to pan • Hover over locations
+            </p>
+            <p className="text-white/80 mt-1 text-[10px] drop-shadow md:hidden opacity-70">
+              Pinch to zoom • Drag to pan • Tap locations
+            </p>
+          </div>
+        </div>
       </div>
 
       {/* Zoom Controls */}
       <div 
-        className="fixed bottom-6 left-6 flex flex-col gap-2 z-50"
+        className="fixed top-20 left-2 md:top-auto md:bottom-6 md:left-6 hidden md:flex flex-col gap-2 z-50"
         style={{ pointerEvents: 'auto' }}
       >
         <button
           onClick={zoomIn}
           disabled={scale >= MAX_SCALE}
-          className="p-3 bg-black/80 hover:bg-black/90 text-white rounded-lg backdrop-blur border border-white/10 transition disabled:opacity-50 disabled:cursor-not-allowed"
+          className="p-2 md:p-3 bg-black/80 hover:bg-black/90 text-white rounded-lg backdrop-blur border border-white/10 transition disabled:opacity-50 disabled:cursor-not-allowed"
           title="Zoom In"
         >
-          <ZoomIn className="w-5 h-5" />
+          <ZoomIn className="w-4 h-4 md:w-5 md:h-5" />
         </button>
         
         <button
           onClick={zoomOut}
           disabled={scale <= MIN_SCALE}
-          className="p-3 bg-black/80 hover:bg-black/90 text-white rounded-lg backdrop-blur border border-white/10 transition disabled:opacity-50 disabled:cursor-not-allowed"
+          className="p-2 md:p-3 bg-black/80 hover:bg-black/90 text-white rounded-lg backdrop-blur border border-white/10 transition disabled:opacity-50 disabled:cursor-not-allowed"
           title="Zoom Out"
         >
-          <ZoomOut className="w-5 h-5" />
+          <ZoomOut className="w-4 h-4 md:w-5 md:h-5" />
         </button>
         
         <button
           onClick={resetView}
           disabled={scale === MIN_SCALE && position.x === 0 && position.y === 0}
-          className="p-3 bg-black/80 hover:bg-black/90 text-white rounded-lg backdrop-blur border border-white/10 transition disabled:opacity-50 disabled:cursor-not-allowed"
+          className="p-2 md:p-3 bg-black/80 hover:bg-black/90 text-white rounded-lg backdrop-blur border border-white/10 transition disabled:opacity-50 disabled:cursor-not-allowed"
           title="Reset View"
         >
-          <Maximize2 className="w-5 h-5" />
+          <Maximize2 className="w-4 h-4 md:w-5 md:h-5" />
         </button>
         
         {/* Zoom Level Indicator */}
-        <div className="px-3 py-2 bg-black/80 text-white text-sm rounded-lg backdrop-blur border border-white/10 text-center">
+        <div className="px-2 py-1 md:px-3 md:py-2 bg-black/80 text-white text-[10px] md:text-sm rounded-lg backdrop-blur border border-white/10 text-center">
           {Math.round(scale * 100)}%
         </div>
       </div>

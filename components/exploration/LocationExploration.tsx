@@ -60,7 +60,7 @@ export default function LocationExploration({ location }: LocationExplorationPro
       <div className="relative overflow-hidden">
         {/* Banner Image with Sepia Filter */}
         {bannerImage && (
-          <div className="relative h-[50vh]">
+          <div className="relative h-[30vh] md:h-[50vh]">
             <img
               src={bannerImage}
               alt={location.name}
@@ -86,17 +86,17 @@ export default function LocationExploration({ location }: LocationExplorationPro
             className="relative z-10 max-w-7xl mx-auto px-8"
           >
             <div className="text-center">
-              <h1 className="pirate-font text-7xl font-bold mb-2 text-[#F5E6D3] drop-shadow-lg">
+              <h1 className="pirate-font text-4xl md:text-7xl font-bold mb-2 text-[#F5E6D3] drop-shadow-lg">
                 {location.name}
               </h1>
               <div className="flex items-center justify-center gap-3 mb-4">
-                <div className="h-px w-24 bg-gradient-to-r from-transparent to-[#D4AF37]" />
-                <p className="ornate-font text-3xl font-semibold text-[#D4AF37]">
+                <div className="h-px w-12 md:w-24 bg-gradient-to-r from-transparent to-[#D4AF37]" />
+                <p className="ornate-font text-xl md:text-3xl font-semibold text-[#D4AF37]">
                   {location.region}
                 </p>
-                <div className="h-px w-24 bg-gradient-to-l from-transparent to-[#D4AF37]" />
+                <div className="h-px w-12 md:w-24 bg-gradient-to-l from-transparent to-[#D4AF37]" />
               </div>
-              <p className="old-book-font text-xl text-[#E8DCC4] max-w-4xl mx-auto leading-relaxed">
+              <p className="old-book-font text-base md:text-xl text-[#E8DCC4] max-w-4xl mx-auto leading-relaxed px-4">
                 {location.description}
               </p>
             </div>
@@ -106,16 +106,16 @@ export default function LocationExploration({ location }: LocationExplorationPro
         {/* Back Button - Vintage Style */}
         <button
           onClick={() => router.push('/')}
-          className="absolute top-6 left-6 px-6 py-3 bg-[#3E2723] hover:bg-[#2D1810] text-[#F5E6D3] ornate-font font-semibold rounded border-2 border-[#654321] vintage-shadow transition z-20"
+          className="absolute top-4 left-4 md:top-6 md:left-6 px-4 py-2 md:px-6 md:py-3 bg-[#3E2723] hover:bg-[#2D1810] text-[#F5E6D3] ornate-font font-semibold rounded border-2 border-[#654321] vintage-shadow transition z-20 text-sm md:text-base"
         >
-          ← Return to Map
+          ← Return
         </button>
       </div>
 
       {/* Tab Navigation - Vintage Tabs */}
-      <div className="sticky top-0 z-20 bg-[#D4C4A8] border-b-4 border-[#654321] shadow-lg">
-        <div className="max-w-7xl mx-auto px-4 sm:px-8">
-          <div className="flex flex-wrap gap-1 sm:gap-2 py-2 justify-center">
+      <div className="sticky top-0 z-20 bg-[#D4C4A8] border-b-4 border-[#654321] shadow-lg overflow-x-auto no-scrollbar">
+        <div className="max-w-7xl mx-auto px-2 sm:px-8">
+          <div className="flex flex-nowrap md:flex-wrap gap-1 sm:gap-2 py-2 justify-start md:justify-center">
             {availableTabs.map((tab) => (
               <button
                 key={tab.id}
@@ -136,7 +136,7 @@ export default function LocationExploration({ location }: LocationExplorationPro
       </div>
 
       {/* Content */}
-      <div className="max-w-7xl mx-auto px-8 py-12">
+      <div className="max-w-7xl mx-auto px-4 md:px-8 py-6 md:py-12">
         {activeTab === 'overview' && (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -653,10 +653,10 @@ function Section({
   color: string 
 }) {
   return (
-    <div className="bg-[#F5E6D3] rounded-lg p-8 ink-border stamp-effect parchment-texture">
-      <div className="flex items-center gap-4 mb-6">
+    <div className="bg-[#F5E6D3] rounded-lg p-4 md:p-8 ink-border stamp-effect parchment-texture">
+      <div className="flex items-center gap-2 md:gap-4 mb-4 md:mb-6">
         <div className="h-px flex-1 bg-gradient-to-r from-transparent to-[#8B4513]" />
-        <h3 className="pirate-font text-4xl font-bold text-[#2D1810]">
+        <h3 className="pirate-font text-2xl md:text-4xl font-bold text-[#2D1810] text-center">
           {title}
         </h3>
         <div className="h-px flex-1 bg-gradient-to-l from-transparent to-[#8B4513]" />

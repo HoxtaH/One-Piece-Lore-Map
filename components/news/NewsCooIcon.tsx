@@ -29,7 +29,7 @@ export default function NewsCooIcon({ onClick }: NewsCooIconProps) {
   };
 
   return (
-    <div className="fixed top-6 right-6 z-[997]">
+    <div className="fixed top-4 right-4 md:top-6 md:right-6 z-[997]">
       <button
         onClick={handleClick}
         className="news-coo-button group relative"
@@ -40,7 +40,7 @@ export default function NewsCooIcon({ onClick }: NewsCooIconProps) {
           <img
             src={getAssetUrl("/images/newsCoo.png")}
             alt="News Coo"
-            className="w-24 h-24 drop-shadow-2xl animate-bounce-slow"
+            className="w-16 h-16 md:w-24 md:h-24 drop-shadow-2xl animate-bounce-slow"
             style={{ 
               imageRendering: 'pixelated',
               filter: 'drop-shadow(3px 3px 6px rgba(0,0,0,0.6))'

@@ -119,16 +119,16 @@ export default function NewsPanel({ isOpen, onClose }: NewsPanelProps) {
       />
 
       {/* News Panel */}
-      <div className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[999] w-[90vw] max-w-4xl max-h-[85vh] overflow-hidden">
-        <div className="news-panel-container bg-[#E8DCC4] border-8 border-[#654321] shadow-2xl overflow-hidden" style={{ imageRendering: 'pixelated' }}>
+      <div className="fixed top-0 left-0 right-0 bottom-0 md:top-1/2 md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 z-[999] w-full md:w-[90vw] md:max-w-4xl h-full md:max-h-[85vh] overflow-hidden">
+        <div className="news-panel-container bg-[#E8DCC4] border-4 md:border-8 border-[#654321] shadow-2xl h-full flex flex-col" style={{ imageRendering: 'pixelated' }}>
           {/* Header */}
           <div className="news-header bg-[#2D1810] text-[#E8DCC4] p-6 relative">
             <div className="flex items-center justify-between">
               <div className="flex-1">
-                <h1 className="text-5xl font-bold mb-2" style={{ fontFamily: 'Pirata One' }}>
+                <h1 className="text-3xl md:text-5xl font-bold mb-1 md:mb-2" style={{ fontFamily: 'Pirata One' }}>
                   📰 BIG NEWS!
                 </h1>
-                <p className="text-lg opacity-90" style={{ fontFamily: 'Special Elite' }}>
+                <p className="text-sm md:text-lg opacity-90" style={{ fontFamily: 'Special Elite' }}>
                   World Economic Journal - Published by &quot;Big News&quot; Morgans
                 </p>
               </div>
@@ -137,16 +137,16 @@ export default function NewsPanel({ isOpen, onClose }: NewsPanelProps) {
                 className="text-[#E8DCC4] hover:text-white transition-colors p-2"
                 aria-label="Close news panel"
               >
-                <X size={32} />
+                <X className="w-8 h-8 md:w-10 md:h-10" />
               </button>
             </div>
           </div>
 
           {/* Category Filters */}
-          <div className="bg-[#D4C5A0] border-b-4 border-[#8B4513] p-4 flex flex-wrap gap-2">
+          <div className="bg-[#D4C5A0] border-b-4 border-[#8B4513] p-2 md:p-4 overflow-x-auto flex flex-nowrap gap-2 no-scrollbar">
             <button
               onClick={() => setFilter('all')}
-              className={`px-4 py-2 rounded-md font-bold transition-all ${
+              className={`px-3 md:px-4 py-1.5 md:py-2 rounded-md font-bold transition-all whitespace-nowrap ${
                 filter === 'all'
                   ? 'bg-[#654321] text-[#E8DCC4] shadow-lg'
                   : 'bg-[#E8DCC4] text-[#2D1810] hover:bg-[#D4C5A0] border-2 border-[#8B4513]'
@@ -159,7 +159,7 @@ export default function NewsPanel({ isOpen, onClose }: NewsPanelProps) {
               <button
                 key={category}
                 onClick={() => setFilter(category)}
-                className={`px-4 py-2 rounded-md font-bold transition-all ${
+                className={`px-3 md:px-4 py-1.5 md:py-2 rounded-md font-bold transition-all whitespace-nowrap ${
                   filter === category
                     ? 'bg-[#654321] text-[#E8DCC4] shadow-lg'
                     : 'bg-[#E8DCC4] text-[#2D1810] hover:bg-[#D4C5A0] border-2 border-[#8B4513]'
@@ -201,7 +201,7 @@ export default function NewsPanel({ isOpen, onClose }: NewsPanelProps) {
           </div>
 
           {/* News Feed */}
-          <div className="news-feed overflow-y-auto max-h-[calc(85vh-240px)] p-6 space-y-4">
+          <div className="news-feed overflow-y-auto flex-1 p-3 md:p-6 space-y-4 bg-[#F5EFE0]/30">
             {isLoading && (
               <div className="text-center py-12">
                 <p className="text-3xl text-[#654321] mb-4" style={{ fontFamily: 'Pirata One' }}>
@@ -291,8 +291,8 @@ export default function NewsPanel({ isOpen, onClose }: NewsPanelProps) {
                   </p>
 
                   {/* Footer */}
-                  <div className="flex items-center justify-between pt-4 border-t-2 border-[#D4C5A0]">
-                    <span className="text-sm text-[#654321]/80 italic" style={{ fontFamily: 'Special Elite' }}>
+                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pt-4 border-t-2 border-[#D4C5A0]">
+                    <span className="text-sm text-[#654321]/80 italic order-2 sm:order-1" style={{ fontFamily: 'Special Elite' }}>
                       Source: {article.source}
                     </span>
                     {article.url !== '#' && (
@@ -300,7 +300,7 @@ export default function NewsPanel({ isOpen, onClose }: NewsPanelProps) {
                         href={article.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-[#8B4513] text-[#E8DCC4] px-4 py-2 rounded font-bold hover:bg-[#654321] transition-colors"
+                        className="bg-[#8B4513] text-[#E8DCC4] px-4 py-2 rounded font-bold hover:bg-[#654321] transition-colors text-center order-1 sm:order-2"
                         style={{ fontFamily: 'Special Elite' }}
                       >
                         Read More →

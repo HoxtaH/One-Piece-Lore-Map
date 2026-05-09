@@ -10,6 +10,8 @@ interface MapHotspotProps {
   showHotspot: boolean      // Toggle visibility of hotspot circles
   onMouseEnter: (location: LocationSummary, event: React.MouseEvent) => void
   onMouseLeave: () => void
+  onTap?: (location: LocationSummary) => void
+  isTapped?: boolean
 }
 
 export default function MapHotspot({
@@ -18,6 +20,8 @@ export default function MapHotspot({
   showHotspot,
   onMouseEnter,
   onMouseLeave,
+  onTap,
+  isTapped = false,
 }: MapHotspotProps) {
   const router = useRouter()
   const { colorScheme } = location
@@ -26,26 +30,27 @@ export default function MapHotspot({
   // Scaled for pixel coordinate system (0-10798 x 0-5429)
   const radius = 100
 
-  const handleClick = () => {
+  const handleClick = (e: React.MouseEvent) => {
+    e.stopPropagation()
     router.push(`/locations/${location.slug}`)
   }
 
   return (
     <g>
-      {/* Pulsing glow effect - only visible when showHotspot is true */}
-      {showHotspot && (
+      {/* Pulsing glow effect - only visible when showHotspot is true or it's tapped */}
+      {(showHotspot || isTapped) && (
         <motion.circle
           cx={coordinates.x}
           cy={coordinates.y}
-          r={radius * 1.5}
+          r={radius * (isTapped ? 2 : 1.5)}
           fill={colorScheme.primary}
-          opacity={0.3}
+          opacity={isTapped ? 0.6 : 0.3}
           animate={{
-            scale: [1, 1.2, 1],
-            opacity: [0.3, 0.5, 0.3],
+            scale: isTapped ? [1, 1.1, 1] : [1, 1.2, 1],
+            opacity: isTapped ? [0.6, 0.8, 0.6] : [0.3, 0.5, 0.3],
           }}
           transition={{
-            duration: 2,
+            duration: isTapped ? 1 : 2,
             repeat: Infinity,
             ease: 'easeInOut',
           }}
@@ -57,18 +62,32 @@ export default function MapHotspot({
         cx={coordinates.x}
         cy={coordinates.y}
         r={radius}
-        fill={showHotspot ? colorScheme.primary : 'transparent'}
-        stroke={showHotspot ? colorScheme.accent : 'transparent'}
+        fill={(showHotspot || isTapped) ? colorScheme.primary : 'transparent'}
+        stroke={(showHotspot || isTapped) ? colorScheme.accent : 'transparent'}
         strokeWidth={0.3}
         className="cursor-pointer transition-all duration-300 hover:opacity-100"
-        opacity={showHotspot ? 0.8 : 0}
+        opacity={(showHotspot || isTapped) ? 0.8 : 0}
         onMouseEnter={(e) => onMouseEnter(location, e as any)}
         onMouseLeave={onMouseLeave}
         onClick={handleClick}
       />
 
-      {/* Center dot - only visible when showHotspot is true */}
-      {showHotspot && (
+      {/* Larger touch target for mobile - transparent but interactive */}
+      <circle
+        cx={coordinates.x}
+        cy={coordinates.y}
+        r={radius * 2.5}
+        fill="transparent"
+        className="cursor-pointer md:hidden"
+        style={{ pointerEvents: 'auto' }}
+        onClick={(e) => {
+          e.stopPropagation()
+          if (onTap) onTap(location)
+        }}
+      />
+
+      {/* Center dot - only visible when showHotspot is true or tapped */}
+      {(showHotspot || isTapped) && (
         <circle
           cx={coordinates.x}
           cy={coordinates.y}
@@ -80,5 +99,3 @@ export default function MapHotspot({
     </g>
   )
 }
-
-

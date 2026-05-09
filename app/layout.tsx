@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import { Providers } from './providers'
@@ -10,6 +10,14 @@ export const metadata: Metadata = {
   title: 'One Piece Lore Map - Explore the World of One Piece',
   description: 'An interactive map documenting the vast world of One Piece, featuring detailed lore, locations, characters, and key moments from the series.',
   keywords: 'One Piece, anime, manga, map, lore, interactive, Luffy, world map, navigation',
+}
+
+// Prevent browser native zoom from fighting our custom pinch-to-zoom on the map
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
 }
 
 export default function RootLayout({
