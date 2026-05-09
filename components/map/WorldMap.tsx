@@ -59,7 +59,7 @@ export default function WorldMap({ locations }: WorldMapProps) {
   
   useEffect(() => {
     if (typeof window !== 'undefined' && window.innerWidth < 768) {
-      setJourneyZoomLevel(8)
+      setJourneyZoomLevel(10)
     } else {
       setJourneyZoomLevel(6)
     }
