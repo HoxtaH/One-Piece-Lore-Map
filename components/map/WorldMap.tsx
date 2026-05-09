@@ -54,14 +54,7 @@ export default function WorldMap({ locations }: WorldMapProps) {
   const MAX_SCALE = 10
   const ZOOM_STEP = 0.21
   
-  // Mobile-specific zoom level for journey (Task 8)
-  const [journeyZoomLevel, setJourneyZoomLevel] = useState(6)
-  
-  useEffect(() => {
-    if (typeof window !== 'undefined' && window.innerWidth < 768) {
-      setJourneyZoomLevel(4)
-    }
-  }, [])
+  const JOURNEY_ZOOM_LEVEL = 6;
 
   // AUDIO: Initialize map audio
   useMapAudio();
@@ -501,7 +494,7 @@ export default function WorldMap({ locations }: WorldMapProps) {
        const offsetX = (headPosition.x - centerX) * scaleFactor;
        const offsetY = (headPosition.y - centerY) * scaleFactor;
        
-       const targetScale = journeyZoomLevel;
+       const targetScale = JOURNEY_ZOOM_LEVEL;
        
        const newX = -offsetX * targetScale;
        const newY = -offsetY * targetScale;
