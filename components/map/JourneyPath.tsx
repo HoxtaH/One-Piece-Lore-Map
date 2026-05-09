@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo, useEffect, useState } from 'react';
+import { useMemo, useEffect, useState, useRef } from 'react';
 import { Location } from '@/lib/types/location';
 import { getAssetUrl } from '@/lib/utils/assets';
 
@@ -13,6 +13,11 @@ interface JourneyPathProps {
 export function JourneyPath({ locations, isPlaying, onProgressChange }: JourneyPathProps) {
   const [progress, setProgress] = useState(0); // 0-100
   const [currentLocationIndex, setCurrentLocationIndex] = useState(0);
+  
+  // Refs for animation and optimization
+  const requestRef = useRef<number>();
+  const previousTimeRef = useRef<number>();
+  const headPositionRef = useRef<{ x: number; y: number } | null>(null);
 
   // Sort locations by journey order
   const journeyLocations = useMemo(() => {
@@ -144,31 +149,39 @@ export function JourneyPath({ locations, isPlaying, onProgressChange }: JourneyP
     return segments;
   }, [journeyLocations]);
 
-  // Animation loop
+  // Animation loop using requestAnimationFrame for better performance
   useEffect(() => {
     if (!isPlaying) {
-      // Reset when stopped
       setProgress(0);
       setCurrentLocationIndex(0);
+      previousTimeRef.current = undefined;
+      if (requestRef.current) cancelAnimationFrame(requestRef.current);
       return;
     }
 
-    const fps = 60;
     const durationMs = 120000; // 2 minutes for full journey
-    const increment = (100 / durationMs) * (1000 / fps);
 
-    const interval = setInterval(() => {
-      setProgress((prev) => {
-        const next = prev + increment;
-        if (next >= 100) {
-          clearInterval(interval);
-          return 100;
-        }
-        return next;
-      });
-    }, 1000 / fps);
+    const animate = (time: number) => {
+      if (previousTimeRef.current !== undefined) {
+        const deltaTime = time - previousTimeRef.current;
+        const increment = (100 / durationMs) * deltaTime;
+        
+        setProgress((prev) => {
+          const next = prev + increment;
+          if (next >= 100) {
+            return 100;
+          }
+          return next;
+        });
+      }
+      previousTimeRef.current = time;
+      requestRef.current = requestAnimationFrame(animate);
+    };
 
-    return () => clearInterval(interval);
+    requestRef.current = requestAnimationFrame(animate);
+    return () => {
+      if (requestRef.current) cancelAnimationFrame(requestRef.current);
+    };
   }, [isPlaying]);
 
   // Update current location based on progress
@@ -187,7 +200,8 @@ export function JourneyPath({ locations, isPlaying, onProgressChange }: JourneyP
     const t = (progress === 100) ? 1 : (keyframe - Math.floor(keyframe));
     
     // Calculate head position
-    const headPosition = currentSegment ? getPointOnSegment(currentSegment, t) : null;
+    const headPos = currentSegment ? getPointOnSegment(currentSegment, t) : null;
+    headPositionRef.current = headPos;
 
     // Get the location index from the segment's endIndex (the destination location)
     const index = currentSegment ? currentSegment.endIndex : 0;
@@ -195,7 +209,7 @@ export function JourneyPath({ locations, isPlaying, onProgressChange }: JourneyP
     setCurrentLocationIndex(index);
     
     if (onProgressChange) {
-      onProgressChange(progress, journeyLocations[index] || null, headPosition);
+      onProgressChange(progress, journeyLocations[index] || null, headPos);
     }
   }, [progress, journeyLocations, pathSegments, onProgressChange]);
 
@@ -227,8 +241,6 @@ export function JourneyPath({ locations, isPlaying, onProgressChange }: JourneyP
             opacity={segmentOpacity}
             style={{
               shapeRendering: 'crispEdges', // Pixelated look
-              filter: 'drop-shadow(3px 3px 6px rgba(0,0,0,0.4))',
-              transition: 'opacity 0.2s linear',
             }}
           />
         );
@@ -295,9 +307,6 @@ export function JourneyPath({ locations, isPlaying, onProgressChange }: JourneyP
               strokeDasharray={isReached ? 'none' : '5,5'}
               opacity={isReached ? 1 : 0.6}
               style={{
-                filter: isCurrent
-                  ? 'drop-shadow(0 0 10px rgba(212, 175, 55, 0.8))'
-                  : 'none',
                 transition: 'all 0.5s ease',
                 shapeRendering: 'geometricPrecision', // Smoother circles
               }}
@@ -308,24 +317,14 @@ export function JourneyPath({ locations, isPlaying, onProgressChange }: JourneyP
 
       {/* Ship Icon following the path */}
       {(() => {
-        // Recalculate head position for rendering
-        if (progress <= 0 || journeyLocations.length === 0 || pathSegments.length === 0) return null;
-        
-        // Use same logic as useEffect
-        const totalSegments = pathSegments.length;
-        const keyframe = (progress / 100) * totalSegments;
-        const currentSegmentIndex = Math.min(Math.floor(keyframe), totalSegments - 1);
-        const currentSegment = pathSegments[currentSegmentIndex];
-        const t = (progress === 100) ? 1 : (keyframe - Math.floor(keyframe));
-        
-        const pos = currentSegment ? getPointOnSegment(currentSegment, t) : null;
+        const pos = headPositionRef.current;
         
         if (!pos) return null;
 
         return (
           <g transform={`translate(${pos.x}, ${pos.y})`} style={{ pointerEvents: 'none' }}>
-             {/* Glow behind ship */}
-             <circle r="40" fill="white" opacity="0.4" filter="blur(15px)" />
+             {/* Glow behind ship - Simplified for mobile performance */}
+             <circle r="40" fill="white" opacity="0.4" />
              {/* Going Merry GIF */}
              <image
                href={getAssetUrl("/images/onePieceMerryGoSticker.gif")}
@@ -334,7 +333,7 @@ export function JourneyPath({ locations, isPlaying, onProgressChange }: JourneyP
                x="-125"
                y="-125"
                style={{
-                 filter: 'drop-shadow(0 5px 15px rgba(0,0,0,0.6))',
+                 opacity: 0.9,
                }}
              />
           </g>

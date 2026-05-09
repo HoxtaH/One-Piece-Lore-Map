@@ -31,17 +31,8 @@ export function SegmentPath({
     const wasPlaying = prevIsPlayingRef.current;
     const nowPlaying = isPlaying;
     
-    console.log(`[${id}] isPlaying changed:`, {
-      wasPlaying,
-      nowPlaying,
-      currentPhase: phase,
-      currentProgress: progress,
-      willReset: !wasPlaying && nowPlaying && (phase === "idle" || phase === "done")
-    });
-    
     // Only reset if we're starting fresh (was false, now true)
     if (!wasPlaying && nowPlaying && (phase === "idle" || phase === "done")) {
-      console.log(`[${id}] 🔄 RESETTING segment`);
       setProgress(0);
       setPhase("idle");
     }
@@ -76,11 +67,9 @@ export function SegmentPath({
   // Start/stop animation based on isPlaying
   useEffect(() => {
     if (!isPlaying || locations.length < 2) {
-      console.log(`[${id}] ⏹️ Animation stopped - isPlaying=${isPlaying}, locations=${locations.length}`);
       return;
     }
 
-    console.log(`[${id}] ▶️ Starting animation - phase: ${phase} → playing`);
     setPhase("playing");
 
     const fps = 60;
@@ -90,7 +79,6 @@ export function SegmentPath({
       setProgress((prev) => {
         const next = prev + increment;
         if (next >= 100) {
-          console.log(`[${id}] ✅ Animation complete - phase: playing → done`);
           clearInterval(interval);
           setPhase("done");
           return 100;
@@ -100,7 +88,6 @@ export function SegmentPath({
     }, 1000 / fps);
 
     return () => {
-      console.log(`[${id}] 🧹 Cleaning up animation interval`);
       clearInterval(interval);
     };
   }, [isPlaying, durationMs, locations.length]);
@@ -110,11 +97,9 @@ export function SegmentPath({
   useEffect(() => {
     if (!onProgress || !locations.length) return;
     if (phase === "idle") {
-      console.log(`[${id}] ⏸️ Skipping callback - phase is idle`);
       return;
     }
     if (!isPlaying) {
-      console.log(`[${id}] ⏸️ Skipping callback - not playing`);
       return;
     }
 
@@ -122,14 +107,6 @@ export function SegmentPath({
       Math.floor((progress / 100) * locations.length),
       locations.length - 1
     );
-
-    console.log(`[${id}] 📡 Callback:`, {
-      progress: progress.toFixed(2),
-      phase,
-      index,
-      location: locations[index]?.name,
-      isPlaying
-    });
 
     onProgress(progress, locations[index] || null, phase);
   }, [progress, locations, phase, onProgress, isPlaying]);

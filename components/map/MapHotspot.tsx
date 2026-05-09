@@ -12,6 +12,7 @@ interface MapHotspotProps {
   onMouseLeave: () => void
   onTap?: (location: LocationSummary) => void
   isTapped?: boolean
+  isJourneyPlaying?: boolean
 }
 
 export default function MapHotspot({
@@ -22,6 +23,7 @@ export default function MapHotspot({
   onMouseLeave,
   onTap,
   isTapped = false,
+  isJourneyPlaying = false,
 }: MapHotspotProps) {
   const router = useRouter()
   const { colorScheme } = location
@@ -45,7 +47,7 @@ export default function MapHotspot({
           r={radius * (isTapped ? 2 : 1.5)}
           fill={colorScheme.primary}
           opacity={isTapped ? 0.6 : 0.3}
-          animate={{
+          animate={isJourneyPlaying ? undefined : {
             scale: isTapped ? [1, 1.1, 1] : [1, 1.2, 1],
             opacity: isTapped ? [0.6, 0.8, 0.6] : [0.3, 0.5, 0.3],
           }}

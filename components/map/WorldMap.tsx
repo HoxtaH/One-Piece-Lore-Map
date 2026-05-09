@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useEffect, useCallback } from 'react'
 import { LocationSummary, Location } from '@/lib/types/location'
 import MapHotspot from './MapHotspot'
 import HoverPopup from '../popups/HoverPopup'
@@ -34,6 +34,12 @@ export default function WorldMap({ locations }: WorldMapProps) {
   const [currentJourneyLocation, setCurrentJourneyLocation] = useState<Location | null>(null)
   
   const containerRef = useRef<HTMLDivElement>(null)
+  const contentRef = useRef<HTMLDivElement>(null)
+  
+  // Ref-based state for performance (eliminates re-renders during animation)
+  const scaleRef = useRef(1)
+  const positionRef = useRef({ x: 0, y: 0 })
+  const containerSizeRef = useRef({ width: 0, height: 0 })
   
   // 🔧 DEVELOPMENT MODE: Coordinate Finder
   const [coordinateFinderMode, setCoordinateFinderMode] = useState(false)
@@ -45,9 +51,17 @@ export default function WorldMap({ locations }: WorldMapProps) {
   const [isCameraLocked, setIsCameraLocked] = useState(true)
 
   const MIN_SCALE = 1
-  const MAX_SCALE = 10  // Increased from 4 to 8 for high-detail pixel map
-  const JOURNEY_ZOOM_LEVEL = 6
+  const MAX_SCALE = 10
   const ZOOM_STEP = 0.21
+  
+  // Mobile-specific zoom level for journey (Task 8)
+  const [journeyZoomLevel, setJourneyZoomLevel] = useState(6)
+  
+  useEffect(() => {
+    if (typeof window !== 'undefined' && window.innerWidth < 768) {
+      setJourneyZoomLevel(4)
+    }
+  }, [])
 
   // AUDIO: Initialize map audio
   useMapAudio();
@@ -121,15 +135,47 @@ export default function WorldMap({ locations }: WorldMapProps) {
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
-  // Calculate bounds based on current scale
-  const getBounds = (currentScale: number) => {
-    if (!containerRef.current) return { x: 0, y: 0 }
-    const { width, height } = containerRef.current.getBoundingClientRect()
+  // Sync refs with state when they change via controls/gestures
+  useEffect(() => {
+    scaleRef.current = scale
+  }, [scale])
+
+  useEffect(() => {
+    positionRef.current = position
+  }, [position])
+
+  // Task 7: Cache getBoundingClientRect via ResizeObserver
+  useEffect(() => {
+    const container = containerRef.current
+    if (!container) return
+
+    const observer = new ResizeObserver((entries) => {
+      for (const entry of entries) {
+        containerSizeRef.current = {
+          width: entry.contentRect.width,
+          height: entry.contentRect.height
+        }
+      }
+    })
+
+    observer.observe(container)
+    
+    // Initial size
+    const rect = container.getBoundingClientRect()
+    containerSizeRef.current = { width: rect.width, height: rect.height }
+
+    return () => observer.disconnect()
+  }, [])
+
+  // Calculate bounds using cached size (no layout reflow)
+  const getBounds = useCallback((currentScale: number) => {
+    const { width, height } = containerSizeRef.current
+    if (width === 0) return { x: 0, y: 0 }
     // Max offset is half the overflow width/height
     const x = (width * currentScale - width) / 2
     const y = (height * currentScale - height) / 2
     return { x, y }
-  }
+  }, [])
 
   // Effect to clamp position when scale changes (e.g. zooming out)
   useEffect(() => {
@@ -138,7 +184,7 @@ export default function WorldMap({ locations }: WorldMapProps) {
       x: Math.max(-bounds.x, Math.min(bounds.x, prev.x)),
       y: Math.max(-bounds.y, Math.min(bounds.y, prev.y))
     }))
-  }, [scale])
+  }, [scale, getBounds])
 
   // Handle wheel event with non-passive listener to prevent scroll
   useEffect(() => {
@@ -421,20 +467,27 @@ export default function WorldMap({ locations }: WorldMapProps) {
     setTimeout(() => setIsJourneyPlaying(true), 100)
   }
 
-  const handleJourneyProgress = (progress: number, location: Location | null, headPosition: {x:number, y:number} | null) => {
+  // Task 6: Wrap handleJourneyProgress in useCallback
+  const handleJourneyProgress = useCallback((progress: number, location: Location | null, headPosition: {x:number, y:number} | null) => {
+    // Only update progress state (updates UI controls)
     setJourneyProgress(progress)
-    setCurrentJourneyLocation(location)
     
-    // Camera Follow Logic
-    if (isCameraLocked && headPosition && containerRef.current && isJourneyPlaying) {
-       const { width, height } = containerRef.current.getBoundingClientRect();
+    // Only update location state if it actually changed (minimizes re-renders)
+    if (location?.id !== currentJourneyLocation?.id) {
+      setCurrentJourneyLocation(location)
+    }
+    
+    // Task 5: Ref-based camera follow (direct DOM transforms)
+    if (isCameraLocked && headPosition && isJourneyPlaying && contentRef.current) {
+       const { width, height } = containerSizeRef.current;
+       if (width === 0) return;
+
        const mapWidth = 10798;
        const mapHeight = 5429;
        
        const mapRatio = mapWidth / mapHeight;
        const containerRatio = width / height;
        
-       // Calculate how many pixels 1 SVG unit takes up at Scale 1
        let scaleFactor = 1;
        if (containerRatio > mapRatio) {
           scaleFactor = height / mapHeight;
@@ -445,14 +498,11 @@ export default function WorldMap({ locations }: WorldMapProps) {
        const centerX = mapWidth / 2;
        const centerY = mapHeight / 2;
        
-       // Calculate offset of head from center in unscaled pixels
        const offsetX = (headPosition.x - centerX) * scaleFactor;
        const offsetY = (headPosition.y - centerY) * scaleFactor;
        
-       const targetScale = JOURNEY_ZOOM_LEVEL;
+       const targetScale = journeyZoomLevel;
        
-       // Calculate position with zoom
-       // We shift the map so that the head point moves to center
        const newX = -offsetX * targetScale;
        const newY = -offsetY * targetScale;
        
@@ -460,11 +510,17 @@ export default function WorldMap({ locations }: WorldMapProps) {
        const clampedX = Math.max(-bounds.x, Math.min(bounds.x, newX));
        const clampedY = Math.max(-bounds.y, Math.min(bounds.y, newY));
        
-       setPosition({ x: clampedX, y: clampedY });
+       // Update refs immediately
+       positionRef.current = { x: clampedX, y: clampedY };
+       scaleRef.current = targetScale;
+
+       // TASK 5: Update DOM directly for smooth, zero-render camera follow
+       contentRef.current.style.transform = `translate(calc(-50% + ${clampedX}px), calc(-50% + ${clampedY}px)) scale(${targetScale})`;
        
-       if (scale !== targetScale) setScale(targetScale);
+       // Update state occasionally to keep it in sync, but don't let it drive the animation
+       // We'll let the user's manual interactions handle the next state sync
     }
-  }
+  }, [isCameraLocked, isJourneyPlaying, currentJourneyLocation, journeyZoomLevel, getBounds])
 
   return (
     <div 
@@ -504,6 +560,7 @@ export default function WorldMap({ locations }: WorldMapProps) {
 
       {/* Zoomable Content Container */}
       <div
+        ref={contentRef}
         style={{
           position: 'absolute',
           top: '50%',
@@ -513,6 +570,7 @@ export default function WorldMap({ locations }: WorldMapProps) {
           transform: `translate(calc(-50% + ${position.x}px), calc(-50% + ${position.y}px)) scale(${scale})`,
           transformOrigin: 'center',
           transition: (isDragging || (isJourneyPlaying && isCameraLocked)) ? 'none' : 'transform 0.1s ease-out',
+          willChange: (isDragging || isJourneyPlaying) ? 'transform' : 'auto',
         }}
       >
         {/* Map Image - Pixel Art */}
@@ -573,6 +631,7 @@ export default function WorldMap({ locations }: WorldMapProps) {
                   onMouseLeave={handleMouseLeave}
                   onTap={handleLocationTap}
                   isTapped={tappedLocation?.id === location.id}
+                  isJourneyPlaying={isJourneyPlaying}
                 />
               </g>
             ));
