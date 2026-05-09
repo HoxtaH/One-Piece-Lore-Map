@@ -3,7 +3,7 @@ import path from 'path';
 import { prisma } from '@/lib/db/prisma';
 import { Location, LocationSummary } from '@/lib/types/location';
 
-const DATA_SOURCE = process.env.DATA_SOURCE || 'database';
+const DATA_SOURCE = process.env.DATA_SOURCE || (!process.env.DATABASE_URL ? 'local' : 'database');
 
 // Read location from JSON file
 function readLocationFromJSON(slug: string): Location | null {
