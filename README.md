@@ -11,6 +11,7 @@ An interactive, immersive web application that brings the vast world of One Piec
 
 ## 📑 Table of Contents
 
+- [Application is now Live here!!!](https://one-piece-lore-map.vercel.app/)
 - [Features](#-features)
 - [Getting Started](#-getting-started)
 - [Current Locations](#-current-locations)
