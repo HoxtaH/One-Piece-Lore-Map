@@ -511,9 +511,8 @@ export default function WorldMap({ locations }: WorldMapProps) {
        contentRef.current.style.transform = `translate(calc(-50% + ${clampedX}px), calc(-50% + ${clampedY}px)) scale(${targetScale})`;
        
        // Update state occasionally to keep it in sync, but don't let it drive the animation
-       // We'll let the user's manual interactions handle the next state sync
     }
-  }, [isCameraLocked, isJourneyPlaying, currentJourneyLocation, journeyZoomLevel, getBounds])
+  }, [isCameraLocked, isJourneyPlaying, currentJourneyLocation, getBounds])
 
   return (
     <div 
