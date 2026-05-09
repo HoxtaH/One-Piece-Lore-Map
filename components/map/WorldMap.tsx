@@ -54,7 +54,16 @@ export default function WorldMap({ locations }: WorldMapProps) {
   const MAX_SCALE = 10
   const ZOOM_STEP = 0.21
   
-  const JOURNEY_ZOOM_LEVEL = 6;
+  // Dynamic zoom level for journey: 6x for desktop, 8x for mobile
+  const [journeyZoomLevel, setJourneyZoomLevel] = useState(6)
+  
+  useEffect(() => {
+    if (typeof window !== 'undefined' && window.innerWidth < 768) {
+      setJourneyZoomLevel(8)
+    } else {
+      setJourneyZoomLevel(6)
+    }
+  }, [])
 
   // AUDIO: Initialize map audio
   useMapAudio();
@@ -494,7 +503,7 @@ export default function WorldMap({ locations }: WorldMapProps) {
        const offsetX = (headPosition.x - centerX) * scaleFactor;
        const offsetY = (headPosition.y - centerY) * scaleFactor;
        
-       const targetScale = JOURNEY_ZOOM_LEVEL;
+       const targetScale = journeyZoomLevel;
        
        const newX = -offsetX * targetScale;
        const newY = -offsetY * targetScale;
@@ -512,7 +521,7 @@ export default function WorldMap({ locations }: WorldMapProps) {
        
        // Update state occasionally to keep it in sync, but don't let it drive the animation
     }
-  }, [isCameraLocked, isJourneyPlaying, currentJourneyLocation, getBounds])
+  }, [isCameraLocked, isJourneyPlaying, currentJourneyLocation, journeyZoomLevel, getBounds])
 
   return (
     <div 
