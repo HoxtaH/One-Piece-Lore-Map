@@ -208,9 +208,12 @@ export default function WorldMap({ locations }: WorldMapProps) {
         const mouseX = event.clientX - rect.left
         const mouseY = event.clientY - rect.top
         
+        const centerX = rect.width / 2
+        const centerY = rect.height / 2
+        
         const scaleRatio = newScale / scale
-        const newX = mouseX - (mouseX - position.x) * scaleRatio
-        const newY = mouseY - (mouseY - position.y) * scaleRatio
+        const newX = (mouseX - centerX) - (mouseX - centerX - position.x) * scaleRatio
+        const newY = (mouseY - centerY) - (mouseY - centerY - position.y) * scaleRatio
         
         // Clamp the new position immediately
         const bounds = getBounds(newScale)
@@ -339,9 +342,12 @@ export default function WorldMap({ locations }: WorldMapProps) {
           const midX = (t1.clientX + t2.clientX) / 2 - rect.left
           const midY = (t1.clientY + t2.clientY) / 2 - rect.top
           
+          const centerX = rect.width / 2
+          const centerY = rect.height / 2
+          
           const scaleRatio = newScale / scale
-          const newX = midX - (midX - position.x) * scaleRatio
-          const newY = midY - (midY - position.y) * scaleRatio
+          const newX = (midX - centerX) - (midX - centerX - position.x) * scaleRatio
+          const newY = (midY - centerY) - (midY - centerY - position.y) * scaleRatio
           
           const bounds = getBounds(newScale)
           setPosition({ 
@@ -400,9 +406,12 @@ export default function WorldMap({ locations }: WorldMapProps) {
     const mouseX = event.clientX - rect.left
     const mouseY = event.clientY - rect.top
     
+    const centerX = rect.width / 2
+    const centerY = rect.height / 2
+    
     // Calculate offset to center on double-click point at max zoom
-    const centerOffsetX = (rect.width / 2 - mouseX) * (MAX_SCALE - 1)
-    const centerOffsetY = (rect.height / 2 - mouseY) * (MAX_SCALE - 1)
+    const centerOffsetX = (centerX - mouseX + position.x) * (MAX_SCALE / scale)
+    const centerOffsetY = (centerY - mouseY + position.y) * (MAX_SCALE / scale)
     
     setScale(MAX_SCALE)
     setPosition({ 
