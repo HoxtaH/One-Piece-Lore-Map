@@ -51,7 +51,7 @@ export default function WorldMap({ locations }: WorldMapProps) {
   const [isCameraLocked, setIsCameraLocked] = useState(true)
 
   const MIN_SCALE = 1
-  const MAX_SCALE = 10
+  const [maxScale, setMaxScale] = useState(10)
   const ZOOM_STEP = 0.21
   
   // Dynamic zoom level for journey: 6x for desktop, 8x for mobile
@@ -60,8 +60,10 @@ export default function WorldMap({ locations }: WorldMapProps) {
   useEffect(() => {
     if (typeof window !== 'undefined' && window.innerWidth < 768) {
       setJourneyZoomLevel(10)
+      setMaxScale(20)
     } else {
       setJourneyZoomLevel(6)
+      setMaxScale(10)
     }
   }, [])
 
@@ -201,7 +203,7 @@ export default function WorldMap({ locations }: WorldMapProps) {
       if (isJourneyPlaying) setIsCameraLocked(false)
       
       const delta = event.deltaY > 0 ? -ZOOM_STEP : ZOOM_STEP
-      const newScale = Math.min(Math.max(scale + delta, MIN_SCALE), MAX_SCALE)
+      const newScale = Math.min(Math.max(scale + delta, MIN_SCALE), maxScale)
       
       if (newScale !== scale) {
         const rect = container.getBoundingClientRect()
@@ -334,7 +336,7 @@ export default function WorldMap({ locations }: WorldMapProps) {
       
       if (pinchStartDistRef.current > 0) {
         const ratio = currentDist / pinchStartDistRef.current
-        const newScale = Math.min(Math.max(pinchStartScaleRef.current * ratio, MIN_SCALE), MAX_SCALE)
+        const newScale = Math.min(Math.max(pinchStartScaleRef.current * ratio, MIN_SCALE), maxScale)
         
         if (newScale !== scale && containerRef.current) {
           // Calculate midpoint for focal point
@@ -375,7 +377,7 @@ export default function WorldMap({ locations }: WorldMapProps) {
 
   // Zoom controls
   const zoomIn = () => {
-    setScale(Math.min(scale + ZOOM_STEP, MAX_SCALE))
+    setScale(Math.min(scale + ZOOM_STEP, maxScale))
   }
 
   const zoomOut = () => {
@@ -393,7 +395,7 @@ export default function WorldMap({ locations }: WorldMapProps) {
     event.preventDefault()
     
     // If already at max zoom, reset to default
-    if (scale >= MAX_SCALE * 0.9) { // 90% threshold to account for floating point
+    if (scale >= maxScale * 0.9) { // 90% threshold to account for floating point
       setScale(1)
       setPosition({ x: 0, y: 0 })
       return
@@ -410,10 +412,10 @@ export default function WorldMap({ locations }: WorldMapProps) {
     const centerY = rect.height / 2
     
     // Calculate offset to center on double-click point at max zoom
-    const centerOffsetX = (centerX - mouseX + position.x) * (MAX_SCALE / scale)
-    const centerOffsetY = (centerY - mouseY + position.y) * (MAX_SCALE / scale)
+    const centerOffsetX = (centerX - mouseX + position.x) * (maxScale / scale)
+    const centerOffsetY = (centerY - mouseY + position.y) * (maxScale / scale)
     
-    setScale(MAX_SCALE)
+    setScale(maxScale)
     setPosition({ 
       x: centerOffsetX, 
       y: centerOffsetY 
@@ -725,7 +727,7 @@ export default function WorldMap({ locations }: WorldMapProps) {
       >
         <button
           onClick={zoomIn}
-          disabled={scale >= MAX_SCALE}
+          disabled={scale >= maxScale}
           className="p-2 md:p-3 bg-black/80 hover:bg-black/90 text-white rounded-lg backdrop-blur border border-white/10 transition disabled:opacity-50 disabled:cursor-not-allowed"
           title="Zoom In"
         >
