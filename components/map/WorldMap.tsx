@@ -678,7 +678,7 @@ export default function WorldMap({ locations }: WorldMapProps) {
            Stack order (bottom → top): Journey Controls → Audio Controls → Prompt
            Everything stays in the blue letterbox area below the map image.
       ────────────────────────────────────────────────────────────────── */}
-      <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden flex flex-col items-center gap-2 px-3 pb-3">
+      <div className="fixed bottom-2 left-0 right-0 z-50 md:hidden flex flex-col [@media(max-height:600px)]:flex-row items-center justify-center gap-2 px-3">
         {/* Audio Controls (prompt + enable button) — sits above journey */}
         <AudioControls mobileInline />
 
@@ -722,7 +722,7 @@ export default function WorldMap({ locations }: WorldMapProps) {
 
       {/* Zoom Controls */}
       <div 
-        className="fixed top-20 left-2 md:top-auto md:bottom-6 md:left-6 hidden md:flex flex-col gap-2 z-50"
+        className="fixed top-20 left-2 md:top-auto md:bottom-6 md:left-6 hidden md:flex [@media(max-height:600px)]:hidden flex-col gap-2 z-50"
         style={{ pointerEvents: 'auto' }}
       >
         <button
