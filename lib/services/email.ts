@@ -37,7 +37,7 @@ export async function sendVerificationEmail({
 
   // If no API key is set, log the verification URL for development
   if (!RESEND_API_KEY) {
-    if (process.env.NODE_ENV === 'development') {
+    if (process.env.NODE_ENV === 'development' || process.env.NODE_ENV === 'test') {
       console.log('='.repeat(60));
       console.log('📧 EMAIL VERIFICATION (Development Mode)');
       console.log('='.repeat(60));

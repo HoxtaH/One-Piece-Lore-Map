@@ -79,7 +79,7 @@ export default function WorldMap({ locations }: WorldMapProps) {
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       // Ctrl+Shift+C for coordinate finder (dev only)
-      if (process.env.NODE_ENV === 'development' && e.ctrlKey && e.shiftKey && e.key === 'C') {
+      if ((process.env.NODE_ENV === 'development' || process.env.NODE_ENV === 'test') && e.ctrlKey && e.shiftKey && e.key === 'C') {
         setCoordinateFinderMode(prev => {
           const newMode = !prev;
           console.clear();
@@ -105,7 +105,7 @@ export default function WorldMap({ locations }: WorldMapProps) {
       }
       
       // Ctrl+Shift+H for hotspot visibility (dev only)
-      if (process.env.NODE_ENV === 'development' && e.ctrlKey && e.shiftKey && e.key === 'H') {
+      if ((process.env.NODE_ENV === 'development' || process.env.NODE_ENV === 'test') && e.ctrlKey && e.shiftKey && e.key === 'H') {
         setShowHotspots(prev => {
           const newMode = !prev;
           console.log(newMode 

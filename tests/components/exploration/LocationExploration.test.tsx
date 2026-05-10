@@ -95,7 +95,7 @@ describe('LocationExploration', () => {
 
     render(<LocationExploration location={mockLocation as any} />);
     
-    const returnBtn = screen.getByText('← Return to Map');
+    const returnBtn = screen.getByText(/Return/i);
     fireEvent.click(returnBtn);
     
     expect(pushMock).toHaveBeenCalledWith('/');

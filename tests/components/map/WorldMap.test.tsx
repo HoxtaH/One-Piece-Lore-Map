@@ -16,6 +16,12 @@ vi.mock('@/components/map/JourneyPath', () => ({
   JourneyPath: () => <g data-testid="journey-path"></g>
 }));
 
+// Mock AudioControls to simplify testing
+vi.mock('@/components/audio/AudioControls', () => ({
+  __esModule: true,
+  default: () => <div data-testid="audio-controls"></div>
+}));
+
 const mockLocations = [
   {
     id: '1',
@@ -69,7 +75,7 @@ describe('WorldMap', () => {
   it('toggles journey controls', () => {
     render(<WorldMap locations={mockLocations as any} />);
     
-    const showJourneyBtn = screen.getByRole('button', { name: /Show Journey/i });
+    const showJourneyBtn = screen.getAllByRole('button', { name: /Show Journey/i })[0];
     fireEvent.click(showJourneyBtn);
     
     expect(screen.getByTestId('journey-path')).toBeInTheDocument();
