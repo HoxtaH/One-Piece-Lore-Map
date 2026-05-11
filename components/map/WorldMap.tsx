@@ -582,7 +582,7 @@ export default function WorldMap({ locations }: WorldMapProps) {
           transform: `translate(calc(-50% + ${position.x}px), calc(-50% + ${position.y}px)) scale(${scale})`,
           transformOrigin: 'center',
           transition: (isDragging || (isJourneyPlaying && isCameraLocked)) ? 'none' : 'transform 0.1s ease-out',
-          willChange: (isDragging || isJourneyPlaying) ? 'transform' : 'auto',
+          willChange: isDragging ? 'transform' : 'auto',
         }}
       >
         {/* Map Image - Pixel Art */}
