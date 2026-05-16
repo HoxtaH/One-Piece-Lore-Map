@@ -31,12 +31,12 @@ export default function AudioControls({ mobileInline = false }: AudioControlsPro
             exit={{ opacity: 0, y: 4 }}
             className="w-auto max-w-[80vw]"
           >
-            <div className="bg-slate-900/80 backdrop-blur-md rounded-lg border border-slate-700/50 p-1.5 md:p-3 shadow-2xl text-center">
-              <p className="text-xs md:text-sm text-slate-300">
-                🎵 <strong className="hidden sm:inline [@media(max-height:600px)]:!hidden">Experience the Grand Line with music!</strong><strong className="sm:hidden [@media(max-height:600px)]:!inline">Music!</strong>
+            <div className={`bg-slate-900/80 backdrop-blur-md rounded-lg border border-slate-700/50 p-1.5 shadow-2xl text-center ${!mobileInline ? 'md:p-3' : ''}`}>
+              <p className={`text-xs text-slate-300 ${!mobileInline ? 'md:text-sm' : ''}`}>
+                🎵 <strong className={`hidden sm:inline [@media(max-height:600px)]:!hidden ${mobileInline ? 'sm:!hidden' : ''}`}>Experience the Grand Line with music!</strong><strong className={`sm:hidden [@media(max-height:600px)]:!inline ${mobileInline ? '!inline' : ''}`}>Music!</strong>
               </p>
-              <p className="text-[10px] md:text-xs text-slate-400 mt-1">
-                <span className="hidden sm:inline [@media(max-height:600px)]:!hidden">Each location has its own theme.</span> Click &quot;Music&quot; to start.
+              <p className={`text-[10px] text-slate-400 mt-1 ${!mobileInline ? 'md:text-xs' : ''}`}>
+                <span className={`hidden sm:inline [@media(max-height:600px)]:!hidden ${mobileInline ? 'sm:!hidden' : ''}`}>Each location has its own theme.</span> Click &quot;Music&quot; to start.
               </p>
             </div>
           </motion.div>
@@ -61,9 +61,9 @@ export default function AudioControls({ mobileInline = false }: AudioControlsPro
                 title={volume > 0 ? 'Mute' : 'Unmute'}
               >
                 {volume > 0 ? (
-                  <Volume2 className="w-4 h-4 md:w-5 md:h-5 text-slate-300" />
+                  <Volume2 className={`w-4 h-4 text-slate-300 ${!mobileInline ? 'md:w-5 md:h-5' : ''}`} />
                 ) : (
-                  <VolumeX className="w-4 h-4 md:w-5 md:h-5 text-slate-500" />
+                  <VolumeX className={`w-4 h-4 text-slate-500 ${!mobileInline ? 'md:w-5 md:h-5' : ''}`} />
                 )}
               </button>
 
@@ -75,7 +75,7 @@ export default function AudioControls({ mobileInline = false }: AudioControlsPro
                   max="100"
                   value={volume * 100}
                   onChange={(e) => setVolume(parseInt(e.target.value) / 100)}
-                  className="w-20 md:w-24 h-3 md:h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-blue-500"
+                  className={`w-20 h-3 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-blue-500 ${!mobileInline ? 'md:w-24 md:h-2' : ''}`}
                   style={{
                     background: `linear-gradient(to right, rgb(59, 130, 246) 0%, rgb(59, 130, 246) ${
                       volume * 100
@@ -98,11 +98,11 @@ export default function AudioControls({ mobileInline = false }: AudioControlsPro
               initial={{ opacity: 0, width: 0 }}
               animate={{ opacity: 1, width: 'auto' }}
               exit={{ opacity: 0, width: 0 }}
-              className="flex items-center gap-1.5 px-2 md:px-3 py-1 bg-slate-800/50 rounded mr-1"
+              className={`flex items-center gap-1.5 px-2 py-1 bg-slate-800/50 rounded mr-1 ${!mobileInline ? 'md:px-3' : ''}`}
             >
               <div className="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse" />
               <Music className="w-3.5 h-3.5 text-blue-400" />
-              <span className="text-xs text-slate-300 max-w-[80px] md:max-w-[150px] truncate font-medium hidden sm:inline">
+              <span className={`text-xs text-slate-300 max-w-[80px] truncate font-medium hidden sm:inline ${!mobileInline ? 'md:max-w-[150px]' : ''}`}>
                 {currentTrack}
               </span>
             </motion.div>
@@ -119,14 +119,14 @@ export default function AudioControls({ mobileInline = false }: AudioControlsPro
               }`}
               title="Audio Settings"
             >
-              <Settings className="w-4 h-4 md:w-5 md:h-5" />
+              <Settings className={`w-4 h-4 ${!mobileInline ? 'md:w-5 md:h-5' : ''}`} />
             </button>
           )}
 
           {/* Toggle Audio Button */}
           <button
             onClick={toggleAudio}
-            className={`px-3 md:px-4 py-1.5 md:py-2 rounded-lg font-medium transition-all transform hover:scale-105 text-xs md:text-sm ${
+            className={`px-3 py-1.5 rounded-lg font-medium transition-all transform hover:scale-105 text-xs ${!mobileInline ? 'md:px-4 md:py-2 md:text-sm' : ''} ${
               isEnabled
                 ? 'bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white shadow-lg shadow-blue-500/20'
                 : 'bg-slate-700 hover:bg-slate-600 text-slate-300'
@@ -160,7 +160,7 @@ export default function AudioControls({ mobileInline = false }: AudioControlsPro
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      className="fixed bottom-6 [@media(max-height:600px)]:!bottom-2 right-6 [@media(max-height:600px)]:!right-2 z-50 hidden md:block w-auto"
+      className="fixed bottom-6 right-6 z-50 hidden md:block [@media(max-height:600px)]:!hidden w-auto"
     >
       {controlsContent}
     </motion.div>
