@@ -37,7 +37,6 @@ export default function CharacterGrid({ characters, colorScheme, onCharacterClic
       const matchesSearch = 
         (character.name?.toLowerCase().includes(searchLower) ?? false) ||
         (character.role?.toLowerCase().includes(searchLower) ?? false) ||
-        (character.description?.toLowerCase().includes(searchLower) ?? false) ||
         (character.tags?.some(tag => tag.toLowerCase().includes(searchLower)) ?? false)
 
       // Type filter
