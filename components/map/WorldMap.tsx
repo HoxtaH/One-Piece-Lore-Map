@@ -678,7 +678,7 @@ export default function WorldMap({ locations }: WorldMapProps) {
            Stack order (bottom → top): Journey Controls → Audio Controls → Prompt
            Everything stays in the blue letterbox area below the map image.
       ────────────────────────────────────────────────────────────────── */}
-      <div className="fixed bottom-2 left-0 right-0 z-50 md:hidden flex flex-col [@media(max-height:600px)]:flex-row items-center justify-center gap-2 px-3">
+      <div className="fixed bottom-2 left-0 right-0 z-50 md:hidden flex flex-col [@media(max-height:600px)]:!flex [@media(max-height:600px)]:flex-row items-center justify-center gap-2 px-3">
         {/* Audio Controls (prompt + enable button) — sits above journey */}
         <AudioControls mobileInline />
 
@@ -699,7 +699,7 @@ export default function WorldMap({ locations }: WorldMapProps) {
 
       {/* Header */}
       <div 
-        className="absolute top-2 left-0 right-0 p-2 md:p-6 z-[5]"
+        className="absolute top-2 left-0 right-0 p-2 md:p-6 [@media(max-height:600px)]:!p-2 z-[5]"
         style={{
           background: 'linear-gradient(to bottom, rgba(0,0,0,0.6), transparent)',
           pointerEvents: 'none',
@@ -707,13 +707,13 @@ export default function WorldMap({ locations }: WorldMapProps) {
       >
         <div className="max-w-7xl mx-auto px-4 flex justify-between items-start">
           <div>
-            <h1 className="text-xl md:text-3xl font-bold text-white drop-shadow-lg">
+            <h1 className="text-xl md:text-3xl [@media(max-height:600px)]:!text-xl font-bold text-white drop-shadow-lg">
               One Piece World Map
             </h1>
-            <p className="text-white/80 mt-1 text-xs md:text-sm drop-shadow hidden md:block">
+            <p className="text-white/80 mt-1 text-xs md:text-sm drop-shadow hidden md:block [@media(max-height:600px)]:!hidden">
               Scroll to zoom • Double-click to toggle zoom • Drag to pan • Hover over locations
             </p>
-            <p className="text-white/80 mt-1 text-[10px] drop-shadow md:hidden opacity-70">
+            <p className="text-white/80 mt-1 text-[10px] drop-shadow md:hidden [@media(max-height:600px)]:!block opacity-70">
               Pinch to zoom • Drag to pan • Tap locations
             </p>
           </div>

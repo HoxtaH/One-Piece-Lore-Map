@@ -29,22 +29,22 @@ export function JourneyControls({
   mobileInline = false,
 }: JourneyControlsProps) {
   const inner = (
-    <div className="bg-[#D4C4A8]/90 backdrop-blur-sm border md:border-4 border-[#654321] rounded-lg shadow-2xl overflow-hidden w-auto max-w-[95vw] mx-auto">
-      <div className="flex flex-col md:flex-row [@media(max-height:600px)]:flex-row items-stretch md:items-center [@media(max-height:600px)]:items-center gap-1.5 md:gap-4 p-1.5 md:px-6 md:py-4">
+    <div className={`bg-[#D4C4A8]/90 backdrop-blur-sm border border-[#654321] rounded-lg shadow-2xl overflow-hidden w-auto max-w-[95vw] mx-auto ${!mobileInline ? 'md:border-4' : ''}`}>
+      <div className={`flex flex-col [@media(max-height:600px)]:flex-row items-stretch [@media(max-height:600px)]:items-center gap-1.5 p-1.5 ${!mobileInline ? 'md:flex-row md:items-center md:gap-4 md:px-6 md:py-4' : ''}`}>
         
         {/* Main Controls Row */}
-        <div className="flex items-center justify-center md:justify-start gap-1.5 md:gap-4">
+        <div className={`flex items-center justify-center gap-1.5 ${!mobileInline ? 'md:justify-start md:gap-4' : ''}`}>
           {/* Toggle Journey Path Button */}
           <button
             onClick={onToggleJourney}
-            className={`px-2 md:px-5 py-1.5 md:py-2.5 rounded-lg font-bold transition-all transform hover:scale-105 pirate-font text-xs md:text-lg whitespace-nowrap ${
+            className={`px-2 py-1.5 rounded-lg font-bold transition-all transform hover:scale-105 pirate-font text-xs whitespace-nowrap ${!mobileInline ? 'md:px-5 md:py-2.5 md:text-lg' : ''} ${
               showJourneyPath
                 ? 'bg-[#8B4513] text-white shadow-lg border border-[#654321]'
                 : 'bg-[#E8DCC4] hover:bg-[#D4C4A8] text-[#2D1810] border border-[#8B4513]'
             }`}
           >
-            🗺️ <span className="hidden md:inline [@media(max-height:600px)]:!hidden">{showJourneyPath ? 'Hide Journey' : 'Show Journey'}</span>
-            <span className="md:hidden [@media(max-height:600px)]:!inline">Journey</span>
+            🗺️ <span className={`hidden [@media(max-height:600px)]:!hidden ${!mobileInline ? 'md:inline' : ''}`}>{showJourneyPath ? 'Hide Journey' : 'Show Journey'}</span>
+            <span className={`[@media(max-height:600px)]:!inline ${!mobileInline ? 'md:hidden' : ''}`}>Journey</span>
           </button>
 
           {/* Journey Controls - Only show when path is visible */}
@@ -53,25 +53,25 @@ export function JourneyControls({
               {/* Play/Pause Button */}
               <button
                 onClick={onPlay}
-                className="px-2 md:px-5 py-1.5 md:py-2.5 bg-[#654321] hover:bg-[#5C4033] text-white rounded-lg transition-colors ornate-font font-bold text-xs md:text-lg border border-[#8B4513]"
+                className={`px-2 py-1.5 bg-[#654321] hover:bg-[#5C4033] text-white rounded-lg transition-colors ornate-font font-bold text-xs border border-[#8B4513] ${!mobileInline ? 'md:px-5 md:py-2.5 md:text-lg' : ''}`}
                 title={isPlaying ? 'Pause Journey' : 'Play Journey'}
               >
-                {isPlaying ? '⏸️' : '▶️'} <span className="hidden md:inline [@media(max-height:600px)]:!hidden">{isPlaying ? 'Pause' : 'Play'}</span>
+                {isPlaying ? '⏸️' : '▶️'} <span className={`hidden [@media(max-height:600px)]:!hidden ${!mobileInline ? 'md:inline' : ''}`}>{isPlaying ? 'Pause' : 'Play'}</span>
               </button>
 
               {/* Restart Button */}
               <button
                 onClick={onRestart}
-                className="px-2 md:px-5 py-1.5 md:py-2.5 bg-[#8B4513] hover:bg-[#A0522D] text-white rounded-lg transition-colors ornate-font font-bold text-xs md:text-lg border border-[#654321]"
+                className={`px-2 py-1.5 bg-[#8B4513] hover:bg-[#A0522D] text-white rounded-lg transition-colors ornate-font font-bold text-xs border border-[#654321] ${!mobileInline ? 'md:px-5 md:py-2.5 md:text-lg' : ''}`}
                 title="Restart Journey"
               >
-                ⏮️ <span className="hidden md:inline [@media(max-height:600px)]:!hidden">Restart</span>
+                ⏮️ <span className={`hidden [@media(max-height:600px)]:!hidden ${!mobileInline ? 'md:inline' : ''}`}>Restart</span>
               </button>
 
               {/* Camera Lock Button */}
               <button
                 onClick={onToggleCameraLock}
-                className={`px-1.5 md:px-3 py-1.5 md:py-2.5 rounded-lg transition-colors border border-[#654321] ${
+                className={`px-1.5 py-1.5 rounded-lg transition-colors border border-[#654321] ${!mobileInline ? 'md:px-3 md:py-2.5' : ''} ${
                   isCameraLocked 
                     ? 'bg-[#D4AF37] text-black hover:bg-[#C5A028]' 
                     : 'bg-[#E8DCC4] text-[#654321] hover:bg-[#D4C4A8]'
@@ -86,10 +86,10 @@ export function JourneyControls({
 
         {/* Progress & Info Row */}
         {showJourneyPath && (
-          <div className="flex items-center gap-1.5 md:gap-4 flex-1">
+          <div className={`flex items-center gap-1.5 flex-1 ${!mobileInline ? 'md:gap-4' : ''}`}>
             {/* Progress Bar Container */}
             <div className="flex items-center gap-1.5 flex-1 min-w-0">
-              <div className="flex-1 bg-[#E8DCC4] rounded-full h-2 md:h-4 overflow-hidden border md:border-3 border-[#654321] shadow-inner">
+              <div className={`flex-1 bg-[#E8DCC4] rounded-full h-2 overflow-hidden border border-[#654321] shadow-inner ${!mobileInline ? 'md:h-4 md:border-3' : ''}`}>
                 <div
                   className="h-full bg-gradient-to-r from-[#8B4513] to-[#D4AF37] transition-all duration-200"
                   style={{ width: `${progress}%` }}
@@ -97,18 +97,18 @@ export function JourneyControls({
               </div>
 
               {/* Progress Percentage */}
-              <span className="text-[#2D1810] font-bold typewriter-font text-[10px] md:text-lg min-w-[30px] md:min-w-[60px] text-center">
+              <span className={`text-[#2D1810] font-bold typewriter-font text-[10px] min-w-[30px] text-center ${!mobileInline ? 'md:text-lg md:min-w-[60px]' : ''}`}>
                 {Math.round(progress)}%
               </span>
             </div>
 
             {/* Current Location Display */}
             {currentLocation && (
-              <div className="flex items-center gap-1 md:gap-2 px-1.5 md:px-4 py-1 md:py-2 bg-[#E8DCC4] rounded-lg border border-[#8B4513] max-w-[100px] md:max-w-none">
-                <div className="w-2 md:w-3 h-2 md:h-3 bg-[#D4AF37] rounded-full animate-pulse border border-[#654321] flex-shrink-0" />
-                <div className="text-[9px] md:text-sm truncate">
-                  <span className="text-[#5C4033] old-book-font hidden lg:inline">Now at:</span>
-                  <span className="text-[#2D1810] font-bold pirate-font ml-1 md:ml-2 text-[10px] md:text-base">
+              <div className={`flex items-center gap-1 px-1.5 py-1 bg-[#E8DCC4] rounded-lg border border-[#8B4513] max-w-[100px] ${!mobileInline ? 'md:gap-2 md:px-4 md:py-2 md:max-w-none' : ''}`}>
+                <div className={`w-2 h-2 bg-[#D4AF37] rounded-full animate-pulse border border-[#654321] flex-shrink-0 ${!mobileInline ? 'md:w-3 md:h-3' : ''}`} />
+                <div className={`text-[9px] truncate ${!mobileInline ? 'md:text-sm' : ''}`}>
+                  <span className={`text-[#5C4033] old-book-font hidden ${!mobileInline ? 'lg:inline' : ''}`}>Now at:</span>
+                  <span className={`text-[#2D1810] font-bold pirate-font ml-1 text-[10px] ${!mobileInline ? 'md:ml-2 md:text-base' : ''}`}>
                     {currentLocation.name}
                   </span>
                 </div>
@@ -127,7 +127,7 @@ export function JourneyControls({
 
   // Desktop / default: render with its own fixed centering
   return (
-    <div className="fixed bottom-2 md:bottom-24 [@media(max-height:600px)]:!bottom-4 left-1/2 -translate-x-1/2 z-40 w-auto max-w-[95vw] md:w-auto hidden md:block">
+    <div className="fixed bottom-2 md:bottom-24 [@media(max-height:600px)]:!hidden left-1/2 -translate-x-1/2 z-40 w-auto max-w-[95vw] md:w-auto hidden md:block">
       {inner}
     </div>
   );

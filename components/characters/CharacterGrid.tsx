@@ -33,11 +33,12 @@ export default function CharacterGrid({ characters, colorScheme, onCharacterClic
   const filteredCharacters = useMemo(() => {
     return characters.filter(character => {
       // Search filter
+      const searchLower = searchQuery.toLowerCase()
       const matchesSearch = 
-        character.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        character.role.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        character.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        character.tags?.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()))
+        (character.name?.toLowerCase().includes(searchLower) ?? false) ||
+        (character.role?.toLowerCase().includes(searchLower) ?? false) ||
+        (character.description?.toLowerCase().includes(searchLower) ?? false) ||
+        (character.tags?.some(tag => tag.toLowerCase().includes(searchLower)) ?? false)
 
       // Type filter
       const matchesType = filterType === 'all' || character.type === filterType
